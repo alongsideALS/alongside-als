@@ -1,8 +1,10 @@
 # Alongside ALS
 
-A guide for people living with ALS and their families: grants, services and benefits, clinical trials, a stage-by-stage checklist, and a personal plan.
+An independent guide for people living with ALS and their families: grants, services and benefits, clinical studies, a stage-by-stage checklist, document preparation, and a personal plan.
 
-- `index.html` — the whole site (single page, no build step)
-- `data/grants.json`, `data/services.json`, `data/trials.json` — the listings. Edit these to update the site; the page reads them on load.
+- Pages are plain HTML; `site.css` and `site.js` are shared. No build step.
+- `data/grants.json`, `data/services.json`, `data/trials.json` hold the listings. Edit them on GitHub to update the site.
+- `tracker-pdf.js` embeds the three downloadable PDFs (base64); images are embedded in the pages.
+- `_redirects` keeps old page addresses working.
 
-Hosted on Cloudflare Pages. Any push to `main` goes live automatically.
+Hosted on Cloudflare Pages. Any commit to `main` goes live automatically.

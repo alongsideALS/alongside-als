@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My plan · Alongside ALS</title>
+<meta name="description" content="The grants, services and studies you saved, with progress and notes. Stored in your browser only.">
+<meta name="theme-color" content="#193252">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="site.css?v=2">
+</head>
+<body data-page="plan">
+<main id="main" tabindex="-1">
+<div class="wrap page">
+  <div class="page-head">
+    <span class="eyebrow">My plan</span>
+    <h1>Everything you're tracking</h1>
+    <p class="intro">Saved in this browser on this device, never sent anywhere. Update the progress as you go and keep notes on who you spoke with. Use "Copy as text" to share it with your clinic or family.</p>
+  </div>
+  <div class="stats" id="planStats" style="margin-bottom:24px"><div class="skel" style="height:80px"></div><div class="skel" style="height:80px"></div><div class="skel" style="height:80px"></div></div>
+  <div class="tabs" role="group" aria-label="Show">
+    <button class="chip" type="button" data-ptab="all" aria-pressed="true">Everything</button>
+    <button class="chip" type="button" data-ptab="grant" aria-pressed="false">Grants</button>
+    <button class="chip" type="button" data-ptab="service" aria-pressed="false">Services</button>
+    <button class="chip" type="button" data-ptab="trial" aria-pressed="false">Studies</button>
+    <span style="flex:1"></span>
+    <button class="btn btn-line btn-sm" type="button" id="copyPlan">Copy as text</button>
+    <button class="btn btn-line btn-sm" type="button" id="dlPlan">Download my plan</button>
+    <button class="btn btn-line btn-sm" type="button" id="clearPlan">Clear saved list</button>
+  </div>
+  <div id="plist"></div>
+  <div class="note" style="margin-top:24px"><div>Saved items live only in this browser. Clearing your browser data removes them, and they won't appear on another device. Download or copy your plan to keep a copy. <a href="about.html#privacy">Privacy</a></div></div>
+</div>
+</main>
+<script src="site.js?v=2"></script>
+</body>
+</html>

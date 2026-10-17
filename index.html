@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Alongside ALS</title>
+<meta name="description" content="Alongside ALS helps people living with ALS and their families find grants, benefits, clinical trials and a clear next step for every stage.">
+<meta name="theme-color" content="#0b2230">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<script src="tracker-pdf.js" defer></script>
+</head>
+<body>
+<style>
+/* Layout: sticky wayfinding bar, a dark "dawn" hero with two threads walking side by side, then calm cool-mist pages; marigold marks what's actionable. */
+:root{
+  --bg:#eef3f3; --surface:#ffffff; --surface-2:#e3eced; --ink:#0f2633; --muted:#4b6370; --line:#cbd9dc;
+  --primary:#12506b; --primary-ink:#ffffff; --accent:#e39a2d; --accent-ink:#8a5200; --accent-soft:#fbe9cc;
+  --hero-a:#0b2230; --hero-b:#163a4c; --hero-ink:#f3f7f8; --hero-muted:#a9c2cc;
+  --good:#1f7a4f; --good-soft:#dcf1e6; --warn:#9a5a00; --warn-soft:#fdecd2; --bad:#a3322a; --bad-soft:#f8dedb; --info:#245d86; --info-soft:#dde9f4;
+  --shadow:0 1px 2px rgba(15,38,51,.06),0 8px 24px -12px rgba(15,38,51,.18);
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"Atkinson Hyperlegible",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r:14px; --fs:1.0625rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0a1820; --surface:#11242e; --surface-2:#18303c; --ink:#e7f0f2; --muted:#9db3bd; --line:#24414f;
+  --primary:#7cc8dc; --primary-ink:#06222d; --accent:#f2b552; --accent-ink:#f6c675; --accent-soft:#3a2c14;
+  --hero-a:#06131a; --hero-b:#10303f; --hero-ink:#f3f7f8; --hero-muted:#a2bcc6;
+  --good:#6fd3a1; --good-soft:#123326; --warn:#f2b552; --warn-soft:#3a2c14; --bad:#f19a90; --bad-soft:#3c1c19; --info:#8cc1ea; --info-soft:#14304a;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.6); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a1820; --surface:#11242e; --surface-2:#18303c; --ink:#e7f0f2; --muted:#9db3bd; --line:#24414f;
+  --primary:#7cc8dc; --primary-ink:#06222d; --accent:#f2b552; --accent-ink:#f6c675; --accent-soft:#3a2c14;
+  --hero-a:#06131a; --hero-b:#10303f; --hero-ink:#f3f7f8; --hero-muted:#a2bcc6;
+  --good:#6fd3a1; --good-soft:#123326; --warn:#f2b552; --warn-soft:#3a2c14; --bad:#f19a90; --bad-soft:#3c1c19; --info:#8cc1ea; --info-soft:#14304a;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.6); color-scheme:dark}
+html{font-size:var(--fs)}
+html.big{--fs:1.25rem}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+*,*::before,*::after{box-sizing:border-box}
+a{color:var(--primary);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.12;text-wrap:balance;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,3.2vw,2.4rem);font-weight:800}
+h3{font-size:1.25rem;font-weight:600}
+p{margin:0}
+.wrap{max-width:1180px;margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+.eyebrow{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink)}
+.lede{color:var(--muted);max-width:62ch;font-size:1.06rem}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Top bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in oklab,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar-in{display:flex;align-items:center;gap:12px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:800;font-size:1.15rem;color:var(--ink);text-decoration:none;white-space:nowrap}
+.brand svg{flex:none}
+.nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;justify-content:flex-end}
+.nav::-webkit-scrollbar{display:none}
+.nav a{position:relative;white-space:nowrap;padding:10px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:700;font-size:.95rem;min-height:44px;display:flex;align-items:center;gap:6px;transition:color .2s,background .2s}
+.nav a:hover{color:var(--ink);background:var(--surface-2)}
+.nav a[aria-current="page"]{color:var(--primary-ink);background:var(--primary)}
+.badge{font-family:var(--f-mono);font-size:.72rem;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:var(--accent);color:#2a1800;display:inline-grid;place-items:center}
+.tools{display:flex;gap:6px}
+.iconbtn{min-width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:700 .9rem var(--f-body);cursor:pointer;display:inline-flex;align-items:baseline;justify-content:center;padding:0 10px;white-space:nowrap}
+.iconbtn:hover{border-color:var(--primary)}
+@media (max-width:760px){.bar-in{flex-wrap:wrap;padding-block:8px;gap:6px}.nav{order:3;flex-basis:100%;justify-content:flex-start}.tools{margin-left:auto}}
+
+/* Views + transitions */
+main{display:block;min-height:60vh}
+.still,.still .stagger>*,.still .rise{animation:none!important}
+.view{animation:viewIn .55s cubic-bezier(.2,.7,.2,1) both}
+@keyframes viewIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+::view-transition-old(root){animation:vtOut .25s ease both}
+::view-transition-new(root){animation:vtIn .45s cubic-bezier(.2,.7,.2,1) both}
+@keyframes vtOut{to{opacity:0;transform:translateY(-6px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(10px)}}
+.stagger>*{animation:rise .5s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 45ms)}
+@keyframes rise{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-delay:0ms!important;transition-duration:.001ms!important}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;color:var(--hero-ink);background:radial-gradient(120% 90% at 85% 110%,#3b4f3e33,transparent 60%),linear-gradient(160deg,var(--hero-a),var(--hero-b))}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero-in{position:relative;padding-block:clamp(56px,9vw,112px) clamp(48px,7vw,88px);display:grid;gap:22px;max-width:820px}
+.hero .eyebrow{color:#f2c27a}
+.hero h1{font-size:clamp(2.4rem,6.4vw,4.6rem);font-weight:800;letter-spacing:-.025em}
+.hero h1 em{font-style:normal;color:#f2b552;background:linear-gradient(transparent 70%,#f2b55233 70%)}
+.hero p{color:var(--hero-muted);font-size:1.15rem;max-width:58ch}
+.hero .rise{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 20px;border-radius:999px;font:700 1rem var(--f-body);text-decoration:none;cursor:pointer;border:1.5px solid transparent;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-accent{background:var(--accent);color:#2a1800;box-shadow:0 8px 22px -10px #e39a2d}
+.btn-ghost{border-color:#ffffff55;color:var(--hero-ink);background:#ffffff0d}
+.btn-ghost:hover{background:#ffffff1f}
+.btn-primary{background:var(--primary);color:var(--primary-ink)}
+.btn-line{border-color:var(--line);color:var(--ink);background:var(--surface)}
+.btn-line:hover{border-color:var(--primary)}
+.btn-sm{min-height:40px;padding:0 14px;font-size:.92rem}
+
+/* Sections */
+.sec{padding-block:clamp(40px,6vw,72px)}
+.sec-head{display:grid;gap:10px;margin-bottom:28px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:-36px;position:relative}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow);display:grid;gap:2px;text-decoration:none;color:var(--ink);transition:transform .25s,border-color .25s}
+.stat:hover{transform:translateY(-3px);border-color:var(--primary)}
+.stat b{font-family:var(--f-display);font-size:2.3rem;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:.95rem}
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.path{display:grid;gap:10px;align-content:start;padding:22px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--ink);transition:transform .25s,box-shadow .25s,border-color .25s}
+.path:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--primary)}
+.path .glyph{width:44px;height:44px;border-radius:12px;background:var(--accent-soft);color:var(--accent-ink);display:grid;place-items:center}
+.path p{color:var(--muted)}
+.path .go{font-weight:700;color:var(--primary)}
+.deadlines{display:grid;gap:10px}
+.dl{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;padding:14px 18px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.dl .date{font-family:var(--f-mono);text-align:center;line-height:1.1;min-width:58px}
+.dl .date b{display:block;font-size:1.5rem;font-family:var(--f-display)}
+.dl .date small{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem}
+.dl > div:nth-child(2){min-width:0}
+.quote{border-left:3px solid var(--accent);padding:6px 0 6px 18px;font-family:var(--f-display);font-size:1.35rem;max-width:40ch}
+
+/* Filters */
+.filters{display:grid;gap:12px;padding:16px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);margin-bottom:18px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 66px);z-index:5;box-shadow:var(--shadow)}
+@media (max-width:760px){.filters{position:static}}
+.frow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.search{flex:1 1 260px;min-width:0;display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:12px;padding:0 12px;background:var(--bg);min-height:46px}
+.search:focus-within{border-color:var(--primary)}
+.search input{border:0;background:transparent;color:var(--ink);font:inherit;flex:1;min-width:0;height:44px;outline:none}
+select{font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;min-height:46px;padding:0 12px;max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:700 .88rem var(--f-body);padding:8px 14px;border-radius:999px;cursor:pointer;min-height:40px;transition:all .2s}
+.chip:hover{border-color:var(--primary)}
+.chip[aria-pressed="true"]{background:var(--primary);color:var(--primary-ink);border-color:var(--primary)}
+.toggle{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.92rem;cursor:pointer;min-height:40px}
+.toggle input{width:20px;height:20px;accent-color:var(--primary)}
+.count{color:var(--muted);font-size:.92rem}
+
+/* Cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+@media (max-width:420px){.grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:12px;min-width:0;transition:border-color .25s,box-shadow .25s,transform .25s}
+.card:hover{border-color:color-mix(in oklab,var(--primary) 50%,var(--line));box-shadow:var(--shadow)}
+.card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.card-top > div{min-width:0}
+.org{font-size:.85rem;color:var(--muted);font-weight:700}
+.card h3{margin-top:2px}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;display:none}
+.pill.s-good{background:var(--good-soft);color:var(--good)}.pill.s-good::before{display:block}
+.pill.s-warn{background:var(--warn-soft);color:var(--warn)}.pill.s-warn::before{display:block}
+.pill.s-bad{background:var(--bad-soft);color:var(--bad)}.pill.s-bad::before{display:block}
+.pill.s-info{background:var(--info-soft);color:var(--info)}.pill.s-info::before{display:block}
+.pill.s-good::before{animation:pulse 2.2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+.amount{font-family:var(--f-display);font-weight:600;font-size:1.05rem}
+.for{color:var(--ink)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.92rem}
+.kv dt{color:var(--muted);font-weight:700}
+.kv dd{margin:0;min-width:0}
+details{border-top:1px dashed var(--line);padding-top:10px}
+summary{cursor:pointer;font-weight:700;color:var(--primary);list-style:none;display:flex;align-items:center;gap:6px;min-height:36px}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .2s}
+details[open] summary::before{transform:rotate(45deg)}
+.need{margin:8px 0 0;padding-left:0;list-style:none;display:grid;gap:6px}
+.need li{display:grid;grid-template-columns:18px 1fr;gap:8px;font-size:.95rem}
+.need li::before{content:"";width:14px;height:14px;margin-top:5px;border:2px solid var(--accent);border-radius:4px}
+.sub{font-weight:700;font-size:.85rem;margin-top:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.card-foot{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:6px}
+.save{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:700 .9rem var(--f-body);cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .2s}
+.save svg{transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.save[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink)}
+.save[aria-pressed="true"] svg{transform:scale(1.2);fill:currentColor}
+.states{display:flex;flex-wrap:wrap;gap:4px}
+.st{font-family:var(--f-mono);font-size:.72rem;padding:2px 6px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
+.st.hit{background:var(--accent);color:#2a1800;border-color:var(--accent)}
+.nct{font-family:var(--f-mono);font-size:.82rem;color:var(--muted)}
+.empty{padding:40px 24px;text-align:center;border:2px dashed var(--line);border-radius:var(--r);color:var(--muted);display:grid;gap:10px;justify-items:center}
+.empty h3{color:var(--ink)}
+.note{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-radius:12px;background:var(--info-soft);color:var(--ink);font-size:.95rem}
+.note svg{flex:none;color:var(--info);margin-top:3px}
+.note > div{min-width:0}
+
+/* Understand + journey */
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.prose{display:grid;gap:14px;max-width:68ch}
+.prose ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
+.factband{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.fact{padding:18px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);display:grid;gap:6px}
+.fact b{font-family:var(--f-display);font-size:1.9rem;line-height:1;color:var(--primary)}
+.fact span{color:var(--muted);font-size:.93rem}
+.tx{display:grid;gap:12px}
+.txi{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:14px 16px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.txi span{color:var(--muted);font-size:.93rem;grid-column:1/-1}
+.res{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.resl{display:grid;gap:4px;padding:16px;border-radius:12px;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--ink);transition:border-color .2s,transform .2s}
+.resl:hover{border-color:var(--primary);transform:translateY(-2px)}
+.resl b{color:var(--primary)}
+.resl span{color:var(--muted);font-size:.92rem}
+.rgroup{display:grid;gap:12px;margin-top:22px}
+.rgroup h4{font-size:1rem;font-family:var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.stages{display:grid;gap:18px}
+.stage{display:grid;grid-template-columns:minmax(0,260px) 1fr;gap:24px;padding:24px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+@media (max-width:760px){.stage{grid-template-columns:1fr}}
+.stage-h{display:grid;gap:8px;align-content:start}
+.ring{--p:0;width:64px;height:64px;border-radius:50%;background:conic-gradient(var(--accent) calc(var(--p)*1%),var(--surface-2) 0);display:grid;place-items:center;transition:--p .6s}
+.ring i{width:50px;height:50px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font:500 .85rem var(--f-mono);font-style:normal}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.check{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;padding:10px 12px;border-radius:10px;cursor:pointer;transition:background .2s}
+.check:hover{background:var(--surface-2)}
+.check input{appearance:none;width:26px;height:26px;border:2px solid var(--line);border-radius:8px;margin:0;display:grid;place-items:center;cursor:pointer;background:var(--bg);transition:all .2s}
+.check input:checked{background:var(--good);border-color:var(--good)}
+.check input:checked::after{content:"";width:7px;height:13px;border:solid var(--surface);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px);animation:pop .3s cubic-bezier(.3,1.6,.5,1)}
+@keyframes pop{from{transform:rotate(45deg) scale(0)}}
+.check b{display:block}
+.check span{color:var(--muted);font-size:.93rem}
+.check a{font-weight:700}
+.check input:checked + div b{text-decoration:line-through;text-decoration-color:var(--good);text-decoration-thickness:2px;color:var(--muted)}
+
+/* Saved */
+.plan{display:grid;gap:12px}
+.pitem{display:grid;grid-template-columns:1fr auto;gap:10px 16px;padding:16px 18px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.pitem > div{min-width:0}
+.pitem textarea{grid-column:1/-1;font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px;resize:vertical;width:100%}
+.pitem .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:flex-end}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.foot{border-top:1px solid var(--line);padding-block:32px;color:var(--muted);font-size:.9rem}
+.foot .wrap{display:grid;gap:10px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,calc(100% + 48px));visibility:hidden;background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:999px;font-weight:700;z-index:50;transition:transform .35s cubic-bezier(.2,.8,.2,1),visibility .35s;max-width:calc(100vw - 32px)}
+.toast.on{transform:translate(-50%,0);visibility:visible}
+.skel{height:220px;border-radius:var(--r);background:linear-gradient(90deg,var(--surface) 0%,var(--surface-2) 50%,var(--surface) 100%);background-size:200% 100%;animation:shimmer 1.4s linear infinite;border:1px solid var(--line)}
+@keyframes shimmer{to{background-position:-200% 0}}
+</style>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="#home" aria-label="Alongside ALS home">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="10" fill="var(--primary)"/><path d="M7 22c4-9 8-9 10-5s6 4 10-5" stroke="var(--accent)" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M7 26c4-9 8-9 10-5s6 4 10-5" stroke="var(--primary-ink)" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".85"/></svg>
+      Alongside ALS
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#understand">About ALS</a>
+      <a href="#journey">Road ahead</a>
+      <a href="#grants">Grants</a>
+      <a href="#services">Services</a>
+      <a href="#trials">Trials</a>
+      <a href="#ready">Get ready</a>
+      <a href="#saved">My plan <span class="badge" id="savedCount">0</span></a>
+    </nav>
+    <div class="tools">
+      <button class="iconbtn" id="textSize" type="button" aria-pressed="false" title="Larger text">A<span style="font-size:1.25em">A</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><b>Alongside ALS</b> is a guide and does not give medical, legal or financial advice. Always confirm program details, dates and eligibility with the organization before applying, and talk with your ALS care team before joining a trial.</p>
+    <p id="freshness" class="mono"></p>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = (u) => /^https?:\/\//i.test(String(u||"")) ? String(u) : "#";
+const ls = { get(k, d){ try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } }, set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+const ICON = {
+  heart: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.6-9.2-9.4C1.6 7.2 3.8 4 7 4c2 0 3.5 1.1 5 3 1.5-1.9 3-3 5-3 3.2 0 5.4 3.2 4.2 6.6C19.5 15.4 12 20 12 20z"/></svg>',
+  ext: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+  search: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>',
+  info: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>',
+  compass: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>',
+  home: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7v9H3z"/><path d="M9 20v-6h6v6"/></svg>',
+  flask: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></svg>',
+  hands: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="7" r="3"/><circle cx="16" cy="7" r="3"/><path d="M3 20c0-3.5 2.2-6 5-6s5 2.5 5 6M11 20c0-3.5 2.2-6 5-6s5 2.5 5 6"/></svg>',
+  coin: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15 9.5c-.6-1-1.7-1.5-3-1.5-1.7 0-3 .9-3 2.2 0 3 6 1.6 6 4.6 0 1.3-1.3 2.2-3 2.2-1.4 0-2.6-.6-3.1-1.6M12 6v2M12 16v2"/></svg>'
+};
+
+/* ---------------- State ---------------- */
+const S = {
+  grants: null, services: null, trials: null, updated: { grants: null, services: null, trials: null }, dbState: "loading",
+  plan: { saved: {}, checks: {}, docs: {} },
+  gf: ls.get("aa.gf", { q: "", cat: "All", state: "", status: "all" }),
+  sf: Object.assign({ q: "", cat: "All", state: "", status: "all" }, ls.get("aa.sf", {})),
+  tf: Object.assign({ q: "", type: "All", state: "", noPlacebo: false, remote: false, phase: "Any phase", gene: "Any gene", sort: "status", openOnly: false }, ls.get("aa.tf", {})),
+  planTab: "all"
+};
+let db = null, uid = null, planRef = null, dl = null;
+
+/* ---------------- Text size ---------------- */
+const big = ls.get("aa.big", false);
+const tsBtn = $("#textSize");
+const setBig = (b) => { document.documentElement.classList.toggle("big", b); tsBtn.setAttribute("aria-pressed", String(b)); tsBtn.title = b ? "Standard text size" : "Larger text"; };
+setBig(big);
+tsBtn.addEventListener("click", () => { const b = !document.documentElement.classList.contains("big"); setBig(b); ls.set("aa.big", b); });
+
+/* ---------------- Toast ---------------- */
+let tt;
+function toast(msg){ const t = $("#toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("on"), 2400); }
+
+/* ---------------- Dates + statuses ---------------- */
+const TODAY = () => { const d = new Date(); d.setHours(0,0,0,0); return d; };
+const parseD = (s) => { if (!s) return null; const [y,m,d] = String(s).split("-").map(Number); if (!y) return null; return new Date(y, (m||1)-1, d||1); };
+const daysTo = (s) => { const d = parseD(s); return d ? Math.round((d - TODAY()) / 864e5) : null; };
+const fmtD = (s, o = { month: "short", day: "numeric", year: "numeric" }) => { const d = parseD(s); return d ? d.toLocaleDateString(undefined, o) : ""; };
+function grantStatus(g){
+  const dd = daysTo(g.deadline);
+  if (g.deadline && dd != null){
+    if (dd < 0) return { key: "closed", label: "Window closed · next cycle soon", cls: "s-bad" };
+    if (dd <= 30) return { key: "open", label: `Closing soon · ${dd} day${dd===1?"":"s"} left`, cls: "s-warn" };
+    return { key: "open", label: `Open · due ${fmtD(g.deadline, {month:"short",day:"numeric"})}`, cls: "s-good" };
+  }
+  if (g.kind === "service" && (g.status === "open" || g.status === "rolling")) return { key: "open", label: "Available now", cls: "s-good" };
+  if (g.status === "open") return { key: "open", label: "Open now", cls: "s-good" };
+  if (g.status === "window") return { key: "check", label: "Opens in cycles", cls: "s-info" };
+  if (g.status === "rolling") return { key: "open", label: "Rolling · apply anytime", cls: "s-good" };
+  if (g.status === "closed") return { key: "closed", label: "Closed for now · reopens later", cls: "s-bad" };
+  return { key: "check", label: "Check current status", cls: "s-info" };
+}
+
+/* ---------------- Plan (saved) ---------------- */
+const keyOf = (kind, id) => kind + ":" + id;
+const isSaved = (kind, id) => !!S.plan.saved[keyOf(kind, id)];
+let writeTimer = null, writing = false, pendingWrite = false;
+function persistPlan(){
+  ls.set("aa.plan", S.plan);
+  if (!planRef) return;
+  clearTimeout(writeTimer);
+  writeTimer = setTimeout(flushPlan, 700);
+}
+async function flushPlan(){
+  if (!planRef) return;
+  if (writing){ pendingWrite = true; return; }
+  writing = true;
+  try { await planRef.set(JSON.parse(JSON.stringify(S.plan))); }
+  catch (e) { if (e && e.code === "invalid_argument") { planRef = null; } }
+  finally { writing = false; if (pendingWrite){ pendingWrite = false; flushPlan(); } }
+}
+function toggleSave(kind, id){
+  const k = keyOf(kind, id);
+  if (S.plan.saved[k]) { delete S.plan.saved[k]; toast("Removed from My plan"); }
+  else { S.plan.saved[k] = { kind, id, status: "interested", note: "", added: new Date().toISOString().slice(0,10) }; toast("Saved to My plan"); }
+  persistPlan(); updateCount();
+}
+function updateCount(){ $("#savedCount").textContent = Object.keys(S.plan.saved).length; }
+S.plan = Object.assign({ saved: {}, checks: {}, docs: {} }, ls.get("aa.plan", {}));
+updateCount();
+
+/* ---------------- Router ---------------- */
+const ROUTES = ["home","understand","journey","grants","services","trials","ready","saved"];
+const route = () => { const h = (location.hash || "#home").slice(1); return ROUTES.includes(h) ? h : "home"; };
+let lastRoute = null;
+function render(opts = {}){
+  const r = route();
+  document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + r ? "page" : "false"));
+  const app = $("#app");
+  const changed = lastRoute !== r;
+  const swap = () => { const rr = route(); app.innerHTML = `<div class="view${opts.quiet && !changed ? " still" : ""}">${VIEWS[rr]()}</div>`; AFTER[rr] && AFTER[rr](); };
+  if (changed && lastRoute !== null && document.startViewTransition && !opts.quiet && !matchMedia("(prefers-reduced-motion: reduce)").matches) document.startViewTransition(swap); else swap();
+  if (changed && lastRoute !== null) { window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" }); app.focus({ preventScroll: true }); }
+  lastRoute = r;
+  freshness();
+}
+window.addEventListener("hashchange", () => render());
+
+function freshness(){
+  const f = $("#freshness");
+  const u = [S.updated.grants && `Grants list updated ${fmtD(S.updated.grants)}`, S.updated.trials && `Trials list updated ${fmtD(S.updated.trials)}`].filter(Boolean).join(" · ");
+  f.textContent = u;
+}
+
+/* ---------------- Views ---------------- */
+const VIEWS = {};
+const AFTER = {};
+
+VIEWS.home = () => {
+  const g = S.grants || [], t = S.trials || [];
+  const openG = g.filter(x => grantStatus(x).key === "open").length;
+  const soon = g.filter(x => { const d = daysTo(x.deadline); return d != null && d >= 0; }).sort((a,b) => daysTo(a.deadline) - daysTo(b.deadline)).slice(0, 4);
+  const recruiting = t.filter(x => (x.enrolling || "yes") === "yes").length;
+  const n = (v) => S.grants === null ? "…" : v;
+  const nt = (v) => S.trials === null ? "…" : v;
+  return `
+  <section class="hero" aria-labelledby="heroH">
+    <canvas id="threads" aria-hidden="true"></canvas>
+    <div class="wrap"><div class="hero-in">
+      <span class="eyebrow rise">For people living with ALS and the people who love them</span>
+      <h1 id="heroH" class="rise" style="animation-delay:.08s">You don't have to find the way <em>alone</em>.</h1>
+      <p class="rise" style="animation-delay:.16s">Financial help, clinical trials, and a clear next step for every stage, all in one place. Save what matters to you and come back to it anytime.</p>
+      <div class="cta rise" style="animation-delay:.24s">
+        <a class="btn btn-accent" href="#grants">Find financial help</a>
+        <a class="btn btn-ghost" href="#trials">Explore clinical trials</a>
+        <a class="btn btn-ghost" href="#journey">See the road ahead</a>
+      </div>
+    </div></div>
+  </section>
+  <div class="wrap">
+    <div class="stats stagger">
+      <a class="stat" href="#grants" style="--i:0"><b>${n(openG)}</b><span>grants open or accepting applications now</span></a>
+      <a class="stat" href="#trials" style="--i:1"><b>${nt(recruiting)}</b><span>studies enrolling now</span></a>
+      <a class="stat" href="#grants" style="--i:2"><b>${n(soon.length)}</b><span>upcoming application deadlines</span></a>
+      <a class="stat" href="#saved" style="--i:3"><b>${Object.keys(S.plan.saved).length}</b><span>items saved in your plan</span></a>
+    </div>
+  </div>
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Start where you are</span><h2>What do you need most right now?</h2></div>
+    <div class="paths stagger">
+      <a class="path" href="#journey" style="--i:0"><span class="glyph">${ICON.compass}</span><h3>We were just diagnosed</h3><p>The first ten things to do, from finding a certified ALS clinic to applying for disability.</p><span class="go">Open the first-steps checklist →</span></a>
+      <a class="path" href="#grants" style="--i:1"><span class="glyph">${ICON.coin}</span><h3>Help paying for care</h3><p>Grants for equipment, travel, respite, prescriptions and home changes, with what to have ready.</p><span class="go">Browse grants →</span></a>
+      <a class="path" href="#services" style="--i:2"><span class="glyph">${ICON.home}</span><h3>Benefits &amp; free services</h3><p>Social Security, Medicare and VA benefits, plus equipment and ramp loans and help with insurance.</p><span class="go">See services &amp; benefits →</span></a>
+      <a class="path" href="#trials" style="--i:3"><span class="glyph">${ICON.flask}</span><h3>Treatment options &amp; research</h3><p>Recruiting trials, expanded access, and studies you can join from home.</p><span class="go">Explore trials →</span></a>
+      <a class="path" href="#ready" style="--i:4"><span class="glyph">${ICON.info}</span><h3>Getting my paperwork together</h3><p>The documents almost every program asks for, plus a printable tracker for your applications.</p><span class="go">Open Get ready →</span></a>
+      <a class="path" href="#understand" style="--i:5"><span class="glyph">${ICON.hands}</span><h3>I'm caring for someone</h3><p>What to expect, respite grants, and support for kids and caregivers.</p><span class="go">Learn about ALS →</span></a>
+    </div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap two">
+    <div class="prose">
+      <span class="eyebrow">Coming up</span>
+      <h2>Deadlines to know</h2>
+      <p class="lede">Most programs accept applications year-round. These have set windows, so mark them.</p>
+      <p><a class="btn btn-line btn-sm" href="#grants">See every program</a></p>
+    </div>
+    <div class="deadlines stagger">
+      ${S.grants === null ? '<div class="skel" style="height:80px"></div><div class="skel" style="height:80px"></div>'
+        : soon.length ? soon.map((x,i) => { const d = parseD(x.deadline); return `
+        <div class="dl" style="--i:${i}">
+          <div class="date"><small>${d.toLocaleDateString(undefined,{month:"short"})}</small><b>${d.getDate()}</b><small>${d.getFullYear()}</small></div>
+          <div><b>${esc(x.name)}</b><div class="org">${esc(x.org)}</div></div>
+          <span class="pill ${grantStatus(x).cls}">${daysTo(x.deadline)}d</span>
+        </div>`; }).join("")
+        : `<div class="empty"><p>No dated deadlines right now. Rolling programs are open year-round.</p></div>`}
+    </div>
+  </div></section>`;
+};
+AFTER.home = () => startThreads();
+
+VIEWS.understand = () => `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Understand ALS</span><h2>What ALS is, and what helps</h2>
+    <p class="lede">Amyotrophic lateral sclerosis (ALS) is a progressive disease of the motor neurons, the nerve cells that carry signals from the brain and spinal cord to the muscles. As these cells stop working, muscles weaken, which affects movement, speech, swallowing and, over time, breathing. It does not usually affect the senses, and many people keep their thinking intact, though some have changes in thinking or behavior.</p></div>
+    <div class="factband stagger">
+      <div class="fact" style="--i:0"><b>~90%</b><span>of cases are sporadic, with no family history. About 10% are familial.</span></div>
+      <div class="fact" style="--i:1"><b>2–5 yrs</b><span>is the average survival after symptoms start, but it varies widely. About 1 in 10 people live 10 years or more.</span></div>
+      <div class="fact" style="--i:2"><b>2×</b><span>Military veterans are about twice as likely to be diagnosed. The VA treats ALS as service connected.</span></div>
+      <div class="fact" style="--i:3"><b>4</b><span>FDA-approved medications. Multidisciplinary clinic care is linked to longer, better lives.</span></div>
+    </div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap two">
+    <div class="prose">
+      <h3>Common early signs</h3>
+      <ul><li>Weakness or clumsiness in a hand, arm, foot or leg (tripping, dropping things)</li><li>Muscle twitches (fasciculations) and cramps</li><li>Slurred speech or trouble swallowing (bulbar onset)</li><li>Uncontrolled laughing or crying (pseudobulbar affect)</li><li>Shortness of breath, especially lying flat</li></ul>
+      <h3>How it's diagnosed</h3>
+      <p>No single test confirms ALS. A neurologist uses an exam, EMG and nerve conduction studies, and imaging and blood work to rule out other conditions. A second opinion at an ALS specialty clinic is common and recommended.</p>
+      <h3>Genetics</h3>
+      <p>Experts now recommend offering genetic testing to everyone with ALS, with or without a family history. The most common genes are <span class="mono">C9orf72</span>, <span class="mono">SOD1</span>, <span class="mono">TARDBP</span> and <span class="mono">FUS</span>. Results can open specific treatments and trials (for example, tofersen for SOD1-ALS). Genetic counseling helps families understand what the results mean for relatives.</p>
+    </div>
+    <div class="prose">
+      <h3>FDA-approved treatments</h3>
+      <div class="tx">
+        <div class="txi"><b>Riluzole</b><span class="mono">Rilutek · Tiglutik · Exservan</span><span>Tablet, liquid or dissolving film. Modestly extends survival.</span></div>
+        <div class="txi"><b>Edaravone</b><span class="mono">Radicava · Radicava ORS</span><span>IV infusion or oral suspension. May slow loss of daily function.</span></div>
+        <div class="txi"><b>Tofersen</b><span class="mono">Qalsody</span><span>For SOD1-ALS only. Given by spinal injection. Lowers SOD1 protein.</span></div>
+        <div class="txi"><b>Dextromethorphan / quinidine</b><span class="mono">Nuedexta</span><span>Treats pseudobulbar affect (sudden laughing or crying).</span></div>
+      </div>
+      <div class="note">${ICON.info}<div>Copay help for these drugs is available. See the HealthWell and Patient Advocate Foundation funds under <a href="#grants">Grants</a>.</div></div>
+    </div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Your care team</span><h2>Who's on a multidisciplinary ALS team</h2><p class="lede">ALS clinics bring specialists together in one visit, usually every three months. Ask for a Certified Treatment Center of Excellence or an ALS United / MDA care center near you.</p></div>
+    <div class="res stagger">
+      ${[["Neurologist","Leads care, prescribes treatments"],["Nurse coordinator","Your day-to-day point of contact"],["Respiratory therapist","Tracks breathing (FVC), fits BiPAP"],["Speech-language pathologist","Speech, swallowing, voice banking, AAC devices"],["Physical & occupational therapists","Mobility, braces, home safety, adaptive tools"],["Dietitian","Weight, nutrition, feeding tube planning"],["Social worker","Benefits, insurance, caregiving, emotional support"],["Palliative care","Comfort and quality of life at every stage, not only at the end"]].map((x,i)=>`<div class="resl" style="--i:${i}"><b>${x[0]}</b><span>${x[1]}</span></div>`).join("")}
+    </div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Trusted resources</span><h2>Where to go next</h2></div>
+    ${RES.map(g => `<div class="rgroup"><h4>${esc(g.h)}</h4><div class="res">${g.items.map(r => `<a class="resl" href="${safeUrl(r[2])}" target="_blank" rel="noopener"><b>${esc(r[0])} ${ICON.ext}</b><span>${esc(r[1])}</span></a>`).join("")}</div></div>`).join("")}
+  </div></section>`;
+
+const RES = [
+  { h: "National organizations", items: [
+    ["The ALS Association","Care services, local chapters, certified clinics, research","https://www.als.org/"],
+    ["ALS United","Regional care services, equipment loans and grants","https://www.alsunited.org/"],
+    ["I AM ALS","Patient-led advocacy, community and navigation","https://iamals.org/"],
+    ["Muscular Dystrophy Association","MDA Care Centers and ALS support","https://www.mda.org/disease/amyotrophic-lateral-sclerosis"],
+    ["Les Turner ALS Foundation","Care, education and research (Chicago)","https://lesturnerals.org/"],
+    ["Team Gleason","Technology, equipment and life adventures","https://teamgleason.org/"]
+  ]},
+  { h: "Research & trials", items: [
+    ["ClinicalTrials.gov","The official registry of every U.S. trial","https://clinicaltrials.gov/search?cond=Amyotrophic%20Lateral%20Sclerosis&aggFilters=status:not%20rec"],
+    ["ALS Trial Navigator (ALS TDI)","Plain-language trial search, updated daily","https://www.als.net/als-trial-navigator/"],
+    ["NEALS","Northeast ALS Consortium: trial network and education","https://neals.org/"],
+    ["Everything ALS","Community-driven research and the SAVA trial guide","https://www.everythingals.org/"],
+    ["National ALS Registry (CDC)","Add yourself to help researchers, and get study alerts","https://www.cdc.gov/als/"],
+    ["NINDS (NIH)","Medical overview of ALS from the National Institutes of Health","https://www.ninds.nih.gov/health-information/disorders/amyotrophic-lateral-sclerosis-als"]
+  ]},
+  { h: "Benefits, communication & caregiving", items: [
+    ["Social Security Disability","ALS is a Compassionate Allowance: fast-tracked claims","https://www.ssa.gov/disability"],
+    ["VA: ALS benefits","Presumptive service connection for veterans","https://www.va.gov/disability/eligibility/special-claims/als/"],
+    ["Bridging Voice","Voice banking and speech-device help","https://bridgingvoice.org/"],
+    ["Family Caregiver Alliance","Caregiver guides, support and state resources","https://www.caregiver.org/"],
+    ["Hope Loves Company","Support for children who have a loved one with ALS","https://www.hopelovescompany.org/"],
+    ["Get Palliative Care","What palliative care is and how to find it","https://getpalliativecare.org/"]
+  ]}
+];
+
+const STAGES = [
+  { id: "dx", title: "First steps after diagnosis", when: "Weeks 1–6", items: [
+    ["clinic","Connect with a multidisciplinary ALS clinic","Ask your neurologist for a referral, or find a certified center.","https://www.als.org/local-support/certified-centers-clinics"],
+    ["chapter","Register with your local ALS Association or ALS United chapter","They assign a care coordinator and unlock local grants and loan closets.","https://www.als.org/support/states"],
+    ["genetic","Ask about genetic testing and counseling","Results can open specific treatments and trials.",""],
+    ["docs","Start a documents folder","A signed diagnosis letter, insurance cards and receipts unlock most grants. Use the Get ready checklist.","#ready"],
+    ["ssdi","Apply for Social Security Disability (SSDI)","Say “ALS”. It's a Compassionate Allowance with no 5-month wait, and Medicare follows.","#services"],
+    ["va","Veterans: file a VA claim for ALS","ALS is presumptively service connected, usually rated 100%.","https://www.va.gov/disability/eligibility/special-claims/als/"],
+    ["registry","Join the National ALS Registry","Helps research and alerts you to studies.","https://www.cdc.gov/als/"],
+    ["legal","Set up advance directives, health care proxy and power of attorney","Easier to do early, while signing and speaking are easier.",""]
+  ]},
+  { id: "comm", title: "Voice & communication", when: "Before speech changes", items: [
+    ["bank","Bank your voice","Record your own voice now so a device can speak in it later.","https://bridgingvoice.org/"],
+    ["slp","Get a speech-language evaluation for an AAC device","Insurance approval can take months, so start early.",""],
+    ["eyegaze","Try eye-gaze and switch access options","Team Gleason can help with technology insurance won't cover.","https://teamgleason.org/need-assistance/"]
+  ]},
+  { id: "home", title: "Mobility & home", when: "Plan ahead",  items: [
+    ["ot","Request a home safety evaluation (OT/PT)","Bathroom, entryways, stairs, bed.",""],
+    ["chair","Start the power wheelchair process early","Custom chairs often take 3–6 months to arrive.",""],
+    ["loan","Borrow equipment from a loan closet","Chapters lend ramps, lifts, chairs and devices free of charge.",""],
+    ["mods","Apply for home-modification grants","Ramps, roll-in showers and doorways. See Grants.","#grants"]
+  ]},
+  { id: "breath", title: "Breathing & nutrition", when: "Monitored at clinic", items: [
+    ["fvc","Track breathing tests (FVC) every visit","Changes guide decisions about BiPAP and nighttime support.",""],
+    ["bipap","Discuss non-invasive ventilation (BiPAP)","Often improves sleep, energy and survival.",""],
+    ["peg","Talk about a feeding tube before breathing weakens","It's safest to place while breathing is stronger. Keeping weight up matters.",""]
+  ]},
+  { id: "care", title: "Caregivers & family", when: "Throughout", items: [
+    ["respite","Line up respite care","Many chapter grants pay for respite hours.","#grants"],
+    ["support","Join a caregiver or family support group","Chapters, I AM ALS and Family Caregiver Alliance host groups.","https://www.caregiver.org/"],
+    ["kids","Find support for children and teens","Hope Loves Company runs free camps and programs.","https://www.hopelovescompany.org/"]
+  ]},
+  { id: "wishes", title: "Planning for later", when: "When you're ready", items: [
+    ["palliative","Add palliative care to your team","Focused on comfort and quality of life at any stage.","https://getpalliativecare.org/"],
+    ["vent","Decide your wishes about invasive ventilation","Talk through options with your team and family, and write them down.",""],
+    ["legacy","Record legacy projects and messages","Letters, videos and voice recordings for the people you love.",""]
+  ]}
+];
+
+VIEWS.journey = () => `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">The road ahead</span><h2>A checklist for each stage</h2>
+    <p class="lede">ALS moves at a different pace for everyone. These are the steps clinic teams and families say they wish they'd started sooner. Tick them off as you go. Your progress is saved in My plan.</p></div>
+    <div class="stages stagger">
+      ${STAGES.map((s,i) => { const done = s.items.filter(it => S.plan.checks[s.id+"."+it[0]]).length; const p = Math.round(done / s.items.length * 100); return `
+      <article class="stage" style="--i:${i}" aria-labelledby="st-${s.id}">
+        <div class="stage-h">
+          <div class="ring" style="--p:${p}" data-ring="${s.id}"><i>${done}/${s.items.length}</i></div>
+          <span class="eyebrow">${esc(s.when)}</span>
+          <h3 id="st-${s.id}">${esc(s.title)}</h3>
+        </div>
+        <ul class="checks">
+          ${s.items.map(it => { const k = s.id+"."+it[0]; return `<li><label class="check"><input type="checkbox" id="ck-${k.replace(".","-")}" data-check="${k}" data-stage="${s.id}" ${S.plan.checks[k]?"checked":""}><div><b>${esc(it[1])}</b><span>${esc(it[2])}${it[3] ? ` <a href="${it[3].startsWith("#")?it[3]:safeUrl(it[3])}" ${it[3].startsWith("#")?"":'target="_blank" rel="noopener"'}>${it[3].startsWith("#")?"Go":"Learn more"} →</a>` : ""}</span></div></label></li>`; }).join("")}
+        </ul>
+      </article>`; }).join("")}
+    </div>
+  </div></section>`;
+AFTER.journey = () => {
+  document.querySelectorAll("[data-check]").forEach(cb => cb.addEventListener("change", () => {
+    const k = cb.dataset.check;
+    if (cb.checked) S.plan.checks[k] = true; else delete S.plan.checks[k];
+    persistPlan();
+    const s = STAGES.find(x => x.id === cb.dataset.stage);
+    const done = s.items.filter(it => S.plan.checks[s.id+"."+it[0]]).length;
+    const ring = document.querySelector(`[data-ring="${s.id}"]`);
+    ring.style.setProperty("--p", Math.round(done / s.items.length * 100));
+    ring.querySelector("i").textContent = `${done}/${s.items.length}`;
+    if (done === s.items.length) toast(`“${s.title}” complete`);
+  }));
+};
+
+/* ---- Grants ---- */
+const STATES = ["AL","AK","AZ","AR","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"];
+const stateOpts = (sel) => `<option value="">All states</option>` + STATES.map(s => `<option value="${s}" ${s===sel?"selected":""}>${s}</option>`).join("");
+const CATS = {
+  grants: ["All","Medical costs","Prescriptions","Equipment & technology","Home modification","Respite & caregiving","Travel","Family & children","Education & scholarships","Quality of life"],
+  services: ["All","Government benefits","Insurance help","Equipment & loans","Home access","Communication","Prescriptions help","Caregiving & education","Family & kids"]
+};
+const FKEY = { grants: "gf", services: "sf" };
+function filteredItems(which){
+  const f = S[FKEY[which]], q = f.q.trim().toLowerCase();
+  return (S[which] || []).filter(g => {
+    if (f.cat !== "All" && !(g.categories||[]).includes(f.cat)) return false;
+    if (f.state && g.scope === "Regional" && !(g.regions||[]).includes(f.state)) return false;
+    const st = grantStatus(g).key;
+    if (f.status === "open" && st !== "open") return false;
+    if (f.status === "deadline" && !(g.deadline && daysTo(g.deadline) >= 0)) return false;
+    if (q && !JSON.stringify([g.name,g.org,g.forWhat,g.categories,g.eligibility,g.regions]).toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a,b) => {
+    if (f.sort === "name") return a.name.localeCompare(b.name);
+    if (f.sort === "org") return a.org.localeCompare(b.org) || a.name.localeCompare(b.name);
+    if (f.sort === "local"){ const la = a.scope === "Regional" ? 0 : 1, lb = b.scope === "Regional" ? 0 : 1; if (la !== lb) return la - lb; }
+    const da = daysTo(a.deadline), dbb = daysTo(b.deadline);
+    const ra = da != null && da >= 0 ? da : 1e5, rb = dbb != null && dbb >= 0 ? dbb : 1e5;
+    if (ra !== rb) return ra - rb;
+    const order = { open: 0, check: 1, closed: 2 };
+    const oa = order[grantStatus(a).key], ob = order[grantStatus(b).key];
+    if (oa !== ob) return oa - ob;
+    if (f.state){ const la = a.scope === "Regional" ? 0 : 1, lb = b.scope === "Regional" ? 0 : 1; if (la !== lb) return la - lb; }
+    return a.org.localeCompare(b.org);
+  });
+}
+function itemCard(g, i){
+  const kind = g.kind === "service" ? "service" : "grant";
+  const st = grantStatus(g), saved = isSaved(kind, g.id);
+  return `<article class="card${kind==="service"?" svc":""}" style="--i:${Math.min(i,12)}">
+    <div class="card-top"><div><div class="org">${esc(g.org)}</div><h3>${esc(g.name)}</h3></div></div>
+    <div class="pills"><span class="pill ${st.cls}">${esc(st.label)}</span><span class="pill">${g.scope === "Regional" ? esc((g.regions||[]).join(", ")) : "Nationwide"}</span>${(g.categories||[]).slice(0,2).map(c=>`<span class="pill">${esc(c)}</span>`).join("")}</div>
+    ${g.amount ? `<div class="amount">${esc(g.amount)}</div>` : ""}
+    <p class="for">${esc(g.forWhat)}</p>
+    <dl class="kv"><dt>When</dt><dd>${esc(g.window)}</dd></dl>
+    <details><summary>${kind==="service" ? "Who it's for &amp; how to start" : "Eligibility &amp; what you'll need"}</summary>
+      <div class="sub">Who qualifies</div><ul class="need">${(g.eligibility||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+      <div class="sub">Have these ready</div><ul class="need">${(g.youllNeed||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+      <div class="sub">${kind==="service" ? "How to start" : "How to apply"}</div><p style="margin-top:6px">${esc(g.howToApply)}</p>
+      ${g.contact ? `<p style="margin-top:6px" class="mono">${esc(g.contact)}</p>` : ""}
+      ${g.lastVerified ? `<p style="margin-top:8px;color:var(--muted);font-size:.85rem">Checked ${esc(fmtD(g.lastVerified))}</p>` : ""}
+    </details>
+    <div class="card-foot">
+      <a class="btn btn-primary btn-sm" href="${safeUrl(g.url)}" target="_blank" rel="noopener">${kind==="service" ? "Go to service" : "Go to program"} ${ICON.ext}</a>
+      <button class="save" type="button" data-save="${kind}" data-id="${esc(g.id)}" aria-pressed="${saved}">${ICON.heart}<span>${saved?"Saved":"Save"}</span></button>
+    </div>
+  </article>`;
+}
+function itemsList(which){
+  const f = S[FKEY[which]], word = which === "grants" ? "grants" : "services";
+  if (S[which] === null) return S.dbState === "off" ? unavailable(word) : `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
+  const list = filteredItems(which);
+  return `<p class="count" style="margin-bottom:12px">${list.length} of ${S[which].length} ${which === "grants" ? "grants" : "services and benefits"}${f.state ? ` available in <b>${f.state}</b> (nationwide + local)` : ""}</p>` +
+    (list.length ? `<div class="grid stagger">${list.map(itemCard).join("")}</div>` : `<div class="empty"><h3>Nothing matches those filters</h3><p>Try a different category or clear the search.</p><button class="btn btn-line btn-sm" type="button" data-clear="${which === "grants" ? "g" : "s"}">Clear filters</button></div>`);
+}
+const grantsList = () => itemsList("grants");
+function catalogView(which){
+  const f = S[FKEY[which]], p = which === "grants" ? "g" : "s";
+  const head = which === "grants"
+    ? `<span class="eyebrow">Grants</span><h2>Money to help with what ALS costs</h2>
+       <p class="lede">Grants and scholarships that pay for equipment, rides to clinic, respite care, prescriptions, home changes, children's activities and school. Each one lists when it's open, how much it gives and what to have ready. Pick your state to see local grants too.</p>
+       <p class="lede">Looking for Social Security, Medicare, VA benefits or equipment loans? Those are under <a href="#services">Services &amp; benefits</a>. Not sure what to have ready? See <a href="#ready">Get ready</a>.</p>`
+    : `<span class="eyebrow">Services &amp; benefits</span><h2>Benefits, loans and free help</h2>
+       <p class="lede">Government benefits like SSDI, Medicare and VA compensation, plus free services: equipment and ramp loans, communication help, insurance case management, caregiver training and family support.</p>
+       <p class="lede">Looking for money you apply for? See <a href="#grants">Grants</a>.</p>`;
+  return `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head">${head}</div>
+    <div class="filters" role="search">
+      <div class="frow">
+        <label class="search">${ICON.search}<span class="sr">Search</span><input id="${p}q" type="search" placeholder="${which === "grants" ? "Search (e.g. wheelchair, respite, scholarship)" : "Search (e.g. Medicare, ramp, voice)"}" value="${esc(f.q)}"></label>
+        <label><span class="sr">State</span><select id="${p}state">${stateOpts(f.state)}</select></label>
+        <label><span class="sr">Sort</span><select id="${p}sort">
+          <option value="default" ${f.sort==="default"||!f.sort?"selected":""}>Sort: deadlines first</option>
+          <option value="local" ${f.sort==="local"?"selected":""}>Sort: my state first</option>
+          <option value="name" ${f.sort==="name"?"selected":""}>Sort: A to Z</option>
+          <option value="org" ${f.sort==="org"?"selected":""}>Sort: by organization</option>
+        </select></label>
+        ${which === "grants" ? `<label><span class="sr">Status</span><select id="${p}status">
+          <option value="all" ${f.status==="all"?"selected":""}>Any status</option>
+          <option value="open" ${f.status==="open"?"selected":""}>Open or rolling now</option>
+          <option value="deadline" ${f.status==="deadline"?"selected":""}>Has an upcoming deadline</option>
+        </select></label>` : ""}
+      </div>
+      <div class="chips" role="group" aria-label="Category">${CATS[which].map(c=>`<button type="button" class="chip" data-cat="${esc(c)}" aria-pressed="${f.cat===c}">${esc(c)}</button>`).join("")}</div>
+    </div>
+    <div id="${p}list">${itemsList(which)}</div>
+    ${which === "grants" ? `<div class="note" style="margin-top:24px">${ICON.info}<div>Don't see your area? Most ALS Association and ALS United chapters run their own care grants. Find yours under <a href="https://www.als.org/support/states" target="_blank" rel="noopener">local chapters</a> and ask your care coordinator.</div></div>` : ""}
+  </div></section>`;
+}
+function bindCatalog(which){
+  const p = which === "grants" ? "g" : "s", k = FKEY[which];
+  const upd = () => { ls.set("aa." + k, S[k]); $("#" + p + "list").innerHTML = itemsList(which); };
+  let qt; $("#" + p + "q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { S[k].q = e.target.value; upd(); }, 180); });
+  $("#" + p + "state").addEventListener("change", e => { S[k].state = e.target.value; upd(); });
+  const stSel = $("#" + p + "status"); if (stSel) stSel.addEventListener("change", e => { S[k].status = e.target.value; upd(); });
+  $("#" + p + "sort").addEventListener("change", e => { S[k].sort = e.target.value; upd(); });
+  document.querySelectorAll("[data-cat]").forEach(b => b.addEventListener("click", () => { S[k].cat = b.dataset.cat; document.querySelectorAll("[data-cat]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); upd(); }));
+}
+VIEWS.grants = () => catalogView("grants");
+VIEWS.services = () => catalogView("services");
+AFTER.grants = () => bindCatalog("grants");
+AFTER.services = () => bindCatalog("services");
+
+/* ---- Trials ---- */
+const TTYPES = ["All","Interventional","Expanded access","Device","Observational"];
+const TPHASES = ["Any phase","Phase 1","Phase 1/2","Phase 2","Phase 2/3","Phase 3"];
+const TGENES = ["Any gene","SOD1","C9orf72","FUS","Non-SOD1/FUS","At-risk family members"];
+const enrollInfo = (t) => {
+  const e = t.enrolling || "yes";
+  if (e === "no") return { key: "no", label: "Enrollment complete", cls: "s-bad" };
+  if (e === "soon") return { key: "soon", label: "Not yet enrolling", cls: "s-info" };
+  if (t.type === "Expanded access") return { key: "yes", label: "Expanded access open", cls: "s-warn" };
+  return { key: "yes", label: "Enrolling now", cls: "s-good" };
+};
+const phaseRank = { "Phase 3": 0, "Phase 2/3": 1, "Phase 2": 2, "Phase 1/2": 3, "Phase 1": 4, "Early Phase 1": 5, "Expanded access": 6, "Device study": 7, "Observational": 8 };
+function filteredTrials(){
+  const f = S.tf, q = f.q.trim().toLowerCase();
+  return (S.trials || []).filter(t => {
+    if (f.type !== "All" && t.type !== f.type) return false;
+    if (f.phase && f.phase !== "Any phase" && !String(t.phase||"").startsWith(f.phase)) return false;
+    if (f.gene && f.gene !== "Any gene" && !String(t.genetic||"").toLowerCase().includes(f.gene.toLowerCase().split(" ")[0])) return false;
+    if (f.noPlacebo && t.placebo !== false) return false;
+    if (f.remote && !t.remote) return false;
+    if (f.openOnly && enrollInfo(t).key !== "yes") return false;
+    if (f.state && !(t.states||[]).some(s => s === f.state || s === "Multiple" || s === "Remote")) return false;
+    if (q && !JSON.stringify([t.name,t.title,t.sponsor,t.intervention,t.summary,t.id,t.genetic,t.eligibility,t.states]).toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a,b) => {
+    const ea = ["yes","soon","no"].indexOf(enrollInfo(a).key), eb = ["yes","soon","no"].indexOf(enrollInfo(b).key);
+    if (f.sort === "name") return a.name.localeCompare(b.name);
+    if (f.sort === "newest") return String(b.lastVerified||"").localeCompare(String(a.lastVerified||"")) || a.name.localeCompare(b.name);
+    if (f.sort === "nearby" && f.state){ const la = (a.states||[]).includes(f.state) ? 0 : 1, lb = (b.states||[]).includes(f.state) ? 0 : 1; if (la !== lb) return la - lb; }
+    if (ea !== eb) return ea - eb;
+    const ta = ["Interventional","Expanded access","Device","Observational"].indexOf(a.type), tb = ["Interventional","Expanded access","Device","Observational"].indexOf(b.type);
+    if (ta !== tb) return ta - tb;
+    const pa = phaseRank[a.phase] ?? 9, pb = phaseRank[b.phase] ?? 9;
+    if (pa !== pb) return pa - pb;
+    return a.name.localeCompare(b.name);
+  });
+}
+function trialCard(t, i){
+  const saved = isSaved("trial", t.id), en = enrollInfo(t);
+  const sts = (t.states||[]);
+  return `<article class="card" style="--i:${Math.min(i,12)}">
+    <div class="card-top"><div><div class="nct">${esc(t.id)} · ${esc(t.sponsor)}</div><h3>${esc(t.name)}</h3></div></div>
+    <div class="pills"><span class="pill ${en.cls}">${esc(en.label)}</span><span class="pill">${esc(t.phase)}</span>${t.type === "Device" ? '<span class="pill">Device / BCI</span>' : t.type === "Observational" ? '<span class="pill">No drug · research only</span>' : ""}${t.placebo === false ? '<span class="pill">No placebo</span>' : t.placebo ? '<span class="pill">Placebo-controlled</span>' : ""}${t.remote ? '<span class="pill s-good">From home</span>' : ""}${t.genetic && t.genetic !== "Any" ? `<span class="pill">${esc(t.genetic)}</span>` : ""}</div>
+    <p class="for"><b>${esc(t.intervention)}</b></p>
+    <p style="color:var(--muted)">${esc(t.summary)}</p>
+    ${t.statusNote ? `<p style="font-size:.9rem;color:var(--muted)"><b>Status:</b> ${esc(t.statusNote)}</p>` : ""}
+    <div class="states" aria-label="Locations">${sts.map(s => `<span class="st ${S.tf.state && s===S.tf.state?"hit":""}">${esc(s)}</span>`).join("")}</div>
+    <details><summary>Eligibility notes</summary><ul class="need">${(t.eligibility||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul><p style="margin-top:8px;color:var(--muted);font-size:.92rem">Full criteria, sites and contacts are on the ClinicalTrials.gov page.${t.lastVerified ? ` Checked ${esc(fmtD(t.lastVerified))}.` : ""}</p></details>
+    <div class="card-foot">
+      <a class="btn btn-primary btn-sm" href="https://clinicaltrials.gov/study/${encodeURIComponent(t.id)}" target="_blank" rel="noopener">View on ClinicalTrials.gov ${ICON.ext}</a>
+      <button class="save" type="button" data-save="trial" data-id="${esc(t.id)}" aria-pressed="${saved}">${ICON.heart}<span>${saved?"Saved":"Save"}</span></button>
+    </div>
+  </article>`;
+}
+function trialsList(){
+  if (S.trials === null) return S.dbState === "off" ? unavailable("trials") : `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
+  const list = filteredTrials();
+  const all = S.trials;
+  const counts = { yes: all.filter(t => enrollInfo(t).key === "yes").length, soon: all.filter(t => enrollInfo(t).key === "soon").length };
+  return `<p class="count" style="margin-bottom:12px">${list.length} of ${all.length} studies · ${counts.yes} enrolling now · ${counts.soon} opening soon</p>` +
+    (list.length ? `<div class="grid stagger">${list.map(trialCard).join("")}</div>` : `<div class="empty"><h3>No studies match those filters</h3><p>Try removing a filter, or search the full live registry below.</p><button class="btn btn-line btn-sm" type="button" data-clear="t">Clear filters</button></div>`);
+}
+VIEWS.trials = () => `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Clinical trials</span><h2>Studies looking for participants</h2>
+    <p class="lede">U.S. and Canadian treatment trials, expanded-access programs (for people who don't qualify for trials), brain-computer interface and device studies, and observational research, including studies you can join from home. Filter by state, phase, gene or type.</p></div>
+    <div class="filters" role="search">
+      <div class="frow">
+        <label class="search">${ICON.search}<span class="sr">Search trials</span><input id="tq" type="search" placeholder="Search drug, gene (SOD1, C9orf72), sponsor, NCT or state" value="${esc(S.tf.q)}"></label>
+        <label><span class="sr">State</span><select id="tstate">${stateOpts(S.tf.state)}</select></label>
+        <label><span class="sr">Phase</span><select id="tphase">${TPHASES.map(p=>`<option ${S.tf.phase===p?"selected":""}>${p}</option>`).join("")}</select></label>
+        <label><span class="sr">Gene</span><select id="tgene">${TGENES.map(p=>`<option ${S.tf.gene===p?"selected":""}>${p}</option>`).join("")}</select></label>
+        <label><span class="sr">Sort</span><select id="tsort">
+          <option value="status" ${S.tf.sort==="status"?"selected":""}>Sort: enrolling first</option>
+          <option value="nearby" ${S.tf.sort==="nearby"?"selected":""}>Sort: closest to my state</option>
+          <option value="name" ${S.tf.sort==="name"?"selected":""}>Sort: A to Z</option>
+          <option value="newest" ${S.tf.sort==="newest"?"selected":""}>Sort: recently checked</option>
+        </select></label>
+      </div>
+      <div class="frow">
+        <div class="chips" role="group" aria-label="Study type">${TTYPES.map(c=>`<button type="button" class="chip" data-ttype="${esc(c)}" aria-pressed="${S.tf.type===c}">${esc(c)}</button>`).join("")}</div>
+        <label class="toggle"><input type="checkbox" id="topen" ${S.tf.openOnly?"checked":""}> Enrolling now only</label>
+        <label class="toggle"><input type="checkbox" id="tnp" ${S.tf.noPlacebo?"checked":""}> No placebo</label>
+        <label class="toggle"><input type="checkbox" id="trem" ${S.tf.remote?"checked":""}> From home</label>
+      </div>
+    </div>
+    <div id="tlist">${trialsList()}</div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap two">
+    <div class="prose">
+      <span class="eyebrow">Search the live registries</span><h3>See every ALS study, worldwide</h3>
+      <p>This page is checked against the registry regularly, but new studies post every week. For the complete list, including international trials, use these tools:</p>
+      <div class="cta">
+        <a class="btn btn-line btn-sm" href="https://clinicaltrials.gov/search?cond=Amyotrophic%20Lateral%20Sclerosis&aggFilters=status:not%20rec" target="_blank" rel="noopener">ClinicalTrials.gov ${ICON.ext}</a>
+        <a class="btn btn-line btn-sm" href="https://www.als.net/als-trial-navigator/" target="_blank" rel="noopener">ALS Trial Navigator ${ICON.ext}</a>
+        <a class="btn btn-line btn-sm" href="https://sava-neals.everythingals.org/guest/" target="_blank" rel="noopener">SAVA trial guide ${ICON.ext}</a>
+      </div>
+      <p style="color:var(--muted)">Questions about trials: NEALS at <span class="mono">alstrials@neals.org</span></p>
+    </div>
+    <div class="prose">
+      <span class="eyebrow">Before you join</span><h3>Questions to ask the study team</h3>
+      <ul><li>What is being tested, and what's the chance I get a placebo?</li><li>Is there an open-label extension where everyone gets the drug?</li><li>How many visits, how far, and are travel and lodging reimbursed?</li><li>Can I keep taking riluzole, edaravone or other medications?</li><li>Will joining this study keep me out of other trials?</li><li>What happens to my care when the study ends?</li></ul>
+      <p><a class="btn btn-line btn-sm" href="#ready">Print the trial tracker card →</a></p>
+    </div>
+  </div></section>`;
+AFTER.trials = () => {
+  const upd = () => { ls.set("aa.tf", S.tf); $("#tlist").innerHTML = trialsList(); };
+  let qt; $("#tq").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { S.tf.q = e.target.value; upd(); }, 180); });
+  $("#tstate").addEventListener("change", e => { S.tf.state = e.target.value; if (S.tf.state && S.tf.sort === "status") S.tf.sort = "nearby"; upd(); $("#tsort").value = S.tf.sort; });
+  $("#tphase").addEventListener("change", e => { S.tf.phase = e.target.value; upd(); });
+  $("#tgene").addEventListener("change", e => { S.tf.gene = e.target.value; upd(); });
+  $("#tsort").addEventListener("change", e => { S.tf.sort = e.target.value; upd(); });
+  $("#topen").addEventListener("change", e => { S.tf.openOnly = e.target.checked; upd(); });
+  $("#tnp").addEventListener("change", e => { S.tf.noPlacebo = e.target.checked; upd(); });
+  $("#trem").addEventListener("change", e => { S.tf.remote = e.target.checked; upd(); });
+  document.querySelectorAll("[data-ttype]").forEach(b => b.addEventListener("click", () => { S.tf.type = b.dataset.ttype; document.querySelectorAll("[data-ttype]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); upd(); }));
+};
+
+/* ---- Get ready: documents ---- */
+const DOCS = [
+  { id: "identity", title: "Identity & contact", items: [
+    ["photo-id","Government photo ID","Driver's license or state ID. Scholarships and VA programs ask for it."],
+    ["ssn","Social Security number","HealthWell and most government benefits need it. Never put it in an email."],
+    ["address","Proof of address","A utility bill or lease. Many grants are limited by state or county."],
+    ["birth","Birth certificate","Social Security asks for it."]]},
+  { id: "medical", title: "Medical", items: [
+    ["dx-letter","Signed letter confirming the ALS diagnosis","Ask your neurologist or clinic for a signed copy you can reuse. Required by Pete Frates, HealthWell and most chapter grants."],
+    ["dx-details","Date of diagnosis, clinic and neurologist's name","Asked on nearly every form."],
+    ["notes","Recent clinic notes or ALSFRS-R score","Some respite grants and all trials want a recent visit summary."],
+    ["meds","List of medications and equipment","BiPAP, feeding tube, wheelchair, eye-gaze. The Frates application asks for this."],
+    ["genetic","Genetic test results, if done","Opens gene-specific trials (SOD1, C9orf72, FUS) and the tofersen program."],
+    ["rx","Prescription or evaluation for the equipment you need","Speech devices need a speech-language evaluation. Ramps and wheelchairs usually need an OT or PT note."]]},
+  { id: "insurance", title: "Insurance", items: [
+    ["ins-card","Insurance card, front and back","Medicare, Medicaid, private or TRICARE."],
+    ["denial","Denial letters or Explanation of Benefits","Grants that cover 'what insurance won't' want proof that insurance said no."],
+    ["partb","Medicare Part B premium notice","For premium-assistance funds like HealthWell."]]},
+  { id: "income", title: "Income & household", items: [
+    ["tax","Most recent tax return or SSI/SSDI award letter","Copay funds use it to check income limits (HealthWell: up to 500% of the poverty level)."],
+    ["household","Household size and who lives in the home","Affects income limits and respite eligibility."],
+    ["statement","A short statement of financial need","Two or three paragraphs you can reuse for axeALS, Project Main Street and scholarships."]]},
+  { id: "receipts", title: "Receipts & quotes (reimbursement grants)", items: [
+    ["receipts","Receipts with date, amount, vendor and item","Chapter grants reimburse after you pay. Photos usually work. ALS United NC wants PDFs."],
+    ["quote","Vendor quote or invoice with exact pricing","For grants paid straight to the vendor (Foundation for Life, Rocky Mountain, Greater NY)."],
+    ["mileage","Mileage log for clinic trips","Date, destination and miles. Used by ALS Northwest, ALS United NC and others."],
+    ["respite-log","Respite provider log and a copy of the provider's ID","Needed when you pay a non-agency caregiver."],
+    ["bids","Contractor bids or plans","Home modification grants and the VA SAH and HISA grants."]]},
+  { id: "caregiving", title: "Caregiving", items: [
+    ["caregiver","Caregiver's name, relationship and whether they live with you","Respite grants usually require a live-in, full-time family caregiver."],
+    ["homecare-cost","Weekly cost of paid home care and proof of payments","The Frates home-care grant and the Minnesota Tomassoni program ask for this."]]},
+  { id: "veterans", title: "Veterans", items: [
+    ["dd214","DD-214 discharge papers","Every VA claim starts here."],
+    ["rating","VA disability rating decision","Unlocks SAH, HISA and the automobile allowance."],
+    ["va-forms","VA forms: 21-526EZ, 26-4555, 21-4502","Compensation, housing grant and auto allowance. A free Veterans Service Officer can file them with you."]]},
+  { id: "school", title: "Scholarships (children & spouses)", items: [
+    ["transcript","Official transcript","Not a grade report. Must show school, degree and credit hours."],
+    ["essay","Personal essay on how ALS has affected your family","Most scholarships ask for 500 words."],
+    ["refs","One or two reference letters","Teachers, coaches or clinic staff."],
+    ["enroll","Proof of enrollment or acceptance",""]]}
+];
+const TRACKER_FILE = "als-application-tracker.pdf";
+async function trackerBlob(){
+  if (window.TRACKER_B64){ const bin = atob(window.TRACKER_B64); const u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i); return new Blob([u8], { type: "application/pdf" }); }
+  const res = await fetch(TRACKER_FILE); if (!res.ok) throw new Error("fetch"); return res.blob();
+}
+VIEWS.ready = () => {
+  const total = DOCS.reduce((n, g) => n + g.items.length, 0);
+  const done = DOCS.reduce((n, g) => n + g.items.filter(it => S.plan.docs && S.plan.docs[it[0]]).length, 0);
+  return `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Get ready</span><h2>Gather these once, apply everywhere</h2>
+    <p class="lede">Almost every grant, benefit and trial asks for some mix of the same documents. Collect them once, keep copies in one folder on your phone or in a binder, and applications take minutes instead of days. Tick items off as you find them. Your progress is saved in My plan.</p></div>
+    <div class="two" style="align-items:start">
+      <div class="prose">
+        <div class="stats" style="margin-top:0">
+          <div class="stat"><b>${done}<span style="font-size:1rem;color:var(--muted)">/${total}</span></b><span>documents collected</span></div>
+          <div class="stat"><b>3</b><span>unlock the most programs: diagnosis letter, receipts, chapter registration</span></div>
+        </div>
+      </div>
+      <div class="card" style="gap:10px">
+        <div class="org">Printable &amp; fillable</div>
+        <h3>Application tracker (PDF)</h3>
+        <p style="color:var(--muted)">A 9-page tracker you can type into or print: contacts, this documents checklist, one card per grant application, one card per trial, and a deadlines page.</p>
+        <div class="cta">
+          <button class="btn btn-primary btn-sm" type="button" id="dlTracker">Download the tracker</button>
+          <button class="btn btn-line btn-sm" type="button" id="openTracker">Open in a new tab ${ICON.ext}</button>
+        </div>
+      </div>
+    </div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap">
+    <div class="stages stagger">
+      ${DOCS.map((g, i) => { const d = g.items.filter(it => S.plan.docs && S.plan.docs[it[0]]).length; const p = Math.round(d / g.items.length * 100); return `
+      <article class="stage" style="--i:${i}" aria-labelledby="doc-${g.id}">
+        <div class="stage-h"><div class="ring" style="--p:${p}" data-dring="${g.id}"><i>${d}/${g.items.length}</i></div><h3 id="doc-${g.id}">${esc(g.title)}</h3></div>
+        <ul class="checks">${g.items.map(it => `<li><label class="check"><input type="checkbox" id="doc-${it[0]}" data-doc="${it[0]}" data-group="${g.id}" ${S.plan.docs && S.plan.docs[it[0]] ? "checked" : ""}><div><b>${esc(it[1])}</b>${it[2] ? `<span>${esc(it[2])}</span>` : ""}</div></label></li>`).join("")}</ul>
+      </article>`; }).join("")}
+    </div>
+    <div class="note" style="margin-top:24px">${ICON.info}<div>Keep account numbers out of emails. Programs that need your Social Security number (HealthWell, Social Security, the VA) have secure online forms for it. If a form asks for bank details before approval, call the organization to confirm it's real.</div></div>
+  </div></section>`;
+};
+AFTER.ready = () => {
+  document.querySelectorAll("[data-doc]").forEach(cb => cb.addEventListener("change", () => {
+    S.plan.docs = S.plan.docs || {};
+    if (cb.checked) S.plan.docs[cb.dataset.doc] = true; else delete S.plan.docs[cb.dataset.doc];
+    persistPlan();
+    const g = DOCS.find(x => x.id === cb.dataset.group);
+    const d = g.items.filter(it => S.plan.docs[it[0]]).length;
+    const ring = document.querySelector(`[data-dring="${g.id}"]`);
+    ring.style.setProperty("--p", Math.round(d / g.items.length * 100)); ring.querySelector("i").textContent = `${d}/${g.items.length}`;
+  }));
+  $("#openTracker").addEventListener("click", async () => { try { const blob = await trackerBlob(); window.open(URL.createObjectURL(blob), "_blank"); } catch { toast("Couldn't open the tracker."); } });
+  $("#dlTracker").addEventListener("click", async () => {
+    const b = $("#dlTracker"); b.disabled = true; b.textContent = "Preparing…";
+    try {
+      const blob = await trackerBlob();
+      const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-application-tracker.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); toast("Tracker downloaded");
+    } catch (e) { if (!(e && e.code === "declined")) toast("Couldn't start the download. Use 'Open in a new tab'."); }
+    b.disabled = false; b.textContent = "Download the tracker";
+  });
+};
+
+function unavailable(what){
+  return `<div class="empty"><h3>The ${what} list couldn't load</h3><p>Please refresh the page. If it keeps happening, the live search tools linked on this page still work.</p></div>`;
+}
+
+/* ---- Saved / My plan ---- */
+const findSrc = (v) => (v.kind === "grant" ? S.grants : v.kind === "service" ? S.services : S.trials || []) ?.find?.(x => x.id === v.id) || null;
+const KLABEL = { grant: "Grant", service: "Service", trial: "Trial" };
+const PSTAT = [["interested","Interested"],["preparing","Gathering documents"],["applied","Applied / contacted"],["approved","Approved / enrolled"],["notfit","Not a fit"]];
+function planItems(){
+  return Object.entries(S.plan.saved).map(([k, v]) => {
+    const src = findSrc(v);
+    return { k, v, src };
+  }).filter(x => S.planTab === "all" || x.v.kind === S.planTab)
+    .sort((a,b) => PSTAT.findIndex(p=>p[0]===a.v.status) - PSTAT.findIndex(p=>p[0]===b.v.status));
+}
+function planList(){
+  const items = planItems();
+  if (!Object.keys(S.plan.saved).length) return `<div class="empty"><h3>Nothing saved yet</h3><p>Tap <b>Save</b> on any grant, service or trial to keep it here, track where you are, and add notes.</p><div class="cta"><a class="btn btn-primary btn-sm" href="#grants">Browse grants</a><a class="btn btn-line btn-sm" href="#trials">Browse trials</a></div></div>`;
+  if (!items.length) return `<div class="empty"><p>No saved ${({grant:"grants",service:"services",trial:"trials"})[S.planTab]} yet.</p></div>`;
+  return `<div class="plan stagger">${items.map(({k,v,src},i) => {
+    const name = src ? (src.name) : v.id;
+    const sub = src ? (v.kind !== "trial" ? src.org : `${src.id} · ${src.phase}`) : "No longer listed";
+    const link = v.kind === "trial" ? `https://clinicaltrials.gov/study/${encodeURIComponent(v.id)}` : safeUrl(src && src.url);
+    const st = v.kind !== "trial" && src ? grantStatus(src) : null;
+    return `<div class="pitem" style="--i:${Math.min(i,12)}">
+      <div><div class="org">${KLABEL[v.kind] || "Item"} · ${esc(sub)}</div><h3 style="margin-top:2px">${esc(name)}</h3>
+        <div class="pills" style="margin-top:8px">${st ? `<span class="pill ${st.cls}">${esc(st.label)}</span>` : ""}<span class="pill">Saved ${esc(fmtD(v.added))}</span></div></div>
+      <div class="row">
+        <label><span class="sr">Progress</span><select id="ps-${esc(k.replace(/[^a-z0-9]/gi,"-"))}" data-pstatus="${esc(k)}">${PSTAT.map(p=>`<option value="${p[0]}" ${v.status===p[0]?"selected":""}>${p[1]}</option>`).join("")}</select></label>
+        ${link !== "#" ? `<a class="btn btn-line btn-sm" href="${link}" target="_blank" rel="noopener">Open ${ICON.ext}</a>` : ""}
+        <button class="save" type="button" data-unsave="${esc(k)}" aria-pressed="true">${ICON.heart}<span>Remove</span></button>
+      </div>
+      <label class="sr" for="pn-${esc(k.replace(/[^a-z0-9]/gi,"-"))}">Notes</label>
+      <textarea id="pn-${esc(k.replace(/[^a-z0-9]/gi,"-"))}" data-pnote="${esc(k)}" rows="2" placeholder="Notes: who you talked to, documents sent, next step…">${esc(v.note)}</textarea>
+    </div>`; }).join("")}</div>`;
+}
+VIEWS.saved = () => {
+  const totalChecks = STAGES.reduce((n,s) => n + s.items.length, 0);
+  const done = Object.keys(S.plan.checks).length;
+  const where = "Saved in this browser on this device. Use \"Copy as text\" or \"Download my plan\" to move it or share it with your clinic.";
+  return `
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">My plan</span><h2>Everything you're tracking</h2><p class="lede">${where} Update the progress as you go and keep notes on who you spoke with.</p></div>
+    <div class="stats stagger" style="margin-top:0;margin-bottom:24px">
+      <div class="stat" style="--i:0"><b>${Object.values(S.plan.saved).filter(v=>v.kind==="grant").length}</b><span>grants saved</span></div>
+      <div class="stat" style="--i:1"><b>${Object.values(S.plan.saved).filter(v=>v.kind==="service").length}</b><span>services saved</span></div>
+      <div class="stat" style="--i:2"><b>${Object.values(S.plan.saved).filter(v=>v.kind==="trial").length}</b><span>trials saved</span></div>
+      <a class="stat" href="#journey" style="--i:3"><b>${done}<span style="font-size:1rem;color:var(--muted)">/${totalChecks}</span></b><span>road-ahead steps done</span></a>
+    </div>
+    <div class="tabs" role="group" aria-label="Show">
+      ${[["all","Everything"],["grant","Grants"],["service","Services"],["trial","Trials"]].map(t=>`<button class="chip" type="button" data-ptab="${t[0]}" aria-pressed="${S.planTab===t[0]}">${t[1]}</button>`).join("")}
+      <span style="flex:1"></span>
+      <button class="btn btn-line btn-sm" type="button" id="exportPlan" hidden>Download my plan</button>
+      <button class="btn btn-line btn-sm" type="button" id="copyPlan">Copy as text</button>
+    </div>
+    <div id="plist">${planList()}</div>
+  </div></section>`;
+};
+function planText(){
+  const lines = ["My ALS plan (from Alongside ALS)", ""];
+  Object.values(S.plan.saved).forEach(v => {
+    const src = findSrc(v);
+    const nm = src ? src.name + (v.kind!=="trial" ? " (" + src.org + ")" : " (" + src.id + ")") : v.id;
+    const url = v.kind === "trial" ? "https://clinicaltrials.gov/study/" + v.id : (src && src.url) || "";
+    lines.push(`[${v.kind.toUpperCase()}] ${nm}`, `  Status: ${(PSTAT.find(p=>p[0]===v.status)||[0,v.status])[1]}`, url ? `  Link: ${url}` : "", v.note ? `  Notes: ${v.note}` : "", "");
+  });
+  return lines.filter(l => l !== "").join("\n");
+}
+AFTER.saved = () => {
+  const bind = () => {
+    document.querySelectorAll("[data-pstatus]").forEach(s => s.addEventListener("change", () => { const it = S.plan.saved[s.dataset.pstatus]; if (it){ it.status = s.value; persistPlan(); toast("Progress updated"); } }));
+    document.querySelectorAll("[data-pnote]").forEach(t => { let nt; t.addEventListener("input", () => { clearTimeout(nt); nt = setTimeout(() => { const it = S.plan.saved[t.dataset.pnote]; if (it){ it.note = t.value.slice(0, 2000); persistPlan(); } }, 600); }); });
+    document.querySelectorAll("[data-unsave]").forEach(b => b.addEventListener("click", () => { delete S.plan.saved[b.dataset.unsave]; persistPlan(); updateCount(); $("#plist").innerHTML = planList(); bind(); toast("Removed from My plan"); }));
+  };
+  bind();
+  document.querySelectorAll("[data-ptab]").forEach(b => b.addEventListener("click", () => { S.planTab = b.dataset.ptab; document.querySelectorAll("[data-ptab]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); $("#plist").innerHTML = planList(); bind(); }));
+  const ex = $("#exportPlan");
+  ex.hidden = false; ex.addEventListener("click", () => { const blob = new Blob([planText()], { type: "text/plain" }); const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-plan.txt"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); });
+  $("#copyPlan").addEventListener("click", async () => { try { await navigator.clipboard.writeText(planText()); toast("Copied. Paste it into an email or note."); } catch { toast("Copy isn't available here"); } });
+};
+
+/* Delegated save buttons + clear */
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-save]");
+  if (b){ toggleSave(b.dataset.save, b.dataset.id); const on = isSaved(b.dataset.save, b.dataset.id); b.setAttribute("aria-pressed", String(on)); b.querySelector("span").textContent = on ? "Saved" : "Save"; return; }
+  const c = e.target.closest("[data-clear]");
+  if (c){ if (c.dataset.clear === "g"){ S.gf = { q: "", cat: "All", state: "", status: "all" }; ls.set("aa.gf", S.gf); } else if (c.dataset.clear === "s"){ S.sf = { q: "", cat: "All", state: "", status: "all" }; ls.set("aa.sf", S.sf); } else { S.tf = { q: "", type: "All", state: "", noPlacebo: false, remote: false, phase: "Any phase", gene: "Any gene", sort: "status", openOnly: false }; ls.set("aa.tf", S.tf); } render({ quiet: true }); }
+});
+
+/* ---------------- Hero threads (canvas) ---------------- */
+let raf = 0;
+function startThreads(){
+  cancelAnimationFrame(raf);
+  const c = $("#threads"); if (!c) return;
+  const ctx = c.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let w, h, dpr;
+  const size = () => { dpr = Math.min(2, window.devicePixelRatio || 1); w = c.clientWidth; h = c.clientHeight; c.width = w * dpr; c.height = h * dpr; ctx.setTransform(dpr,0,0,dpr,0,0); };
+  size(); window.addEventListener("resize", size, { passive: true });
+  const threads = Array.from({ length: 14 }, (_, i) => ({ off: i / 14, amp: 18 + (i % 5) * 9, sp: .00012 + (i % 4) * .00004, ph: i * 1.7, warm: i === 6 || i === 7 }));
+  const t0 = window.__aaT0 || (window.__aaT0 = performance.now());
+  const draw = (now) => {
+    if (!c.isConnected) return;
+    const t = now - t0;
+    ctx.clearRect(0, 0, w, h);
+    const intro = reduce ? 1 : Math.min(1, t / 1800);
+    const ease = 1 - Math.pow(1 - intro, 3);
+    threads.forEach((th, i) => {
+      ctx.beginPath();
+      const baseY = h * (.28 + th.off * .62);
+      const steps = 64, maxX = w * ease;
+      for (let s = 0; s <= steps; s++){
+        const x = (s / steps) * maxX;
+        const conv = Math.sin((x / w) * Math.PI) * .55;
+        const y = baseY + (h * .6 - baseY) * conv + Math.sin(x * .006 + th.ph + t * th.sp * 6) * th.amp * (1 - conv * .6);
+        s ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+      }
+      ctx.strokeStyle = th.warm ? `rgba(242,181,82,${i===6?.9:.65})` : `rgba(140,200,220,${.08 + (i % 3) * .05})`;
+      ctx.lineWidth = th.warm ? 2.4 : 1.2;
+      ctx.stroke();
+    });
+    if (!reduce) raf = requestAnimationFrame(draw);
+  };
+  raf = requestAnimationFrame(draw);
+}
+
+/* ---------------- Data: static JSON (self-hosted build) ---------------- */
+render();
+const timeout = setTimeout(() => { if (S.grants === null) { S.dbState = "off"; render({ quiet: true }); } }, 12000);
+(async () => {
+  const load = async (which) => {
+    try {
+      const res = await fetch("data/" + which + ".json", { cache: "no-cache" });
+      const d = res.ok ? await res.json() : null;
+      if (d && Array.isArray(d.items)) { S[which] = d.items; S.updated[which] = d.updated || null; } else S[which] = [];
+    } catch { S[which] = []; }
+    clearTimeout(timeout); S.dbState = "on";
+    const r = route();
+    if (r === "grants" && which === "grants" && $("#glist")) $("#glist").innerHTML = itemsList("grants");
+    else if (r === "services" && which === "services" && $("#slist")) $("#slist").innerHTML = itemsList("services");
+    else if (r === "trials" && which === "trials" && $("#tlist")) $("#tlist").innerHTML = trialsList();
+    else if (r === "home" || r === "saved") render({ quiet: true });
+    freshness();
+  };
+  await Promise.all(["grants","services","trials"].map(load));
+})();
+})();
+</script>
+
+</body>
+</html>

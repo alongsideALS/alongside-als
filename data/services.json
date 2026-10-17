@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-17",
  "items": [
   {
    "id": "ssdi-als",
@@ -29,7 +29,10 @@
    "url": "https://www.ssa.gov/disability",
    "contact": "1-800-772-1213",
    "lastVerified": "2026-10-11",
-   "kind": "service"
+   "kind": "service",
+   "sources": [
+    "https://www.ssa.gov/benefits/disability/qualify.html"
+   ]
   },
   {
    "id": "va-als-benefits",
@@ -58,7 +61,10 @@
    "url": "https://www.va.gov/disability/eligibility/special-claims/als/",
    "contact": "1-800-827-1000",
    "lastVerified": "2026-10-11",
-   "kind": "service"
+   "kind": "service",
+   "sources": [
+    "https://www.va.gov/health/als.asp"
+   ]
   },
   {
    "id": "needymeds",
@@ -142,7 +148,11 @@
    "url": "https://teamgleason.org/need-assistance/",
    "contact": "teamgleason.org/contact-us",
    "lastVerified": "2026-10-11",
-   "kind": "service"
+   "kind": "service",
+   "sources": [
+    "https://teamgleason.org/need-assistance/",
+    "https://teamgleason.org/pals-resource/adventures/"
+   ]
   },
   {
    "id": "hope-loves-company",
@@ -334,7 +344,7 @@
    ],
    "howToApply": "Call or email Care Services.",
    "url": "https://alsgeorgia.org/navigating-als/our-care-services/",
-   "contact": "404-636-9909 \u00b7 info@alsgeorgia.org",
+   "contact": "404-636-9909 · info@alsgeorgia.org",
    "lastVerified": "2026-10-15",
    "kind": "service"
   },
@@ -444,7 +454,7 @@
    ],
    "howToApply": "Have your doctor submit the enrollment form, then call an Insurance & Access Specialist at 844-772-4548 (the online portal was listed as unavailable); copay enrollment form can also be faxed to 888-782-6157.",
    "url": "https://www.radicava.com/patient/financial-support-options/",
-   "contact": "844-772-4548 (Mon\u2013Fri 8 AM\u20138 PM ET)",
+   "contact": "844-772-4548 (Mon–Fri 8 AM–8 PM ET)",
    "sources": [
     "https://www.radicava.com/patient/financial-support-options/",
     "https://www.drugs.com/price-guide/radicava"
@@ -479,7 +489,7 @@
    ],
    "howToApply": "Call Biogen Support Services at 877-725-7639; enroll in each copay program separately.",
    "url": "https://www.qalsody.com/en-us/home/support-and-resources.html",
-   "contact": "877-725-7639 (Mon\u2013Fri 8:30 AM\u20138 PM ET)",
+   "contact": "877-725-7639 (Mon–Fri 8:30 AM–8 PM ET)",
    "sources": [
     "https://www.qalsody.com/en-us/home/support-and-resources.html"
    ],
@@ -531,7 +541,7 @@
    "forWhat": "Copay, coinsurance, deductible, health insurance premium and incidental medical expense assistance for FDA-approved ALS treatments. Note: the program has been listed as on a waitlist; confirm current status before applying.",
    "amount": "Varies; assistance through end of calendar year, renew annually",
    "status": "check",
-   "window": "Enrollment depends on funding; may be waitlisted. Approved patients are covered through December 31 and must re-enroll each year.",
+   "window": "Accepting waitlist requests. Approved patients are covered through December 31 and re-enroll yearly.",
    "deadline": null,
    "eligibility": [
     "U.S. or Puerto Rico resident diagnosed with ALS",
@@ -547,7 +557,8 @@
    "contact": "855-845-3663",
    "sources": [
     "https://prescriberpoint.com/therapies/tiglutik-75d68f1/financial-assistance/assistance-fund-amyotrophic-lateral-sclerosis-als-waitlist",
-    "https://www.radicava.com/patient/financial-support-options/"
+    "https://www.radicava.com/patient/financial-support-options/",
+    "https://enroll.tafcares.org/"
    ],
    "lastVerified": "2026-10-15"
   },
@@ -880,7 +891,7 @@
    ],
    "howToApply": "Apply online at VA.gov, mail Form 10-10CG to the 10-10CG Evidence Intake Center (PO Box 5154, Janesville, WI 53547-5154), or bring it to your local Caregiver Support Program team.",
    "url": "https://www.caregiver.va.gov/support/support_benefits.asp",
-   "contact": "Caregiver Support Line 855-260-3274 (Mon\u2013Fri 8 AM\u20138 PM ET)",
+   "contact": "Caregiver Support Line 855-260-3274 (Mon–Fri 8 AM–8 PM ET)",
    "sources": [
     "https://www.caregiver.va.gov/support/support_benefits.asp"
    ],
@@ -1049,7 +1060,8 @@
    "contact": "704-332-1929",
    "sources": [
     "https://joemartinalsfoundation.org/how-to-get-help/",
-    "https://www.joemartinalsfoundation.org"
+    "https://www.joemartinalsfoundation.org",
+    "https://joemartinalsfoundation.org/what-we-do/"
    ],
    "lastVerified": "2026-10-15"
   },
@@ -1083,6 +1095,383 @@
     "https://alsunitedct.org/living-with-als/our-care-services/"
    ],
    "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "do-it-for-the-love",
+   "kind": "service",
+   "name": "Do It For The Love",
+   "org": "Do It For The Love",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Live music wish experiences for eligible applicants. This is an experience program rather than unrestricted cash assistance.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "The current process invites new requests to a waitlist. Earlier waitlist applicants through July 3, 2026 have been invited to apply. Medical verification is part of the process. The waitlist form lets applicants flag urgent, time-sensitive circumstances, but expedited handling is not guaranteed.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm eligibility and location"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.doitforthelove.org/process",
+   "contact": "See program page",
+   "sources": [
+    "https://www.doitforthelove.org/process"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Waitlist for new requests",
+   "experience": true
+  },
+  {
+   "id": "easterseals-massachusetts",
+   "kind": "service",
+   "name": "Easterseals Massachusetts",
+   "org": "Easterseals Massachusetts",
+   "categories": [
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA"
+   ],
+   "forWhat": "Assistive technology services, device loans, and financing programs.",
+   "amount": "Repayable zero-interest mini loans: $100–$4,000",
+   "status": "check",
+   "window": "Financial loans must be repaid; device loans have their own eligibility requirements. Review each program’s terms. An individual’s prior eligibility result does not determine another applicant’s eligibility.",
+   "deadline": null,
+   "eligibility": [
+    "Massachusetts"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://massachusetts.easterseals.com/get-support/areas-of-support/alternative-finance-program",
+   "contact": "See program page",
+   "sources": [
+    "https://massachusetts.easterseals.com/get-support/areas-of-support/alternative-finance-program"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Loans and device access"
+  },
+  {
+   "id": "team-hilliard-foundation",
+   "kind": "service",
+   "name": "Team Hilliard Foundation",
+   "org": "Team Hilliard Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "ALS awareness, research, treatment, and family-support mission.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "A direct individual-family grant process was not verified. Contact the organization about its current support pathways.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm service area"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://teamhilliardfoundation.org/about",
+   "contact": "See program page",
+   "sources": [
+    "https://teamhilliardfoundation.org/about"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Individual grant unconfirmed"
+  },
+  {
+   "id": "als-hope-foundation",
+   "kind": "service",
+   "name": "ALS Hope Foundation",
+   "org": "ALS Hope Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Clinical care, support, education, and research programs for the ALS community.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "A direct individual cash grant was not verified. Explore its care and support services rather than treating this listing as an open grant.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm clinic or program coverage"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.alshf.org/about-the-foundation",
+   "contact": "See program page",
+   "sources": [
+    "https://www.alshf.org/about-the-foundation"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Care and support"
+  },
+  {
+   "id": "mac-angels-foundation",
+   "kind": "service",
+   "name": "Grants & practical services",
+   "org": "MAC Angels Foundation",
+   "categories": [
+    "Respite & caregiving",
+    "Travel",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CT",
+    "NJ",
+    "NY"
+   ],
+   "forWhat": "Practical services, transportation, advocacy, and community for people living with ALS.",
+   "amount": "Amount not published",
+   "status": "check",
+   "window": "The official service page describes grants for treatment-related and ongoing expenses in specified counties in Connecticut, New Jersey, and New York. Check the listed counties and contact MAC Angels about current intake and funding. Exceptional out-of-area grants require organizational approval.",
+   "deadline": null,
+   "eligibility": [
+    "Lives in the listed counties of Connecticut, New Jersey or New York"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.macangels.org/how-we-help",
+   "contact": "See program page",
+   "sources": [
+    "https://www.macangels.org/how-we-help"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Grants described; contact for intake"
+  },
+  {
+   "id": "susan-mast-als-foundation",
+   "kind": "service",
+   "name": "Susan Mast ALS Foundation",
+   "org": "Susan Mast ALS Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MI"
+   ],
+   "forWhat": "Respite, equipment, meals, caregiver resources, and support groups.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "Contact the foundation to confirm location coverage and availability of the specific service you need.",
+   "deadline": null,
+   "eligibility": [
+    "West Michigan"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://susanmastals.org/services-support/",
+   "contact": "See program page",
+   "sources": [
+    "https://susanmastals.org/services-support/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Regional support"
+  },
+  {
+   "id": "als-in-wonderland-foundation",
+   "kind": "service",
+   "name": "ALS In Wonderland Foundation",
+   "org": "ALS In Wonderland Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "AR"
+   ],
+   "forWhat": "ALS community resources, support gatherings, and an equipment program.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "The equipment studio invites people with ALS to request available items. Some equipment may require a prescription. Contact the foundation to confirm stock, delivery options, and service-area eligibility before making plans.",
+   "deadline": null,
+   "eligibility": [
+    "Arkansas focus; confirm coverage"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.alsinwonderland.com/helpful-resources",
+   "contact": "See program page",
+   "sources": [
+    "https://www.alsinwonderland.com/helpful-resources"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Confirm local eligibility"
+  },
+  {
+   "id": "the-phaals-foundation",
+   "kind": "service",
+   "name": "The PHAALS Foundation",
+   "org": "The PHAALS Foundation",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Family support through its Hall of Fame, Diamond Dreams, and LEGEND scholarship programs.",
+   "amount": "No current dollar range verified for family support or LEGEND scholarships",
+   "status": "check",
+   "window": "The publisher describes membership-linked support. Confirm current program operation, enrollment, and eligibility before making plans.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm eligibility and coverage"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.phaals.org/hall-of-fame/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.phaals.org/hall-of-fame/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Confirm availability",
+   "experience": true
+  },
+  {
+   "id": "with-eddie-s-help-inc",
+   "kind": "service",
+   "name": "With Eddie’s Help Inc.",
+   "org": "With Eddie’s Help Inc.",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "An organization lead retained from the 2025 grant list.",
+   "amount": "Amount unverified; a current individual grant program has not been confirmed",
+   "status": "check",
+   "window": "Needs verification: The organization's website directs visitors to its Facebook page, but a current individual grant program, eligibility rules, and application process remain unverified. Ask your ALS social worker to help confirm this lead before sharing personal information.",
+   "deadline": null,
+   "eligibility": [
+    "Coverage unconfirmed"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://witheddieshelp.org/",
+   "contact": "See program page",
+   "sources": [
+    "https://witheddieshelp.org/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Needs verification"
+  },
+  {
+   "id": "hope-jg-foundation",
+   "kind": "service",
+   "name": "Hope-JG Foundation",
+   "org": "Hope-JG Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A foundation lead retained from the 2025 grant list.",
+   "amount": "Amount unverified; a current individual grant program has not been confirmed",
+   "status": "check",
+   "window": "Needs verification: I AM ALS lists this organization, but a current grant program, eligibility, and application process were not verified. The link is to that third-party directory entry.",
+   "deadline": null,
+   "eligibility": [
+    "Coverage unconfirmed"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.iamals.org/support_groups/the-hope-jg-foundation/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.iamals.org/support_groups/the-hope-jg-foundation/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Needs verification"
+  },
+  {
+   "id": "les-turner-als-money-guide",
+   "kind": "service",
+   "name": "Les Turner: ALS & Money Guide",
+   "org": "Les Turner",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "An introduction to financial planning, insurance, benefits, and possible assistance.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "Use the guide to prepare questions for your care team or benefits specialist. Reading the guide does not require grant eligibility at the Lois Insolia ALS Clinic.",
+   "deadline": null,
+   "eligibility": [
+    "United States · Educational guide"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://lesturnerals.org/als-money-guide/",
+   "contact": "See program page",
+   "sources": [
+    "https://lesturnerals.org/als-money-guide/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Additional resource"
+  },
+  {
+   "id": "adaptive-impact-skydiving-paragliding",
+   "kind": "service",
+   "name": "Adaptive Impact: Skydiving & paragliding",
+   "org": "Adaptive Impact",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA"
+   ],
+   "forWhat": "A nonprofit helping people with mobility challenges, including ALS, experience adaptive paragliding and skydiving. Team Gleason shares an ALS participant’s experience with both activities.",
+   "amount": "Free service",
+   "status": "check",
+   "window": "Reach out through Adaptive Impact’s Instagram profile to ask about participation, scheduling, accessibility, and any costs or travel support. Its Give Flight page is a fundraiser, not an application. Team Gleason’s adventure program may be another route to planning support; availability is individual.",
+   "deadline": null,
+   "eligibility": [
+    "San Diego, California · Confirm participation requirements"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.instagram.com/adaptiveimpact/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.instagram.com/adaptiveimpact/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Contact for availability",
+   "experience": true
   }
  ]
 }

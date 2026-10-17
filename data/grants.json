@@ -1,0 +1,2186 @@
+{
+ "updated": "2026-10-15",
+ "items": [
+  {
+   "id": "hoffman-fap",
+   "name": "Hoffman ALS Financial Assistance Program",
+   "org": "The ALS Association",
+   "categories": [
+    "Travel",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Direct costs of getting to ALS multidisciplinary clinic visits: transportation, hotels, lost wages, and copays or deductibles.",
+   "amount": "Up to $1,000 per year",
+   "status": "rolling",
+   "window": "Rolling. No set application dates are published.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS",
+    "Facing a financial barrier to clinic care (approved based on need)"
+   ],
+   "youllNeed": [
+    "Contact details, state and ZIP",
+    "Your ALS clinic, if you attend one",
+    "A list of the specific clinic-related costs you need help with"
+   ],
+   "howToApply": "Complete the online application on the ALS Association site (a printable version is available).",
+   "url": "https://www.als.org/hugh-and-herbert-hoffman-als-impact-fund/hoffman-als-financial-assistance-program",
+   "contact": "alsa.tfaforms.net/forms/help/217",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "healthwell-als",
+   "name": "HealthWell ALS Fund",
+   "org": "HealthWell Foundation",
+   "categories": [
+    "Prescriptions",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Prescription copays for ALS drugs (riluzole, Radicava, Qalsody, Nuedexta and others) and Medicare Part B premiums.",
+   "amount": "Up to $15,000 per 12-month grant",
+   "status": "open",
+   "window": "Fund listed as OPEN. Funds can close without notice when money runs out.",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis verified by a physician, NP or PA",
+    "Treated in the U.S.",
+    "Insurance that covers the medication (Medicare Part B for premium help)",
+    "Household income up to 500% of the Federal Poverty Level"
+   ],
+   "youllNeed": [
+    "Insurance information",
+    "Provider who can verify the diagnosis",
+    "Social Security Number",
+    "Household size and income"
+   ],
+   "howToApply": "Apply online through the HealthWell Patient Portal or call (800) 675-8416, Mon to Fri, 9 to 5 ET.",
+   "url": "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/",
+   "contact": "(800) 675-8416",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "paf-copay-als",
+   "name": "Co-Pay Relief: ALS Fund",
+   "org": "Patient Advocate Foundation",
+   "categories": [
+    "Prescriptions"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Help with prescription drug copays, coinsurance and deductibles for insured patients.",
+   "amount": "Varies by fund cycle",
+   "status": "check",
+   "window": "Opens and closes depending on available funding. Check the fund page for the current status.",
+   "deadline": null,
+   "eligibility": [
+    "Insured, with a confirmed ALS diagnosis",
+    "Income limits apply"
+   ],
+   "youllNeed": [
+    "Insurance card",
+    "Proof of household income",
+    "Diagnosis and prescription details"
+   ],
+   "howToApply": "Check the fund's status on copays.org. Apply online or by phone when it's open.",
+   "url": "https://copays.org/funds/amyotrophic-lateral-sclerosis-als",
+   "contact": "copays.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "project-main-street",
+   "name": "Financial Help Fund",
+   "org": "Project Main Street",
+   "categories": [
+    "Quality of life",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Financial help for people with ALS who are facing hardship.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "Rolling. No set dates are published.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS",
+    "Experiencing financial hardship",
+    "Currently followed by a healthcare provider"
+   ],
+   "youllNeed": [
+    "Description of your situation and needs",
+    "Healthcare provider information",
+    "A referral is optional (self, family or medical team)"
+   ],
+   "howToApply": "Complete the 'Request Assistance' online form.",
+   "url": "https://projectmainst.org/request-help/",
+   "contact": "info@projectmainst.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "racing-for-als",
+   "name": "Patient Assistance Fund",
+   "org": "Racing for ALS",
+   "categories": [
+    "Medical costs",
+    "Home modification",
+    "Respite & caregiving"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "ALS-related medical, care and home-modification costs. Approved applicants may also receive a free hands-free Giraffe drinking bottle.",
+   "amount": "Grant amount varies (started at $1,000)",
+   "status": "rolling",
+   "window": "Processed monthly. Recent wait times have been 3 to 4 months. 2026 applications are being processed now. The van program ended in Sept 2025.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS",
+    "One grant per person per year (you can reapply each year)"
+   ],
+   "youllNeed": [
+    "Your name, plus the patient's name if you're applying for someone else",
+    "The application form, which is sent to you by email"
+   ],
+   "howToApply": "Email Amy@RacingforALS.com with the subject 'Patient Assistance Fund' to request an application.",
+   "url": "https://www.racingforals.com/patient-assistant-van-fund",
+   "contact": "Amy@RacingforALS.com",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "als-chapter-grants",
+   "name": "Local Chapter Care Grants (find yours)",
+   "org": "The ALS Association, local chapters",
+   "categories": [
+    "Respite & caregiving",
+    "Equipment & technology",
+    "Home modification",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Most local chapters run quality-of-life or care-services grants for respite, equipment, communication devices and home modifications. Amounts and rules vary by chapter.",
+   "amount": "Varies by chapter",
+   "status": "rolling",
+   "window": "Depends on the chapter. Many have yearly limits.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS within the chapter's service area",
+    "Usually registered with the chapter's care services"
+   ],
+   "youllNeed": [
+    "Registration with your local chapter",
+    "Receipts or invoices for the expenses",
+    "Conversation with your Care Services Coordinator"
+   ],
+   "howToApply": "Find your local chapter, then ask your Care Services Coordinator about grant programs.",
+   "url": "https://www.als.org/support/states",
+   "contact": "Your local chapter",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "als-united-gny",
+   "name": "Patient Grant Program",
+   "org": "ALS United Greater New York",
+   "categories": [
+    "Respite & caregiving",
+    "Prescriptions",
+    "Equipment & technology"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NY",
+    "NJ",
+    "CT"
+   ],
+   "forWhat": "Reimburses respite or home health care, prescription copays, and durable medical equipment that insurance doesn't cover.",
+   "amount": "Varies with available funds",
+   "status": "window",
+   "window": "Two cycles a year. Due July 15 for receipts dated Jan 16 to Jul 15, and due Jan 15 for receipts dated Jul 16 to Jan 15.",
+   "deadline": "2027-01-15",
+   "eligibility": [
+    "Diagnosed with ALS",
+    "Primary residence in the Greater New York service area",
+    "Registered with ALS United Greater New York",
+    "One grant per family per calendar year"
+   ],
+   "youllNeed": [
+    "Request for Funds form",
+    "Respite Provider Log (for respite)",
+    "Copies of receipts",
+    "Vendor invoice with exact pricing (for direct-to-vendor payment)"
+   ],
+   "howToApply": "Talk with your Care Coordinator first, then submit all forms and receipts together.",
+   "url": "https://als-ny.org/navigating-als/patient-grant-program/",
+   "contact": "(212) 720-3059",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "als-united-rm",
+   "name": "Goldhirsh Family Quality of Life Grant",
+   "org": "ALS United Rocky Mountain",
+   "categories": [
+    "Respite & caregiving",
+    "Home modification",
+    "Travel",
+    "Equipment & technology",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CO",
+    "UT",
+    "WY"
+   ],
+   "forWhat": "Reimburses respite, housekeeping, counseling, medical alert systems, AAC setup, rides to appointments, home modifications (ramps, grab bars, showers), clinic copays, massage and acupuncture, and AFO or splint copays.",
+   "amount": "Varies with available funds",
+   "status": "rolling",
+   "window": "Rolling, one grant per family per calendar year.",
+   "deadline": null,
+   "eligibility": [
+    "Primary residence in CO, UT or WY",
+    "Registered with ALS United Rocky Mountain",
+    "Costs not covered by insurance or other sources"
+   ],
+   "youllNeed": [
+    "Request for Funds form",
+    "Copies of receipts",
+    "Vendor invoice (for direct payment)"
+   ],
+   "howToApply": "Talk with your Care Coordinator, then contact Care Services.",
+   "url": "https://alsrockymountain.org/grant-programs/",
+   "contact": "careservices@alsrockymountain.org \u00b7 303-832-2322",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "als-northwest-fap",
+   "name": "ALS Financial Assistance Program",
+   "org": "ALS Northwest",
+   "categories": [
+    "Travel",
+    "Respite & caregiving",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "OR",
+    "WA"
+   ],
+   "forWhat": "Reimburses eligible ALS expenses, including mileage to medical appointments and respite care.",
+   "amount": "Up to $500 per period, $1,000 per fiscal year",
+   "status": "open",
+   "window": "Current period is Aug 1, 2026 to Jan 31, 2027 (apply by Jan 1, 2027). The next period is Feb to Jul (apply by Jul 1).",
+   "deadline": "2027-01-01",
+   "eligibility": [
+    "Living with ALS in Oregon or the six southwest Washington counties",
+    "Approved for the current period before you submit reimbursements"
+   ],
+   "youllNeed": [
+    "Application (English or Spanish)",
+    "Reimbursement form, mileage form or respite form",
+    "Receipts dated within the current period"
+   ],
+   "howToApply": "Submit a new application each period. Approval takes about 2 weeks, then you send reimbursement forms.",
+   "url": "https://alsnorthwest.org/navigating-als/als-care-services/als-financial-assistance-program/",
+   "contact": "careservices@alsnorthwest.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "les-turner-grants",
+   "name": "Support Services, Respite, Assistive Tech & Transportation Grants",
+   "org": "Les Turner ALS Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Respite & caregiving",
+    "Travel",
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IL"
+   ],
+   "forWhat": "Four grant programs: equipment and home modifications (Walter Boughton), caregiver respite (Dan Nelson), assistive technology, and rides to clinic (Stuart Rosen Fund). Also free equipment loans.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "Apply each year. No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Receives care at the Lois Insolia ALS Clinic (Northwestern Medicine)",
+    "Shows financial need",
+    "Has spoken with the Support Services team"
+   ],
+   "youllNeed": [
+    "Conversation with your Support Services Coordinator",
+    "Information on insurance and other equipment sources already tried"
+   ],
+   "howToApply": "Contact Support Services.",
+   "url": "https://lesturnerals.org/support-services/grant-programs-equipment-loans/",
+   "contact": "supportservices@lesturnerals.org \u00b7 847-679-3311",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "il-quality-of-life",
+   "name": "Quality of Life Grant",
+   "org": "The ALS Association (Illinois areas)",
+   "categories": [
+    "Respite & caregiving",
+    "Equipment & technology",
+    "Home modification",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IL"
+   ],
+   "forWhat": "Respite care, communication devices, home modifications, medical care and other expenses.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "Ask your ALS Navigator about timing.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in eligible parts of Illinois"
+   ],
+   "youllNeed": [
+    "Contact with your ALS Navigator or Care Coordinator"
+   ],
+   "howToApply": "Contact your ALS Navigator or Care Coordinator.",
+   "url": "https://www.als.org/support/programs/quality-life-grant-program",
+   "contact": "Your ALS Navigator",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "fanny-pack",
+   "name": "Family Support Grants",
+   "org": "Fanny Pack Foundation",
+   "categories": [
+    "Respite & caregiving",
+    "Equipment & technology",
+    "Home modification",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "SC",
+    "NC",
+    "VA"
+   ],
+   "forWhat": "Essential caregiving, medical equipment, ADA home renovations, and memory-making trips.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "Rolling. No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Families facing ALS in South Carolina, North Carolina or Virginia"
+   ],
+   "youllNeed": [
+    "A short description of your situation and needs"
+   ],
+   "howToApply": "Use the 'Request support' form and the foundation will reach out.",
+   "url": "https://www.fannypackfoundation.org/",
+   "contact": "info@fannypackfoundation.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "brigance-brigade",
+   "name": "Equipment & Care Support",
+   "org": "Brigance Brigade Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MD"
+   ],
+   "forWhat": "Grants and support for home care and medical equipment needs.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the foundation.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in Maryland"
+   ],
+   "youllNeed": [
+    "Description of needs",
+    "Contact information"
+   ],
+   "howToApply": "Contact the foundation through its website.",
+   "url": "https://brigancebrigade.org/",
+   "contact": "brigancebrigade.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "ccals",
+   "name": "Equipment, Grants & Family Support",
+   "org": "Compassionate Care ALS (CCALS)",
+   "categories": [
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA",
+    "RI",
+    "NH",
+    "CT",
+    "VT",
+    "ME"
+   ],
+   "forWhat": "Equipment lending, family grants and support programs, based on Cape Cod with wider New England reach.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact CCALS.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS and their families"
+   ],
+   "youllNeed": [
+    "Description of needs"
+   ],
+   "howToApply": "Contact CCALS directly.",
+   "url": "https://ccals.org/",
+   "contact": "ccals.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "emory-travel",
+   "name": "Travel Assistance Program (overnight hotel stay)",
+   "org": "Goode Foundation \u00d7 Emory ALS Center",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "GA"
+   ],
+   "forWhat": "A free accessible hotel night at the Emory Conference Center Hotel before an Emory ALS Clinic appointment.",
+   "amount": "Covered overnight stay",
+   "status": "rolling",
+   "window": "Apply as soon as your clinic appointment is scheduled.",
+   "deadline": null,
+   "eligibility": [
+    "Emory ALS Center patient",
+    "Lives outside metro Atlanta"
+   ],
+   "youllNeed": [
+    "Completed travel program form",
+    "Appointment date"
+   ],
+   "howToApply": "Email the program form. Confirm the email address on the Emory page first.",
+   "url": "https://med.emory.edu/departments/neurology/programs_centers/emory_als_center/patient_resources/travel_assistance_program.html",
+   "contact": "Emory ALS Center",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "va-sah",
+   "name": "Specially Adapted Housing (SAH) & SHA Grants",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Building, buying or adapting a home for accessibility (ramps, wider doors, roll-in showers). Veterans with service-connected ALS generally qualify. The VA treats ALS as presumptively service connected after 90+ days of continuous active service.",
+   "amount": "FY2026: SAH up to $109,986 and SHA up to $22,036 (adjusted yearly)",
+   "status": "rolling",
+   "window": "Apply any time.",
+   "deadline": null,
+   "eligibility": [
+    "Veteran or service member with service-connected ALS",
+    "Owns or will own the home (temporary grants exist for family members' homes)"
+   ],
+   "youllNeed": [
+    "VA Form 26-4555",
+    "VA disability rating decision",
+    "Contractor bids or building plans (later in the process)"
+   ],
+   "howToApply": "Apply on VA.gov, by mail to a VA Regional Loan Center, or in person. An SAH agent is then assigned.",
+   "url": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+   "contact": "1-877-827-3702 (VA housing)",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "matts-place",
+   "name": "Home Accessibility Support",
+   "org": "Matt's Place Foundation",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Help with accessible home modifications and renovations for ALS families.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the foundation.",
+   "deadline": null,
+   "eligibility": [
+    "Families living with ALS"
+   ],
+   "youllNeed": [
+    "Home details and needed modifications"
+   ],
+   "howToApply": "Contact through the foundation website.",
+   "url": "https://www.mattsplacefoundation.org/",
+   "contact": "mattsplacefoundation.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "catfish-foundation",
+   "name": "Financial Assistance Grants",
+   "org": "Catfish Foundation",
+   "categories": [
+    "Quality of life",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Financial assistance and grants for people living with ALS.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the foundation.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS"
+   ],
+   "youllNeed": [
+    "Description of needs"
+   ],
+   "howToApply": "Apply through the foundation website.",
+   "url": "https://catfishfoundation.org/",
+   "contact": "catfishfoundation.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "als-ride-for-life",
+   "name": "Patient Grants & Advocacy",
+   "org": "ALS Ride for Life",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NY"
+   ],
+   "forWhat": "Grant funding and advocacy services for people with ALS.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the organization.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS"
+   ],
+   "youllNeed": [
+    "Description of needs"
+   ],
+   "howToApply": "Contact through the website.",
+   "url": "https://alsrideforlife.org/",
+   "contact": "alsrideforlife.org",
+   "lastVerified": "2026-10-11",
+   "kind": "grant"
+  },
+  {
+   "id": "pete-frates",
+   "name": "ALS Home Health Care Assistance",
+   "org": "Peter Frates ALS Foundation (Pete Frates Family Foundation)",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Helps people with ALS pay out-of-pocket home health care costs, such as caregiver pay and training, so they can stay at home. The foundation was started by the family of Pete Frates, who helped launch the Ice Bucket Challenge.",
+   "amount": "Varies (paid by direct deposit or mailed check)",
+   "status": "closed",
+   "window": "Applications are accepted during the first month of each quarter (January, April, July, October), and review starts mid-quarter. The site currently says applications are closed, so check back for the next quarter.",
+   "deadline": null,
+   "eligibility": [
+    "Diagnosed with ALS",
+    "Receiving or needing home health care",
+    "Must upload a letter of diagnosis (applications without one can't be approved)"
+   ],
+   "youllNeed": [
+    "Letter of diagnosis (required upload)",
+    "Date of diagnosis, neurologist and hospital",
+    "Insurance type (private, Medicare, Medicaid, other)",
+    "Weekly out-of-pocket home care cost, plus proof of recent caregiver or nursing payments if you have it",
+    "Current or previous occupation, and veteran or first-responder status",
+    "Disease details: BiPAP, trach/vent, feeding tube, full-time wheelchair, eye-gaze use",
+    "Optional: a short video or links that tell your story"
+   ],
+   "howToApply": "Complete the online ALS Assistance Application at petefrates.com/apply when the quarterly window is open.",
+   "url": "https://petefrates.com/apply/",
+   "contact": "617-383-3458 \u00b7 support@petefrates.com",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "axeals",
+   "name": "Individual Grants for People with ALS",
+   "org": "axeALS Foundation",
+   "categories": [
+    "Quality of life",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants that help with the costs of living with ALS for people in significant financial need.",
+   "amount": "Varies",
+   "status": "closed",
+   "window": "One application window per year, before the foundation's charity golf tournament. The 2026 window was May 1 to May 31.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS",
+    "U.S. citizen",
+    "Significant financial need",
+    "A guardian may apply for the patient",
+    "Past axeALS grant recipients are not eligible"
+   ],
+   "youllNeed": [
+    "Personal statement describing your financial obstacles",
+    "A breakdown of income and expenses (no bank account numbers)",
+    "Be ready for a follow-up interview or financial documents"
+   ],
+   "howToApply": "Submit the online application on the axeALS 'Our Impact' page during the window. Questions: info@axeals.org.",
+   "url": "https://axeals.org/our-impact/",
+   "contact": "info@axeals.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "lll-qol",
+   "name": "Quality-of-Life Grant",
+   "org": "Live Like Lou Foundation",
+   "categories": [
+    "Home modification",
+    "Respite & caregiving",
+    "Family & children",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Home accessibility improvements, respite care, extracurricular activities for children, payments toward an accessible vehicle, and other day-to-day needs. Expanded in 2025 from the earlier Home Improvement Grant.",
+   "amount": "Up to $2,500 per family",
+   "status": "closed",
+   "window": "Opens in cycles. The next cycle hasn't been announced. Register with Live Like Lou to be notified.",
+   "deadline": null,
+   "eligibility": [
+    "ALS families in North America",
+    "Registered with Live Like Lou"
+   ],
+   "youllNeed": [
+    "Live Like Lou family registration",
+    "Description of the need and cost"
+   ],
+   "howToApply": "Register on the Live Like Lou ALS Families page to get notified when the next cycle opens.",
+   "url": "https://livelikelou.org/als-families",
+   "contact": "support@livelikelou.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "lll-holiday",
+   "name": "Holiday Respite Grant",
+   "org": "Live Like Lou Foundation",
+   "categories": [
+    "Respite & caregiving",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A Visa gift card during the holiday season to give ALS families some breathing room.",
+   "amount": "Gift card (amount varies)",
+   "status": "check",
+   "window": "Opens once a year for the holiday season. The 2025 round is closed. Registered families are told when it opens.",
+   "deadline": null,
+   "eligibility": [
+    "Registered Live Like Lou ALS families in North America"
+   ],
+   "youllNeed": [
+    "Live Like Lou family registration"
+   ],
+   "howToApply": "Register on the Live Like Lou ALS Families page.",
+   "url": "https://livelikelou.org/als-families",
+   "contact": "support@livelikelou.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "iron-horse",
+   "name": "Iron Horse Scholarship",
+   "org": "Live Like Lou Foundation",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "College or other post-secondary education for dependents of a parent or guardian with ALS. Renewable for up to four years, and finalists may receive a one-time Onward Award.",
+   "amount": "Up to $2,130 per semester, up to 8 semesters (paid to the school)",
+   "status": "closed",
+   "window": "The application opens in late December. Interest applications for 2026 were due Jan 26, 2026, finalists were notified mid-February, and winners were announced in April.",
+   "deadline": null,
+   "eligibility": [
+    "Dependent whose family's finances were affected by a parent or guardian's ALS",
+    "Parent or guardian living, or died in 2021 or later",
+    "No age or GPA minimum. Financial need and academic promise are preferred",
+    "Registered Live Like Lou families get preference"
+   ],
+   "youllNeed": [
+    "Interest application",
+    "Finalists: personal essay and a reference letter"
+   ],
+   "howToApply": "Watch for the next cycle on Live Like Lou's site. The 2026 interest form was hosted on Reviewr.",
+   "url": "https://www.livelikelou.org/news/iron-horse-scholarships-application-open-for-2026",
+   "contact": "support@livelikelou.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "segalman-scholarship",
+   "name": "Paula Kovarick Segalman Scholarship",
+   "org": "Paula Kovarick Segalman Scholarship Program",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Undergraduate scholarship for students whose finances were affected by an ALS diagnosis, their own or a parent's or guardian's.",
+   "amount": "$5,000",
+   "status": "check",
+   "window": "Yearly. The last listed deadline was June 16, 2025. Check the application site for the current cycle.",
+   "deadline": null,
+   "eligibility": [
+    "Personal or immediate-family ALS diagnosis (parent or guardian, living or deceased) that affected finances",
+    "U.S. citizen",
+    "Undergraduate student"
+   ],
+   "youllNeed": [
+    "Online application"
+   ],
+   "howToApply": "Apply online at learnmore.scholarsapply.org/segalman.",
+   "url": "https://learnmore.scholarsapply.org/segalman/",
+   "contact": "Online application site",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "merfeld-scholarship",
+   "name": "Merfeld Family Foundation Scholarship",
+   "org": "Ventura County Community Foundation",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "College scholarships for students whose parent has been diagnosed with ALS. Preference goes to Southern California and Iowa.",
+   "amount": "Varies",
+   "status": "window",
+   "window": "Applications are due in January each year.",
+   "deadline": null,
+   "eligibility": [
+    "College student",
+    "Parent diagnosed with ALS"
+   ],
+   "youllNeed": [
+    "VCCF scholarship application"
+   ],
+   "howToApply": "Apply through the Ventura County Community Foundation scholarships page.",
+   "url": "https://vccf.org/scholarships/students/",
+   "contact": "vccf.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "jane-calmes",
+   "name": "Jane Calmes ALS Scholarship Fund",
+   "org": "The ALS Association",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Help toward an accredited college degree or vocational certificate for students whose ability to pay is severely limited by their family's ALS costs.",
+   "amount": "Varies",
+   "status": "window",
+   "window": "Applications open in early spring each year.",
+   "deadline": null,
+   "eligibility": [
+    "Student whose family's finances are strained by ALS"
+   ],
+   "youllNeed": [
+    "Online application when it opens"
+   ],
+   "howToApply": "See the scholarship page on als.org in early spring.",
+   "url": "https://www.als.org/get-involved/jane-calmes-als-scholarship-fund",
+   "contact": "als.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "mary-jane-sanders",
+   "name": "Mary Jane Sanders ALS Scholarship",
+   "org": "Mary Jane Sanders ALS Scholarship",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A scholarship for high school seniors and undergraduates who have a parent with ALS or who lost a parent to ALS.",
+   "amount": "$1,000",
+   "status": "closed",
+   "window": "Yearly. The 2026 deadline was June 30, 2026.",
+   "deadline": null,
+   "eligibility": [
+    "High school senior or undergraduate",
+    "Minimum 3.0 GPA",
+    "Parent diagnosed with or died from ALS"
+   ],
+   "youllNeed": [
+    "Application",
+    "Transcript showing GPA"
+   ],
+   "howToApply": "Watch for next year's application. It was announced through the PhillyGoes2College scholarship listing.",
+   "url": "https://phillygoes2college.org/2026/06/22/1000-scholarship-for-students-impacted-by-als-due-6-30/",
+   "contact": "See listing",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-family-scholarship-bold",
+   "name": "ALS Family Scholarship",
+   "org": "Bold.org",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "For a child or spouse of someone who has ALS or died from it, toward education that advances their career.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "See Bold.org for the current deadline.",
+   "deadline": null,
+   "eligibility": [
+    "Child or spouse of someone with ALS or who died from ALS"
+   ],
+   "youllNeed": [
+    "A short essay on how ALS has affected your life and how the scholarship would help your career"
+   ],
+   "howToApply": "Apply on Bold.org.",
+   "url": "https://bold.org/scholarships/als-family-scholarship/",
+   "contact": "bold.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "dream-foundation",
+   "name": "Dreams for Adults with Life-Limiting Illness",
+   "org": "Dream Foundation",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants an experience or quality-of-life wish for an adult with a terminal or life-limiting illness, such as travel within the U.S. to see family, for the person, one caregiver and children at home.",
+   "amount": "Covers the dream (often economy airfare, one hotel room and an activity)",
+   "status": "rolling",
+   "window": "Rolling. Processing takes about 3 weeks before verification, and emergencies are handled the same day.",
+   "deadline": null,
+   "eligibility": [
+    "Adult with a terminal or life-limiting illness who can take part in the dream",
+    "For degenerative illness like ALS, the medical team confirms the person couldn't take part within 12 months",
+    "Lives in the U.S. or Puerto Rico",
+    "Financial need considered case by case"
+   ],
+   "youllNeed": [
+    "Signed application (General or Hospice version)",
+    "A dream letter about you and your dream",
+    "Doctor-completed medical section with life-expectancy estimate",
+    "Tax return, or an SSI/disability or bank statement if you don't file",
+    "Photo ID for travel dreams"
+   ],
+   "howToApply": "Mail the original signed application to Dream Foundation (faxes only for emergencies).",
+   "url": "https://www.dreamfoundation.org/",
+   "contact": "888-437-3267 \u00b7 info@dreamfoundation.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "mda-dme",
+   "name": "Durable Medical Equipment Grant Program",
+   "org": "Muscular Dystrophy Association (MDA)",
+   "categories": [
+    "Equipment & technology"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Help getting durable medical equipment such as wheelchairs, lifts and canes. MDA members may also get discount codes for lift chairs and stair lifts, and Permobil attendant-control grants.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Physician-diagnosed neuromuscular disease covered by MDA (check that ALS is on MDA's list)",
+    "U.S. citizen or permanent resident",
+    "MDA member (free, done as part of the application)"
+   ],
+   "youllNeed": [
+    "Diagnosis information",
+    "Proof of citizenship or residency",
+    "The equipment you need"
+   ],
+   "howToApply": "Use the 'Apply Here' form on MDA's equipment assistance page, or call the MDA Resource Center.",
+   "url": "https://www.mda.org/care/resource-list/equipment-assistance",
+   "contact": "1-833-275-6321 \u00b7 ResourceCenter@mdausa.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-recovery-fund",
+   "name": "Patient Care Fund",
+   "org": "ALS Recovery Fund",
+   "categories": [
+    "Equipment & technology",
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "FL"
+   ],
+   "forWhat": "Speech-generating devices (after a speech evaluation at the Kessenich Family MDA ALS Center), bathing and toileting equipment Medicare often won't cover, and respite care.",
+   "amount": "Up to $10,000 per year",
+   "status": "rolling",
+   "window": "No deadlines are posted. When requests exceed funds, those least able to pay get priority.",
+   "deadline": null,
+   "eligibility": [
+    "Diagnosed with ALS",
+    "Lives in Miami-Dade, Broward, Monroe or Palm Beach County"
+   ],
+   "youllNeed": [
+    "Patient Care Fund Request Form (PDF or Word)",
+    "Insurance and financial information",
+    "Information on disability level, dependents at home, and caregiver health"
+   ],
+   "howToApply": "Mail the request form to ALS Recovery Fund \u2013 Patient Care Fund, c/o Kessenich Family MDA ALS Center, 1120 NW 14th St, Suite 1311, Miami, FL 33136.",
+   "url": "https://www.alsrecovery.org/patient-services/",
+   "contact": "Ginna Gonzalez \u00b7 305-243-7400 \u00b7 GGonzal4@med.miami.edu",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-florida-grants",
+   "name": "Care Assist, Daily Living & Transportation Grants",
+   "org": "The ALS Association, Florida",
+   "categories": [
+    "Respite & caregiving",
+    "Medical costs",
+    "Home modification",
+    "Equipment & technology",
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "FL"
+   ],
+   "forWhat": "Care Assist grants for respite, medical expenses, home and vehicle modifications and van purchases. Daily Living grants for assistive technology. Transportation grants for rides to an ALS Certified Center or affiliated clinic.",
+   "amount": "Varies (see Grant Guidelines)",
+   "status": "window",
+   "window": "Quarterly windows open on the 1st and close on the 22nd (Q1 Feb\u2013Apr, Q2 May\u2013Jul, Q3 Aug\u2013Oct, Q4 Nov\u2013Jan). Approved funds must be spent within 6 months. Transportation grants are available any time.",
+   "deadline": null,
+   "eligibility": [
+    "Diagnosed with ALS and living in Florida",
+    "Expenses must fit the Grant Guidelines. Approval isn't guaranteed"
+   ],
+   "youllNeed": [
+    "Conversation with your Regional Program Manager (they send the application link)",
+    "Receipts or vendor invoices dated within your approval window"
+   ],
+   "howToApply": "Read the Grant Guidelines, then contact your Regional Program Manager for the application link and apply on the opening date.",
+   "url": "https://www.als.org/florida/local-care-services/financial-assistance-program",
+   "contact": "Your Florida Regional Program Manager",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-florida-respite",
+   "name": "Respite Care for ALS Caregivers",
+   "org": "The ALS Association, Florida",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "FL"
+   ],
+   "forWhat": "Pays a substitute caregiver (an agency or someone you choose who isn't family) so the full-time family caregiver can take a break.",
+   "amount": "$2,000, used within 6 months",
+   "status": "closed",
+   "window": "Applications are currently closed. One application per family per year.",
+   "deadline": null,
+   "eligibility": [
+    "Florida resident registered with the ALS Association",
+    "Full-time caregiver living with the person with ALS",
+    "Not eligible: nursing facility residents, veterans with service-connected benefits, or people in Florida's Medicaid Long Term Care program"
+   ],
+   "youllNeed": [
+    "Application",
+    "Watch a 45-minute orientation",
+    "Receipts or a time log at the end, plus 3- and 6-month surveys"
+   ],
+   "howToApply": "Contact the Florida care team about the next opening.",
+   "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
+   "contact": "Jackie Kouri-Mathews \u00b7 813-497-4502",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "murray-scholarship",
+   "name": "Rick and Sherry Murray Medical Futures Scholarship",
+   "org": "The ALS Association, Florida",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "FL"
+   ],
+   "forWhat": "For relatives of someone with ALS who are studying medicine, a health field or social work.",
+   "amount": "Varies",
+   "status": "closed",
+   "window": "The application period has closed. The next cycle hasn't been posted.",
+   "deadline": null,
+   "eligibility": [
+    "Spouse, parent or guardian, child or grandparent of someone diagnosed with ALS",
+    "Florida resident, any age",
+    "Full-time in a medical or social-work degree or certification program at an accredited U.S. school"
+   ],
+   "youllNeed": [
+    "Official transcript (not a grade report)",
+    "500-word essay on how ALS shaped your choice of field",
+    "Two letters of recommendation"
+   ],
+   "howToApply": "Contact the Florida care team for the application, then submit by mail or email.",
+   "url": "https://www.als.org/support/programs/rick-and-sherry-murray-medical-futures-scholarship",
+   "contact": "Jackie Kouri-Mathews \u00b7 813-497-4502",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-alabama-respite",
+   "name": "Respite Program",
+   "org": "The ALS Association, Alabama",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "AL"
+   ],
+   "forWhat": "Paid respite hours through a respite agency so family caregivers get a break.",
+   "amount": "Up to 80 hours per fiscal year",
+   "status": "rolling",
+   "window": "Annual allotment by fiscal year.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS lives in Alabama",
+    "Care must come from a respite agency"
+   ],
+   "youllNeed": [
+    "Chosen respite agency"
+   ],
+   "howToApply": "Contact the ALS Association care services team for Alabama.",
+   "url": "https://www.als.org/support/programs/respite-program-alabama",
+   "contact": "ALS Association care services",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-il-respite",
+   "name": "Respite Program (Southern Illinois)",
+   "org": "The ALS Association",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IL"
+   ],
+   "forWhat": "Short-term respite care for family caregivers, helping keep the person with ALS at home.",
+   "amount": "$1,000 to $3,000",
+   "status": "window",
+   "window": "Available twice a year.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS lives in Southern Illinois",
+    "Not eligible if the person has Medicaid, aging assistance or hospice, is a veteran with ALS, or has long-term disability or nursing home insurance"
+   ],
+   "youllNeed": [
+    "Contact with the care services team"
+   ],
+   "howToApply": "Call the program for instructions.",
+   "url": "https://www.als.org/support/programs/respite-program-illinois",
+   "contact": "314-876-7008",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-mo-respite",
+   "name": "Respite Program (Missouri)",
+   "org": "The ALS Association",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MO"
+   ],
+   "forWhat": "Short-term respite care grants for family caregivers.",
+   "amount": "$1,000 to $3,000",
+   "status": "window",
+   "window": "Available twice a year.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS lives in the Missouri service area"
+   ],
+   "youllNeed": [
+    "Contact with the care services team"
+   ],
+   "howToApply": "Contact the ALS Association Missouri care team.",
+   "url": "https://www.als.org/support/programs/respite-program-missouri",
+   "contact": "ALS Association care team (Missouri)",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-indiana-clevenger",
+   "name": "Clevenger Family Financial Assistance Program",
+   "org": "The ALS Association, Indiana",
+   "categories": [
+    "Medical costs",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IN"
+   ],
+   "forWhat": "Expenses that insurance usually doesn't cover, for families living with ALS or PLS.",
+   "amount": "Up to $2,500 per year",
+   "status": "rolling",
+   "window": "No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS or PLS in Indiana"
+   ],
+   "youllNeed": [
+    "Conversation with your Care Services team member"
+   ],
+   "howToApply": "Contact your ALS Association Care Services team member.",
+   "url": "https://www.als.org/support/programs/clevenger-family-financial-assistance-program",
+   "contact": "ALS Association care services",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-ohio-qol",
+   "name": "Quality of Life Grant (Ohio)",
+   "org": "The ALS Association",
+   "categories": [
+    "Equipment & technology",
+    "Medical costs",
+    "Home modification",
+    "Respite & caregiving",
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "OH"
+   ],
+   "forWhat": "Communication devices, medical expenses, home modifications, home care and transportation.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the chapter.",
+   "deadline": null,
+   "eligibility": [
+    "People diagnosed with ALS and their families"
+   ],
+   "youllNeed": [
+    "Conversation with the care team"
+   ],
+   "howToApply": "Contact the Ohio care team.",
+   "url": "https://als.org/support/programs/quality-life-grant-program-16",
+   "contact": "216-592-2572 ext. 10197 \u00b7 infoOH@als.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-virginia-qol",
+   "name": "Quality of Life Grant (Virginia)",
+   "org": "The ALS Association",
+   "categories": [
+    "Equipment & technology",
+    "Medical costs",
+    "Home modification",
+    "Respite & caregiving",
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "VA"
+   ],
+   "forWhat": "Communication devices, medical expenses, home modifications, home care and transportation.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact your care services coordinator.",
+   "deadline": null,
+   "eligibility": [
+    "People diagnosed with ALS and their families"
+   ],
+   "youllNeed": [
+    "Conversation with your care services coordinator"
+   ],
+   "howToApply": "Find your coordinator on the program page and call them.",
+   "url": "https://als.org/support/programs/quality-life-grant-program-20",
+   "contact": "Your Virginia care services coordinator",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-wpa-grant",
+   "name": "Grant Program (Western Pennsylvania)",
+   "org": "The ALS Association",
+   "categories": [
+    "Home modification",
+    "Equipment & technology",
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA"
+   ],
+   "forWhat": "Home modifications, speech-generating devices, power wheelchairs, and respite or home care.",
+   "amount": "Varies with available funds",
+   "status": "rolling",
+   "window": "Subject to available funds.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in western and central PA counties, including Allegheny, Erie, Westmoreland, Centre, Blair, Cambria and others listed"
+   ],
+   "youllNeed": [
+    "Conversation with the care team"
+   ],
+   "howToApply": "Call the care team.",
+   "url": "https://als.org/support/programs/grant-program",
+   "contact": "412-821-3254",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-ma-foundation-for-life",
+   "name": "Foundation for Life Grant",
+   "org": "The ALS Association, Massachusetts",
+   "categories": [
+    "Equipment & technology",
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA"
+   ],
+   "forWhat": "Paid directly to vendors for ALS costs insurance doesn't fully cover, such as wheelchairs, stair lifts, bathroom modifications, and speech or eye-gaze devices.",
+   "amount": "Varies (paid to vendors)",
+   "status": "rolling",
+   "window": "No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in Massachusetts"
+   ],
+   "youllNeed": [
+    "Vendor quote or invoice",
+    "Conversation with your regional representative"
+   ],
+   "howToApply": "Contact your regional representative (Middlesex, North Shore, South Shore, or Worcester and Western MA).",
+   "url": "https://www.als.org/support/programs/foundation-life-grant",
+   "contact": "781-255-8884",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-mn-tomassoni",
+   "name": "Senator Tomassoni Caregiver Support Program",
+   "org": "The ALS Association, Minnesota",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MN"
+   ],
+   "forWhat": "Money toward in-home care, through a home care agency or a person you choose (not a spouse, parent or child), plus free ALS caregiver training.",
+   "amount": "Varies",
+   "status": "closed",
+   "window": "The grant application is currently closed. One application per family per year. Staff reply within about 2 weeks once it's submitted.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS lives in Minnesota",
+    "Caregiver evaluation and re-evaluation required"
+   ],
+   "youllNeed": [
+    "Application when open",
+    "Caregiver evaluation",
+    "Agency or caregiver choice (a payroll service is provided for individual caregivers)"
+   ],
+   "howToApply": "Check the program page or call to ask when it reopens.",
+   "url": "https://www.als.org/support/programs/senator-tomassoni-caregiver-support-program",
+   "contact": "888-672-0484",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "alsa-tn-bronczek",
+   "name": "Bronczek Blessings Angel Fund",
+   "org": "The ALS Association, Tennessee",
+   "categories": [
+    "Quality of life",
+    "Home modification",
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "TN"
+   ],
+   "forWhat": "Quality-of-life grants for home modifications, respite care, groceries, lawn care and other ALS costs.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Contact the chapter.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS"
+   ],
+   "youllNeed": [
+    "Conversation with the care team"
+   ],
+   "howToApply": "Call the Tennessee care team.",
+   "url": "https://www.als.org/support/programs/bronczek-blessings-angel-fund",
+   "contact": "615-331-5556",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-georgia-kostiuk",
+   "name": "Kostiuk ALS Care Grant",
+   "org": "ALS United of Georgia",
+   "categories": [
+    "Medical costs",
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "GA"
+   ],
+   "forWhat": "Reimburses out-of-pocket ALS expenses for equipment, medical care and services insurance doesn't cover.",
+   "amount": "Up to $1,000 per cycle, $2,000 per year",
+   "status": "window",
+   "window": "Two cycles a year. Registered families get an email when a cycle opens. Decisions come about 2 weeks after it closes, and checks 2 to 3 weeks after reimbursement forms.",
+   "deadline": null,
+   "eligibility": [
+    "Registered with ALS United of Georgia"
+   ],
+   "youllNeed": [
+    "Kostiuk ALS Care Grant application",
+    "Billing statement form for reimbursement (one per cycle)",
+    "Receipts that match the Reimbursement Chart"
+   ],
+   "howToApply": "Request an application by email or phone, or use the online link when a cycle is open.",
+   "url": "https://alsgeorgia.org/navigating-als/chapter-grant-program/",
+   "contact": "404-636-9909 \u00b7 careservices@alsgeorgia.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-network-kids",
+   "name": "Care for Kids Grant",
+   "org": "ALS Network",
+   "categories": [
+    "Family & children"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA"
+   ],
+   "forWhat": "Small grants for tutoring, sports, lessons, school supplies and activities for children and young adults living with a loved one who has ALS.",
+   "amount": "Small grants (amount varies)",
+   "status": "rolling",
+   "window": "No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Household with a child, teen or young adult and a family member with ALS",
+    "Served by ALS Network"
+   ],
+   "youllNeed": [
+    "Conversation with your ALS Network care manager"
+   ],
+   "howToApply": "Contact your care manager.",
+   "url": "https://alsnetwork.org/navigating-als/support-for-families/",
+   "contact": "866-750-2572 \u00b7 info@alsnetwork.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-network-youth",
+   "name": "L.L. Foundation for Youth Fund",
+   "org": "ALS Network",
+   "categories": [
+    "Respite & caregiving",
+    "Equipment & technology",
+    "Family & children"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA"
+   ],
+   "forWhat": "Respite care and medical equipment for the person with ALS, to lighten the load on young family caregivers.",
+   "amount": "Varies",
+   "status": "rolling",
+   "window": "No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Families with young people ages 13 to 26 affected by ALS",
+    "California"
+   ],
+   "youllNeed": [
+    "Conversation with your ALS Network care manager"
+   ],
+   "howToApply": "Contact your care manager.",
+   "url": "https://alsnetwork.org/navigating-als/support-for-families/",
+   "contact": "866-750-2572 \u00b7 info@alsnetwork.org",
+   "lastVerified": "2026-10-15",
+   "kind": "grant"
+  },
+  {
+   "id": "als-united-nc-care-grant",
+   "kind": "grant",
+   "name": "ALS United North Carolina Care Grant",
+   "org": "ALS United North Carolina",
+   "categories": [
+    "Respite & caregiving",
+    "Travel",
+    "Home modification",
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NC"
+   ],
+   "forWhat": "Reimburses ALS-related costs that insurance and other programs usually don't cover: respite care, travel to ALS clinics and NC clinical trials, accessible home and vehicle modifications, communication devices and environmental controls, and generators for breathing equipment.",
+   "amount": "Up to $500 per period (2 periods per year)",
+   "status": "window",
+   "window": "Two reimbursement periods a year: Jan 21 to Jul 20 (deadline Jul 20) and Jul 21 to Jan 20 (deadline Jan 20). Late requests are not accepted. Funds are limited, so submit early. Up to 3 submissions per period until the cap is reached.",
+   "deadline": "2027-01-20",
+   "eligibility": [
+    "Primary residence in North Carolina",
+    "Verified ALS (or PLS) diagnosis; updated verification may be requested if you haven't attended an ALS clinic in 2+ years",
+    "Expense must be on the chapter's Eligible Expenses List"
+   ],
+   "youllNeed": [
+    "Receipts (PDF only) showing proof of payment, date, description, and amount",
+    "Mileage log for ALS-related travel",
+    "Respite Care Provider Log plus a copy of the provider's ID for non-professional respite providers"
+   ],
+   "howToApply": "Complete the online Request for Funds form on the chapter website and upload PDF receipts; email and mail submissions are no longer accepted. Checks can take up to 8 weeks.",
+   "url": "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/",
+   "contact": "Claudia Beirne, claudia@alsnc.org, 919-390-0125; main 919-755-9001 / 877-568-4347",
+   "sources": [
+    "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ohio-qol-reimbursement-grant",
+   "kind": "grant",
+   "name": "Quality of Life Reimbursement Grant",
+   "org": "ALS United Ohio (Central & Southern Ohio / Northern Kentucky)",
+   "categories": [
+    "Medical costs",
+    "Equipment & technology",
+    "Respite & caregiving",
+    "Home modification",
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "OH",
+    "KY"
+   ],
+   "forWhat": "Reimburses disease-related expenses such as equipment, care, services, respite care, counseling, healthcare co-pays and home modifications. Some items require a prescription.",
+   "amount": "Up to $1,200 per patient per year",
+   "status": "rolling",
+   "window": "No stated deadline. Funds are disbursed in the order requests are received until the annual grant budget runs out, so apply early in the year.",
+   "deadline": null,
+   "eligibility": [
+    "Diagnosis of ALS or PLS",
+    "Registered with ALS United Ohio (serves Columbus, Cincinnati, Dayton, Covington KY and surrounding areas)",
+    "Funds must be used to ease the financial burden of living with ALS/PLS"
+   ],
+   "youllNeed": [
+    "Receipts or invoices that clearly show payment",
+    "Verification of Diagnosis form completed by an ALS/PLS neurologist (if requested)",
+    "Prescription for items that require one"
+   ],
+   "howToApply": "Request a grant packet (digital from Lexi Bridges or mailed from Lisa Stevens), pay the expense first, then submit receipts for reimbursement.",
+   "url": "https://alsohio.org/patient-grants",
+   "contact": "Lexi Bridges, LBridges@ALSohio.org, (614) 273-2572 ext. 107; toll-free (866) 273-2572",
+   "sources": [
+    "https://alsohio.org/patient-grants",
+    "https://alsohio.org/navigating-als/our-care-services/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ri-respite-stipend",
+   "kind": "grant",
+   "name": "Respite Program (annual stipend)",
+   "org": "ALS United Rhode Island",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "RI"
+   ],
+   "forWhat": "An annual stipend for respite care through partner home health providers, which may include homemakers, certified nursing assistants and house cleaning, so family caregivers can take a break.",
+   "amount": "Annual stipend; amount not published. Contact the organization.",
+   "status": "check",
+   "window": "Annual stipend; timing not published.",
+   "deadline": null,
+   "eligibility": [
+    "Rhode Island resident diagnosed with ALS",
+    "Official letter of diagnosis from a licensed physician",
+    "Registration with ALS United Rhode Island (free, regardless of insurance or immigration status)"
+   ],
+   "youllNeed": [
+    "Physician's letter of ALS diagnosis"
+   ],
+   "howToApply": "Register with ALS United Rhode Island, meet with the Care Services Team, and email support@alsunitedri.org about the respite stipend.",
+   "url": "https://alsunitedri.org/financial-programs/",
+   "contact": "support@alsunitedri.org, 401-732-1609",
+   "sources": [
+    "https://alsunitedri.org/financial-programs/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ri-home-modification-stipend",
+   "kind": "grant",
+   "name": "Home Modification Program (one-time stipend)",
+   "org": "ALS United Rhode Island",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "RI"
+   ],
+   "forWhat": "A one-time stipend toward home modifications that improve accessibility and safety, such as ramps or bathroom changes. Partner vendors also offer special pricing on modification services and equipment.",
+   "amount": "One-time stipend; amount not published. Contact the organization.",
+   "status": "check",
+   "window": "One-time award; no published cycle.",
+   "deadline": null,
+   "eligibility": [
+    "Rhode Island resident diagnosed with ALS",
+    "Official letter of diagnosis from a licensed physician",
+    "Registration with ALS United Rhode Island"
+   ],
+   "youllNeed": [
+    "Physician's letter of ALS diagnosis"
+   ],
+   "howToApply": "Register with ALS United Rhode Island and contact the Care Services Team at support@alsunitedri.org.",
+   "url": "https://alsunitedri.org/financial-programs/",
+   "contact": "support@alsunitedri.org, 401-732-1609",
+   "sources": [
+    "https://alsunitedri.org/financial-programs/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ct-reimbursement-grants",
+   "kind": "grant",
+   "name": "Reimbursement Grants",
+   "org": "ALS United Connecticut",
+   "categories": [
+    "Quality of life",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CT"
+   ],
+   "forWhat": "Reimbursement fund programs that help offset some of the financial burdens of living with ALS. Covered expenses and amounts are not published.",
+   "amount": "Varies; contact the organization",
+   "status": "check",
+   "window": "Not published.",
+   "deadline": null,
+   "eligibility": [
+    "Person living with ALS served by ALS United Connecticut"
+   ],
+   "youllNeed": [
+    "Contact the Care Services team for current requirements"
+   ],
+   "howToApply": "Email careservices@alsunitedct.org or call the office to ask about reimbursement grants.",
+   "url": "https://alsunitedct.org/living-with-als/our-care-services/",
+   "contact": "careservices@alsunitedct.org, (203) 874-5050",
+   "sources": [
+    "https://alsunitedct.org/living-with-als/our-care-services/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-mid-atlantic-abrams-in-home-care-grant",
+   "kind": "grant",
+   "name": "Howard I. Abrams In-Home Care Grant Program",
+   "org": "ALS United Mid-Atlantic",
+   "categories": [
+    "Respite & caregiving",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA",
+    "NJ",
+    "DE"
+   ],
+   "forWhat": "Helps pay some of the cost of in-home personal care for people with ALS who cannot afford adequate care on their own.",
+   "amount": "Varies; not published",
+   "status": "rolling",
+   "window": "No published deadline; requests are handled through your social worker.",
+   "deadline": null,
+   "eligibility": [
+    "Registered with ALS United Mid-Atlantic",
+    "Live in the service area (Pennsylvania, New Jersey, Delaware)",
+    "Lack the financial resources to obtain adequate personal care"
+   ],
+   "youllNeed": [
+    "Contact your social worker for current requirements"
+   ],
+   "howToApply": "Contact your ALS United Mid-Atlantic social worker, or call Care Services at 215-643-5434, option 3.",
+   "url": "https://alsmidatlantic.org/care-services/our-care-services/home-care/",
+   "contact": "215-643-5434 (Care Services, option 3)",
+   "sources": [
+    "https://alsmidatlantic.org/care-services/our-care-services/home-care/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-mid-atlantic-accessibility-program",
+   "kind": "grant",
+   "name": "Accessibility Program (loaner ramps and stair glide rental)",
+   "org": "ALS United Mid-Atlantic",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA",
+    "NJ",
+    "DE"
+   ],
+   "forWhat": "Funds installation of temporary loaner modular ramps and/or a rental stair glide. Payments go directly to vendors and installers. Families may be asked to cost-share on a case-by-case basis. Also offers remote in-home accessibility evaluations.",
+   "amount": "Varies; vendor-paid, family cost share decided case by case",
+   "status": "rolling",
+   "window": "No published deadline.",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis; registered with ALS United Mid-Atlantic (PA, NJ, DE)",
+    "No other resources (vocational rehab, County Office of Aging, VA benefits, long-term care policy) that will cover the items",
+    "Agree to evaluation by an approved vendor and sign a Consent and Release form",
+    "Cannot fund a project that already exists; equipment remains the property of ALS United Mid-Atlantic"
+   ],
+   "youllNeed": [
+    "Consent and Release form",
+    "Accessibility (virtual home assessment) form",
+    "Evidence that other funding sources are unavailable"
+   ],
+   "howToApply": "Contact Alisa Brownlee to request a virtual home assessment and start the process.",
+   "url": "https://alsmidatlantic.org/care-services/our-care-services/ramping-stair-guides/",
+   "contact": "Alisa Brownlee, alisa@alsmidatlantic.org, 215-631-1877",
+   "sources": [
+    "https://alsmidatlantic.org/care-services/our-care-services/ramping-stair-guides/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-arizona-respite-care-program",
+   "kind": "grant",
+   "name": "Respite Care Program",
+   "org": "ALS Arizona",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "AZ"
+   ],
+   "forWhat": "Provides funding so family caregivers can take a break from daily caregiving.",
+   "amount": "Not published; contact the organization",
+   "status": "check",
+   "window": "Not published.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS served by ALS Arizona"
+   ],
+   "youllNeed": [
+    "Contact your Care Services Coordinator for the application"
+   ],
+   "howToApply": "Apply through the link on the Care Services page or contact your ALS Arizona Care Services Coordinator.",
+   "url": "https://alsaz.org/navigating-als/our-care-services/",
+   "contact": "602-297-3800, info@alsaz.org",
+   "sources": [
+    "https://alsaz.org/navigating-als/our-care-services/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-illinois-respite-care-program",
+   "kind": "grant",
+   "name": "Respite Care Program",
+   "org": "ALS United Illinois (formerly Greater Chicago)",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IL"
+   ],
+   "forWhat": "Makes it possible for families to receive intermittent care for the person with ALS from a third-party caregiver so family caregivers can rest.",
+   "amount": "Not published; contact the organization",
+   "status": "check",
+   "window": "Not published.",
+   "deadline": null,
+   "eligibility": [
+    "Person with ALS served by ALS United Illinois"
+   ],
+   "youllNeed": [
+    "Call to learn requirements"
+   ],
+   "howToApply": "Call 312-932-0000 to learn more and request respite care.",
+   "url": "https://alsunitedillinois.org/navigating-als/respite-care-program/",
+   "contact": "(312) 932-0000 (Spanish available)",
+   "sources": [
+    "https://alsunitedillinois.org/navigating-als/respite-care-program/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-nevada-porrello-project",
+   "kind": "grant",
+   "name": "The Porrello Project",
+   "org": "ALS of Nevada",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NV"
+   ],
+   "forWhat": "A program founded by Joey Porrello to improve the experience of living with ALS and help people with ALS keep interacting with the world. Specific benefits are described in the application guidelines PDF on the program page.",
+   "amount": "Not published; see application guidelines",
+   "status": "check",
+   "window": "Not published.",
+   "deadline": null,
+   "eligibility": [
+    "People with ALS served by ALS of Nevada; see guidelines PDF"
+   ],
+   "youllNeed": [
+    "Application form and guidelines (PDFs on program page)"
+   ],
+   "howToApply": "Download the guidelines and application form from the program page and submit to ALS of Nevada.",
+   "url": "https://alsofnevada.org/care-services/the-porrello-project/",
+   "contact": "702-777-0500",
+   "sources": [
+    "https://alsofnevada.org/care-services/the-porrello-project/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-assoc-wisconsin-trinastic-grant",
+   "kind": "grant",
+   "name": "Brian Trinastic Memorial Grant Program",
+   "org": "The ALS Association (Wisconsin)",
+   "categories": [
+    "Medical costs",
+    "Home modification",
+    "Travel",
+    "Equipment & technology"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "WI"
+   ],
+   "forWhat": "Reimburses costs not covered by insurance related to communication, medical expenses, home modifications and transportation needs.",
+   "amount": "Varies; not published",
+   "status": "rolling",
+   "window": "No published deadline; depends on donations.",
+   "deadline": null,
+   "eligibility": [
+    "Individuals diagnosed with ALS served by the ALS Association in Wisconsin"
+   ],
+   "youllNeed": [
+    "Request for Funds form",
+    "Receipts for reimbursement"
+   ],
+   "howToApply": "Review the program information on the page and complete the Request for Funds form; contact Kathleen Huevler with questions.",
+   "url": "https://www.als.org/wisconsin/grant-reimbursement-program",
+   "contact": "Kathleen Huevler (email on program page); ALS Association Wisconsin",
+   "sources": [
+    "https://www.als.org/wisconsin/grant-reimbursement-program"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-assoc-community-of-angels-fund",
+   "kind": "grant",
+   "name": "Community of Angels Fund",
+   "org": "The ALS Association",
+   "categories": [
+    "Respite & caregiving",
+    "Equipment & technology",
+    "Home modification",
+    "Medical costs"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants to help families with the costs of caregiving and care needs: respite care, communication devices, home modifications, medical care and related expenses. Created in memory of Jane Calmes.",
+   "amount": "Varies; not published",
+   "status": "rolling",
+   "window": "Applications processed as received; awards granted annually until funds run out.",
+   "deadline": null,
+   "eligibility": [
+    "Families of people living with ALS connected to an ALS Association care services team"
+   ],
+   "youllNeed": [
+    "Contact your local care services team for the application"
+   ],
+   "howToApply": "Contact your local ALS Association care services team to apply.",
+   "url": "https://als.org/angel-fund",
+   "contact": "Local ALS Association care services team; 800-782-4747",
+   "sources": [
+    "https://als.org/angel-fund"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "hope-loves-company-hope-grants",
+   "kind": "grant",
+   "name": "Hope Grants",
+   "org": "Hope Loves Company (with Paint for A Cure)",
+   "categories": [
+    "Family & children",
+    "Equipment & technology",
+    "Home modification",
+    "Travel",
+    "Respite & caregiving"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Direct financial support for young families affected by ALS (children under 18 at home) for expenses insurance doesn't cover: durable medical equipment, home care, ALS-related travel, home or auto modifications, communication and smart-home technology, generators. Paid as reimbursement or prepaid expense.",
+   "amount": "Varies; evaluated against total project cost (example: up to $6,000 toward a $20,000 home modification)",
+   "status": "closed",
+   "window": "Applications currently closed until more funding is available; sign up for email updates to learn when they reopen. First come, first served when open.",
+   "deadline": null,
+   "eligibility": [
+    "Family impacted by ALS with minor children (under 18) living in the home",
+    "Person living with ALS is the primary requestor; funds released directly to them",
+    "Participation in Hope Loves Company programs is not required"
+   ],
+   "youllNeed": [
+    "Receipts for reimbursement requests",
+    "Quotes for pre-funding requests"
+   ],
+   "howToApply": "Watch the Hope Grants page for reopening and apply online when funding is available.",
+   "url": "https://www.hopelovescompany.org/hopegrants",
+   "contact": "summer.owen@hopelovescompany.org, 609-730-1144",
+   "sources": [
+    "https://www.hopelovescompany.org/hopegrants"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "nord-als-travel-lodging-assistance",
+   "kind": "grant",
+   "name": "ALS Travel & Lodging Assistance",
+   "org": "National Organization for Rare Disorders (NORD)",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Financial help with travel and lodging costs related to ALS care (see the program's resource document for covered expenses).",
+   "amount": "Varies; not published",
+   "status": "open",
+   "window": "Listed as 'Accepting Applications' on NORD's financial assistance page.",
+   "deadline": null,
+   "eligibility": [
+    "People with ALS; full criteria in NORD's ALS T&L program document"
+   ],
+   "youllNeed": [
+    "Online application via applications.rarediseases.org (program ID 222)"
+   ],
+   "howToApply": "Apply online through NORD's application portal or call the program line.",
+   "url": "https://rarediseases.org/patient-assistance-programs/financial-assistance/",
+   "contact": "203-794-6992; NORD helpline 800-999-6673",
+   "sources": [
+    "https://rarediseases.org/patient-assistance-programs/financial-assistance/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "va-automobile-allowance-adaptive-equipment",
+   "kind": "grant",
+   "name": "VA Automobile Allowance and Adaptive Equipment Grant",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Equipment & technology",
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A one-time payment toward a specially equipped vehicle (paid directly to the seller), plus adaptive-equipment grants for items like power seats, lifts and hand controls. ALS is an explicitly qualifying condition.",
+   "amount": "Up to $27,908.90 one-time (effective Oct 1, 2026) plus adaptive equipment grants",
+   "status": "rolling",
+   "window": "Apply any time; VA approval is required before buying the vehicle or equipment.",
+   "deadline": null,
+   "eligibility": [
+    "Veteran or service member with a service-connected disability (ALS qualifies)",
+    "Must have or first file a disability compensation claim",
+    "Second allowance possible if the VA-funded vehicle is 30+ years old or destroyed by natural disaster"
+   ],
+   "youllNeed": [
+    "VA Form 21-4502 (automobile allowance)",
+    "VA Form 10-1394 (adaptive equipment) via the VA medical center prosthetics representative",
+    "Itemized invoice from the seller"
+   ],
+   "howToApply": "Apply online at VA.gov or mail Form 21-4502; for adaptive equipment bring Form 10-1394 to your VA medical center's prosthetic representative.",
+   "url": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+   "contact": "VA benefits line 800-827-1000",
+   "sources": [
+    "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+    "https://www.va.gov/disability/compensation-rates/special-benefit-allowance-rates/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "va-hisa-grant",
+   "kind": "grant",
+   "name": "Home Improvements and Structural Alterations (HISA) Grant",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Lifetime benefit for medically necessary home modifications to a veteran's primary residence: entry/exit access, roll-in showers, sink and counter access, permanent ramps, and plumbing or electrical work for home medical equipment. Does not cover portable ramps, stair glides, porch lifts or routine maintenance.",
+   "amount": "Up to $6,800 lifetime for service-connected disabilities; up to $2,000 for non-service-connected",
+   "status": "rolling",
+   "window": "Apply any time; advance payment can be requested on the application.",
+   "deadline": null,
+   "eligibility": [
+    "Veteran or service member enrolled in VA health care",
+    "Project medically justified by a service-connected or non-service-connected disability",
+    "Renters need a notarized owner authorization"
+   ],
+   "youllNeed": [
+    "VA physician prescription describing the project",
+    "VA Form 10-0103",
+    "Itemized contractor estimate",
+    "Color photo of the area before work",
+    "Property owner statement (renters)"
+   ],
+   "howToApply": "Submit the complete HISA package to the Prosthetic and Sensory Aids Service at your VA medical center.",
+   "url": "https://www.prosthetics.va.gov/psas/HISA2.asp",
+   "contact": "Local VA Prosthetic and Sensory Aids Service (find via va.gov/find-locations)",
+   "sources": [
+    "https://www.prosthetics.va.gov/psas/HISA2.asp"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "modest-needs-self-sufficiency-grant",
+   "kind": "grant",
+   "name": "Modest Needs Emergency Grants",
+   "org": "Modest Needs Foundation",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Small, one-time emergency grants (paid directly to the creditor or vendor) for low-income working households facing an unexpected expense that could push them into poverty. Not ALS-specific.",
+   "amount": "Varies; small one-time grants",
+   "status": "check",
+   "window": "Applications accepted online; funding depends on donors choosing to fund your application.",
+   "deadline": null,
+   "eligibility": [
+    "Low-income working household with no other source of immediate help; full criteria on the applicant pages"
+   ],
+   "youllNeed": [
+    "Online application",
+    "Documentation of income and the bill or expense"
+   ],
+   "howToApply": "Create an account at modestneeds.org and submit an application with supporting documents.",
+   "url": "https://www.modestneeds.org",
+   "contact": "See website contact form",
+   "sources": [
+    "https://www.modestneeds.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "automaker-mobility-rebates",
+   "kind": "grant",
+   "name": "Automaker mobility rebates for adaptive equipment",
+   "org": "Vehicle manufacturers (Toyota, Honda, Ford, GM, Stellantis, Nissan, Subaru, Hyundai, Mazda, VW, Audi, BMW)",
+   "categories": [
+    "Equipment & technology",
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Most automakers reimburse part of the cost of adaptive equipment (hand controls, lifts, ramps, power seats) installed on a new vehicle. Typical amounts: Toyota: up to $1,000; Honda: up to $1,000; Ford / Lincoln: up to $1,000; Chrysler / Dodge / Jeep / Ram: up to $1,000; GM (Chevrolet, GMC, Buick, Cadillac): Varies; check program site; Nissan: up to $1,000; Subaru: up to $1,000; Hyundai: $1,000; Mazda: up to $1,000; Volkswagen: up to $1,000; Audi: up to $1,500; BMW / MINI: up to $2,500. Ask the dealer about the program before you buy.",
+   "amount": "Usually $1,000 (up to $2,500 at BMW/MINI)",
+   "status": "rolling",
+   "window": "Apply after the equipment is installed, usually within 6 to 12 months of purchase. Each brand sets its own window.",
+   "deadline": null,
+   "eligibility": [
+    "Buy or lease a new (sometimes certified pre-owned) vehicle from that brand",
+    "Adaptive equipment installed by an approved mobility dealer"
+   ],
+   "youllNeed": [
+    "Vehicle purchase or lease paperwork",
+    "Itemized invoice for the adaptive equipment and installation",
+    "The brand's rebate claim form",
+    "Sometimes a doctor's note or mobility prescription"
+   ],
+   "howToApply": "Ask the dealer or your mobility equipment installer for the brand's claim form, or download it from the brand's mobility page. NMEDA's site lists every program.",
+   "url": "https://www.nmeda.org/",
+   "contact": "Your dealer or mobility equipment installer",
+   "sources": [
+    "https://toyotamobility.com/financial-assistance",
+    "https://automobiles.honda.com/mobility-assistance",
+    "https://www.fordupfits.com/accessibility/accessible-vehicles",
+    "https://www.fcausdriveability.com/",
+    "https://www.gmenvolve.com/fleet/accessible-vehicles",
+    "https://www.nissanusa.com/mobility-vehicles-assist-program.html",
+    "https://www.subaru.com/owners/subaru-mobility-assist.html",
+    "https://www.hyundaiusa.com/us/en/special-programs/mobility",
+    "https://www.mazdausa.com/about-mazda/mobility-program",
+    "https://www.vw.com/en/owners-and-services/ownership-benefits/driver-access-program.html",
+    "https://www.audiusa.com/myaudi/service/mobility-subsidy",
+    "https://www.bmwusa.com/special-offers/mobility-program.html"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "alsa-modular-ramp-program",
+   "kind": "grant",
+   "name": "Modular Ramp Program",
+   "org": "The ALS Association",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IL",
+    "MO",
+    "KS",
+    "IN",
+    "NE"
+   ],
+   "forWhat": "Funding and/or materials for a modular wheelchair ramp from the Association's ramp partner (AmRamp St. Louis). Ramp pieces are later donated to the Ramp Re-Use Program.",
+   "amount": "60% of ramp cost, up to $4,800",
+   "status": "rolling",
+   "window": "No published deadline.",
+   "deadline": null,
+   "eligibility": [
+    "Person living with ALS in Illinois (program text references the St. Louis area; confirm coverage by calling)"
+   ],
+   "youllNeed": [
+    "Contact the program for requirements"
+   ],
+   "howToApply": "Call 866-211-6009 or contact your local ALS Association care services team.",
+   "url": "https://www.als.org/support/programs/modular-ramp-program-illinois",
+   "contact": "866-211-6009",
+   "sources": [
+    "https://www.als.org/support/programs/modular-ramp-program-illinois"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "alsa-maurer-heinsen",
+   "kind": "grant",
+   "name": "Maurer-Heinsen Home Access Program",
+   "org": "The ALS Association",
+   "categories": [
+    "Home modification"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "IA",
+    "MN",
+    "ND",
+    "SD",
+    "WI"
+   ],
+   "forWhat": "Pays a significant portion of the cost of a temporary modular ramp (vendor-installed) so people with ALS can get in and out of their homes. The family pays the agreed remainder; payment goes directly to the vendor. Ramps are retrieved and reused when no longer needed.",
+   "amount": "Varies; the Association covers part of the cost and the family pays the rest (cost share agreed after vendor evaluation)",
+   "status": "rolling",
+   "window": "No published deadline; applications accepted online.",
+   "deadline": null,
+   "eligibility": [
+    "Diagnosis of ALS, PLS or PMA",
+    "No other resources (county assistance, VA benefits, etc.) that will cover the ramp",
+    "Agree to a virtual or in-person home safety assessment and an approved-vendor evaluation",
+    "Sign the ALS Association Consent and Release form; cannot fund a project that already exists"
+   ],
+   "youllNeed": [
+    "Online application",
+    "Consent and Release form",
+    "Review the program FAQ PDF"
+   ],
+   "howToApply": "Read the FAQ, then submit the online application linked on the program page; the Association will contact you about cost sharing.",
+   "url": "https://www.als.org/support/programs/maurer-heinsen-home-access-program",
+   "contact": "612-672-0484",
+   "sources": [
+    "https://www.als.org/support/programs/maurer-heinsen-home-access-program",
+    "https://www.als.org/support/programs/maurer-heinsen-home-access-program-minnesota",
+    "https://www.als.org/support/programs/maurer-heinsen-home-access-program-iowa",
+    "https://www.als.org/support/programs/maurer-heinsen-home-access-program-north-dakota",
+    "https://www.als.org/support/programs/maurer-heinsen-home-access-program-wisconsin"
+   ],
+   "lastVerified": "2026-10-15"
+  }
+ ]
+}

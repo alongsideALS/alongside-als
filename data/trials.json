@@ -1,0 +1,1597 @@
+{
+ "updated": "2026-10-15",
+ "source": "ALS TDI recruiting list (Oct 2026), university trial listings, registry mirrors, sponsor announcements.",
+ "items": [
+  {
+   "id": "NCT07322003",
+   "name": "Pridopidine",
+   "title": "Pridopidine Phase 3 trial in ALS",
+   "sponsor": "Prilenia",
+   "phase": "Phase 3",
+   "type": "Interventional",
+   "intervention": "Oral pridopidine capsule",
+   "summary": "Randomized (3:2), double-blind, placebo-controlled, followed by an open-label extension where everyone can receive the drug.",
+   "eligibility": [
+    "Able to swallow a capsule"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "AZ",
+    "CA",
+    "CO",
+    "FL",
+    "GA",
+    "IL",
+    "KS",
+    "MD",
+    "MA",
+    "MO",
+    "NE",
+    "NY",
+    "PA",
+    "TX",
+    "WA"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07161999",
+   "name": "COYA 302 (ALSTARS)",
+   "title": "Phase 2/3, Randomized, Double-Blind, Placebo-Controlled, Multi-Center, 24-Week Study With Additional 24-Week Blinded Active Extension to Evaluate the Safety and Efficacy of COYA 302 for ALS (ALSTARS)",
+   "sponsor": "Coya Therapeutics",
+   "phase": "Phase 2/3",
+   "type": "Interventional",
+   "intervention": "COYA 302 (low-dose interleukin-2 plus an abatacept biosimilar) by subcutaneous injection vs placebo for 24 weeks, then 24-week blinded active extension",
+   "summary": "A Phase 2/3 trial of a combination immune therapy meant to boost regulatory T cells. Participants are randomized to one of two COYA 302 regimens or placebo for 24 weeks, then everyone who continues receives active drug for another 24 weeks. Coya announced on Oct 5, 2026 that it reached its 120-participant enrollment target; only people already in screening may still join. Topline data expected early Q2 2027.",
+   "eligibility": [
+    "Adults with ALS",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Multiple"
+   ],
+   "genetic": "Any",
+   "statusNote": "Enrollment complete as of Oct 5, 2026 (120 participants); only participants already in screening may still enroll.",
+   "sources": [
+    "https://finviz.com/news/398637/coya-therapeutics-announces-completion-of-full-enrollment-in-phase-23-alstars-trial-of-coya-302-for-the-treatment-of-als",
+    "https://hopkinsmedicine.org/neurology-neurosurgery/clinical-trials/als-clinical-trials/open-trials",
+    "https://health.usf.edu/medicine/neurology/clinical-trials/"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "no"
+  },
+  {
+   "id": "NCT04220190",
+   "name": "RAPA-501",
+   "title": "RAPA-501 autologous T-cell therapy",
+   "sponsor": "Rapa Therapeutics",
+   "phase": "Phase 2/3",
+   "type": "Interventional",
+   "intervention": "Autologous hybrid Treg/Th2 cells given by IV",
+   "summary": "Your own immune cells are reprogrammed and infused to reduce neuroinflammation.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MA"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07294144",
+   "name": "Tofersen in non-SOD1 ALS",
+   "title": "Tofersen (Qalsody) in sporadic and familial ALS without SOD1/FUS mutations",
+   "sponsor": "Washington University School of Medicine",
+   "phase": "Phase 2",
+   "type": "Interventional",
+   "intervention": "Tofersen, intrathecal",
+   "summary": "Tests whether the approved SOD1 drug helps people whose ALS is not caused by SOD1 or FUS mutations.",
+   "eligibility": [
+    "Genetic testing must confirm NO SOD1 or FUS mutation"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "MO",
+    "GA",
+    "MA"
+   ],
+   "genetic": "Non-SOD1/FUS",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07023835",
+   "name": "Usnoflast",
+   "title": "Usnoflast (NLRP3 inhibitor) in ALS",
+   "sponsor": "Zydus Therapeutics",
+   "phase": "Phase 2",
+   "type": "Interventional",
+   "intervention": "Oral usnoflast",
+   "summary": "36-week study of efficacy, safety and pharmacokinetics, followed by a 16-week open-label extension.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "CA",
+    "CT",
+    "FL",
+    "GA",
+    "MA",
+    "MI",
+    "NE",
+    "NC",
+    "PA",
+    "TX",
+    "VA",
+    "WA"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06527222",
+   "name": "Ranolazine",
+   "title": "Ranolazine in ALS",
+   "sponsor": "Swathy Chandrashekhar, MBBS",
+   "phase": "Phase 2",
+   "type": "Interventional",
+   "intervention": "Oral ranolazine (an approved heart medication), two doses",
+   "summary": "Placebo-controlled trial of two doses of a repurposed drug.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "CA",
+    "FL",
+    "KS",
+    "OH",
+    "MO"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07287397",
+   "name": "VTx-002",
+   "title": "VTx-002 in participants with ALS",
+   "sponsor": "Vector Y Therapeutics",
+   "phase": "Phase 1/2",
+   "type": "Interventional",
+   "intervention": "Vectorized antibody targeting TDP-43 pathology (gene therapy)",
+   "summary": "Low- and high-dose escalation cohorts. Participation can last up to about 5 years of follow-up.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "CA",
+    "FL",
+    "MA",
+    "PA"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07017946",
+   "name": "MTP-101C",
+   "title": "MTP-101C in ALS",
+   "sponsor": "Duke University",
+   "phase": "Phase 1/2",
+   "type": "Interventional",
+   "intervention": "MTP-101C",
+   "summary": "Open-label study (no placebo).",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "NC"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07290062",
+   "name": "INS1202",
+   "title": "INS1202 gene therapy for SOD1 and sporadic ALS",
+   "sponsor": "Insmed Gene Therapy",
+   "phase": "Phase 1",
+   "type": "Interventional",
+   "intervention": "Gene therapy designed to suppress SOD1",
+   "summary": "Dose-finding gene therapy study (no placebo).",
+   "eligibility": [
+    "SOD1-ALS or sporadic ALS"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MO",
+    "CA",
+    "OH",
+    "PA",
+    "MA",
+    "MD"
+   ],
+   "genetic": "SOD1 or sporadic",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06665165",
+   "name": "AMX0114",
+   "title": "AMX0114 antisense oligonucleotide",
+   "sponsor": "Amylyx Pharmaceuticals",
+   "phase": "Phase 1",
+   "type": "Interventional",
+   "intervention": "ASO targeting calpain-2, intrathecal, up to 4 doses",
+   "summary": "Not limited to genetic ALS. 25% chance of placebo.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "CA",
+    "DC",
+    "FL",
+    "MA",
+    "MN",
+    "PA",
+    "TN",
+    "TX"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07204977",
+   "name": "Acamprosate (C9orf72)",
+   "title": "Acamprosate in C9orf72-related ALS",
+   "sponsor": "NINDS (NIH)",
+   "phase": "Phase 1",
+   "type": "Interventional",
+   "intervention": "Oral acamprosate",
+   "summary": "Open-label study at the NIH Clinical Center (no placebo).",
+   "eligibility": [
+    "C9orf72 repeat expansion"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MD"
+   ],
+   "genetic": "C9orf72",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07224269",
+   "name": "Terazosin",
+   "title": "Terazosin pilot study in ALS",
+   "sponsor": "University of Iowa",
+   "phase": "Early Phase 1",
+   "type": "Interventional",
+   "intervention": "Terazosin 5 mg oral daily",
+   "summary": "Single-center, open-label pilot of safety and tolerability (no placebo).",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "IA"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06656702",
+   "name": "Psilocybin",
+   "title": "Psilocybin in ALS",
+   "sponsor": "Johns Hopkins University",
+   "phase": "Early Phase 1",
+   "type": "Interventional",
+   "intervention": "Psilocybin",
+   "summary": "Open-label study (no placebo).",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MD"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07088159",
+   "name": "SPG302 Expanded Access",
+   "title": "SPG302 Expanded Access Program",
+   "sponsor": "Spinogenix",
+   "phase": "Expanded access",
+   "type": "Expanded access",
+   "intervention": "Once-daily oral pill aimed at restoring synapses",
+   "summary": "For people who are NOT eligible for clinical trials.",
+   "eligibility": [
+    "Not eligible for current ALS trials"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "AL",
+    "AZ",
+    "CA",
+    "FL",
+    "IL",
+    "NH",
+    "NJ",
+    "NM",
+    "NY",
+    "PA",
+    "TX",
+    "VA",
+    "KS"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05281484",
+   "name": "CNM-Au8 Expanded Access",
+   "title": "CNM-Au8 Expanded Access Protocol",
+   "sponsor": "Clene Nanomedicine",
+   "phase": "Expanded access",
+   "type": "Expanded access",
+   "intervention": "Oral gold nanocrystal suspension",
+   "summary": "Aims to improve energy production in neurons. For people not eligible for trials.",
+   "eligibility": [
+    "Not eligible for current ALS trials"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "NC"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT04297683",
+   "name": "HEALEY ALS Platform Trial",
+   "title": "HEALEY ALS Platform Trial \u2013 Master Protocol",
+   "sponsor": "Mass General / Healey & AMG Center",
+   "phase": "Phase 2/3",
+   "type": "Interventional",
+   "intervention": "Several drugs tested at once (current: NUZ-001; a new Eli Lilly regimen has been announced)",
+   "summary": "Regimen I (NUZ-001) finished enrolling in July 2026. Ask about the next regimen. The trial runs at dozens of U.S. sites.",
+   "eligibility": [
+    "Varies by regimen. Contact HEALEYALSPlatform@mgh.harvard.edu or 833-425-8257"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Multiple"
+   ],
+   "genetic": "Any",
+   "statusNote": "Enrollment complete for Regimen I. Future regimens will be announced.",
+   "enrolling": "no"
+  },
+  {
+   "id": "NCT03567213",
+   "name": "CortiCom BCI",
+   "title": "CortiCom brain-computer interface",
+   "sponsor": "Johns Hopkins University",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Implanted electrodes on the brain's sensorimotor cortex to control a computer",
+   "summary": "For people with severe communication disability. About 6 months, with site visits 3 times a week after surgery.",
+   "eligibility": [
+    "Significant motor and communication impairment"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MD"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06578195",
+   "name": "ASSESS ALL ALS",
+   "title": "ASSESS ALL ALS longitudinal biomarker study",
+   "sponsor": "ALL ALS Consortium",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "None: samples, clinical info and outcome measures",
+   "summary": "Builds data for future treatments. 24 months long, at many academic centers.",
+   "eligibility": [
+    "People diagnosed with ALS (controls also enrolled)"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MD",
+    "OH",
+    "CA",
+    "AZ",
+    "Multiple"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06581861",
+   "name": "PREVENT ALL ALS",
+   "title": "PREVENT ALL ALS: people at genetic risk",
+   "sponsor": "ALL ALS Consortium",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "None: samples and measures, optional genetic counseling and testing",
+   "summary": "For family members who may carry an ALS gene. 36 months long.",
+   "eligibility": [
+    "Carries an ALS-causing gene, or has a family history suggesting one"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "MD",
+    "OH",
+    "Multiple"
+   ],
+   "genetic": "At-risk family members",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05276349",
+   "name": "Track ALS",
+   "title": "Home-based remote digital monitoring to assess ALS progression",
+   "sponsor": "Academic consortium",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "None: at-home digital monitoring",
+   "summary": "Take part from home with digital tools that track speech, movement and breathing.",
+   "eligibility": [
+    "See ClinicalTrials.gov listing"
+   ],
+   "placebo": false,
+   "remote": true,
+   "states": [
+    "Remote"
+   ],
+   "genetic": "Any",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07688239",
+   "name": "Nasal foralumab (BANYAN, ALS MyMatch)",
+   "title": "The BANYAN Trial, an ALS MyMatch Trial Evaluating Safety, Biomarker Activity, and Microglial Activation of Nasal Foralumab",
+   "sponsor": "Tiziana Life Sciences (with the Healey & AMG Center for ALS, Mass General)",
+   "phase": "Phase 2",
+   "type": "Interventional",
+   "intervention": "Foralumab (anti-CD3 antibody) nasal spray, 3 times per week in 2-weeks-on/1-week-off cycles, vs matching placebo",
+   "summary": "A biomarker-driven Phase 2a trial in the Healey ALS MyMatch program. For the first 12 weeks about 3 of 4 participants get foralumab and 1 of 4 get placebo; then everyone gets foralumab for 12 more weeks. The first three participants were dosed in late September 2026 at Mass General; Northwestern, University of Minnesota and Nova Southeastern are expected to open next.",
+   "eligibility": [
+    "Ages 18-75 with symptomatic ALS (revised El Escorial criteria)",
+    "Symptom onset within 24 months",
+    "Blood neurofilament light (NfL) above 40 pg/mL",
+    "Slow vital capacity at least 65% predicted",
+    "Must enroll in the Healey ALS MyMatch common screening protocol",
+    "Excludes active nasal/ENT disease, immunosuppressants within 90 days, prior gene or cell therapy"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "MA",
+    "IL",
+    "MN",
+    "FL"
+   ],
+   "genetic": "Any",
+   "statusNote": "First participants dosed Sept 28, 2026 at Mass General; registry record may still show 'Not yet recruiting'. Other three sites launching.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07688239",
+    "https://finviz.com/news/395825/tiziana-life-sciences-announces-first-participants-dosed-in-als-banyan-clinical-trial-of-intranasal-foralumab",
+    "https://research.massgeneralbrigham.org/en/institutes-centers/neuroscience-institute/department-of-neurology/sean-healey-amg-center-for-als/healey-als-mymatch"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07325591",
+   "name": "Tazbentetol (SPG302) Phase 2b/3",
+   "title": "Efficacy and Safety of Tazbentetol in ALS Participants",
+   "sponsor": "Spinogenix",
+   "phase": "Phase 2/3",
+   "type": "Interventional",
+   "intervention": "Tazbentetol (SPG302) oral tablets once daily vs matching placebo, followed by open-label extension",
+   "summary": "A large randomized, double-blind, placebo-controlled Phase 2b/3 trial of the oral synapse-regenerating drug tazbentetol, planned for about 430 people with ALS. Participants get drug or placebo, then an open-label extension at the dose chosen in the Phase 2 part. Sites were not yet listed as of September 2026; an expanded access program for the same drug (NCT07088159) is already open in the U.S.",
+   "eligibility": [
+    "Ages 18-80 with ALS and a TRICALS risk score in the required range",
+    "Stable standard-of-care ALS treatment",
+    "Excludes respiratory support or supplemental oxygen, current smoking/nicotine use, malignancy within 5 years, significant cardiac disease",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Multiple"
+   ],
+   "genetic": "Any",
+   "statusNote": "Not yet recruiting (registry updated Sept 10, 2026); sites not yet posted.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07325591",
+    "https://alsnewstoday.com/news/als-treatment-tazbentetol-fda-fast-track-status/"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "soon"
+  },
+  {
+   "id": "NCT06973629",
+   "name": "NurOwn (debamestrocel) ENDURANCE",
+   "title": "Efficacy and Safety of MSC-NTF (NurOwn) in Participants With Early Symptomatic ALS and Moderate Disease Presentation (ENDURANCE Study)",
+   "sponsor": "BrainStorm Cell Therapeutics",
+   "phase": "Phase 3",
+   "type": "Interventional",
+   "intervention": "Autologous MSC-NTF (NurOwn) stem cells by intrathecal injection every 8 weeks vs placebo (cell culture medium)",
+   "summary": "Two-part Phase 3b trial of BrainStorm's autologous stem cell therapy in about 200 people with early ALS. Part A is 24 weeks of NurOwn or placebo (clinic visits about every 8 weeks); in Part B everyone receives NurOwn for another 24 weeks. Runs under an FDA Special Protocol Assessment. As of August 2026 the company was still completing the work needed to open enrollment.",
+   "eligibility": [
+    "Ages 18-75 with probable or definite ALS (revised El Escorial criteria)",
+    "Symptom onset within 24 months of screening",
+    "ALSFRS-R of at least 2 points on every item and total of 45 or lower",
+    "Upright slow vital capacity at least 65% predicted",
+    "Excludes prior stem cell therapy, feeding tube use, other interventional ALS studies, inability to lie flat"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "AZ",
+    "CA",
+    "CO",
+    "FL",
+    "IL",
+    "MA",
+    "MN",
+    "OR",
+    "PA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Not yet recruiting as of Aug 14, 2026 company update; 15 planned U.S. sites listed.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06973629",
+    "https://www.sec.gov/Archives/edgar/data/0001137883/000110465926097180/tm2623188d1_ex99-1.htm",
+    "https://clinicaltrials.ucsf.edu/amyotropic-lateral-sclerosis-als"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "soon"
+  },
+  {
+   "id": "NCT07369076",
+   "name": "NB-4746 (Nura Bio)",
+   "title": "A Clinical Trial to Evaluate NB-4746 in Participants With Amyotrophic Lateral Sclerosis",
+   "sponsor": "Nura Bio",
+   "phase": "Phase 1/2",
+   "type": "Interventional",
+   "intervention": "NB-4746 oral capsules twice daily (SARM1 pathway / axon-protection drug) vs placebo",
+   "summary": "A randomized, placebo-controlled Phase 1b/2 trial of an oral nerve-protecting drug. Part A tests low and high doses for about a month; Part B tests the chosen dose for about 12 weeks, with an optional open-label extension up to a year. About 80 participants. Currently recruiting in Canada (Fredericton, Toronto, Montreal), Australia and Europe; no U.S. sites were listed as of September 2026.",
+   "eligibility": [
+    "Ages 18-80 with ALS by Gold Coast criteria",
+    "Symptom onset within 48 months (Phase 1b part) or 24 months (Phase 2 part)",
+    "Slow vital capacity at least 60% predicted; able to eat by mouth and swallow capsules",
+    "Stable riluzole for 60 days if taking it; at least one completed edaravone cycle if taking it",
+    "Excludes tracheostomy/permanent ventilation, cancer history (with exceptions), current or planned tofersen use"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Canada"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting in Canada (NB, ON, QC), Australia, Netherlands, Poland; no U.S. sites listed.",
+   "sources": [
+    "https://www.centerwatch.com/clinical-trials/listings/NCT07369076/a-clinical-trial-to-evaluate-nb-4746-in-participants-with-amyotrophic-lateral-sclerosis",
+    "https://decentrialz.com/clinical-trials/clinical-trial-evaluate-nb-participants-amyotrophic-07369076",
+    "https://alsnewstoday.com/news/nura-raises-74m-als-trial-new-nerve-protecting-therapy/"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07100119",
+   "name": "LY4256984 (Eli Lilly) intrathecal",
+   "title": "A Study of LY4256984 in Participants With Sporadic Amyotrophic Lateral Sclerosis",
+   "sponsor": "Eli Lilly and Company",
+   "phase": "Phase 1",
+   "type": "Interventional",
+   "intervention": "LY4256984 by intrathecal (spinal) injection, multiple ascending doses, vs intrathecal placebo",
+   "summary": "A first-in-patient multiple-ascending-dose study of a Lilly intrathecal therapy for sporadic ALS, measuring safety, tolerability and drug levels in about 32 people. Includes a placebo arm. Sites are in Canada (Calgary, Edmonton, London, Montreal, Toronto) and Europe; no U.S. sites listed as of March 2026.",
+   "eligibility": [
+    "Ages 18-75 with definite, probable or possible sporadic ALS",
+    "Symptom onset within 24 months of screening",
+    "BMI 18-35",
+    "Excludes significant medical illness, other neurodegenerative disease or dementia, abnormal liver/kidney tests, lumbar spine abnormalities"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Canada"
+   ],
+   "genetic": "Any (sporadic ALS)",
+   "statusNote": "Recruiting; Canadian and European sites only.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07100119"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07174492",
+   "name": "Masitinib Phase 3 (AB23005)",
+   "title": "Efficacy and Safety of Masitinib in Combination With SoC Versus Placebo in the Treatment of ALS Patients",
+   "sponsor": "AB Science",
+   "phase": "Phase 3",
+   "type": "Interventional",
+   "intervention": "Oral masitinib 4.5 mg/kg/day plus riluzole vs placebo plus riluzole for 48 weeks",
+   "summary": "A confirmatory Phase 3 trial of the oral tyrosine-kinase inhibitor masitinib added to riluzole, planned for about 412 people with 'normally progressing' ALS. Randomized, double-blind, placebo-controlled, 52 weeks total. The FDA cleared the trial to run in the U.S., but as of the last registry update only a site in Athens, Greece was listed and the status was 'Not yet recruiting'.",
+   "eligibility": [
+    "Ages 18-80 with probable or definite ALS, familial or sporadic",
+    "First symptom no more than 36 months before screening",
+    "Stable riluzole 100 mg/day for at least 30 days",
+    "ALSFRS-R progression rate 0.3-1.1 points/month; FVC at least 70% predicted",
+    "Weight at least 41 kg, BMI 18-35; no prior masitinib"
+   ],
+   "placebo": true,
+   "remote": false,
+   "states": [
+    "Multiple"
+   ],
+   "genetic": "Any",
+   "statusNote": "Not yet recruiting; U.S. sites not yet posted (only Greece listed as of Oct 2025 registry update).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07174492",
+    "https://www.decentrialz.com/clinical-trials/NCT07174492/efficacy-and-safety-of-masitinib-in-combination-with-soc-versus-placebo-in-the-treatment-of-als-patients",
+    "https://alsnewstoday.com/news/new-phase-3-trial-masitinib-launch-us-eu-countries/"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "soon"
+  },
+  {
+   "id": "NCT06169176",
+   "name": "RAPA-501 expanded access",
+   "title": "Intermediate-Size Expanded Access Trial of Autologous Hybrid TREG/Th2 T Stem Cell Therapy (RAPA-501) of Amyotrophic Lateral Sclerosis",
+   "sponsor": "Rapa Therapeutics LLC",
+   "phase": "Expanded access",
+   "type": "Expanded access",
+   "intervention": "RAPA-501 autologous regulatory T cells by IV infusion (up to 4 infusions at weeks 0, 6, 12, 18) after apheresis and low-dose chemotherapy",
+   "summary": "An expanded access protocol that lets people with ALS who cannot join the main RAPA-501 trial (for example because of low breathing capacity) receive the company's T-cell therapy. Cells are made from the patient's own blood. No placebo. The program is currently not accepting new patients but the Healey Center and UCSF listings say it may reopen.",
+   "eligibility": [
+    "Age 18+ with sporadic or familial ALS (El Escorial possible, probable or definite)",
+    "Slow vital capacity below 50% predicted (exceptions for severe respiratory impairment)",
+    "CD3+ T cell count at least 500 cells/uL",
+    "Riluzole, edaravone or AMX0035 allowed if stable for 30 days",
+    "Excludes active infection, uncontrolled hypertension, HIV/hepatitis B or C, significant cardiac disease, pregnancy"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA",
+    "MA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Not currently accepting new patients; listed as 'might open later'. Check with Healey Center (MGH), UCSF or UC Irvine.",
+   "sources": [
+    "https://clinicaltrials.ucsf.edu/trial/NCT06169176",
+    "https://research.massgeneralbrigham.org/en/institutes-centers/neuroscience-institute/department-of-neurology/sean-healey-amg-center-for-als/expanded-access"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "soon"
+  },
+  {
+   "id": "NCT06429735",
+   "name": "Neuralink PRIME brain-computer interface",
+   "title": "Precise Robotically IMplanted Brain-Computer InterfacE (PRIME Study)",
+   "sponsor": "Neuralink Corp",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Surgical implant of the Neuralink N1 wireless brain implant using the R1 robot; participants use thought to control computers",
+   "summary": "An early feasibility study of Neuralink's fully implanted wireless brain-computer interface in people with severe paralysis from ALS or spinal cord injury. Participants have the device implanted and then use it to control a computer cursor and other devices. No placebo; about 15 participants. Sites at Barrow (Phoenix) and University of Miami.",
+   "eligibility": [
+    "Ages 22-75 with severe quadriplegia from ALS or spinal cord injury for at least 1 year",
+    "Life expectancy of 12 months or more",
+    "Able to communicate in English; has a stable caregiver",
+    "Excludes active implanted devices, BMI over 40, poorly controlled seizures or diabetes, tobacco use, immunosuppression, certain brain MRI findings"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "AZ",
+    "FL"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated Jan 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06429735",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07224256",
+   "name": "Neuralink VOICE speech BCI",
+   "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+   "sponsor": "Neuralink Corp",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Surgical implant of the Neuralink N1/R1 system targeting speech areas to restore communication",
+   "summary": "A small early feasibility study (about 6 people) testing whether Neuralink's implant can decode attempted speech for people who have lost the ability to speak and use their hands because of ALS, PLS, stroke or spinal cord injury. No placebo. Single site at UT Southwestern in Dallas.",
+   "eligibility": [
+    "Ages 22-75 with ALS, PLS, stroke or spinal cord injury",
+    "Severe speech impairment plus impaired upper-limb function",
+    "Life expectancy of at least 12 months; English-speaking; stable caregiver",
+    "Excludes BMI over 40, poorly controlled seizures or diabetes, need for ongoing MRI, immunosuppression, certain brain MRI findings"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "TX"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07224256",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07357428",
+   "name": "Paradromics Connexus BCI (Connect-One)",
+   "title": "Connect-One: Early Feasibility Study of Connexus Brain-Computer Interface (BCI) to Provide Human Connection Through Communication",
+   "sponsor": "Paradromics",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Surgical implant of the Connexus high-bandwidth brain-computer interface to decode imagined speech and control computers",
+   "summary": "A first-in-human early feasibility study of Paradromics' implantable BCI, designed to let people who cannot speak communicate by decoding attempted speech, and to control computers. Very small (2 participants initially). No placebo. Sites at UC Davis, Mass General and University of Michigan.",
+   "eligibility": [
+    "Ages 22-75 with a progressive neuromuscular disease (such as ALS) or neurological injury",
+    "Anarthria or severe dysarthria",
+    "Wheelchair dependent with severely impaired upper-limb function",
+    "Reliable current communication method; reads/understands English; has a study care partner",
+    "Lives within 4 hours of a study site; no other implanted electronic device; no need for regular MRIs"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA",
+    "MA",
+    "MI"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated April 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07357428",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT00912041",
+   "name": "BrainGate2 intracortical BCI",
+   "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia",
+   "sponsor": "Leigh R. Hochberg, MD, PhD (BrainGate consortium)",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Surgical placement of up to six small sensor arrays in motor and speech areas of the brain, connected through pedestals; weekly research sessions for a year or more",
+   "summary": "The long-running BrainGate2 study tests whether people with severe paralysis can control computer cursors, communication software and assistive devices with their thoughts using implanted microelectrode arrays. No placebo. Participation involves brain surgery and at least weekly research sessions. Sites at UC Davis, Stanford, Emory, Mass General, Providence VA and Baylor.",
+   "eligibility": [
+    "Ages 18-80 with ALS or another motor neuron disorder, spinal cord injury, brainstem stroke or muscular dystrophy",
+    "Complete or incomplete tetraplegia",
+    "Lives within a three-hour drive of a study site",
+    "Excludes visual impairment that limits monitor use, chronic steroids or immunosuppressants, other serious disease"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA",
+    "GA",
+    "MA",
+    "RI",
+    "TX"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated June 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct00912041",
+    "https://www.massgeneralbrigham.org/en/health-wellness/whats-the-latest-on-als-research-and-clinical-trials"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05724173",
+   "name": "BrainGate2 speech prosthesis (ALS)",
+   "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (speech motor cortex / speech prosthesis)",
+   "sponsor": "Leigh R. Hochberg, MD, PhD (BrainGate consortium)",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Implanted BrainGate2 microelectrode arrays in speech motor cortex to decode attempted speech",
+   "summary": "A BrainGate study specifically for people with ALS who have lost the ability to speak clearly. Implanted sensors record from the speech motor cortex so a computer can turn attempted speech into text or synthesized voice. No placebo; about 3 participants. Sites at Stanford and Mass General.",
+   "eligibility": [
+    "Ages 18-80 with ALS verified by a neurologist",
+    "Anarthria, or severe dysarthria that has worsened over the prior four months",
+    "Lives within a three-hour drive of the site and geographically stable for 15 months after enrollment",
+    "Excludes chronic steroids/immunosuppressants, visual impairment limiting monitor use, other serious disease"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA",
+    "MA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated June 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct05724173",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06094205",
+   "name": "BrainGate2 BG-Speech-02 (UC Davis)",
+   "title": "Understanding and Restoring Speech Production Using an Intracortical Brain-computer Interface (BG-Speech-02)",
+   "sponsor": "Leigh R. Hochberg, MD, PhD (BrainGate consortium)",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Implanted BrainGate2 sensors in speech-related cortex; attempted speech decoded to a computer",
+   "summary": "A UC Davis BrainGate study aiming to let people who cannot speak fluently communicate through a computer by attempting to speak. Involves brain surgery to place sensors and ongoing research sessions. No placebo; about 2 participants.",
+   "eligibility": [
+    "Ages 18-80 with ALS or another motor neuron disorder, spinal cord injury, brainstem stroke or muscular dystrophy",
+    "Complete or incomplete tetraplegia",
+    "Lives within a three-hour drive of UC Davis (Sacramento) and geographically stable for 15 months",
+    "Excludes chronic steroids/immunosuppressants, visual impairment, other serious disease"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated Dec 2025).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06094205",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT03698149",
+   "name": "UCSF ECoG brain-machine interface",
+   "title": "ECoG BMI for Motor and Speech Control (high-performance ECoG-based neural interface for communication and neuroprosthetic control)",
+   "sponsor": "Karunesh Ganguly, MD, PhD (UCSF)",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Surgically placed subdural electrocorticography (ECoG) electrodes connected to a Blackrock NeuroPort system; participants train to control devices and speech software",
+   "summary": "A UCSF study testing whether brain-surface (ECoG) recordings can control complex devices and restore speech for adults with severe paralysis, including ALS. Involves neurosurgery and regular training sessions. No placebo; about 3 participants.",
+   "eligibility": [
+    "Age 21+ with limited upper-limb use from ALS, stroke, MS, spinal cord injury, muscular dystrophy, myopathy or severe neuropathy",
+    "Modified Rankin Scale 4 or higher",
+    "Lives within a two-hour drive of UCSF",
+    "Excludes dementia, active depression, seizure history, prior intracranial surgery, implanted electronics or metal in head/neck, anticoagulation, immunocompromise"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Open per UCSF (Oct 6, 2026); registry updated May 2026.",
+   "sources": [
+    "https://clinicaltrials.ucsf.edu/amyotropic-lateral-sclerosis-als",
+    "https://tundraspace.com/directory/studies/nct03698149"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05183152",
+   "name": "Non-invasive EEG BCI (UT Austin)",
+   "title": "Non-invasive Brain-computer Interfaces for Control of Assistive Devices",
+   "sponsor": "University of Texas at Austin",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "EEG cap-based brain-computer interface training with neuromuscular electrical stimulation feedback and transcutaneous spinal stimulation (no surgery)",
+   "summary": "A non-surgical study testing whether EEG-based brain-computer interfaces can control assistive devices for people with motor impairment, and whether spinal or muscle stimulation speeds up BCI learning. Open to people with ALS and other conditions as well as healthy volunteers. No implant, no drug, no placebo.",
+   "eligibility": [
+    "Ages 18-80 with motor disability from a motor neuron disease such as ALS, stroke, spinal cord injury, MS or TBI (healthy volunteers also accepted)",
+    "Able to read and understand English; normal or corrected vision",
+    "Excludes cognitive deficits preventing sustained concentration, heavy CNS-acting medications, serious concurrent illness, metal implants or skin problems that interfere with electrodes"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "TX"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated May 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct05183152",
+    "https://plaintrial.com/condition/motor-neuron-disease"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06172621",
+   "name": "Spinal cord associative plasticity (VA Bronx)",
+   "title": "Spinal Cord Associative Plasticity for Amyotrophic Lateral Sclerosis",
+   "sponsor": "VA Office of Research and Development",
+   "phase": "Device study",
+   "type": "Device",
+   "intervention": "Paired non-invasive brain (TMS) and spinal cord stimulation, with or without daily hand-task exercise",
+   "summary": "A VA study testing whether pairing non-invasive brain and spinal stimulation can strengthen weakened hand function in ALS. After a 2-3 month individualization period, participants complete two-week stimulation programs with or without hand exercises. No drug, no surgery, no placebo; about 32 participants at the James J. Peters VA in the Bronx. Veteran status requirements not stated on the listing.",
+   "eligibility": [
+    "Ages 18-80 with ALS by Gold Coast or El Escorial criteria",
+    "Incomplete hand weakness (manual muscle test 1-4 out of 5)",
+    "Meets minimum evoked-potential thresholds",
+    "Excludes seizure history, ventilator dependence, implanted stimulators or ferromagnetic head implants, significant cardiac disease, bipolar disorder, active psychosis, pregnancy"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "NY"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated March 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06172621",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05395624",
+   "name": "18F-OP-801 PET imaging of neuroinflammation",
+   "title": "Safety, PK and Biodistribution of 18F-OP-801 in Patients With ALS, AD, MS, PD and Healthy Volunteers",
+   "sponsor": "Ashvattha Therapeutics, Inc.",
+   "phase": "Phase 1/2",
+   "type": "Interventional",
+   "intervention": "Single IV injection of the investigational PET tracer 18F-OP-801 followed by PET/CT or PET/MRI scans",
+   "summary": "An imaging study, not a treatment trial. The tracer is designed to light up activated microglia (brain inflammation) on PET scans, which could become a biomarker for ALS trials. Participants get one injection and lie in a scanner for up to 90 minutes. No placebo. Sites at UCSF, Stanford and Mayo Clinic Jacksonville.",
+   "eligibility": [
+    "ALS group: ages 18-80 with sporadic or familial ALS (modified El Escorial)",
+    "FVC at least 50% predicted, or able to lie flat for up to 90 minutes",
+    "eGFR above 45; CRP 10 mg/dL or lower",
+    "Excludes weight over 120 kg, corticosteroids within 30 days, MRI-incompatible implants, inability to lie in scanner"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "CA",
+    "FL"
+   ],
+   "genetic": "Any",
+   "statusNote": "Listed as open at UCSF (Oct 2026); registry last updated May 2025.",
+   "sources": [
+    "https://clinicaltrials.ucsf.edu/amyotropic-lateral-sclerosis-als",
+    "https://tundraspace.com/directory/studies/nct05395624"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT07454733",
+   "name": "Video recordings of ALS clinic visits (Dartmouth)",
+   "title": "Do Video Recordings of Multidisciplinary Clinics Improve Quality of Life for People With ALS and Their Caregivers?",
+   "sponsor": "Trustees of Dartmouth College",
+   "phase": "Device study",
+   "type": "Interventional",
+   "intervention": "Behavioral: video recordings of multidisciplinary ALS clinic visits viewable at home (HealthPAL) vs written after-visit summaries only",
+   "summary": "A multi-site trial asking whether getting a video recording of your ALS clinic visits (in addition to the usual written summary) improves quality of life for patients and caregivers. Participants are assigned to 'notes only' or 'notes plus video' and complete questionnaires at 1, 6 and 12 months. No drug; about 400 patient-caregiver pairs. Sites include Mayo Scottsdale, Mayo Jacksonville, Mass General, Dartmouth, Penn State Hershey, Pittsburgh and Madison.",
+   "eligibility": [
+    "Adults 18+ with ALS (El Escorial or Gold Coast) planning clinic visits for the next 12 months",
+    "English or Spanish speaking; has an enrolled caregiver (non-professional)",
+    "Projected life expectancy at least 12 months",
+    "Internet/email access and willing to use a patient portal",
+    "Excludes significant cognitive impairment, unstable psychiatric illness, uncorrected hearing or vision impairment"
+   ],
+   "placebo": false,
+   "remote": false,
+   "states": [
+    "AZ",
+    "FL",
+    "MA",
+    "NH",
+    "PA",
+    "WI"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated Oct 8, 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct07454733"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06968468",
+   "name": "Resilient Together-ALS (coping skills for patient + care partner)",
+   "title": "Resiliency Intervention for Patients With ALS and Their Care-Partners (Resilient Together-ALS)",
+   "sponsor": "Massachusetts General Hospital",
+   "phase": "Device study",
+   "type": "Interventional",
+   "intervention": "Behavioral: resiliency and coping-skills sessions (mindfulness, meaning-making) delivered over Zoom to the patient and their care partner together",
+   "summary": "A small pilot program from the Healey Center teaching coping and resilience skills to newly diagnosed people with ALS and their primary care partner, soon after diagnosis, via live video sessions. No drug, no placebo. About 20 participants; limited to people newly seen at the Healey Center at Mass General.",
+   "eligibility": [
+    "Adults 18+ diagnosed with ALS at a first Healey Center appointment within about 2 months",
+    "Patient and care partner live together and speak English",
+    "At least one partner scores above 7 on a HADS anxiety or depression subscale at screening",
+    "Able to communicate by speech, writing or assistive device; willing to use live video",
+    "Excludes severe mental health or cognitive disorder limiting participation"
+   ],
+   "placebo": false,
+   "remote": true,
+   "states": [
+    "MA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Not yet recruiting (registry updated Nov 2025); sessions are remote but enrollment is through the Healey Center at MGH.",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06968468"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "soon"
+  },
+  {
+   "id": "NCT06885918",
+   "name": "ALS Research Collaborative (ARC) - ALS TDI remote study",
+   "title": "ALS Research Collaborative (ALS Translational Research Program studying ALS, motor neuron diseases and related gene carriers)",
+   "sponsor": "ALS Therapy Development Institute",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Remote monthly ALSFRS-R, speech recordings scored by machine learning, wearable accelerometry, and periodic surveys; optional biosamples",
+   "summary": "A fully remote natural history study run by the nonprofit ALS TDI. Participants complete monthly online questionnaires, record speech samples and wear activity sensors from home for a year or more. Data support drug discovery, biomarker work and better outcome measures. Open to people with ALS/MND, gene carriers, and some healthy adults. Target 2,000 participants.",
+   "eligibility": [
+    "Adults 18+ who can communicate in written English",
+    "Diagnosed with ALS or another motor neuron disease, or a known carrier of an ALS-associated gene variant",
+    "Healthy adults without a biological connection to ALS may also enroll as controls",
+    "Excludes significant cognitive impairment that prevents informed consent"
+   ],
+   "placebo": null,
+   "remote": true,
+   "states": [
+    "Remote"
+   ],
+   "genetic": "Any (also gene carriers)",
+   "statusNote": "Recruiting; participation is from home.",
+   "sources": [
+    "https://decentrialz.com/clinical-trials/als-research-collaborative-06885918",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT01772602",
+   "name": "National ALS Registry (CDC/ATSDR)",
+   "title": "The National Amyotrophic Lateral Sclerosis Registry",
+   "sponsor": "Centers for Disease Control and Prevention",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Online self-registration plus optional risk-factor surveys; optional biorepository and notification about other research studies",
+   "summary": "The federal registry that counts people living with ALS in the U.S. and studies possible environmental and occupational risk factors. Anyone with ALS can enroll online and take optional surveys; registrants can opt in to be notified about clinical trials and other studies. Not a treatment study. Enrollment target 30,000.",
+   "eligibility": [
+    "Adults in the U.S. diagnosed with ALS",
+    "Enrollment is online through the CDC/ATSDR National ALS Registry website",
+    "See ClinicalTrials.gov listing for details"
+   ],
+   "placebo": null,
+   "remote": true,
+   "states": [
+    "Remote"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (ongoing registry through 2040).",
+   "sources": [
+    "https://plaintrial.com/trial/NCT01772602",
+    "https://www.cdc.gov/als/abouttheregistrymain/active-alsclinicalresearchnotification.html"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05137665",
+   "name": "Target ALS Biomarker Study",
+   "title": "Target ALS Biomarker Study; Longitudinal Biofluids, Clinical Measures, and At Home Measures",
+   "sponsor": "Target ALS Foundation, Inc.",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Blood, CSF and urine collection at about five clinic visits over 16 months, plus optional at-home speech, motor and breathing measures every two weeks",
+   "summary": "A large biorepository study collecting blood, spinal fluid and urine from about 800 people with ALS and 200 healthy controls over five years, linked to genetic and clinical data and shared openly with researchers. ALS participants visit the clinic roughly every four months; a subset also does at-home speech and breathing tests. Not a treatment study. Sites at Barrow, UCSD, Georgetown, Mayo Jacksonville, Northwestern, Mass General, WashU, Columbia, Baylor, University of Washington and Puerto Rico.",
+   "eligibility": [
+    "Age 18+ with ALS by Gold Coast criteria",
+    "Forced vital capacity at least 30% predicted (or at investigator discretion)",
+    "Able to give informed consent and follow study procedures",
+    "Healthy controls: age 18+, no neurological disease, no known ALS gene mutation"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "AZ",
+    "CA",
+    "DC",
+    "FL",
+    "IL",
+    "MA",
+    "MO",
+    "NY",
+    "TX",
+    "WA",
+    "PR"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (listed open at UCSD Oct 2026; registry updated Nov 2025).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct05137665",
+    "https://clinicaltrials.ucsd.edu/amyotropic-lateral-sclerosis-als",
+    "https://www.neurology.northwestern.edu/divisions/neuromuscular-disease/clinical-trials.html"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT03489278",
+   "name": "CAPTURE-ALS (medical records research)",
+   "title": "Clinical Procedures to Support Research in ALS (CAPTURE-ALS)",
+   "sponsor": "University of Miami",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Permission to use information already recorded in your electronic medical record (Epic) for ALS research",
+   "summary": "A low-burden study that uses routine clinic data from participating ALS centers' electronic health records to learn more about ALS and related disorders. No extra visits or procedures beyond consent. About 1,200 participants across centers including UC Irvine, Stanford, UCSF, Miami, Kansas, Minnesota, NYU/Columbia area, Duke, Wake Forest, Oregon and San Antonio.",
+   "eligibility": [
+    "Age 18+ with ALS or a related disorder (PLS, PMA)",
+    "Receives care at a participating center that uses the Epic medical record",
+    "Able to consent (or consent from a designated proxy)",
+    "Must understand English or Spanish"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "CA",
+    "FL",
+    "KS",
+    "MN",
+    "NY",
+    "NC",
+    "OR",
+    "TX"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated June 2026; open at UC Irvine Oct 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct03489278",
+    "https://clinicaltrials.icts.uci.edu/amyotropic-lateral-sclerosis-als"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05966038",
+   "name": "ALS/MND Natural History Study (NeuroBANK)",
+   "title": "ALS/MND Natural History Study Data Repository",
+   "sponsor": "Massachusetts General Hospital",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Clinic-based collection of demographics, disease history and standard outcome measures at routine visits; optional biomarker forms",
+   "summary": "A multi-site natural history study that enrolls people with ALS and related motor neuron disorders at their regular clinic visits and stores de-identified data in the NeuroBANK platform for researchers. No extra treatment; data collection piggybacks on usual care. Target 5,000 participants at 15 U.S. sites plus Israel and Italy.",
+   "eligibility": [
+    "Ages 18-90 with suspected, possible, probable or definite ALS, or another motor neuron disorder (PLS, PMA, PBP, SMA, Kennedy's disease)",
+    "Attends a participating clinic",
+    "Excludes disease that does not meet criteria for any motor neuron disorder"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "CA",
+    "FL",
+    "IL",
+    "MA",
+    "MI",
+    "MN",
+    "MO",
+    "OR",
+    "PA",
+    "VA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated May 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct05966038",
+    "https://www.neurology.northwestern.edu/divisions/neuromuscular-disease/clinical-trials.html"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT03865420",
+   "name": "ALS Families Project (Columbia) - at-risk relatives",
+   "title": "Amyotrophic Lateral Sclerosis (ALS) Families Project",
+   "sponsor": "Columbia University",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Genetic counseling, optional genetic testing with the choice to learn results, and periodic clinical visits and biosamples for unaffected gene carriers",
+   "summary": "A Columbia study for people who do not have ALS or FTD symptoms but are at genetic risk because of a family mutation. Participants get genetic counseling and testing (results optional) and are followed at Columbia every 6 to 24 months to learn how ALS begins. Not a treatment study; about 300 participants.",
+   "eligibility": [
+    "Ages 18-105 with no ALS or FTD symptoms",
+    "Known ALS-spectrum gene mutation, a first-degree relative who is an obligate carrier, or judged high-risk by the study team",
+    "Willing to undergo genetic analysis and travel to Columbia University Irving Medical Center periodically",
+    "Biosample portion excludes known HIV, hepatitis B or C"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "NY"
+   ],
+   "genetic": "At-risk family members",
+   "statusNote": "Recruiting (registry updated Jan 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct03865420",
+    "https://plaintrial.com/condition/als"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT00317616",
+   "name": "Pre-fALS (pre-symptomatic familial ALS, Miami)",
+   "title": "The Pre-symptomatic Familial Amyotrophic Lateral Sclerosis (Pre-fALS) Study",
+   "sponsor": "University of Miami",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Natural history and biomarker visits (clinical exams, biofluids, genetic testing) for unaffected people from familial ALS families",
+   "summary": "A long-running study (since 2006) of people at genetic risk for ALS who have no symptoms, aimed at understanding the pre-symptomatic phase and the transition to disease. Pre-fALS findings underpinned the tofersen presymptomatic ATLAS trial. Not a treatment study; about 500 participants, based at University of Miami.",
+   "eligibility": [
+    "Adults from familial ALS families with a known ALS-associated mutation, or who are at genetic risk because a relative tested positive",
+    "No ALS symptoms",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL"
+   ],
+   "genetic": "At-risk family members",
+   "statusNote": "Recruiting (estimated completion 2037).",
+   "sources": [
+    "https://plaintrial.com/trial/NCT00317616"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT00136500",
+   "name": "Clinical Research in ALS (Miami ARC umbrella study)",
+   "title": "Clinical Research in ALS Study",
+   "sponsor": "University of Miami",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Umbrella enrollment protocol for the University of Miami ALS Research Collaboration; clinical data and biosamples for a range of sub-studies",
+   "summary": "An umbrella observational protocol used by the University of Miami ALS center to enroll patients and family members into its portfolio of research studies. No treatment is given. Enrollment target 10,000.",
+   "eligibility": [
+    "People with ALS and related disorders seen at the University of Miami",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting.",
+   "sources": [
+    "https://plaintrial.com/trial/NCT00136500"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05474235",
+   "name": "Mayo Clinic genetics of ALS (blood/DNA repository)",
+   "title": "Studies in Amyotrophic Lateral Sclerosis (ALS) and Other Neurodegenerative Motor Neuron Disorders",
+   "sponsor": "Mayo Clinic",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Blood sample and clinical data collection from people with ALS, their family members, and controls for genetic research",
+   "summary": "A Mayo Clinic Florida repository study collecting blood (for DNA) and clinical information from people with sporadic or familial ALS, their relatives, and unrelated controls, to study genetic contributions to ALS. No treatment. Target 3,000 participants.",
+   "eligibility": [
+    "People with sporadic or familial ALS",
+    "Family members of people with ALS",
+    "Controls with no personal or family history of ALS",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL"
+   ],
+   "genetic": "Any (including family members)",
+   "statusNote": "Recruiting.",
+   "sources": [
+    "https://plaintrial.com/trial/NCT05474235",
+    "https://www.mayo.edu/research/clinical-trials/diseases-conditions/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05116943",
+   "name": "Mayo Clinic ALS/ALS-FTD biorepository (CSF and blood)",
+   "title": "Biospecimen Biorepository for the Study of ALS, ALS-FTD and Similar Neurodegenerative Disorders",
+   "sponsor": "Mayo Clinic",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Serial cerebrospinal fluid (lumbar puncture) and blood collection stored for future biomarker research",
+   "summary": "A Mayo Clinic Jacksonville biorepository that collects spinal fluid and blood over time from people with ALS and ALS-FTD so researchers can search for biomarkers. No treatment. About 100 participants; runs through 2030.",
+   "eligibility": [
+    "People with ALS or ALS-FTD and similar neurodegenerative disorders seen at Mayo Clinic Florida",
+    "Willing to undergo lumbar puncture and blood draws",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting.",
+   "sources": [
+    "https://plaintrial.com/trial/NCT05116943",
+    "https://www.mayo.edu/research/clinical-trials/diseases-conditions/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT03225144",
+   "name": "NIH screening study for ALS/FTD-spectrum disorders",
+   "title": "Investigating Complex Neurodegenerative Disorders Related to Amyotrophic Lateral Sclerosis and Frontotemporal Dementia",
+   "sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "2-3 day screening evaluation at the NIH Clinical Center: exams, cognitive testing, blood/genetic tests, breathing tests, MRI, EMG, skin biopsy, optional lumbar puncture",
+   "summary": "An NIH natural history and screening protocol for people with ALS, FTD and related TDP-43 or tau disorders. Participants travel to Bethesda for a multi-day evaluation; results help determine eligibility for other NIH studies (such as the C9orf72 acamprosate trial) and build understanding of shared disease mechanisms. NIH studies typically cover travel costs. No treatment.",
+   "eligibility": [
+    "Age 18+ with a neurodegenerative disorder associated with TDP-43 or tau (including ALS and FTD)",
+    "Able to travel to the NIH Clinical Center in Bethesda, MD",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "MD"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (estimated completion 2027).",
+   "sources": [
+    "https://plaintrial.com/trial/NCT03225144"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06735014",
+   "name": "Multicenter ALS MRI imaging biomarker study",
+   "title": "Multicenter ALS Imaging Study (Multicenter Longitudinal Imaging in ALS for Disease Biomarker Development)",
+   "sponsor": "University of Minnesota",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Brain and cervical spine 3T MRI plus blood neurofilament light (NfL) tests at up to four visits over about a year",
+   "summary": "A three-site imaging study looking for objective MRI and blood biomarkers that track ALS progression. People with ALS and healthy controls get MRI scans of the brain and neck and blood draws up to four times in a year. No treatment; about 90 participants at University of Minnesota, Northwestern and University of Florida.",
+   "eligibility": [
+    "People with ALS and healthy controls",
+    "Able to undergo MRI scans",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL",
+    "IL",
+    "MN"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (estimated completion 2028).",
+   "sources": [
+    "https://plaintrial.com/trial/NCT06735014",
+    "https://www.neurology.northwestern.edu/divisions/neuromuscular-disease/clinical-trials.html"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06315673",
+   "name": "Digital speech and handwriting assessment (Penn State Hershey)",
+   "title": "Digital Assessment of Speech and Fine Motor Control in ALS",
+   "sponsor": "Milton S. Hershey Medical Center",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "One in-person visit completing tablet-based speech recording and handwriting tasks",
+   "summary": "A single-visit study testing whether simple tablet-based speech and handwriting measures track ALS severity. Open to people with ALS, PLS or PMA and age-matched healthy controls. No treatment; about 50 participants in Hershey, PA.",
+   "eligibility": [
+    "People with ALS, primary lateral sclerosis or progressive muscular atrophy, plus age-matched healthy controls",
+    "Able to complete a tablet-based assessment in one visit",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "PA"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (estimated completion March 2027).",
+   "sources": [
+    "https://plaintrial.com/trial/NCT06315673"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT05067179",
+   "name": "UIC ALS tissue analysis and patient registry",
+   "title": "Analysis of Human ALS Tissues and Registry of ALS Patients",
+   "sponsor": "University of Illinois at Chicago",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Registry enrollment and analysis of ALS tissue samples to identify progression markers",
+   "summary": "A small University of Illinois Chicago registry and tissue study aimed at finding markers of ALS progression and potential treatment targets. No treatment; about 40 participants.",
+   "eligibility": [
+    "Ages 18-90 with an established ALS diagnosis",
+    "Able to give written informed consent and authorize release of health information"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "IL"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated July 2026).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct05067179"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT03362658",
+   "name": "CALSNIC MRI biomarkers (Canada, Miami, Utah)",
+   "title": "Novel MRI Biomarkers for Monitoring Disease Progression in ALS",
+   "sponsor": "University of Alberta",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Three advanced MRI scans over about 8 months plus neurological and cognitive evaluations",
+   "summary": "The Canadian ALS Neuroimaging Consortium (CALSNIC) study develops advanced MRI measures of brain structure, wiring and chemistry to diagnose ALS earlier and track progression. Three scans over about 8 months, each visit 2-3 hours. No treatment. Sites across Canada plus University of Miami and University of Utah; target 700 participants.",
+   "eligibility": [
+    "People with ALS and healthy controls",
+    "Able to undergo MRI",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "FL",
+    "UT",
+    "Canada"
+   ],
+   "genetic": "Any",
+   "statusNote": "Listed as recruiting (Aug 2026 mirror) but the posted completion date was Dec 2025; confirm with the site.",
+   "sources": [
+    "https://plaintrial.com/trial/NCT03362658",
+    "https://plaintrial.com/condition/motor-neuron-disease"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT04363684",
+   "name": "ALLFTD (frontotemporal degeneration / C9orf72 families)",
+   "title": "ARTFL LEFFTDS Longitudinal Frontotemporal Lobar Degeneration (ALLFTD)",
+   "sponsor": "Mayo Clinic (NIH-funded consortium)",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Longitudinal clinical, cognitive, imaging and biofluid assessments for people with FTD-spectrum disorders and members of families with FTD/ALS-causing genes",
+   "summary": "A North American consortium study of frontotemporal lobar degeneration, including ALS-FTD and asymptomatic members of families carrying C9orf72 and other FTD/ALS genes. Participants have periodic visits with cognitive testing, MRI and biosamples. Not a treatment study. Listed as open on UCSF and UCSD ALS trial pages (Oct 2026).",
+   "eligibility": [
+    "Age 18+ with an FTD-spectrum diagnosis (including ALS with cognitive/behavioral features), or a member of a family with a known FTD/ALS gene mutation",
+    "See ClinicalTrials.gov listing for full criteria"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "Multiple"
+   ],
+   "genetic": "C9orf72 and other FTD/ALS genes; at-risk family members",
+   "statusNote": "Recruiting at many North American sites.",
+   "sources": [
+    "https://clinicaltrials.ucsf.edu/amyotropic-lateral-sclerosis-als",
+    "https://clinicaltrials.ucsd.edu/amyotropic-lateral-sclerosis-als"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06539169",
+   "name": "FLOWER virtual rare-disease registry (includes ALS)",
+   "title": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+   "sponsor": "xCures",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Electronic consent and medical-records release; records are collected and standardized for research",
+   "summary": "A fully virtual, nationwide real-world data study for rare diseases including ALS. Participants (or a legal representative) sign consent online and authorize release of medical records; no visits or procedures. Useful for people who want to contribute data without travel.",
+   "eligibility": [
+    "Any age with a known or suspected rare disease (ALS qualifies)",
+    "Patient or legally authorized representative able to give informed consent",
+    "Must be able to provide U.S. medical records"
+   ],
+   "placebo": null,
+   "remote": true,
+   "states": [
+    "Remote"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated Nov 2024).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06539169",
+    "https://plaintrial.com/condition/amyotrophic-lateral-sclerosis"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  },
+  {
+   "id": "NCT06203106",
+   "name": "NYSCF stem cell biobank (includes ALS)",
+   "title": "NYSCF Scientific Discovery Biobank",
+   "sponsor": "New York Stem Cell Foundation Research Institute",
+   "phase": "Observational",
+   "type": "Observational",
+   "intervention": "Donation of skin biopsy, blood (up to 50 mL) or saliva to create stem cell lines; genetic testing; samples stored for future research",
+   "summary": "A biobank that turns donated skin or blood cells from people with ALS and other diseases into stem cell lines for research. One collection visit in New York City. No treatment; target 10,000 participants across many conditions.",
+   "eligibility": [
+    "People with ALS (and many other conditions) or healthy controls, age 30 days and older",
+    "Adults without decisional capacity can participate with a legally authorized representative",
+    "Some sample types exclude keloid history, clotting disorders or anesthetic allergies"
+   ],
+   "placebo": null,
+   "remote": false,
+   "states": [
+    "NY"
+   ],
+   "genetic": "Any",
+   "statusNote": "Recruiting (registry updated March 2025).",
+   "sources": [
+    "https://tundraspace.com/directory/studies/nct06203106",
+    "https://plaintrial.com/condition/als"
+   ],
+   "lastVerified": "2026-10-15",
+   "enrolling": "yes"
+  }
+ ]
+}

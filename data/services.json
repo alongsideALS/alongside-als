@@ -1,0 +1,1088 @@
+{
+ "updated": "2026-10-15",
+ "items": [
+  {
+   "id": "ssdi-als",
+   "name": "Social Security Disability (SSDI) & Medicare",
+   "org": "Social Security Administration",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Monthly disability income. ALS is a Compassionate Allowance, so claims are fast-tracked. The 5-month SSDI waiting period is waived for ALS, and Medicare starts when SSDI begins.",
+   "amount": "Based on your work history",
+   "status": "rolling",
+   "window": "Apply as soon as you are diagnosed and unable to work.",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Enough work credits (SSI is an option for those without)"
+   ],
+   "youllNeed": [
+    "Medical records confirming the ALS diagnosis",
+    "Work history and earnings",
+    "Birth certificate, SSN, bank info for direct deposit",
+    "Doctor and clinic contact details"
+   ],
+   "howToApply": "Apply online at ssa.gov/disability or call 1-800-772-1213. Say 'ALS' so the claim is flagged as a Compassionate Allowance.",
+   "url": "https://www.ssa.gov/disability",
+   "contact": "1-800-772-1213",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "va-als-benefits",
+   "name": "VA Disability Compensation for ALS",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Tax-free monthly compensation, health care, auto and housing grants, and caregiver support. ALS is presumptively service connected and typically rated at 100%.",
+   "amount": "Based on rating and dependents",
+   "status": "rolling",
+   "window": "Apply any time.",
+   "deadline": null,
+   "eligibility": [
+    "Veteran with 90+ days of continuous active service",
+    "ALS diagnosis"
+   ],
+   "youllNeed": [
+    "DD-214 (discharge papers)",
+    "ALS diagnosis records",
+    "VA Form 21-526EZ"
+   ],
+   "howToApply": "File on VA.gov or work with an accredited Veterans Service Officer (free).",
+   "url": "https://www.va.gov/disability/eligibility/special-claims/als/",
+   "contact": "1-800-827-1000",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "needymeds",
+   "name": "Medication Assistance Directory & Discount Card",
+   "org": "NeedyMeds",
+   "categories": [
+    "Prescriptions help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A searchable directory of manufacturer patient-assistance programs and copay funds for ALS drugs, plus a free drug discount card.",
+   "amount": "Varies by program",
+   "status": "rolling",
+   "window": "Always available.",
+   "deadline": null,
+   "eligibility": [
+    "Anyone (each program sets its own rules)"
+   ],
+   "youllNeed": [
+    "Medication names",
+    "Insurance details"
+   ],
+   "howToApply": "Search by drug or diagnosis on NeedyMeds.",
+   "url": "https://www.needymeds.org/",
+   "contact": "needymeds.org",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "bridging-voice",
+   "name": "Communication Device & Voice Banking Help",
+   "org": "Bridging Voice",
+   "categories": [
+    "Communication"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free help with voice banking, choosing a speech-generating device, and securing insurance or grant funding for it.",
+   "amount": "Free services",
+   "status": "rolling",
+   "window": "Always available.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS"
+   ],
+   "youllNeed": [
+    "Contact info",
+    "Current speech and access abilities"
+   ],
+   "howToApply": "Request services on the Bridging Voice website.",
+   "url": "https://bridgingvoice.org/",
+   "contact": "bridgingvoice.org",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "team-gleason",
+   "name": "Technology, Equipment & Care Services",
+   "org": "Team Gleason",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Communication devices, eye-gaze and smart-home technology, power-chair accessories and other equipment not covered by insurance. Also care services and 'Adventure' experiences.",
+   "amount": "Equipment or service provided directly",
+   "status": "rolling",
+   "window": "Rolling. No deadlines are posted.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS",
+    "Read Team Gleason's FAQ and pre-application notes first"
+   ],
+   "youllNeed": [
+    "Description of the equipment or service you need",
+    "Information about what insurance has or hasn't covered",
+    "Contact information for you or your caregiver"
+   ],
+   "howToApply": "Use the online application on Team Gleason's 'Need Assistance?' page and choose the service you need.",
+   "url": "https://teamgleason.org/need-assistance/",
+   "contact": "teamgleason.org/contact-us",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "hope-loves-company",
+   "name": "Support for Children & Young Adults (camps, scholarships)",
+   "org": "Hope Loves Company",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free camps, programs and scholarships for children and young adults who have or had a loved one with ALS.",
+   "amount": "Varies (scholarships and free camp programs)",
+   "status": "check",
+   "window": "Program and scholarship dates change each year. Check the site.",
+   "deadline": null,
+   "eligibility": [
+    "Children and young adults with a parent or loved one with ALS"
+   ],
+   "youllNeed": [
+    "Application for the specific camp or scholarship"
+   ],
+   "howToApply": "Visit Hope Loves Company for current programs.",
+   "url": "https://www.hopelovescompany.org/",
+   "contact": "hopelovescompany.org",
+   "lastVerified": "2026-10-11",
+   "kind": "service"
+  },
+  {
+   "id": "medicare-als",
+   "name": "Medicare (starts with SSDI for ALS)",
+   "org": "Centers for Medicare & Medicaid Services",
+   "categories": [
+    "Government benefits",
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "For people with ALS, Medicare coverage begins the same month SSDI benefits start, with no 24-month wait. It covers clinic visits, many tests, durable medical equipment like wheelchairs and BiPAP, and hospice.",
+   "amount": "Health coverage",
+   "status": "rolling",
+   "window": "Automatic once SSDI is approved.",
+   "deadline": null,
+   "eligibility": [
+    "Approved for SSDI with an ALS diagnosis"
+   ],
+   "youllNeed": [
+    "SSDI approval",
+    "Choose Part D drug coverage and consider a Medigap or Advantage plan"
+   ],
+   "howToApply": "Enrollment follows SSDI. Ask your clinic social worker or the ALS Association Insurance & Benefits Resource Line for plan help.",
+   "url": "https://www.medicare.gov/",
+   "contact": "1-800-633-4227",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "alsa-benefits-line",
+   "name": "Insurance & Benefits Resource Line",
+   "org": "The ALS Association with Patient Advocate Foundation",
+   "categories": [
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free one-on-one case management for insurance denials, Medicare and Medicaid questions, disability applications and other benefits.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Available any time.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS and their families"
+   ],
+   "youllNeed": [
+    "Insurance cards and any denial letters"
+   ],
+   "howToApply": "Start from the program page on als.org.",
+   "url": "https://www.als.org/support/programs/als-insurance-and-benefits-resource-line",
+   "contact": "als.org",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "alsa-independence-mobility",
+   "name": "Independence & Mobility Program (equipment loans)",
+   "org": "The ALS Association",
+   "categories": [
+    "Equipment & loans"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Education on mobility, independence and communication options, plus a free loan inventory of equipment and devices.",
+   "amount": "Free loans",
+   "status": "rolling",
+   "window": "Available any time.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS"
+   ],
+   "youllNeed": [
+    "Conversation with your local care services team"
+   ],
+   "howToApply": "Ask your local ALS Association care services team.",
+   "url": "https://www.als.org/support/programs/independence-mobility-program",
+   "contact": "Local care services",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "alsa-virtual-home",
+   "name": "Virtual Home Assessment",
+   "org": "The ALS Association",
+   "categories": [
+    "Home access"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A virtual walk-through of your home that recommends safety changes and modifications.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "By referral.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS"
+   ],
+   "youllNeed": [
+    "Referral from local care services staff"
+   ],
+   "howToApply": "Ask your local care services team for a referral.",
+   "url": "https://www.als.org/support/programs/virtual-home-assessment-program",
+   "contact": "Local care services",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "alsa-ramp-loans",
+   "name": "Ramp Reutilization Loan Program",
+   "org": "The ALS Association",
+   "categories": [
+    "Home access",
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "DC",
+    "MD",
+    "PA",
+    "SC"
+   ],
+   "forWhat": "Lends temporary, reusable steel ramps for home access, with financial and consulting help.",
+   "amount": "Ramp loan",
+   "status": "rolling",
+   "window": "Available any time.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in a participating area"
+   ],
+   "youllNeed": [
+    "Home access details",
+    "Conversation with the care team"
+   ],
+   "howToApply": "Contact your ALS Association care team.",
+   "url": "https://www.als.org/support/programs/ramp-reutilization-loan-program-maryland",
+   "contact": "Local care services",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "als-georgia-equipment",
+   "name": "Equipment Loans & In-Home Respite",
+   "org": "ALS United of Georgia",
+   "categories": [
+    "Equipment & loans",
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "GA"
+   ],
+   "forWhat": "The Ricky P. Sweat program lends mobility and communication equipment insurance won't cover. The Sally Panfel program provides short-term in-home custodial care.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Available any time.",
+   "deadline": null,
+   "eligibility": [
+    "Georgians living with ALS"
+   ],
+   "youllNeed": [
+    "Conversation with a Care Services Coordinator"
+   ],
+   "howToApply": "Call or email Care Services.",
+   "url": "https://alsgeorgia.org/navigating-als/our-care-services/",
+   "contact": "404-636-9909 \u00b7 info@alsgeorgia.org",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "alsa-caregiver-course",
+   "name": "Caregiver Education Certification Course",
+   "org": "The ALS Association",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Online course on the physical and emotional effects of ALS, safe care, helpful and harmful interventions, and care planning.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Self-paced.",
+   "deadline": null,
+   "eligibility": [
+    "Family and professional caregivers"
+   ],
+   "youllNeed": [
+    "Online registration"
+   ],
+   "howToApply": "Sign up from the program page.",
+   "url": "https://www.als.org/support/programs/caregiver-education-certification-course",
+   "contact": "als.org",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "lll-connect-serve",
+   "name": "Connect & Serve (volunteer help at home)",
+   "org": "Live Like Lou Foundation",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Local volunteers help with one-time or short-term projects such as yard work, seasonal cleanup, painting, outdoor repairs and holiday lights.",
+   "amount": "Free volunteer help",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "ALS families in North America registered with Live Like Lou"
+   ],
+   "youllNeed": [
+    "Live Like Lou family registration"
+   ],
+   "howToApply": "Register to receive support, and you'll be matched with a nearby volunteer.",
+   "url": "https://livelikelou.org/als-families",
+   "contact": "support@livelikelou.org",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "lll-goose",
+   "name": "Talk to Me, Goose! communication app",
+   "org": "Live Like Lou Foundation",
+   "categories": [
+    "Communication"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free access to a text-to-speech app with personal voice cloning, so you can keep communicating in your own voice as speech changes.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Live Like Lou registered ALS families in North America"
+   ],
+   "youllNeed": [
+    "Registration",
+    "Tell them iOS or Android, and with or without ElevenLabs"
+   ],
+   "howToApply": "Register, or if already registered email support@livelikelou.org.",
+   "url": "https://livelikelou.org/als-families",
+   "contact": "support@livelikelou.org",
+   "lastVerified": "2026-10-15",
+   "kind": "service"
+  },
+  {
+   "id": "radicava-journeymate-support",
+   "kind": "service",
+   "name": "JourneyMate Support Program (Radicava / Radicava ORS)",
+   "org": "Mitsubishi Tanabe Pharma America",
+   "categories": [
+    "Prescriptions help",
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Out-of-Pocket Savings Program (commercially insured patients pay as little as $0 per prescription up to an annual maximum), a free-drug Patient Assistance Program for uninsured patients with income up to 5x the Federal Poverty Level, and Insurance & Access Specialists who help with coverage questions. Veterans can get Radicava ORS at no cost through the VA.",
+   "amount": "As little as $0 copay (commercial); free drug for eligible uninsured",
+   "status": "open",
+   "window": "Ongoing; copay program requires annual re-enrollment.",
+   "deadline": null,
+   "eligibility": [
+    "Copay program: age 18+, U.S. resident, commercial prescription coverage (Medicare Part C/D, Medicaid, VA, DoD, TRICARE not eligible)",
+    "Patient Assistance Program: ALS diagnosis, Radicava ORS prescription, no insurance, income no more than 5x FPL"
+   ],
+   "youllNeed": [
+    "Prescription and signed Benefit Investigation and Enrollment Form from your doctor",
+    "Insurance information",
+    "Income information for the free-drug program"
+   ],
+   "howToApply": "Have your doctor submit the enrollment form, then call an Insurance & Access Specialist at 844-772-4548 (the online portal was listed as unavailable); copay enrollment form can also be faxed to 888-782-6157.",
+   "url": "https://www.radicava.com/patient/financial-support-options/",
+   "contact": "844-772-4548 (Mon\u2013Fri 8 AM\u20138 PM ET)",
+   "sources": [
+    "https://www.radicava.com/patient/financial-support-options/",
+    "https://www.drugs.com/price-guide/radicava"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "qalsody-biogen-support-services",
+   "kind": "service",
+   "name": "Biogen Support Services for QALSODY (tofersen)",
+   "org": "Biogen",
+   "categories": [
+    "Prescriptions help",
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Support coordinators, insurance help, and two separate copay programs: one for the drug and one for administration costs (anesthesia, imaging, surgical procedure or drug administration) for SOD1-ALS patients prescribed QALSODY.",
+   "amount": "Copay assistance; amount not published",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "U.S. resident prescribed QALSODY with non-government insurance (regardless of income)",
+    "Medicare, Medicaid, VA/DoD, TRICARE and other government coverage may not be eligible",
+    "Administration copay program excludes residents of MA, MN and RI"
+   ],
+   "youllNeed": [
+    "Prescription",
+    "Insurance information",
+    "Copay Reimbursement Form submitted by your provider for administration costs"
+   ],
+   "howToApply": "Call Biogen Support Services at 877-725-7639; enroll in each copay program separately.",
+   "url": "https://www.qalsody.com/en-us/home/support-and-resources.html",
+   "contact": "877-725-7639 (Mon\u2013Fri 8:30 AM\u20138 PM ET)",
+   "sources": [
+    "https://www.qalsody.com/en-us/home/support-and-resources.html"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "nuedexta-copay-and-otsuka-pap",
+   "kind": "service",
+   "name": "Nuedexta Co-pay Savings Card and Otsuka Patient Assistance Foundation",
+   "org": "Otsuka / Avanir",
+   "categories": [
+    "Prescriptions help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Copay savings card for commercially insured patients taking Nuedexta (for pseudobulbar affect), and a free-drug patient assistance program through the Otsuka Patient Assistance Foundation for uninsured or underinsured patients.",
+   "amount": "As little as $0 per 90-day or $20 per 30-day prescription (commercial); free drug for eligible uninsured/underinsured",
+   "status": "open",
+   "window": "Ongoing; savings card valid until program expiration.",
+   "deadline": null,
+   "eligibility": [
+    "Savings card: commercially insured patients",
+    "OPAF: uninsured or underinsured, income-based (FPL), FDA-approved diagnosis, U.S. or Puerto Rico resident"
+   ],
+   "youllNeed": [
+    "Prescription",
+    "Insurance information",
+    "Income documentation for OPAF"
+   ],
+   "howToApply": "Get the savings card at nuedexta.com/savings-and-support or call 855-468-3339; apply to OPAF at OtsukaPatientAssistance.com or 855-727-6274.",
+   "url": "https://www.nuedexta.com/savings-and-support",
+   "contact": "Savings card 855-468-3339; OPAF 855-727-6274",
+   "sources": [
+    "https://www.drugs.com/price-guide/nuedexta"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "assistance-fund-als-program",
+   "kind": "service",
+   "name": "Amyotrophic Lateral Sclerosis (ALS) Fund",
+   "org": "The Assistance Fund (TAF)",
+   "categories": [
+    "Prescriptions help",
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Copay, coinsurance, deductible, health insurance premium and incidental medical expense assistance for FDA-approved ALS treatments. Note: the program has been listed as on a waitlist; confirm current status before applying.",
+   "amount": "Varies; assistance through end of calendar year, renew annually",
+   "status": "check",
+   "window": "Enrollment depends on funding; may be waitlisted. Approved patients are covered through December 31 and must re-enroll each year.",
+   "deadline": null,
+   "eligibility": [
+    "U.S. or Puerto Rico resident diagnosed with ALS",
+    "Meets household income criteria",
+    "Has insurance (commercial, Medicare or Medicaid)"
+   ],
+   "youllNeed": [
+    "Enrollment form",
+    "Demographic, insurance and financial information; additional documentation may be requested"
+   ],
+   "howToApply": "Check fund status and enroll at tafcares.org or call 855-845-3663.",
+   "url": "https://tafcares.org/patients/",
+   "contact": "855-845-3663",
+   "sources": [
+    "https://prescriberpoint.com/therapies/tiglutik-75d68f1/financial-assistance/assistance-fund-amyotrophic-lateral-sclerosis-als-waitlist",
+    "https://www.radicava.com/patient/financial-support-options/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "mercy-medical-angels-travel",
+   "kind": "service",
+   "name": "Mercy Medical Angels",
+   "org": "Mercy Medical Angels",
+   "categories": [
+    "Government benefits",
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free transportation to medical care: volunteer pilot flights (Mid-Atlantic), commercial airfare, ground transportation and gas cards nationwide.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing; request before your appointment.",
+   "deadline": null,
+   "eligibility": [
+    "Patients with financial need traveling for medical care; see eligibility page at mercymedical.org/patients/eligibility"
+   ],
+   "youllNeed": [
+    "Appointment details",
+    "Departure location",
+    "Provider contact information"
+   ],
+   "howToApply": "Start a travel request at travel.mercymedical.org.",
+   "url": "https://mercymedical.org",
+   "contact": "Contact form at mercymedical.org/contact",
+   "sources": [
+    "https://mercymedical.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "air-charity-network-flights",
+   "kind": "service",
+   "name": "Air Charity Network (Angel Flight / Mercy Flight member groups)",
+   "org": "Air Charity Network",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free flights by volunteer pilots to distant medical facilities, specialists and clinical trials for people who cannot afford or physically manage commercial travel. Regional members include Angel Flight Northeast, Angel Flight Central, Angel Flight (OK/TX/AR/MO/KS) and Mercy Flight Southeast.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing; non-emergency, time-flexible trips only. Service not guaranteed.",
+   "deadline": null,
+   "eligibility": [
+    "Financially distressed or otherwise unable to travel by public transportation",
+    "Medically stable enough to fly in a small unpressurized aircraft; see Passenger Qualifications"
+   ],
+   "youllNeed": [
+    "Appointment information",
+    "Physician release may be required by the regional member"
+   ],
+   "howToApply": "Use the 'Request a Flight' page to find the member organization for your region and submit a request.",
+   "url": "https://aircharitynetwork.org",
+   "contact": "877-621-7177, info@MercyMail.org",
+   "sources": [
+    "https://aircharitynetwork.org",
+    "https://www.angelflight.com"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "healthcare-hospitality-network-lodging",
+   "kind": "service",
+   "name": "Healthcare Hospitality Network (hospitality house directory)",
+   "org": "Healthcare Hospitality Network",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Directory of hospitality houses near medical centers that offer lodging to patients and caregivers at little or no cost while traveling for treatment.",
+   "amount": "Free or low cost (set by each house)",
+   "status": "open",
+   "window": "Ongoing; availability varies by house.",
+   "deadline": null,
+   "eligibility": [
+    "Patients and caregivers traveling away from home for medical care; each house sets its own policies"
+   ],
+   "youllNeed": [
+    "Appointment information; some houses require a referral from the hospital"
+   ],
+   "howToApply": "Search the House Directory at members.hhnetwork.org/locate-a-house and contact the house directly.",
+   "url": "https://www.hhnetwork.org/",
+   "contact": "Contact form at members.hhnetwork.org",
+   "sources": [
+    "https://www.hhnetwork.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "state-at-act-programs",
+   "kind": "service",
+   "name": "State Assistive Technology (AT Act) Programs",
+   "org": "AT3 Center / Administration for Community Living",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Every state and territory runs a federally funded AT program offering device loans (try before you buy), demonstrations, reused/refurbished equipment, and in many states low-interest financial loans to buy assistive technology, vehicles modifications or home modifications.",
+   "amount": "Free device loans and demos; financial loan terms vary by state",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "People with disabilities of any age in the state; specifics vary by program"
+   ],
+   "youllNeed": [
+    "Contact your state program; loan programs typically require a credit application"
+   ],
+   "howToApply": "Find your state's program on the AT3 Center directory and contact it directly.",
+   "url": "https://www.at3center.net/state-at-programs",
+   "contact": "See state listing on the AT3 directory",
+   "sources": [
+    "https://www.at3center.net/state-at-programs"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "rebuilding-together-home-repairs",
+   "kind": "service",
+   "name": "Rebuilding Together (local affiliates)",
+   "org": "Rebuilding Together",
+   "categories": [
+    "Home access"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Local affiliates and volunteers provide home repairs and accessibility modifications for low-income homeowners, including people with disabilities. Services, eligibility and waitlists vary by affiliate.",
+   "amount": "Typically no cost to the homeowner (varies by affiliate)",
+   "status": "check",
+   "window": "Varies by affiliate; many have waitlists.",
+   "deadline": null,
+   "eligibility": [
+    "Homeowner meeting the local affiliate's income and need criteria"
+   ],
+   "youllNeed": [
+    "Proof of homeownership and income (affiliate-specific application)"
+   ],
+   "howToApply": "Find your local affiliate at rebuildingtogether.org/find-your-local-affiliate and apply through them.",
+   "url": "https://rebuildingtogether.org/",
+   "contact": "rebuildingtogether.org/contact-us",
+   "sources": [
+    "https://rebuildingtogether.org/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "national-family-caregiver-support-program",
+   "kind": "service",
+   "name": "National Family Caregiver Support Program (NFCSP)",
+   "org": "Administration for Community Living / Area Agencies on Aging",
+   "categories": [
+    "Caregiving & education",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Through local Area Agencies on Aging: caregiver information and referral, counseling, support groups, training, respite care (in-home, adult day or facility) and limited supplemental services.",
+   "amount": "Free or low cost; respite amounts vary by area",
+   "status": "open",
+   "window": "Ongoing; funding varies by local agency.",
+   "deadline": null,
+   "eligibility": [
+    "Family or informal caregivers of adults age 60+",
+    "Caregivers of adults of any age with Alzheimer's or related disorders",
+    "Older relatives (55+) caring for an adult 18 to 59 with a disability"
+   ],
+   "youllNeed": [
+    "Contact your Area Agency on Aging for an intake assessment"
+   ],
+   "howToApply": "Call the Eldercare Locator at 800-677-1116 or visit eldercare.acl.gov to find your Area Agency on Aging.",
+   "url": "https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program",
+   "contact": "Eldercare Locator 800-677-1116",
+   "sources": [
+    "https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "arch-respite-locator-lifespan-respite",
+   "kind": "service",
+   "name": "ARCH National Respite Locator and State Lifespan Respite Programs",
+   "org": "ARCH National Respite Network",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Searchable locator for respite providers in your area, plus links to state Lifespan Respite programs, some of which offer respite vouchers to family caregivers.",
+   "amount": "Varies; some states offer respite vouchers",
+   "status": "open",
+   "window": "Ongoing; voucher availability depends on state funding.",
+   "deadline": null,
+   "eligibility": [
+    "Family caregivers; voucher eligibility set by each state program"
+   ],
+   "youllNeed": [
+    "Contact your state Lifespan Respite program or coalition"
+   ],
+   "howToApply": "Use the Respite Locator at archrespite.org and the State Respite Coalition and Lifespan Respite contacts page to find your state's program.",
+   "url": "https://archrespite.org/",
+   "contact": "703-256-2084",
+   "sources": [
+    "https://archrespite.org/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "well-spouse-association",
+   "kind": "service",
+   "name": "Well Spouse Association",
+   "org": "Well Spouse Association",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Peer support for spouses and partners caring for someone with a chronic illness or disability: 25+ monthly support groups (including phone groups), 24/7 online support, respite events, webinars and an annual conference.",
+   "amount": "Membership $39 per year",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Spouse or partner caring for someone with a chronic illness or disability"
+   ],
+   "youllNeed": [
+    "Membership sign-up"
+   ],
+   "howToApply": "Join at wellspouse.org or call the office.",
+   "url": "https://wellspouse.org",
+   "contact": "732-577-8899, info@wellspouse.org",
+   "sources": [
+    "https://wellspouse.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "wish-of-a-lifetime-aarp",
+   "kind": "service",
+   "name": "Wish of a Lifetime from AARP",
+   "org": "Wish of a Lifetime",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants wishes (personalized experiences such as reunions and trips) to older adults. Minimum age is not stated on the homepage; check the Submit a Wish page.",
+   "amount": "Wish fulfilled at no cost to the recipient",
+   "status": "check",
+   "window": "Ongoing; wishes reviewed as submitted.",
+   "deadline": null,
+   "eligibility": [
+    "Older adults; see Submit a Wish page for current age and need criteria"
+   ],
+   "youllNeed": [
+    "Online wish submission with the person's story"
+   ],
+   "howToApply": "Submit a wish at wishofalifetime.org.",
+   "url": "https://wishofalifetime.org",
+   "contact": "303-954-9144, info@wishofalifetime.org",
+   "sources": [
+    "https://wishofalifetime.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "va-aid-and-attendance",
+   "kind": "service",
+   "name": "VA Aid and Attendance",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A monthly payment added to a VA pension for veterans and survivors who need help with daily activities such as bathing, feeding or dressing, are bedridden, or live in a nursing home.",
+   "amount": "Monthly addition to VA pension; rate varies",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Already receiving a VA pension",
+    "Need another person's help with daily activities, are largely bedridden, in a nursing home, or have severely limited eyesight",
+    "Cannot be combined with Housebound benefits"
+   ],
+   "youllNeed": [
+    "VA Form 21-2680 completed by a medical examiner",
+    "VA Form 21-0779 if in a nursing home"
+   ],
+   "howToApply": "Apply online at VA.gov, mail the forms to the Pension Intake Center (PO Box 5365, Janesville, WI 53547-5365), or visit a VA regional office.",
+   "url": "https://www.va.gov/pension/aid-attendance-housebound/",
+   "contact": "VA 800-827-1000",
+   "sources": [
+    "https://www.va.gov/pension/aid-attendance-housebound/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "va-pcafc-family-caregivers",
+   "kind": "service",
+   "name": "Program of Comprehensive Assistance for Family Caregivers (PCAFC)",
+   "org": "U.S. Department of Veterans Affairs",
+   "categories": [
+    "Caregiving & education",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "For a primary family caregiver of an eligible veteran: a monthly stipend, CHAMPVA health insurance if uninsured, mental health counseling, travel benefits, and at least 30 days of respite care per year for the veteran. Secondary caregivers get counseling and travel benefits.",
+   "amount": "Monthly stipend (varies by location and level of care)",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Veteran with a VA service-connected disability rating of 70% or more (ALS is presumed service-connected)",
+    "Needs in-person personal care for at least six continuous months",
+    "Caregiver is 18+ and a family member or lives with the veteran"
+   ],
+   "youllNeed": [
+    "VA Form 10-10CG (do not send medical records)"
+   ],
+   "howToApply": "Apply online at VA.gov, mail Form 10-10CG to the 10-10CG Evidence Intake Center (PO Box 5154, Janesville, WI 53547-5154), or bring it to your local Caregiver Support Program team.",
+   "url": "https://www.caregiver.va.gov/support/support_benefits.asp",
+   "contact": "Caregiver Support Line 855-260-3274 (Mon\u2013Fri 8 AM\u20138 PM ET)",
+   "sources": [
+    "https://www.caregiver.va.gov/support/support_benefits.asp"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-assoc-smart-home-program-wisconsin",
+   "kind": "service",
+   "name": "SMART Home Program (Wisconsin)",
+   "org": "The ALS Association",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "WI"
+   ],
+   "forWhat": "Loans of Amazon Alexa-compatible smart home devices through the Equipment Lending Program so people with ALS can call contacts, control lights and outlets, stream media, manage lists and calendars, and control the TV by voice.",
+   "amount": "Free (loaned); limited supply",
+   "status": "check",
+   "window": "Ongoing, subject to device availability.",
+   "deadline": null,
+   "eligibility": [
+    "People with ALS served by the ALS Association in Wisconsin"
+   ],
+   "youllNeed": [
+    "Contact the equipment manager"
+   ],
+   "howToApply": "Contact Michelle Fredrick, PT, Manager of Equipment and Assistive Technology.",
+   "url": "https://www.als.org/support/programs/smart-home-program-8",
+   "contact": "Michelle Fredrick, 414-763-2220",
+   "sources": [
+    "https://www.als.org/support/programs/smart-home-program-8"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ri-equipment-loan-program",
+   "kind": "service",
+   "name": "Equipment Loan Program",
+   "org": "ALS United Rhode Island",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "RI"
+   ],
+   "forWhat": "No-cost loans of Hoyer lifts, standard/transport/power wheelchairs, electric hospital beds and air mattresses, rollators, AAC devices and Obi robotic self-feeding devices through vendors across Rhode Island.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing, subject to availability.",
+   "deadline": null,
+   "eligibility": [
+    "Registered with ALS United Rhode Island (open regardless of insurance or immigration status)",
+    "PT/OT/SLP evaluation strongly recommended before requesting equipment"
+   ],
+   "youllNeed": [
+    "Registration",
+    "Therapist equipment recommendation (recommended)"
+   ],
+   "howToApply": "Register, meet with the Care Services Team, then email support@alsunitedri.org about equipment.",
+   "url": "https://alsunitedri.org/equipment-loans/",
+   "contact": "support@alsunitedri.org, 401-732-1609",
+   "sources": [
+    "https://alsunitedri.org/equipment-loans/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-mid-atlantic-mackler-assistive-technology",
+   "kind": "service",
+   "name": "Scott A. Mackler, MD, PhD Assistive Technology Program",
+   "org": "ALS United Mid-Atlantic",
+   "categories": [
+    "Communication",
+    "Equipment & loans",
+    "Home access"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA",
+    "NJ",
+    "DE"
+   ],
+   "forWhat": "Communication and assistive technology assessments, help with insurance paperwork for devices, loaner equipment for uninsured or hospice patients, virtual home and smart-home assessments, financial assistance for straight stair glides and modular ramping, and referrals to other funding.",
+   "amount": "Free services; equipment loans free for uninsured/hospice patients",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS and caregivers in PA, NJ and DE; loaner equipment for those uninsured or on hospice"
+   ],
+   "youllNeed": [
+    "Contact the program; evaluations can be arranged through regional ALS clinics"
+   ],
+   "howToApply": "Call or text Alisa Brownlee or email alisa@alsmidatlantic.org.",
+   "url": "https://alsmidatlantic.org/care-services/our-care-services/scott-a-mackler-md-phd-assistive-technology-program/",
+   "contact": "Alisa Brownlee, 215-485-3441, alisa@alsmidatlantic.org",
+   "sources": [
+    "https://alsmidatlantic.org/care-services/our-care-services/scott-a-mackler-md-phd-assistive-technology-program/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-nevada-team-curtis-transportation",
+   "kind": "service",
+   "name": "Team Curtis 4 a Cure Transportation Program",
+   "org": "ALS of Nevada",
+   "categories": [
+    "Equipment & loans",
+    "Family & kids"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NV"
+   ],
+   "forWhat": "Wheelchair-accessible transportation within Nevada for medical trips and non-medical outings (restaurants, museums, events, movies, family gatherings).",
+   "amount": "Free (no cost listed)",
+   "status": "open",
+   "window": "Ongoing; at least 2 weeks' advance notice required.",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Transportation needed within Nevada"
+   ],
+   "youllNeed": [
+    "Trip details at least two weeks ahead"
+   ],
+   "howToApply": "Contact an ALS of Nevada Care Service Coordinator at 702-790-1578.",
+   "url": "https://alsofnevada.org/care-services/team-curtis-4-a-cure-transportation-program/",
+   "contact": "702-790-1578; main 702-777-0500",
+   "sources": [
+    "https://alsofnevada.org/care-services/team-curtis-4-a-cure-transportation-program/"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "joe-martin-als-foundation-home-care",
+   "kind": "service",
+   "name": "Free In-Home Care and Caregiver Coaching",
+   "org": "Joe Martin ALS Foundation",
+   "categories": [
+    "Caregiving & education",
+    "Family & kids"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NC"
+   ],
+   "forWhat": "Free weekly home care visits by aides and nurses (as staffing and logistics allow), in-home caregiver training, ALS resource guidance, and Joe's Camps for kids and teens, for families in the Charlotte, NC area.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing; visits limited by staff availability.",
+   "deadline": null,
+   "eligibility": [
+    "Families living with ALS in the foundation's Charlotte-area service region (service area not published; call to confirm)"
+   ],
+   "youllNeed": [
+    "Client registration form"
+   ],
+   "howToApply": "Complete the client registration form on the website or call 704-332-1929; staff will follow up to discuss services.",
+   "url": "https://joemartinalsfoundation.org/how-to-get-help/",
+   "contact": "704-332-1929",
+   "sources": [
+    "https://joemartinalsfoundation.org/how-to-get-help/",
+    "https://www.joemartinalsfoundation.org"
+   ],
+   "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "als-united-ct-equipment-and-transportation",
+   "kind": "service",
+   "name": "Equipment Loan and Transportation Programs",
+   "org": "ALS United Connecticut",
+   "categories": [
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CT"
+   ],
+   "forWhat": "Free loaner durable medical equipment such as power wheelchairs and Hoyer lifts, plus short rides through Coordinated Transportation Solutions and van rentals for longer trips.",
+   "amount": "Free equipment loans; transportation cost not stated",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "People living with ALS served by ALS United Connecticut"
+   ],
+   "youllNeed": [
+    "Contact Care Services"
+   ],
+   "howToApply": "Email careservices@alsunitedct.org or call (203) 874-5050.",
+   "url": "https://alsunitedct.org/living-with-als/our-care-services/",
+   "contact": "careservices@alsunitedct.org, (203) 874-5050",
+   "sources": [
+    "https://alsunitedct.org/living-with-als/our-care-services/"
+   ],
+   "lastVerified": "2026-10-15"
+  }
+ ]
+}

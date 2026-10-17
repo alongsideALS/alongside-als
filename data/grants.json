@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-17",
  "items": [
   {
    "id": "hoffman-fap",
@@ -62,7 +62,10 @@
    "url": "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/",
    "contact": "(800) 675-8416",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/"
+   ]
   },
   {
    "id": "paf-copay-als",
@@ -122,7 +125,10 @@
    "url": "https://projectmainst.org/request-help/",
    "contact": "info@projectmainst.org",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://projectmainst.org/request-help/"
+   ]
   },
   {
    "id": "racing-for-als",
@@ -138,7 +144,7 @@
    "forWhat": "ALS-related medical, care and home-modification costs. Approved applicants may also receive a free hands-free Giraffe drinking bottle.",
    "amount": "Grant amount varies (started at $1,000)",
    "status": "rolling",
-   "window": "Processed monthly. Recent wait times have been 3 to 4 months. 2026 applications are being processed now. The van program ended in Sept 2025.",
+   "window": "Applications are invited but there is a backlog. Processed monthly; recent waits ran 3 to 4 months.",
    "deadline": null,
    "eligibility": [
     "Living with ALS",
@@ -152,7 +158,10 @@
    "url": "https://www.racingforals.com/patient-assistant-van-fund",
    "contact": "Amy@RacingforALS.com",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.racingforals.com/patient-assistant-van-fund"
+   ]
   },
   {
    "id": "als-chapter-grants",
@@ -181,10 +190,13 @@
     "Conversation with your Care Services Coordinator"
    ],
    "howToApply": "Find your local chapter, then ask your Care Services Coordinator about grant programs.",
-   "url": "https://www.als.org/support/states",
+   "url": "https://www.als.org/support/programs",
    "contact": "Your local chapter",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.als.org/support/programs"
+   ]
   },
   {
    "id": "als-united-gny",
@@ -258,7 +270,7 @@
    ],
    "howToApply": "Talk with your Care Coordinator, then contact Care Services.",
    "url": "https://alsrockymountain.org/grant-programs/",
-   "contact": "careservices@alsrockymountain.org \u00b7 303-832-2322",
+   "contact": "careservices@alsrockymountain.org · 303-832-2322",
    "lastVerified": "2026-10-11",
    "kind": "grant"
   },
@@ -326,9 +338,12 @@
    ],
    "howToApply": "Contact Support Services.",
    "url": "https://lesturnerals.org/support-services/grant-programs-equipment-loans/",
-   "contact": "supportservices@lesturnerals.org \u00b7 847-679-3311",
+   "contact": "supportservices@lesturnerals.org · 847-679-3311",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://lesturnerals.org/support-services/grant-programs-equipment-loans/"
+   ]
   },
   {
    "id": "il-quality-of-life",
@@ -396,7 +411,7 @@
   },
   {
    "id": "brigance-brigade",
-   "name": "Equipment & Care Support",
+   "name": "PALS Grant Program",
    "org": "Brigance Brigade Foundation",
    "categories": [
     "Equipment & technology",
@@ -406,23 +421,29 @@
    "regions": [
     "MD"
    ],
-   "forWhat": "Grants and support for home care and medical equipment needs.",
-   "amount": "Varies",
-   "status": "check",
-   "window": "Contact the foundation.",
-   "deadline": null,
+   "forWhat": "In-home care, equipment and home accessibility for people living with ALS or PLS.",
+   "amount": "Up to $5,000 per calendar year",
+   "status": "window",
+   "window": "Two cycles a year. The current cycle runs Sept 1 to Nov 30, 2026. First-time applicants have priority.",
+   "deadline": "2026-11-30",
    "eligibility": [
-    "Living with ALS in Maryland"
+    "Living with ALS or PLS",
+    "Maryland is the primary area; other states considered case by case",
+    "Social-worker involvement in the application"
    ],
    "youllNeed": [
-    "Description of needs",
-    "Contact information"
+    "Completed application",
+    "Supporting documents and vendor quotes",
+    "Social worker contact"
    ],
    "howToApply": "Contact the foundation through its website.",
-   "url": "https://brigancebrigade.org/",
+   "url": "https://brigancebrigade.org/programs/pals/",
    "contact": "brigancebrigade.org",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://brigancebrigade.org/programs/pals/"
+   ]
   },
   {
    "id": "ccals",
@@ -456,12 +477,15 @@
    "url": "https://ccals.org/",
    "contact": "ccals.org",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://ccals.org/programs/"
+   ]
   },
   {
    "id": "emory-travel",
    "name": "Travel Assistance Program (overnight hotel stay)",
-   "org": "Goode Foundation \u00d7 Emory ALS Center",
+   "org": "Goode Foundation × Emory ALS Center",
    "categories": [
     "Travel"
    ],
@@ -541,7 +565,10 @@
    "url": "https://www.mattsplacefoundation.org/",
    "contact": "mattsplacefoundation.org",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.mattsplacefoundation.org/"
+   ]
   },
   {
    "id": "catfish-foundation",
@@ -568,7 +595,10 @@
    "url": "https://catfishfoundation.org/",
    "contact": "catfishfoundation.org",
    "lastVerified": "2026-10-11",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://catfishfoundation.org/pals-caregvier-corner/application/"
+   ]
   },
   {
    "id": "als-ride-for-life",
@@ -628,9 +658,12 @@
    ],
    "howToApply": "Complete the online ALS Assistance Application at petefrates.com/apply when the quarterly window is open.",
    "url": "https://petefrates.com/apply/",
-   "contact": "617-383-3458 \u00b7 support@petefrates.com",
+   "contact": "617-383-3458 · support@petefrates.com",
    "lastVerified": "2026-10-15",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://petefrates.com/apply/"
+   ]
   },
   {
    "id": "axeals",
@@ -663,7 +696,10 @@
    "url": "https://axeals.org/our-impact/",
    "contact": "info@axeals.org",
    "lastVerified": "2026-10-15",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://axeals.org/our-impact/"
+   ]
   },
   {
    "id": "lll-qol",
@@ -694,7 +730,10 @@
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
    "lastVerified": "2026-10-15",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.livelikelou.org/news/2026qualityoflifegrants"
+   ]
   },
   {
    "id": "lll-holiday",
@@ -924,7 +963,7 @@
    ],
    "howToApply": "Mail the original signed application to Dream Foundation (faxes only for emergencies).",
    "url": "https://www.dreamfoundation.org/",
-   "contact": "888-437-3267 \u00b7 info@dreamfoundation.org",
+   "contact": "888-437-3267 · info@dreamfoundation.org",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -938,7 +977,7 @@
    "scope": "National",
    "regions": [],
    "forWhat": "Help getting durable medical equipment such as wheelchairs, lifts and canes. MDA members may also get discount codes for lift chairs and stair lifts, and Permobil attendant-control grants.",
-   "amount": "Varies",
+   "amount": "Up to $1,000 per person per calendar year",
    "status": "rolling",
    "window": "No deadlines are posted.",
    "deadline": null,
@@ -954,9 +993,12 @@
    ],
    "howToApply": "Use the 'Apply Here' form on MDA's equipment assistance page, or call the MDA Resource Center.",
    "url": "https://www.mda.org/care/resource-list/equipment-assistance",
-   "contact": "1-833-275-6321 \u00b7 ResourceCenter@mdausa.org",
+   "contact": "1-833-275-6321 · ResourceCenter@mdausa.org",
    "lastVerified": "2026-10-15",
-   "kind": "grant"
+   "kind": "grant",
+   "sources": [
+    "https://www.mda.org/care/resource-list/equipment-assistance"
+   ]
   },
   {
    "id": "als-recovery-fund",
@@ -984,9 +1026,9 @@
     "Insurance and financial information",
     "Information on disability level, dependents at home, and caregiver health"
    ],
-   "howToApply": "Mail the request form to ALS Recovery Fund \u2013 Patient Care Fund, c/o Kessenich Family MDA ALS Center, 1120 NW 14th St, Suite 1311, Miami, FL 33136.",
+   "howToApply": "Mail the request form to ALS Recovery Fund – Patient Care Fund, c/o Kessenich Family MDA ALS Center, 1120 NW 14th St, Suite 1311, Miami, FL 33136.",
    "url": "https://www.alsrecovery.org/patient-services/",
-   "contact": "Ginna Gonzalez \u00b7 305-243-7400 \u00b7 GGonzal4@med.miami.edu",
+   "contact": "Ginna Gonzalez · 305-243-7400 · GGonzal4@med.miami.edu",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1008,7 +1050,7 @@
    "forWhat": "Care Assist grants for respite, medical expenses, home and vehicle modifications and van purchases. Daily Living grants for assistive technology. Transportation grants for rides to an ALS Certified Center or affiliated clinic.",
    "amount": "Varies (see Grant Guidelines)",
    "status": "window",
-   "window": "Quarterly windows open on the 1st and close on the 22nd (Q1 Feb\u2013Apr, Q2 May\u2013Jul, Q3 Aug\u2013Oct, Q4 Nov\u2013Jan). Approved funds must be spent within 6 months. Transportation grants are available any time.",
+   "window": "Quarterly windows open on the 1st and close on the 22nd (Q1 Feb–Apr, Q2 May–Jul, Q3 Aug–Oct, Q4 Nov–Jan). Approved funds must be spent within 6 months. Transportation grants are available any time.",
    "deadline": null,
    "eligibility": [
     "Diagnosed with ALS and living in Florida",
@@ -1052,7 +1094,7 @@
    ],
    "howToApply": "Contact the Florida care team about the next opening.",
    "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
-   "contact": "Jackie Kouri-Mathews \u00b7 813-497-4502",
+   "contact": "Jackie Kouri-Mathews · 813-497-4502",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1085,7 +1127,7 @@
    ],
    "howToApply": "Contact the Florida care team for the application, then submit by mail or email.",
    "url": "https://www.als.org/support/programs/rick-and-sherry-murray-medical-futures-scholarship",
-   "contact": "Jackie Kouri-Mathews \u00b7 813-497-4502",
+   "contact": "Jackie Kouri-Mathews · 813-497-4502",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1232,7 +1274,7 @@
    ],
    "howToApply": "Contact the Ohio care team.",
    "url": "https://als.org/support/programs/quality-life-grant-program-16",
-   "contact": "216-592-2572 ext. 10197 \u00b7 infoOH@als.org",
+   "contact": "216-592-2572 ext. 10197 · infoOH@als.org",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1417,7 +1459,7 @@
    ],
    "howToApply": "Request an application by email or phone, or use the online link when a cycle is open.",
    "url": "https://alsgeorgia.org/navigating-als/chapter-grant-program/",
-   "contact": "404-636-9909 \u00b7 careservices@alsgeorgia.org",
+   "contact": "404-636-9909 · careservices@alsgeorgia.org",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1446,7 +1488,7 @@
    ],
    "howToApply": "Contact your care manager.",
    "url": "https://alsnetwork.org/navigating-als/support-for-families/",
-   "contact": "866-750-2572 \u00b7 info@alsnetwork.org",
+   "contact": "866-750-2572 · info@alsnetwork.org",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1477,7 +1519,7 @@
    ],
    "howToApply": "Contact your care manager.",
    "url": "https://alsnetwork.org/navigating-als/support-for-families/",
-   "contact": "866-750-2572 \u00b7 info@alsnetwork.org",
+   "contact": "866-750-2572 · info@alsnetwork.org",
    "lastVerified": "2026-10-15",
    "kind": "grant"
   },
@@ -1516,7 +1558,8 @@
    "url": "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/",
    "contact": "Claudia Beirne, claudia@alsnc.org, 919-390-0125; main 919-755-9001 / 877-568-4347",
    "sources": [
-    "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/"
+    "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/",
+    "https://alsnc.org/who-we-are/our-care-services/chapter-grant-program/"
    ],
    "lastVerified": "2026-10-15"
   },
@@ -1908,7 +1951,7 @@
    "scope": "National",
    "regions": [],
    "forWhat": "Direct financial support for young families affected by ALS (children under 18 at home) for expenses insurance doesn't cover: durable medical equipment, home care, ALS-related travel, home or auto modifications, communication and smart-home technology, generators. Paid as reimbursement or prepaid expense.",
-   "amount": "Varies; evaluated against total project cost (example: up to $6,000 toward a $20,000 home modification)",
+   "amount": "Requests up to $6,000 (applications currently closed)",
    "status": "closed",
    "window": "Applications currently closed until more funding is available; sign up for email updates to learn when they reopen. First come, first served when open.",
    "deadline": null,
@@ -2181,6 +2224,309 @@
     "https://www.als.org/support/programs/maurer-heinsen-home-access-program-wisconsin"
    ],
    "lastVerified": "2026-10-15"
+  },
+  {
+   "id": "mary-beth-benison-foundation",
+   "kind": "grant",
+   "name": "Family assistance",
+   "org": "Mary Beth Benison Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Home modification",
+    "Travel",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Financial support, equipment, transportation, and home accessibility needs.",
+   "amount": "Amount not published",
+   "status": "check",
+   "window": "Waitlist. Expect at least a 4 to 6 week delay.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm service area"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.mbbloves.com/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.mbbloves.com/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Waitlist"
+  },
+  {
+   "id": "the-susie-foundation-flex-grants",
+   "kind": "grant",
+   "name": "Flex Grants",
+   "org": "The Susie Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Home modification",
+    "Respite & caregiving",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CT",
+    "ME",
+    "MA",
+    "NH",
+    "RI",
+    "VT"
+   ],
+   "forWhat": "Reimbursement for eligible ALS-related equipment, home modifications, care, and medical costs not covered by other assistance.",
+   "amount": "Up to $2,000 per quarter, $4,000 per year",
+   "status": "rolling",
+   "window": "Awarded quarterly as funds allow. First-time applicants and severe hardship get priority.",
+   "deadline": null,
+   "eligibility": [
+    "New England resident (CT, ME, MA, NH, RI, VT)",
+    "Definitive ALS diagnosis"
+   ],
+   "youllNeed": [
+    "Complete application",
+    "Diagnosis-verification form signed by a physician, neurologist or social worker (first-time applicants)",
+    "Receipts or documentation for eligible expenses"
+   ],
+   "howToApply": "Apply on the Susie Foundation Flex Grant page.",
+   "url": "https://www.thesusiefoundation.org/flexgrant",
+   "contact": "See program page",
+   "sources": [
+    "https://www.thesusiefoundation.org/flexgrant"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Applications advertised"
+  },
+  {
+   "id": "jeff-coombs-fund-family-grants",
+   "kind": "grant",
+   "name": "Family Grants",
+   "org": "Jeff Coombs Fund",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA"
+   ],
+   "forWhat": "Assistance for unexpected family expenses related to illness, injury, loss, or other hardship. Not limited to ALS.",
+   "amount": "Amount not published",
+   "status": "check",
+   "window": "The official page advertises a one-page online or mailed family-grant application asking for the circumstances of need, approximate amount requested, and references. Direct access and current funding capacity could not be confirmed during this review. Contact the foundation before submitting personal information.",
+   "deadline": null,
+   "eligibility": [
+    "Massachusetts families facing illness-related hardship (not ALS-specific)"
+   ],
+   "youllNeed": [
+    "One-page application: circumstances, amount requested, references"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://www.jeffcoombsfund.org/blog/scholarships-grants/family-grants/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.jeffcoombsfund.org/blog/scholarships-grants/family-grants/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Application advertised; confirm intake"
+  },
+  {
+   "id": "paint-for-a-cure",
+   "kind": "grant",
+   "name": "Family assistance",
+   "org": "Paint for a Cure",
+   "categories": [
+    "Family & children",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Programs aimed at easing the financial burden of ALS for families.",
+   "amount": "Varies (past awards of $5,000 and $10,000)",
+   "status": "rolling",
+   "window": "The official assistance form is available for families living with ALS with children under 15 in the household. No current funding balance or decision timeline is published. Submit only through the official process and confirm capacity.",
+   "deadline": null,
+   "eligibility": [
+    "Family living with ALS with a child under 15 at home"
+   ],
+   "youllNeed": [
+    "Official assistance form"
+   ],
+   "howToApply": "Use the Apply for Help form.",
+   "url": "https://paintforacure.org/apply-for-help/",
+   "contact": "See program page",
+   "sources": [
+    "https://paintforacure.org/apply-for-help/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Assistance form available"
+  },
+  {
+   "id": "cocktails-caregivers",
+   "kind": "grant",
+   "name": "Our Tribe childcare & caregiver grants",
+   "org": "Cocktails & Caregivers",
+   "categories": [
+    "Family & children",
+    "Respite & caregiving",
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Caregiver grants, community, and help with medical travel or family needs.",
+   "amount": "One-time grant (a $2,000 award was reported in 2023)",
+   "status": "rolling",
+   "window": "The Our Tribe page advertises childcare assistance for U.S. citizens residing in the continental U.S. It is a one-time grant, reviewed by the board; receipts may be requested. The site also links to medical-travel assistance. Ask about current funding and award amounts.",
+   "deadline": null,
+   "eligibility": [
+    "U.S. citizen living in the continental U.S.",
+    "Caregiver or family with childcare or medical-travel needs"
+   ],
+   "youllNeed": [
+    "Online application",
+    "Receipts may be requested"
+   ],
+   "howToApply": "Apply on the Our Tribe page.",
+   "url": "https://cocktailsandcaregivers.org/our-tribe",
+   "contact": "See program page",
+   "sources": [
+    "https://cocktailsandcaregivers.org/our-tribe"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Childcare applications advertised"
+  },
+  {
+   "id": "als-ride-for-life-fred-bargetzi-caregiver-grant",
+   "kind": "grant",
+   "name": "Fred Bargetzi Caregiver Grant",
+   "org": "ALS Ride For Life",
+   "categories": [
+    "Respite & caregiving"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A one-time grant for respite care, paid directly to the chosen care provider.",
+   "amount": "One-time respite grant (amount not published)",
+   "status": "closed",
+   "window": "Quarterly rounds. The Sept 15 to Oct 15, 2026 round has closed; awards are drawn Nov 1. Watch for the next round.",
+   "deadline": null,
+   "eligibility": [
+    "Confirmed ALS diagnosis",
+    "One grant per recipient, paid directly to the respite provider"
+   ],
+   "youllNeed": [
+    "Application during the open round",
+    "Chosen respite care provider"
+   ],
+   "howToApply": "Apply on the ALS Ride For Life Care for Life grant page during an open round.",
+   "url": "https://alsrideforlife.org/programs-assistance/care-for-life-grant/",
+   "contact": "See program page",
+   "sources": [
+    "https://alsrideforlife.org/programs-assistance/care-for-life-grant/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Open through October 15, 2026"
+  },
+  {
+   "id": "hark-als",
+   "kind": "grant",
+   "name": "Family assistance",
+   "org": "HARK ALS",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants for equipment gaps, travel, household needs, and small home modifications.",
+   "amount": "Amount not published",
+   "status": "check",
+   "window": "HARK lists grant support for equipment gaps, travel, household expenses, and small home modifications. Current intake capacity is not explicitly confirmed; contact the organization before preparing an application. Ongoing caregiver expenses, ongoing prescription copays, and accessible vans are excluded from its grants.",
+   "deadline": null,
+   "eligibility": [
+    "Confirm service area"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://hark-als.org/contact-us/",
+   "contact": "See program page",
+   "sources": [
+    "https://hark-als.org/contact-us/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Contact to confirm intake"
+  },
+  {
+   "id": "bryon-riesch-paralysis-foundation",
+   "kind": "grant",
+   "name": "Individual grants",
+   "org": "Bryon Riesch Paralysis Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Charitable grants for people with paralysis to support independence.",
+   "amount": "The currently linked application, dated 2022, states grants typically range from $2,000–$7,500, with no minimum",
+   "status": "check",
+   "window": "Applicants must have a spinal cord injury or spinal cord-related disorder, U.S. residence, and financial need. Confirm that your ALS-related condition qualifies. Requests are accepted year-round and reviewed in January, March, June, and September, with Wisconsin priority. Submit written estimates from at least two suppliers or contractors; wheelchair quotes must be from local vendors, not internet quotes. For partially funded items, secure the remaining cost first. Payments go directly to suppliers; vehicles themselves are excluded.",
+   "deadline": null,
+   "eligibility": [
+    "U.S. residents; Wisconsin priority",
+    "Confirm that ALS qualifies"
+   ],
+   "youllNeed": [
+    "Contact the organization for the current application and requirements"
+   ],
+   "howToApply": "Start from the official program page.",
+   "url": "https://brpf.org/charitable-grant-application/",
+   "contact": "See program page",
+   "sources": [
+    "https://brpf.org/charitable-grant-application/"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Application available; confirm ALS eligibility"
+  },
+  {
+   "id": "rockin4als-never-walk-alone-quality-of-life-grant",
+   "kind": "grant",
+   "name": "Never Walk Alone Quality-of-Life Grant",
+   "org": "Rockin4ALS",
+   "categories": [
+    "Quality of life",
+    "Equipment & technology",
+    "Medical costs"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "WI"
+   ],
+   "forWhat": "Unrestricted support for household costs, equipment, medical expenses, or meaningful personal experiences.",
+   "amount": "$1,000 per grant",
+   "status": "rolling",
+   "window": "Rolling while funds last. No deadline is published.",
+   "deadline": null,
+   "eligibility": [
+    "Wisconsin resident",
+    "Confirmed ALS diagnosis",
+    "Financial need"
+   ],
+   "youllNeed": [
+    "Downloaded application, emailed to NeverWalkAlone-QOLGrant@Rockin4ALS.org"
+   ],
+   "howToApply": "Download the application from the Rockin4ALS page and email it in.",
+   "url": "https://www.rockin4als.org/qol.php",
+   "contact": "See program page",
+   "sources": [
+    "https://www.rockin4als.org/qol.php"
+   ],
+   "lastVerified": "2026-10-10",
+   "note": "Applications advertised"
   }
  ]
 }

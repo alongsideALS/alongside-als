@@ -22,6 +22,12 @@ const clean = (v, max) => (typeof v === "string" ? v.replace(/\r/g, "").trim().s
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const validEmail = (e) => /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/.test(e);
 
+// Secrets are looked up without regard to letter case (RESEND_API_KEY and RESEND_API_Key both work).
+const secret = (env, name) => {
+  const k = Object.keys(env).find((key) => key.toUpperCase() === name.toUpperCase());
+  return k ? env[k] : undefined;
+};
+
 export async function onRequestPost({ request, env }) {
   // Same-origin only (the form lives on this site).
   const origin = request.headers.get("origin") || "";
@@ -49,20 +55,22 @@ export async function onRequestPost({ request, env }) {
   if (email && !validEmail(email)) return json({ ok: false, error: "That email address doesn't look right." }, 400);
 
   // Turnstile (spam) check.
-  if (!env.TURNSTILE_SECRET_KEY) return json({ ok: false, error: "The form isn't fully set up yet (missing spam-check key)." }, 500);
+  const tsKey = secret(env, "TURNSTILE_SECRET_KEY");
+  if (!tsKey) return json({ ok: false, error: "The form isn't fully set up yet (missing spam-check key)." }, 500);
   if (!token) return json({ ok: false, error: "The spam check didn't finish. Please wait a moment and try again." }, 400);
   const ip = request.headers.get("cf-connecting-ip") || "";
   const verify = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ secret: env.TURNSTILE_SECRET_KEY, response: token, remoteip: ip }),
+    body: JSON.stringify({ secret: tsKey, response: token, remoteip: ip }),
   }).then((r) => r.json()).catch(() => ({ success: false }));
   if (!verify.success) return json({ ok: false, error: "The spam check failed. Please reload the page and try again." }, 400);
 
-  if (!env.RESEND_API_KEY) return json({ ok: false, error: "The form isn't fully set up yet (missing email key)." }, 500);
+  const rsKey = secret(env, "RESEND_API_KEY");
+  if (!rsKey) return json({ ok: false, error: "The form isn't fully set up yet (missing email key)." }, 500);
 
-  const to = env.CONTACT_TO || TO_DEFAULT;
-  const from = env.CONTACT_FROM || FROM_DEFAULT;
+  const to = secret(env, "CONTACT_TO") || TO_DEFAULT;
+  const from = secret(env, "CONTACT_FROM") || FROM_DEFAULT;
   const when = new Date().toISOString().replace("T", " ").slice(0, 16) + " UTC";
   const subject = `[Alongside ALS] ${topic}${page ? ": " + page.slice(0, 60) : ""}`;
 
@@ -89,7 +97,7 @@ export async function onRequestPost({ request, env }) {
 
   const sent = await fetch("https://api.resend.com/emails", {
     method: "POST",
-    headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
+    headers: { authorization: `Bearer ${rsKey}`, "content-type": "application/json" },
     body: JSON.stringify(payload),
   });
 

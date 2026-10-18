@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
-<link rel="stylesheet" href="site.css?v=2">
+<link rel="stylesheet" href="site.css?v=3">
 </head>
 <body data-page="about">
 <main id="main" tabindex="-1">
@@ -32,8 +32,32 @@
       <p>Review dates reflect the underlying source check, not a cosmetic page edit. A working link does not confirm that a program is open.</p>
     </section>
     <section id="corrections"><h2>Report outdated information or ask a question</h2>
-      <p>Email <a href="mailto:alsalongside@gmail.com?subject=Alongside%20ALS%20question%20or%20suggestion">alsalongside@gmail.com</a> with questions, comments or suggestions. If a listing looks out of date, include the page link, the organization or study name, what appears incorrect, and an official source if you have one.</p>
-      <p><strong>Please do not send medical records, financial documents, passwords, or application details.</strong> This email is for website feedback and is not monitored for emergencies or clinical advice. Send applications directly to the provider.</p>
+      <p>Use the form below, or email <a href="mailto:alsalongside@gmail.com?subject=Alongside%20ALS%20question%20or%20suggestion">alsalongside@gmail.com</a>. If a listing looks out of date, tell us which page or organization, what appears incorrect, and an official source if you have one.</p>
+      <form class="contact" id="contactForm" action="/api/contact" method="post" novalidate>
+        <div class="contact-row">
+          <label class="field"><span>What is this about?</span>
+            <select name="topic">
+              <option>Comment</option>
+              <option>Correction</option>
+              <option>Question</option>
+              <option>Suggestion</option>
+              <option>Something is hard to use</option>
+            </select></label>
+          <label class="field"><span>Page, grant or study <small>(optional)</small></span>
+            <input type="text" name="page" maxlength="300" autocomplete="off" placeholder="e.g. Grants, Pete Frates Family Foundation"></label>
+        </div>
+        <label class="field"><span>Your message</span>
+          <textarea name="message" required minlength="5" maxlength="4000" rows="5" placeholder="What would you like us to know?"></textarea></label>
+        <label class="field"><span>Your email <small>(optional, only if you'd like a reply)</small></span>
+          <input type="email" name="email" maxlength="200" autocomplete="email" inputmode="email"></label>
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAAFaRUEBEmOdZHH5Z" data-theme="light" data-size="flexible"></div>
+        <div class="contact-foot">
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="contact-status" id="contactStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+      <p><strong>Please do not send medical records, financial documents, passwords, or application details.</strong> Messages go to a volunteer inbox that is not monitored for emergencies or clinical advice. Send applications directly to the provider.</p>
     </section>
     <section><h2>Accessibility</h2>
       <p>The site supports keyboard navigation, large controls, a larger-text setting (the "AA" button in the header), and reduced-motion preferences. Please tell us if a page is difficult to use, including your device or assistive technology if you wish. Testing with screen readers, eye-gaze and switch access is an ongoing need; we do not claim certified accessibility compliance.</p>
@@ -80,6 +104,35 @@
     </section>
   </div>
 </div>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script>
+(function(){
+  var form=document.getElementById('contactForm'), st=document.getElementById('contactStatus');
+  if(!form) return;
+  var btn=form.querySelector('button[type=submit]');
+  function say(msg,kind){ st.textContent=msg; st.className='contact-status'+(kind?' '+kind:''); }
+  form.addEventListener('submit', async function(e){
+    e.preventDefault();
+    var msg=form.message.value.trim();
+    if(msg.length<5){ say('Please write a message first.','bad'); form.message.focus(); return; }
+    if(form.email.value && !form.email.checkValidity()){ say("That email address doesn't look right.",'bad'); form.email.focus(); return; }
+    btn.disabled=true; say('Sending…');
+    try{
+      var r=await fetch(form.action,{method:'POST',body:new FormData(form)});
+      var d=await r.json().catch(function(){return {};});
+      if(r.ok && d.ok){
+        say('Thank you. Your message was sent.','good');
+        form.reset();
+        if(window.turnstile) try{ turnstile.reset(); }catch(_){}
+      } else {
+        say(d.error||'Something went wrong. Please try again or email alsalongside@gmail.com.','bad');
+        if(window.turnstile) try{ turnstile.reset(); }catch(_){}
+      }
+    }catch(_){ say('No connection. Please try again or email alsalongside@gmail.com.','bad'); }
+    btn.disabled=false;
+  });
+})();
+</script>
 </main>
 <script src="site.js?v=2"></script>
 </body>

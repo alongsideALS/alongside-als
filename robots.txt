@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /my-plan
+Disallow: /api/
+
+Sitemap: https://alongside-als.org/sitemap.xml

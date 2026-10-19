@@ -180,7 +180,7 @@ function catalog(which){
     $$("[data-cat]").forEach(b => b.addEventListener("click", () => { f.cat = b.dataset.cat; $$("[data-cat]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); upd(); }));
     list();
   };
-  root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
+  if (!root.querySelector('.static-list')) root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
   load(which).then(() => { render(); freshness();
     if (which === "grants"){ const soon = DATA.grants.filter(x => { const d = daysTo(x.deadline); return d != null && d >= 0; }).sort((a,b) => daysTo(a.deadline) - daysTo(b.deadline));
       const dl = $("#deadlines"); if (dl) dl.innerHTML = soon.length ? soon.map((x,i) => deadlineRow(x,i)).join("") : `<p class="muted">No dated deadlines right now. Most programs accept applications year-round.</p>`; }
@@ -296,7 +296,7 @@ function trials(){
     $$("[data-type]").forEach(b => b.addEventListener("click", () => { f.type = b.dataset.type; $$("[data-type]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); upd(); }));
     list();
   };
-  root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
+  if (!root.querySelector('.static-list')) root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
   load("trials").then(() => { render(); freshness();
     const m = DATA.meta.trials; const s = $("#snapshot"); if (s && m) s.textContent = `Registry snapshot ${fmtD(m.registrySnapshot)} · ${DATA.trials.length} active studies · hand-checked notes ${fmtD("2026-10-15")}`; });
 }

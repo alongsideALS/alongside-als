@@ -278,3 +278,10 @@ footer a{color:var(--ink-2)}
 .contact-status{margin:0;font-size:.98rem;color:var(--muted)}
 .contact-status.good{color:var(--good);font-weight:700}
 .contact-status.bad{color:var(--bad);font-weight:700}
+
+/* Pre-rendered directory (shown before the explorer loads; also what search engines index) */
+.static-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.static-list li{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.static-list li b{font-size:1.05rem}
+.static-list li .org{color:var(--muted);font-size:.92rem;margin-bottom:4px}
+.static-list li p{margin:4px 0 0}

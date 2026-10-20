@@ -18,7 +18,7 @@ const stateOpts = (sel, firstLabel = "All states") => `<option value="">${firstL
 
 /* ---------- Header / footer ---------- */
 const RIBBON = '<svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="8" fill="#f8faff"/><path d="M12 30 25 12C30 2 10 2 15 12L28 30" stroke="#193252" stroke-width="6" fill="none"/><path d="M12 30 25 12C30 2 10 2 15 12L28 30" stroke="#7399c6" stroke-width="1.3" fill="none"/><circle cx="33" cy="34" r="3" fill="#c33245"/></svg>';
-const NAV = [["understanding-als","Understanding ALS","understand","What a diagnosis means, treatments and your care team"],["road-ahead","Road ahead","road","A stage-by-stage checklist"],["grants","Grants","grants","Money for equipment, travel, respite and more"],["services","Services","services","Benefits, loans and free help"],["trials","Trials","trials","Clinical studies looking for participants"],["get-ready","Get ready","ready","Documents and application trackers"],["resources","Resources","resources","Trusted links by topic"],["my-plan","My plan","plan","Everything you've saved"]];
+const NAV = [["understanding-als","Understanding ALS","understand","What a diagnosis means, treatments and your care team"],["road-ahead","Road ahead","road","A stage-by-stage checklist"],["grants","Grants","grants","Money for equipment, travel, respite and more"],["services","Services","services","Benefits, loans and free help"],["trials","Trials","trials","Clinical studies looking for participants"],["map","Map","map","Clinics, study sites and local help near you"],["get-ready","Get ready","ready","Documents and application trackers"],["resources","Resources","resources","Trusted links by topic"],["my-plan","My plan","plan","Everything you've saved"]];
 if (!$("header.banner")) {
   // Fallback for pages built before the header was made part of the HTML.
   document.body.insertAdjacentHTML("afterbegin", `<a class="skip" href="#main">Skip to content</a>
@@ -131,6 +131,17 @@ function appliedRow(active, onClear, onReset){
   if (!active.length) return "";
   return `<div class="applied" role="group" aria-label="Filters in use"><span class="applied-lab">Showing:</span>${active.map(a => `<button type="button" class="achip" data-unfilter="${esc(a.key)}" aria-label="Remove filter: ${esc(a.label)}">${esc(a.label)} ${ICON.x}</button>`).join("")}<button type="button" class="achip clear" data-unfilter="*">Clear all</button></div>`;
 }
+/* Deep links from the map (/grants#item-<id>, /trials#item-NCT…): show the card even if the current filters hide it. */
+function revealHash(relax){
+  const m = /^#item-(.+)$/.exec(location.hash); if (!m) return;
+  const id = decodeURIComponent(m[1]);
+  let el = document.getElementById("item-" + id);
+  if (!el && relax) { relax(id); el = document.getElementById("item-" + id); }
+  if (!el) return;
+  const d = el.querySelector("details"); if (d) d.open = true;
+  el.classList.add("hit-card"); el.setAttribute("tabindex", "-1");
+  setTimeout(() => { el.scrollIntoView({ behavior: "auto", block: "center" }); el.focus({ preventScroll: true }); }, 60);
+}
 
 /* ---------- Grants & services explorer ---------- */
 const CATS = {
@@ -169,7 +180,7 @@ function catalog(which){
   };
   const card = (g, i) => {
     const kind = g.kind === "service" ? "service" : "grant", st = grantStatus(g);
-    return `<article class="card" style="--i:${Math.min(i,12)}">
+    return `<article class="card" id="item-${esc(g.id)}" style="--i:${Math.min(i,12)}">
       <div><div class="org">${esc(g.org)}</div><h2>${esc(g.name)}</h2></div>
       <div class="pills"><span class="pill ${st.cls}">${esc(st.label)}</span><span class="pill">${g.scope === "Regional" ? esc((g.regions||[]).join(", ")) : "Nationwide"}</span>${(g.categories||[]).slice(0,2).map(c=>`<span class="pill">${esc(c)}</span>`).join("")}</div>
       ${g.amount ? `<div class="amount">${esc(g.amount)}</div>` : ""}
@@ -234,6 +245,7 @@ function catalog(which){
   };
   if (!root.querySelector('.static-list')) root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
   load(which).then(() => { render(); freshness();
+    revealHash(() => { Object.assign(f, DEF); f.state = ""; render(); });
     if (which === "grants"){ const soon = DATA.grants.filter(x => { const d = daysTo(x.deadline); return d != null && d >= 0; }).sort((a,b) => daysTo(a.deadline) - daysTo(b.deadline));
       const dl = $("#deadlines"); if (dl) dl.innerHTML = soon.length ? soon.map((x,i) => deadlineRow(x,i)).join("") : `<p class="muted">No dated deadlines right now. Most programs accept applications year-round.</p>`; }
   });
@@ -293,7 +305,7 @@ function trials(){
     const usLocs = (t.locations||[]).filter(l => l.k === "United States");
     const locLine = t.us ? `${usLocs.length || t.sites || "?"} U.S. site${usLocs.length===1?"":"s"}${t.countries && t.countries.length > 1 ? ` · ${t.countries.length} countries` : ""}` : `${(t.countries||[]).join(", ")}`;
     const kindPill = t.type === "Device" ? '<span class="pill">Device / BCI</span>' : t.type === "Observational" ? '<span class="pill">No drug · research only</span>' : t.type === "Care & lifestyle" ? '<span class="pill">Non-drug</span>' : t.type === "Expanded access" ? '<span class="pill">Drug outside a trial</span>' : "";
-    return `<article class="card" style="--i:${Math.min(i,12)}">
+    return `<article class="card" id="item-${esc(t.id)}" style="--i:${Math.min(i,12)}">
       <div><div class="nct">${esc(t.id)} · ${esc(t.sponsor)}</div><h2>${esc(title)}</h2>${t.name && t.name !== t.title && title !== t.title ? `<p class="small muted">${esc(t.title)}</p>` : ""}</div>
       <div class="pills"><span class="pill ${en.cls}">${esc(en.label)}</span><span class="pill">${esc(t.phase)}</span>${kindPill}${t.placebo === false ? '<span class="pill">No placebo</span>' : t.placebo ? '<span class="pill">Placebo-controlled</span>' : ""}${t.remote ? '<span class="pill s-good">From home</span>' : ""}${gene && gene !== "Any" ? `<span class="pill">${esc(gene)}</span>` : ""}${v ? '<span class="pill s-info">Hand-checked</span>' : ""}</div>
       ${what ? `<p><b>${esc(what)}</b></p>` : ""}
@@ -379,6 +391,7 @@ function trials(){
   };
   if (!root.querySelector('.static-list')) root.innerHTML = `<div class="grid">${'<div class="skel"></div>'.repeat(6)}</div>`;
   load("trials").then(() => { render(); freshness();
+    revealHash((id) => { Object.assign(f, DEF, { status: "all", us: false, q: id }); f.state = ""; render(); });
     const m = DATA.meta.trials; const s = $("#snapshot"); if (s && m) { const lv = latestVerified(DATA.trials); s.textContent = `Registry snapshot ${fmtD(m.registrySnapshot)} · ${DATA.trials.length} active studies${lv ? ` · hand-checked notes ${fmtD(lv)}` : ""}`; } });
 }
 
@@ -486,6 +499,9 @@ document.addEventListener("click", (e) => {
   if (window.PDFS) return go();
   b.disabled = true; const sc = document.createElement("script"); sc.src = "/tracker-pdf.js"; sc.onload = () => { b.disabled = false; go(); }; sc.onerror = () => { b.disabled = false; toast("Couldn't load the PDF."); }; document.body.appendChild(sc);
 });
+
+/* ---------- Small public API for page scripts (map.js) ---------- */
+window.AA = { esc, getState, setState, stateName, saveBtn, isSaved, toast, load, fmtD };
 
 /* ---------- Boot ---------- */
 ({ grants: () => catalog("grants"), services: () => catalog("services"), trials, plan: myPlan, home, road: () => checklist("checks"), ready: () => checklist("docs") }[PAGE] || (() => { load("summary").then(freshness); }))();

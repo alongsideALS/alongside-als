@@ -23,9 +23,15 @@
 <meta name="twitter:image" content="https://alongside-als.org/og-image.png">
 <meta name="theme-color" content="#193252">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Alongside ALS">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
-<link rel="stylesheet" href="/site.css?v=fc892f92">
+<link rel="stylesheet" href="/site.css?v=35aef33e">
 <script>document.documentElement.className+=" js"</script>
 </head>
 <body data-page="road">
@@ -113,6 +119,11 @@
   <div class="note" style="margin-top:24px"><div>This checklist is general guidance from clinic teams and ALS organizations. Your own team knows your situation; ask them which steps matter most for you and when.</div></div>
 </div>
 </main>
+<div class="install-hint" id="installHint" hidden role="region" aria-label="Add to home screen"><div class="wrap">
+  <img class="ih-icon" src="/icons/icon-192.png" width="40" height="40" alt="" loading="lazy">
+  <p><b>Add Alongside ALS to your home screen.</b> One tap to open, and your saved plan and the lists you've viewed work without a signal.</p>
+  <div class="ih-actions"><button class="btn btn-primary btn-sm" type="button" id="installHintBtn" hidden>Install</button><a class="btn btn-primary btn-sm" id="installHintHow" href="/app">How to add it</a><button class="btn btn-line btn-sm" type="button" id="installHintNo">Not now</button></div>
+</div></div>
 <footer><div class="wrap">
   <div class="foot-grid">
     <div>
@@ -122,11 +133,11 @@
     </div>
     <nav aria-label="Site sections"><b>Find</b><a href="/grants">Grants</a><a href="/services">Services &amp; benefits</a><a href="/trials">Clinical studies</a><a href="/map">Map: help near you</a><a href="/my-plan">My plan</a></nav>
     <nav aria-label="Guides"><b>Learn</b><a href="/understanding-als">Understanding ALS</a><a href="/road-ahead">The road ahead</a><a href="/get-ready">Get ready to apply</a><a href="/resources">Resources</a></nav>
-    <nav aria-label="About this site"><b>About</b><a href="/about">About &amp; contact</a><a href="/about#corrections">Report outdated information</a><a href="/about#privacy">Privacy</a><a href="/about#disclaimer">Disclaimer</a><a href="/about#updates">What changed</a></nav>
+    <nav aria-label="About this site"><b>About</b><a href="/about">About &amp; contact</a><a href="/about#corrections">Report outdated information</a><a href="/about#privacy">Privacy</a><a href="/about#disclaimer">Disclaimer</a><a href="/about#updates">What changed</a><a class="app-link" href="/app">Use as an app</a></nav>
   </div>
   <p class="small">Talk to a person: ALS Association information and referral line <a href="tel:18007824747">800-782-4747</a>. If you are in crisis, call or text <a href="tel:988">988</a> (U.S.).</p>
 </div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script src="/site.js?v=a252fb74"></script>
+<script src="/site.js?v=c33b5b2f"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ const REDUCED = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce
 
 const svg = $("#usmap"); if (!svg) return;
 svg.setAttribute("role", "group");
-const gStates = $("#states"), gLabels = $("#stateLabels"), gRing = $("#zipRing"), gPins = $("#pins"), gCity = $("#cityLabels");
+const gStates = $("#states"), gLabels = $("#stateLabels"), gRing = $("#zipRing"), gPins = $("#pins"), gCity = $("#cityLabels"), gCounties = $("#counties"), gRef = $("#refCities"), gScale = $("#scaleBar");
 const side = $("#mapSide"), tip = $("#mapTip"), wrap = $("#mapWrap"), back = $("#mapBack"), sel = $("#mapState"), form = $("#zipForm"), zipIn = $("#zip"), radiusSel = $("#radius"), legend = $("#legend"), smallBox = $("#smallStates");
 const W = 975, H = 610;
 const SMALL = ["CT","DC","DE","MA","MD","NH","NJ","RI","VT"];
@@ -73,8 +73,71 @@ function zoomTo(target, done){
   if (anim) cancelAnimationFrame(anim);
   if (REDUCED) { setVB(target); done && done(); return; }
   const from = vb.slice(), t0 = performance.now(), dur = 420;
-  const step = (t) => { const p = Math.min(1, (t - t0) / dur), e = p < .5 ? 2*p*p : -1 + (4 - 2*p) * p; setVB(from.map((f, i) => f + (target[i] - f) * e)); if (p < 1) anim = requestAnimationFrame(step); else { anim = null; done && done(); } };
+  svg.classList.add("zooming");
+  const step = (t) => { const p = Math.min(1, (t - t0) / dur), e = p < .5 ? 2*p*p : -1 + (4 - 2*p) * p; setVB(from.map((f, i) => f + (target[i] - f) * e)); if (p < 1) anim = requestAnimationFrame(step); else { anim = null; svg.classList.remove("zooming"); done && done(); } };
   anim = requestAnimationFrame(step);
+}
+const setMode = (k) => { svg.classList.remove("mode-us", "mode-state", "mode-zip"); svg.classList.add("mode-" + k); };
+
+/* ---------- lazy detail: higher-detail outlines, county lines and reference cities ---------- */
+let hdLoaded = false, hdLoading = null;
+function loadHD(){
+  if (hdLoaded || hdLoading) return hdLoading;
+  hdLoading = fetch("/data/geo/states-hd.json", { cache: "force-cache" }).then(r => r.json()).then(hd => { CODES.forEach(c => { if (hd[c]) paths[c].setAttribute("d", hd[c]); }); for (const k in bboxes) delete bboxes[k]; hdLoaded = true; }).catch(() => { hdLoading = null; });
+  return hdLoading;
+}
+const GEO = {};
+async function loadGeo(code){
+  if (GEO[code]) return GEO[code];
+  try { GEO[code] = await (await fetch(`/data/geo/${code}.json`, { cache: "force-cache" })).json(); } catch { GEO[code] = { d: "", cities: [] }; }
+  return GEO[code];
+}
+const inView = (x, y, m = 0) => x >= vb[0] - m && x <= vb[0] + vb[2] + m && y >= vb[1] - m && y <= vb[1] + vb[3] + m;
+async function drawDetail(codes, token){
+  const geos = await Promise.all(codes.map(loadGeo));
+  if (token !== detailToken) return;                       // the user has moved on
+  gCounties.innerHTML = geos.map(g => g.d ? `<path class="county" d="${g.d}"/>` : "").join("");
+  drawRefCities(geos.flatMap((g, i) => (g.cities || []).slice(0, codes[i] === mode.state ? 99 : 5)));
+}
+let detailToken = 0, placedBoxes = [], pinPts = [];
+function drawRefCities(cities){
+  const s = pxPerUnit(), r = 2.6 / s, fs = 11 / s;
+  const out = [], boxes = placedBoxes.slice();
+  cities.filter(c => inView(c[1], c[2], -6 / s)).forEach(([name, x, y, cap]) => {
+    if (pinPts.some(p => Math.hypot(p.x - x, p.y - y) < 16 / s || p.city.toLowerCase() === name.toLowerCase())) return;
+    const lw = name.length * fs * .56, lh = fs * 1.2;
+    const spots = [[x + r + 3 / s, y + fs * .36, "start"], [x - r - 3 / s, y + fs * .36, "end"], [x, y + r + fs, "middle"]];
+    for (const [lx, ly, anchor] of spots) {
+      const x0 = anchor === "start" ? lx : anchor === "end" ? lx - lw : lx - lw / 2, box = { x0, y0: ly - lh, x1: x0 + lw, y1: ly };
+      if (boxes.some(b => !(box.x1 < b.x0 || box.x0 > b.x1 || box.y1 < b.y0 || box.y0 > b.y1))) continue;
+      boxes.push(box);
+      out.push(`<g class="ref-city${cap ? " cap" : ""}"><circle cx="${x}" cy="${y}" r="${r}" stroke-width="${1.2 / s}"/><text x="${lx}" y="${ly}" font-size="${fs}" text-anchor="${anchor}" stroke-width="${3 / s}">${esc(name)}</text></g>`);
+      break;
+    }
+  });
+  gRef.innerHTML = out.join("");
+}
+function drawNeighbourLabels(active){
+  const s = pxPerUnit(), fs = 11.5 / s, m = 30 / s;
+  const off = svg.classList.contains("insets-off");
+  const inFill = (p, x, y) => { try { return !p.isPointInFill || p.isPointInFill(new DOMPoint(x, y)); } catch { return true; } };
+  const spot = (c) => {                      // label point, pulled into view along the line towards the centre when the state is only partly visible
+    const p = paths[c], lx = +p.dataset.lx, ly = +p.dataset.ly, mx = Math.max(m, (stateName(c).length * fs * .42) + 10 / s);
+    const ok = (x, y) => x >= vb[0] + mx && x <= vb[0] + vb[2] - mx && y >= vb[1] + m && y <= vb[1] + vb[3] - m;
+    if (ok(lx, ly)) return [lx, ly];
+    const b = bbox(c); if (b.x > vb[0] + vb[2] || b.x + b.w < vb[0] || b.y > vb[1] + vb[3] || b.y + b.h < vb[1]) return null;
+    const cx = Math.min(Math.max(lx, vb[0] + mx), vb[0] + vb[2] - mx), cy = Math.min(Math.max(ly, vb[1] + m), vb[1] + vb[3] - m);
+    for (let t = 1; t >= 0; t -= .125) { const x = lx + (cx - lx) * t, y = ly + (cy - ly) * t; if (ok(x, y) && inFill(p, x, y)) return [x, y]; }
+    return null;
+  };
+  gLabels.innerHTML = CODES.filter(c => !active.includes(c) && !(off && (c === "AK" || c === "HI"))).map(c => { const pt = spot(c); return pt ? `<text class="nb" x="${pt[0]}" y="${pt[1]}" font-size="${fs}" stroke-width="${3 / s}">${esc(stateName(c))}</text>` : ""; }).join("");
+}
+function drawScale(){
+  const s = pxPerUnit(), fs = 11 / s;
+  let mi = 10, w = 0;
+  for (const m of [500, 200, 100, 50, 25, 10]) { w = m / MI_PER_PX; if (w <= vb[2] * .26) { mi = m; break; } }
+  const x = vb[0] + 14 / s, y = vb[1] + vb[3] - 14 / s, t = 5 / s;
+  gScale.innerHTML = `<g class="scale-bar"><line x1="${x}" y1="${y}" x2="${x + w}" y2="${y}" stroke-width="${2 / s}"/><line x1="${x}" y1="${y - t}" x2="${x}" y2="${y}" stroke-width="${2 / s}"/><line x1="${x + w}" y1="${y - t}" x2="${x + w}" y2="${y}" stroke-width="${2 / s}"/><text x="${x + w / 2}" y="${y - 5 / s}" font-size="${fs}" text-anchor="middle" stroke-width="${3 / s}">${mi} mi</text></g>`;
 }
 const zoomFactor = () => W / vb[2];
 const fitBox = (x, y, w, h, pad = .18) => { const px = w * pad, py = h * pad; let bw = w + 2 * px, bh = h + 2 * py; const ratio = W / H; if (bw / bh > ratio) bh = bw / ratio; else bw = bh * ratio; const cx = x + w / 2, cy = y + h / 2; return [cx - bw / 2, cy - bh / 2, bw, bh]; };
@@ -84,15 +147,16 @@ const bucket = (n) => n === 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 9 ? 3 : 4;
 const layerCount = (code) => { const c = counts(code); return layer === "clinics" ? c.clinics : layer === "sites" ? c.siteCities : c.programs; };
 function paint(){
   CODES.forEach(code => { const p = paths[code], c = counts(code), n = layerCount(code);
-    const active = (mode.kind === "state" && mode.state === code) || (mode.kind === "zip" && mode.state === code);
+    const active = (mode.kind === "state" && mode.state === code) || (mode.kind === "zip" && (mode.states || [mode.state]).includes(code));
     p.setAttribute("class", `st q${bucket(n)}` + (active ? " active" : "") + (mode.kind !== "us" && !active ? " dim" : ""));
     p.setAttribute("aria-label", `${stateName(code)}: ${summaryLine(c)}`);
   });
-  gLabels.innerHTML = mode.kind === "us" ? CODES.filter(c => !SMALL.includes(c)).map(code => { const p = paths[code]; const n = layerCount(code); return `<text x="${p.dataset.lx}" y="${p.dataset.ly}" class="${bucket(n) >= 3 ? "light" : ""}"><tspan>${code}</tspan>${n ? `<tspan class="n" x="${p.dataset.lx}" dy="11">${n}</tspan>` : ""}</text>`; }).join("") : "";
+  gLabels.innerHTML = mode.kind === "us" ? CODES.filter(c => !SMALL.includes(c)).map(code => { const p = paths[code]; const n = layerCount(code); return `<text x="${p.dataset.lx}" y="${p.dataset.ly}" class="us${bucket(n) >= 3 ? " light" : ""}"><tspan>${code}</tspan>${n ? `<tspan class="n" x="${p.dataset.lx}" dy="11">${n}</tspan>` : ""}</text>`; }).join("") : "";
   legend.innerHTML = mode.kind === "us"
     ? `<span class="lg-title">${esc(LAYER_LABEL[layer])}</span>` + [["q0","0"],["q1","1–2"],["q2","3–5"],["q3","6–9"],["q4","10+"]].map(([q,l]) => `<span class="lg"><i class="${q}"></i>${l}</span>`).join("")
     : `<span class="lg"><i class="pin-c"></i>Clinic</span><span class="lg"><i class="pin-s"></i>Study site</span>${mode.kind === "zip" ? `<span class="lg"><i class="pin-z"></i>Your ZIP</span>` : ""}`;
   $$("[data-layer]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.layer === layer)));
+  svg.classList.toggle("insets-off", mode.kind !== "us" && !(mode.states || [mode.state]).some(c => c === "AK" || c === "HI"));
 }
 
 /* ---------- pins ---------- */
@@ -126,9 +190,12 @@ function drawPins(clinics, cities, zipPt){
   });
   gPins.innerHTML = out.join("");
   gCity.innerHTML = labels.join("");
+  placedBoxes = placed.concat(list.map(g => ({ x0: g.x - r * 2.3, y0: g.y - r * 1.4, x1: g.x + r * 2.3, y1: g.y + r * 1.4 })));
+  pinPts = list.map(g => ({ x: g.x, y: g.y, city: g.city }));
+  if (zipPt) { pinPts.push({ x: zipPt[0], y: zipPt[1], city: "" }); placedBoxes.push({ x0: zipPt[0] - r, y0: zipPt[1] - r, x1: zipPt[0] + r, y1: zipPt[1] + r }); }
   if (zipPt) gCity.innerHTML += `<g class="zip-mark"><circle cx="${zipPt[0]}" cy="${zipPt[1]}" r="${r * .9}" class="pin-z" stroke-width="${sw}"/><circle cx="${zipPt[0]}" cy="${zipPt[1]}" r="${r * .3}" fill="#fff"/></g>`;
 }
-const clearPins = () => { gPins.innerHTML = ""; gCity.innerHTML = ""; gRing.innerHTML = ""; };
+const clearPins = () => { gPins.innerHTML = ""; gCity.innerHTML = ""; gRing.innerHTML = ""; gCounties.innerHTML = ""; gRef.innerHTML = ""; gScale.innerHTML = ""; placedBoxes = []; pinPts = []; detailToken++; };
 const layersBox = $(".map-layers");
 const scrollToMap = () => { const top = $(".map-layout").getBoundingClientRect().top; if (top < 0 || top > innerHeight * .5) $(".map-layout").scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "start" }); };
 
@@ -206,15 +273,16 @@ function renderZip(zip, place, lat, lng, radius, found){
 
 /* ---------- modes ---------- */
 function showUS(push = true){
-  mode = { kind: "us" }; back.hidden = true; layersBox.hidden = false; sel.value = ""; clearPins(); paint(); renderUS();
+  mode = { kind: "us" }; setMode("us"); back.hidden = true; layersBox.hidden = false; sel.value = ""; clearPins(); hideTip(); paint(); renderUS();
   zoomTo([0, 0, W, H]); if (push) setUrl();
 }
 function showState(code, push = true){
   if (!paths[code]) return;
-  mode = { kind: "state", state: code }; back.hidden = false; layersBox.hidden = true; sel.value = code; clearPins(); paint(); renderState(code);
+  mode = { kind: "state", state: code }; setMode("state"); back.hidden = false; layersBox.hidden = true; sel.value = code; clearPins(); hideTip(); paint(); renderState(code);
   if (push) scrollToMap();
+  loadHD(); const token = detailToken;
   const b = bbox(code);
-  zoomTo(fitBox(b.x, b.y, b.w, b.h, code === "AK" ? .05 : .15), () => drawPins(DATA.clinics.filter(x => x.state === code), DATA.sites.filter(x => x.state === code)));
+  zoomTo(fitBox(b.x, b.y, b.w, b.h, code === "AK" ? .05 : .15), () => { if (token !== detailToken) return; drawPins(DATA.clinics.filter(x => x.state === code), DATA.sites.filter(x => x.state === code)); drawNeighbourLabels([code]); drawScale(); drawDetail([code], token); });
   if (push) setUrl();
   side.querySelector("h2") && side.querySelector("h2").setAttribute("tabindex", "-1");
 }
@@ -233,17 +301,19 @@ async function showZip(zip, radius, push = true){
   if (!hit) { zipIn.setAttribute("aria-invalid", "true"); side.innerHTML = `<div class="side-head"><h2>We don't recognize ${esc(zip)}</h2><p>Check the five digits, or choose a state instead.</p></div>`; return; }
   zipIn.removeAttribute("aria-invalid"); zipIn.value = zip; radiusSel.value = String(radius);
   const pt = project(hit.lng, hit.lat); if (!pt) { side.innerHTML = `<div class="side-head"><h2>That ZIP code is outside the map</h2><p>The map covers the 50 states and Washington, D.C.</p></div>`; return; }
-  mode = { kind: "zip", zip, radius, state: hit.place.slice(-2) }; back.hidden = false; layersBox.hidden = true; sel.value = ""; clearPins(); paint();
+  mode = { kind: "zip", zip, radius, state: hit.place.slice(-2), states: [hit.place.slice(-2)] }; setMode("zip"); back.hidden = false; layersBox.hidden = true; sel.value = ""; clearPins(); hideTip(); paint();
+  loadHD(); const token = detailToken;
   if (push) scrollToMap();
   const within = (x) => { const mi = haversine(hit.lat, hit.lng, x.lat, x.lng); return mi <= radius ? mi : null; };
   const clinics = DATA.clinics.map(x => { const mi = within(x); return mi == null ? null : Object.assign({}, x, { mi }); }).filter(Boolean).sort((a, b) => a.mi - b.mi);
   const cities = DATA.sites.map(x => { const mi = within(x); return mi == null ? null : Object.assign({}, x, { mi }); }).filter(Boolean).sort((a, b) => a.mi - b.mi);
   const zipState = hit.place.slice(-2);
   const states = [...new Set([zipState, ...clinics.map(x => x.state), ...cities.map(x => x.state)])].filter(s => paths[s]);
+  mode.states = states; paint();
   renderZip(zip, hit.place, hit.lat, hit.lng, radius, { clinics, cities, states });
   const rpx = radius / MI_PER_PX;
   gRing.innerHTML = `<circle cx="${pt[0]}" cy="${pt[1]}" r="${rpx}" class="ring"/>`;
-  zoomTo(fitBox(pt[0] - rpx, pt[1] - rpx, rpx * 2, rpx * 2, .12), () => drawPins(clinics, cities, pt));
+  zoomTo(fitBox(pt[0] - rpx, pt[1] - rpx, rpx * 2, rpx * 2, .12), () => { if (token !== detailToken) return; drawPins(clinics, cities, pt); drawNeighbourLabels(states); drawScale(); drawDetail(states.slice(0, 6), token); });
   if (push) setUrl();
 }
 
@@ -264,7 +334,9 @@ svg.addEventListener("click", (e) => {
   const pin = e.target.closest(".pin");
   if (pin) { const t = document.getElementById(pin.dataset.target); if (t) { if (t.tagName === "DETAILS") t.open = true; t.scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "center" }); t.classList.add("flash"); setTimeout(() => t.classList.remove("flash"), 1600); } return; }
   const p = e.target.closest("path[data-state]"); if (p) showState(p.dataset.state);
+  hideTip();
 });
+svg.addEventListener("mouseenter", () => { if (!hdLoaded) loadHD(); }, { once: true });
 // roving tabindex over the states (arrows move alphabetically, Enter/Space opens)
 gStates.setAttribute("role", "group"); gStates.setAttribute("aria-label", "States (use arrow keys, then Enter)");
 CODES.forEach((code, i) => { const p = paths[code]; p.setAttribute("role", "button"); p.setAttribute("tabindex", i === 0 ? "0" : "-1"); });
@@ -287,7 +359,7 @@ document.addEventListener("click", (e) => {
   const a = e.target.closest("a[data-setstate]"); if (a && AA.setState) AA.setState(a.dataset.setstate);
 });
 
-let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (mode.kind === "state") drawPins(DATA.clinics.filter(x => x.state === mode.state), DATA.sites.filter(x => x.state === mode.state)); else if (mode.kind === "zip") showZip(mode.zip, mode.radius, false); }, 200); });
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { if (mode.kind === "state") { drawPins(DATA.clinics.filter(x => x.state === mode.state), DATA.sites.filter(x => x.state === mode.state)); drawNeighbourLabels([mode.state]); drawScale(); drawRefCities((GEO[mode.state] || {}).cities || []); } else if (mode.kind === "zip") showZip(mode.zip, mode.radius, false); }, 200); });
 
 /* ---------- boot ---------- */
 sel.innerHTML = `<option value="">All states</option>` + CODES.map(c => `<option value="${c}">${esc(stateName(c))}</option>`).join("");

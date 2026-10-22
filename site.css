@@ -481,3 +481,21 @@ button.linkish:hover{color:var(--navy)}
   .city-d .places{display:block}
   .place,.study,.prog{break-inside:avoid;border:1px solid #999;margin:0 0 8pt}
 }
+
+/* ---------- Installable app: install hint + /app page ---------- */
+.install-hint{background:var(--tint);border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line)}
+.install-hint .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding-block:14px}
+.install-hint .ih-icon{width:40px;height:40px;border-radius:10px;flex:none}
+.install-hint p{flex:1 1 240px;margin:0;font-size:.95rem}
+.install-hint .ih-actions{display:flex;flex-wrap:wrap;gap:8px}
+.standalone .install-hint,.standalone .app-link{display:none!important}
+.app-status{margin:0 0 18px;padding:14px 18px;border-radius:var(--r);background:var(--good-soft);color:var(--good);font-weight:700}
+.app-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:8px}
+.app-card h2{font-size:1.35rem}
+.app-card.match{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.app-card.match h2::after{content:"Your device";display:inline-block;margin-left:10px;font:700 .72rem var(--f-body);letter-spacing:.04em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent-soft);border-radius:999px;padding:3px 9px;vertical-align:middle}
+.steps{margin:0;padding-left:22px;display:grid;gap:8px}
+.steps li{padding-left:4px}
+.ios-share{display:inline-block;vertical-align:-4px;color:var(--info)}
+.app-install-row{margin-top:4px}
+@media print{.install-hint,.app-install-row{display:none!important}}

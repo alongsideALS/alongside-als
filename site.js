@@ -102,10 +102,11 @@ async function load(which){
   if (DATA[which]) return DATA[which];
   try {
     const r = await fetch("/data/" + which + ".json", { cache: "no-cache" });
+    if (!r.ok) throw new Error("offline");
     const d = await r.json();
     if (which === "summary") { DATA.summary = d; return d; }
     DATA[which] = d.items || []; DATA.meta[which] = d;
-  } catch { DATA[which] = which === "summary" ? null : []; }
+  } catch { DATA[which] = which === "summary" ? null : []; if (which !== "summary" && !navigator.onLine) toast("You're offline and this list hasn't been saved on this device yet."); }
   return DATA[which];
 }
 function freshness(){
@@ -499,6 +500,51 @@ document.addEventListener("click", (e) => {
   if (window.PDFS) return go();
   b.disabled = true; const sc = document.createElement("script"); sc.src = "/tracker-pdf.js"; sc.onload = () => { b.disabled = false; go(); }; sc.onerror = () => { b.disabled = false; toast("Couldn't load the PDF."); }; document.body.appendChild(sc);
 });
+
+
+/* ---------- Installable app (PWA): service worker, install hint, /app page ---------- */
+const STANDALONE = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+const IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const ANDROID = /Android/i.test(navigator.userAgent);
+document.documentElement.classList.toggle("standalone", STANDALONE);
+document.documentElement.classList.toggle("is-ios", IOS);
+document.documentElement.classList.toggle("is-android", ANDROID);
+let installEvent = null;
+const hint = $("#installHint"), hintBtn = $("#installHintBtn"), hintHow = $("#installHintHow"), hintNo = $("#installHintNo");
+const mobile = window.matchMedia && matchMedia("(pointer: coarse)").matches && innerWidth < 900;
+function showHint(){
+  if (!hint || STANDALONE || !mobile) return;
+  const dismissed = ls.get("aa.installHint", 0);
+  if (dismissed && Date.now() - dismissed < 90 * 864e5) return;
+  const visits = ls.get("aa.visits", 0);
+  if (visits < 2) return;                                  // second page view or later, never on first contact
+  if (!IOS && !installEvent) return;                       // Android: only once Chrome says it's installable
+  hint.hidden = false;
+  if (installEvent) { hintBtn.hidden = false; hintHow.hidden = true; } else { hintBtn.hidden = true; hintHow.hidden = false; }
+}
+ls.set("aa.visits", (ls.get("aa.visits", 0) || 0) + 1);
+if ("serviceWorker" in navigator && window.isSecureContext) {
+  addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js").then(reg => {
+      reg.addEventListener("updatefound", () => {
+        const nw = reg.installing; if (!nw) return;
+        nw.addEventListener("statechange", () => { if (nw.state === "installed" && navigator.serviceWorker.controller) toast("Alongside ALS has been updated. Reload to get the newest lists."); });
+      });
+    }).catch(() => {});
+  });
+}
+addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); installEvent = e; const b = $("#installBtn"); if (b) b.hidden = false; showHint(); });
+addEventListener("appinstalled", () => { installEvent = null; if (hint) hint.hidden = true; const b = $("#installBtn"); if (b) b.hidden = true; toast("Installed. Look for Alongside ALS on your home screen."); });
+const doInstall = async () => { if (!installEvent) { location.href = "/app"; return; } const ev = installEvent; installEvent = null; try { ev.prompt(); await ev.userChoice; } catch {} };
+if (hintBtn) hintBtn.addEventListener("click", doInstall);
+if (hintNo) hintNo.addEventListener("click", () => { hint.hidden = true; ls.set("aa.installHint", Date.now()); });
+const installBtn = $("#installBtn"); if (installBtn) installBtn.addEventListener("click", doInstall);
+if (PAGE === "app") {
+  const st = $("#appStatus");
+  if (st && STANDALONE) { st.hidden = false; st.textContent = "You're using Alongside ALS as an app already. Your saved plan and the pages you open are kept on this device."; }
+  if (IOS) $("#howIphone")?.classList.add("match"); else if (ANDROID) $("#howAndroid")?.classList.add("match");
+}
+if (IOS) showHint();
 
 /* ---------- Small public API for page scripts (map.js) ---------- */
 window.AA = { esc, getState, setState, stateName, saveBtn, isSaved, toast, load, fmtD };

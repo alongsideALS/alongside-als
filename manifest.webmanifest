@@ -1,0 +1,26 @@
+{
+  "name": "Alongside ALS",
+  "short_name": "Alongside ALS",
+  "description": "Grants, benefits, clinical studies and ALS clinics near you, with a saved plan that stays on your device. Works offline.",
+  "id": "/",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8faff",
+  "theme_color": "#193252",
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "any",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Grants", "short_name": "Grants", "description": "Money for equipment, travel, respite and more", "url": "/grants?source=app", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Clinical studies", "short_name": "Studies", "description": "Studies looking for participants", "url": "/trials?source=app", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Help near you", "short_name": "Map", "description": "Clinics and study sites by state or ZIP", "url": "/map?source=app", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "My plan", "short_name": "My plan", "description": "Everything you've saved", "url": "/my-plan?source=app", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

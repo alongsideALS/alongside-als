@@ -23,9 +23,15 @@
 <meta name="twitter:image" content="https://alongside-als.org/og-image.png">
 <meta name="theme-color" content="#193252">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Alongside ALS">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
-<link rel="stylesheet" href="/site.css?v=fc892f92">
+<link rel="stylesheet" href="/site.css?v=35aef33e">
 <script>document.documentElement.className+=" js"</script>
 </head>
 <body data-page="about">
@@ -95,6 +101,8 @@
       <p>Alongside ALS does not ask you to create an account, fill out a contact form, upload documents, or submit a grant application. Its explorers run in your browser and load resource lists from this website. We have not added advertising trackers to the website code. To see how many people the site is helping, we use Cloudflare Web Analytics, which counts page views without cookies, without identifying individual visitors and without following you to other websites.</p>
       <h3>Saved items on your device</h3>
       <p>Choosing "Save", ticking a checklist item or adding a note stores that information in this browser's local storage, along with your filter choices. Alongside does not upload it or link it to an account. Anyone using this browser may see it. Use "Clear saved list" on the My plan page to remove saved items, or clear this site's browser data. Private browsing, storage restrictions, or clearing browser data can remove your list. Copy or download your plan if you need to keep a copy. Do not put private medical or financial information in search fields or notes you share.</p>
+      <h3>Using the site as an app</h3>
+      <p>You can add Alongside ALS to your phone's home screen (see <a href="/app">Use as an app</a>). When you do, your browser keeps a copy of the pages and lists you have opened so they work without a connection. That copy stays on your device, is managed by your browser, and sends nothing to us. Removing the icon removes the app; your saved plan stays with the browser it was made in.</p>
       <h3>Hosting and technical information</h3>
       <p>This website is hosted on Cloudflare Pages, which sets security cookies and processes technical information such as IP addresses, browser information, requested pages, and request times to operate the service, prevent abuse, and maintain security. See <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare's privacy policy</a>. Page fonts load from Google Fonts. No advertising service has been added by Alongside.</p>
       <h3>When you follow a link</h3>
@@ -115,6 +123,10 @@
     </section>
 
         <section id="updates"><h2>What changed</h2>
+      <h3>October 22, 2026</h3>
+      <ul>
+        <li>Alongside ALS can now be added to a phone's home screen and used like an app: one-tap access, no app store, and the pages and lists you have opened keep working without a signal. See <a href="/app">Use as an app</a>. The www. address now redirects to alongside-als.org.</li>
+      </ul>
       <h3>October 19, 2026</h3>
       <ul>
         <li>Clinical studies refreshed against a new ClinicalTrials.gov snapshot: 315 active or planned records (18 added, including Otsuka's ulefnersen early-access program for FUS-ALS, the Cognixion wearable BCI study, BrainGate2 and Synchron's Canadian Stentrode study; 5 removed because they completed or closed). Five status changes picked up.</li>
@@ -169,6 +181,11 @@
 })();
 </script>
 </main>
+<div class="install-hint" id="installHint" hidden role="region" aria-label="Add to home screen"><div class="wrap">
+  <img class="ih-icon" src="/icons/icon-192.png" width="40" height="40" alt="" loading="lazy">
+  <p><b>Add Alongside ALS to your home screen.</b> One tap to open, and your saved plan and the lists you've viewed work without a signal.</p>
+  <div class="ih-actions"><button class="btn btn-primary btn-sm" type="button" id="installHintBtn" hidden>Install</button><a class="btn btn-primary btn-sm" id="installHintHow" href="/app">How to add it</a><button class="btn btn-line btn-sm" type="button" id="installHintNo">Not now</button></div>
+</div></div>
 <footer><div class="wrap">
   <div class="foot-grid">
     <div>
@@ -178,11 +195,11 @@
     </div>
     <nav aria-label="Site sections"><b>Find</b><a href="/grants">Grants</a><a href="/services">Services &amp; benefits</a><a href="/trials">Clinical studies</a><a href="/map">Map: help near you</a><a href="/my-plan">My plan</a></nav>
     <nav aria-label="Guides"><b>Learn</b><a href="/understanding-als">Understanding ALS</a><a href="/road-ahead">The road ahead</a><a href="/get-ready">Get ready to apply</a><a href="/resources">Resources</a></nav>
-    <nav aria-label="About this site"><b>About</b><a href="/about">About &amp; contact</a><a href="/about#corrections">Report outdated information</a><a href="/about#privacy">Privacy</a><a href="/about#disclaimer">Disclaimer</a><a href="/about#updates">What changed</a></nav>
+    <nav aria-label="About this site"><b>About</b><a href="/about">About &amp; contact</a><a href="/about#corrections">Report outdated information</a><a href="/about#privacy">Privacy</a><a href="/about#disclaimer">Disclaimer</a><a href="/about#updates">What changed</a><a class="app-link" href="/app">Use as an app</a></nav>
   </div>
   <p class="small">Talk to a person: ALS Association information and referral line <a href="tel:18007824747">800-782-4747</a>. If you are in crisis, call or text <a href="tel:988">988</a> (U.S.).</p>
 </div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script src="/site.js?v=a252fb74"></script>
+<script src="/site.js?v=c33b5b2f"></script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+# Alongside ALS
+
+> An independent, volunteer-maintained guide for people living with ALS (amyotrophic lateral sclerosis) and their families in the United States: grants and financial help, services and benefits, clinical studies, ALS clinics by state, and a private "My plan" tracker. Every listing is checked against the organization's own page and carries the date it was checked. No ads, no accounts, no data collection.
+
+Site: https://alongside-als.org · Contact: alsalongside@gmail.com · Data license: CC BY 4.0
+
+## Directories
+- [Grants and scholarships](https://alongside-als.org/grants): 113 programs (one page each at /grant/<id>) with amount, application window, eligibility, documents and how to apply.
+- [Services and benefits](https://alongside-als.org/services): 57 programs (one page each at /service/<id>): Social Security and VA benefits, equipment loans, copay programs, respite, travel help.
+- [Clinical studies](https://alongside-als.org/trials): 316 active or planned ALS studies from ClinicalTrials.gov (one page each at /study/<NCT id>) with plain-language summaries and US sites.
+- [Map](https://alongside-als.org/map): 206 multidisciplinary ALS clinics, study sites and local programs by state or within 50/100/200 miles of a ZIP code. One page per state at /state/<two-letter code>, for example https://alongside-als.org/state/ma
+- Machine-readable data: https://alongside-als.org/data/grants.json, /data/services.json, /data/trials.json, /data/map.json
+
+## Guides
+- [Understanding ALS](https://alongside-als.org/understanding-als)
+- [The road ahead](https://alongside-als.org/road-ahead): stage-by-stage checklist
+- [Get ready to apply](https://alongside-als.org/get-ready): documents and application trackers
+- [Resources](https://alongside-als.org/resources)
+- [About, methods and corrections](https://alongside-als.org/about)

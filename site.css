@@ -519,3 +519,22 @@ button.linkish:hover{color:var(--navy)}
 .ios-share{display:inline-block;vertical-align:-4px;color:var(--info)}
 .app-install-row{margin-top:4px}
 @media print{.install-hint,.app-install-row{display:none!important}}
+
+/* ---------- Detail pages (/grant/*, /service/*, /study/*, /state/*) ---------- */
+.crumbs{font-size:.9rem;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--muted)}
+.org-line{color:var(--muted);font-weight:700;margin:-4px 0 0}
+.detail-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,1fr);gap:22px;align-items:start}
+.card.detail{padding:24px}
+.facts{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:12px 20px;margin:0}
+.facts dt{font-weight:700;color:var(--muted);font-size:.9rem;letter-spacing:.02em;padding-top:2px}
+.facts dd{margin:0;line-height:1.6}
+.facts dd ul{margin:0;padding-left:1.2em}
+.facts dd ul li{margin:4px 0}
+.side-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:16px}
+.side-box h2{font-size:1.1rem;margin:0 0 10px}
+.plain-list{list-style:none;padding:0;margin:0 0 12px}
+.plain-list li{padding:7px 0;border-bottom:1px solid var(--line-2)}
+.plain-list li:last-child{border-bottom:0}
+@media (max-width:760px){.detail-grid{grid-template-columns:minmax(0,1fr)}.facts{grid-template-columns:minmax(0,1fr);gap:4px 0}.facts dd{margin-bottom:10px}}
+.state-links{font-size:.92rem;line-height:2;margin-top:18px}

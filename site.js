@@ -95,6 +95,8 @@ document.addEventListener("click", (e) => {
   const on = isSaved(b.dataset.save, b.dataset.id);
   b.setAttribute("aria-pressed", String(on)); b.querySelector("span").textContent = on ? "Saved" : "Save"; b.setAttribute("aria-label", `${on ? "Saved" : "Save"}: ${b.dataset.name || b.dataset.id}`);
 });
+const logoDomain = (u) => { try { const h = new URL(u).hostname.replace(/^www\./, ""); return /\./.test(h) ? h : ""; } catch { return ""; } };
+const logoTag = (g) => { const d = logoDomain(g.url), init = esc((g.org || g.name || "?").replace(/^the\s+/i, "").trim().slice(0, 1).toUpperCase()); return `<span class="logo" data-init="${init}">${d ? `<img src="/logo/${esc(d)}" alt="" width="40" height="40" loading="lazy" decoding="async" onerror="this.remove()">` : ""}</span>`; };
 const saveBtn = (kind, id, name) => { const s = isSaved(kind, id); return `<button class="save" type="button" data-save="${kind}" data-id="${esc(id)}" data-name="${esc(name||"")}" aria-pressed="${s}" aria-label="${s ? "Saved" : "Save"}: ${esc(name||id)}">${ICON.heart}<span>${s?"Saved":"Save"}</span></button>`; };
 
 /* ---------- Data ---------- */
@@ -193,7 +195,7 @@ function catalog(which){
   const card = (g, i) => {
     const kind = g.kind === "service" ? "service" : "grant", st = grantStatus(g);
     return `<article class="card" id="item-${esc(g.id)}" style="--i:${Math.min(i,12)}">
-      <div><div class="org">${esc(g.org)}</div><h2>${esc(g.name)}</h2></div>
+      <div class="card-top">${logoTag(g)}<div><div class="org">${esc(g.org)}</div><h2>${esc(g.name)}</h2></div></div>
       <div class="pills"><span class="pill ${st.cls}">${esc(st.label)}</span><span class="pill">${g.scope === "Regional" ? esc((g.regions||[]).join(", ")) : "Nationwide"}</span>${(g.categories||[]).slice(0,2).map(c=>`<span class="pill">${esc(c)}</span>`).join("")}</div>
       ${g.amount ? `<div class="amount">${esc(g.amount)}</div>` : ""}
       <p>${esc(g.forWhat)}</p>
@@ -520,7 +522,7 @@ function myPlan(){
       const link = v.kind === "trial" ? `https://clinicaltrials.gov/study/${encodeURIComponent(v.id)}` : safeUrl(s && s.url);
       const st = v.kind !== "trial" && s ? grantStatus(s) : null;
       const kid = k.replace(/[^a-z0-9]/gi,"-");
-      return `<div class="pitem" style="--i:${Math.min(i,12)}"><div><div class="org">${KLABEL[v.kind]} · ${esc(sub)}</div><h2>${esc(name)}</h2><div class="pills" style="margin-top:8px">${st ? `<span class="pill ${st.cls}">${esc(st.label)}</span>` : ""}<span class="pill">Saved ${esc(fmtD(v.added))}</span></div></div>
+      return `<div class="pitem" style="--i:${Math.min(i,12)}"><div class="card-top">${v.kind !== "trial" && s ? logoTag(s) : ""}<div><div class="org">${KLABEL[v.kind]} · ${esc(sub)}</div><h2>${esc(name)}</h2><div class="pills" style="margin-top:8px">${st ? `<span class="pill ${st.cls}">${esc(st.label)}</span>` : ""}<span class="pill">Saved ${esc(fmtD(v.added))}</span></div></div></div>
         <div class="row"><label><span class="sr">Progress for ${esc(name)}</span><select id="ps-${kid}" data-pstatus="${esc(k)}">${PSTAT.map(p=>`<option value="${p[0]}" ${v.status===p[0]?"selected":""}>${p[1]}</option>`).join("")}</select></label>${link !== "#" ? `<a class="btn btn-line btn-sm" href="${link}" target="_blank" rel="noopener">Open ${ICON.ext}</a>` : ""}<button class="save" type="button" data-unsave="${esc(k)}" aria-pressed="true" aria-label="Remove ${esc(name)} from My plan">${ICON.heart}<span>Remove</span></button></div>
         <label class="sr" for="pn-${kid}">Notes for ${esc(name)}</label><textarea id="pn-${kid}" data-pnote="${esc(k)}" rows="2" placeholder="Notes: who you talked to, documents sent, next step…">${esc(v.note)}</textarea></div>`; }).join("")}</div>`;
     $$("[data-pstatus]").forEach(s => s.addEventListener("change", () => { const it = plan.saved[s.dataset.pstatus]; if (it){ it.status = s.value; persist(); toast("Progress updated"); } }));

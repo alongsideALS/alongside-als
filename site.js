@@ -422,6 +422,40 @@ const KLABEL = { grant: "Grant", service: "Service", trial: "Study" };
 function myPlan(){
   let tab = "all";
   const src = (v) => ((v.kind === "grant" ? DATA.grants : v.kind === "service" ? DATA.services : DATA.trials) || []).find(x => x.id === v.id) || null;
+  /* Plain PDF built by hand (Helvetica, Letter), so it works offline with no library. */
+  const planPdf = () => {
+    const today = new Date().toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+    const blocks = [["h1", "My ALS plan"], ["p", `From Alongside ALS (alongside-als.org), saved ${today}. Kept on your device; share this file with your clinic or family as you like.`], ["gap", ""]];
+    Object.values(plan.saved).forEach(v => { const s = src(v); const nm = s ? (s.name || s.title) : v.id, sub = s ? (v.kind !== "trial" ? s.org : s.id + " · " + (s.phase || "")) : "No longer listed";
+      const url = v.kind === "trial" ? "https://clinicaltrials.gov/study/" + v.id : (s && s.url) || "";
+      blocks.push(["h2", `${KLABEL[v.kind]}: ${nm}`], ["p", sub], ["p", "Progress: " + (PSTAT.find(p => p[0] === v.status) || [0, v.status])[1]]);
+      if (s && v.kind !== "trial" && s.amount) blocks.push(["p", "Amount: " + s.amount]);
+      if (s && v.kind !== "trial" && s.contact) blocks.push(["p", "Contact: " + s.contact]);
+      if (url) blocks.push(["p", "Link: " + url]);
+      if (v.note) blocks.push(["p", "My notes: " + v.note]);
+      blocks.push(["gap", ""]); });
+    const W = 612, H = 792, M = 54, LW = W - 2 * M;
+    const width = (t, size) => t.length * size * 0.5;   // Helvetica average glyph width
+    const wrap = (t, size) => { const out = []; t.split(/\r?\n/).forEach(para => { let line = ""; para.split(/\s+/).forEach(w => { const cand = line ? line + " " + w : w; if (width(cand, size) > LW && line) { out.push(line); line = w; } else line = cand; }); out.push(line); }); return out; };
+    const enc = (t) => t.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\u2013/g, "-").replace(/\u2014/g, "--").replace(/\u2026/g, "...").replace(/[^\x20-\x7e\xa0-\xff]/g, "?").replace(/\\/g, "\\\\").replace(/\(/g, "\\(").replace(/\)/g, "\\)");
+    const pages = []; let ops = [], y = H - M;
+    const newPage = () => { if (ops.length) pages.push(ops); ops = []; y = H - M; };
+    const put = (t, size, bold) => { if (y - size < M) newPage(); ops.push(`BT /${bold ? "F2" : "F1"} ${size} Tf ${M} ${(y - size).toFixed(1)} Td (${enc(t)}) Tj ET`); y -= size * 1.35; };
+    blocks.forEach(([k, t]) => { if (k === "gap") { y -= 8; return; } const size = k === "h1" ? 20 : k === "h2" ? 13 : 10.5; if (k !== "p" && y - size * 3 < M) newPage(); wrap(t, size).forEach(l => put(l, size, k !== "p")); if (k === "h1") y -= 6; });
+    pages.push(ops);
+    const objs = []; const add = (s) => { objs.push(s); return objs.length; };
+    const font1 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"), font2 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>");
+    const pagesId = objs.length + pages.length * 2 + 1, pageIds = [];
+    pages.forEach(pg => { const stream = pg.join("\n"); const c = add(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`); pageIds.push(add(`<< /Type /Page /Parent ${pagesId} 0 R /MediaBox [0 0 ${W} ${H}] /Contents ${c} 0 R /Resources << /Font << /F1 ${font1} 0 R /F2 ${font2} 0 R >> >> >>`)); });
+    add(`<< /Type /Pages /Kids [${pageIds.map(i => i + " 0 R").join(" ")}] /Count ${pageIds.length} >>`);
+    const cat = add(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
+    let out = "%PDF-1.4\n%\xe2\xe3\xcf\xd3\n"; const offs = [];
+    objs.forEach((o, i) => { offs.push(out.length); out += `${i + 1} 0 obj\n${o}\nendobj\n`; });
+    const xref = out.length;
+    out += `xref\n0 ${objs.length + 1}\n0000000000 65535 f \n` + offs.map(o => String(o).padStart(10, "0") + " 00000 n \n").join("") + `trailer\n<< /Size ${objs.length + 1} /Root ${cat} 0 R >>\nstartxref\n${xref}\n%%EOF`;
+    const bytes = new Uint8Array(out.length); for (let i = 0; i < out.length; i++) bytes[i] = out.charCodeAt(i) & 255;
+    return new Blob([bytes], { type: "application/pdf" });
+  };
   const text = () => {
     const lines = ["My ALS plan (from Alongside ALS, alongside-als.org)", ""];
     Object.values(plan.saved).forEach(v => { const s = src(v); const nm = s ? (s.name || s.title) + (v.kind !== "trial" ? " (" + s.org + ")" : " (" + s.id + ")") : v.id;
@@ -456,7 +490,7 @@ function myPlan(){
     list(); freshness();
     $$("[data-ptab]").forEach(b => b.addEventListener("click", () => { tab = b.dataset.ptab; $$("[data-ptab]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); list(); }));
     $("#copyPlan").addEventListener("click", async () => { try { await navigator.clipboard.writeText(text()); toast("Copied. Paste it into an email or note."); } catch { toast("Copy isn't available here"); } });
-    $("#dlPlan").addEventListener("click", () => { const blob = new Blob([text()], { type: "text/plain" }); const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-plan.txt"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); });
+    $("#dlPlan").addEventListener("click", () => { const blob = planPdf(); const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-plan.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); toast("Saving my-als-plan.pdf"); });
     $("#clearPlan").addEventListener("click", () => { if ($("#clearPlan").dataset.armed){ plan.saved = {}; persist(); list(); toast("Saved list cleared"); $("#clearPlan").textContent = "Clear saved list"; delete $("#clearPlan").dataset.armed; } else { $("#clearPlan").dataset.armed = "1"; $("#clearPlan").textContent = "Click again to confirm"; } });
   });
 }

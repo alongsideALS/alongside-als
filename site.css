@@ -483,6 +483,9 @@ button.linkish:hover{color:var(--navy)}
   .map-tools .sel.state{flex-basis:100%}
 }
 @media (max-width:640px){
+  .pitem{grid-template-columns:1fr}
+  .pitem .row{justify-content:flex-start}
+  .pitem .row select{max-width:100%}
   .map-tools .sel.zip,.map-tools .sel.radius{flex:1 1 120px;width:auto}
   .zip-form .btn{flex:1 1 100%}
   .map-tools .or{display:none}

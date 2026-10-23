@@ -124,7 +124,17 @@ const latestVerified = (items) => items.reduce((m, t) => (t.verified && t.verifi
 let printOpened = [];
 addEventListener("beforeprint", () => { printOpened = $$("details:not([open])"); printOpened.forEach(d => d.open = true); });
 addEventListener("afterprint", () => { printOpened.forEach(d => d.open = false); printOpened = []; });
-document.addEventListener("click", (e) => { if (e.target.closest("[data-print]")) window.print(); });
+const MOBILE_UA = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+async function sharePdf(blob, name){
+  // Phones: the share sheet (Print, Save to Files, Messages...) is what works; window.print() is unreliable on iOS and does nothing in an installed app.
+  try { const file = new File([blob], name, { type: "application/pdf" }); if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: "My ALS plan" }); return true; } } catch (e) { if (e && e.name === "AbortError") return true; }
+  const u = URL.createObjectURL(blob); const w = window.open(u, "_blank"); if (!w) { const a = document.createElement("a"); a.href = u; a.download = name; document.body.appendChild(a); a.click(); a.remove(); } setTimeout(() => URL.revokeObjectURL(u), 60000); return true;
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-print]"); if (!b) return;
+  if (window.AA && AA.planPdf && (MOBILE_UA || document.documentElement.classList.contains("standalone"))) { sharePdf(AA.planPdf(), "my-als-plan.pdf"); return; }
+  try { window.print(); } catch { toast("Printing isn't available here. Use Save as PDF instead."); }
+});
 
 /* ---------- Applied-filter chips (shared by both explorers) ---------- */
 function appliedRow(active, onClear, onReset){
@@ -422,31 +432,67 @@ const KLABEL = { grant: "Grant", service: "Service", trial: "Study" };
 function myPlan(){
   let tab = "all";
   const src = (v) => ((v.kind === "grant" ? DATA.grants : v.kind === "service" ? DATA.services : DATA.trials) || []).find(x => x.id === v.id) || null;
-  /* Plain PDF built by hand (Helvetica, Letter), so it works offline with no library. */
+  /* PDF built by hand (no library, works offline), styled like the site: navy header, cards, pills. Letter size. */
   const planPdf = () => {
     const today = new Date().toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
-    const blocks = [["h1", "My ALS plan"], ["p", `From Alongside ALS (alongside-als.org), saved ${today}. Kept on your device; share this file with your clinic or family as you like.`], ["gap", ""]];
-    Object.values(plan.saved).forEach(v => { const s = src(v); const nm = s ? (s.name || s.title) : v.id, sub = s ? (v.kind !== "trial" ? s.org : s.id + " · " + (s.phase || "")) : "No longer listed";
+    const W = 612, H = 792, M = 48, CW = W - 2 * M, PAD = 14;
+    const NAVY = "0.098 0.196 0.322", RED = "0.710 0.149 0.227", INK = "0.102 0.137 0.192", MUTED = "0.353 0.416 0.510", LINE = "0.855 0.886 0.929", PAPER = "0.973 0.980 1", ACC = "0.851 0.569 0.165", ACCSOFT = "0.992 0.941 0.855", TINT = "0.941 0.953 0.973";
+    const wid = (t, size, bold) => { let w = 0; for (const ch of String(t)) w += (/[ilj.,;:'|!tfrI]/.test(ch) ? .3 : /[mwMW@]/.test(ch) ? .85 : /[A-Z]/.test(ch) ? .67 : .54) * size * (bold ? 1.06 : 1); return w; };
+    const enc = (t) => String(t).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/–/g, "-").replace(/—/g, "--").replace(/…/g, "...").replace(/[^\x20-\x7e\xa0-\xff]/g, "?").replace(/\\/g, "\\\\").replace(/\(/g, "\\(").replace(/\)/g, "\\)");
+    const wrap = (t, size, bold, maxw) => { const out = []; String(t).split(/\r?\n/).forEach(para => { let line = ""; para.split(/\s+/).forEach(w => { const c = line ? line + " " + w : w; if (wid(c, size, bold) > maxw && line) { out.push(line); line = w; } else line = c; }); out.push(line); }); return out; };
+    const pages = []; let ops = [], y = 0;
+    const F = { body: "F1", bold: "F2", serif: "F3" };
+    const txt = (t, x, yy, size, font, color) => ops.push(`BT /${font} ${size} Tf ${color} rg ${x.toFixed(1)} ${yy.toFixed(1)} Td (${enc(t)}) Tj ET`);
+    const rect = (x, yy, w, h, fill, stroke) => { if (fill) ops.push(`${fill} rg ${x.toFixed(1)} ${yy.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)} re f`); if (stroke) ops.push(`${stroke} RG 0.8 w ${x.toFixed(1)} ${yy.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)} re S`); };
+    const pill = (t, x, yy, bg, fg) => { const w = wid(t, 8.5, true) + 14; rect(x, yy - 4, w, 15, bg, null); txt(t, x + 7, yy, 8.5, F.bold, fg); return w + 6; };
+    const header = (first) => {
+      rect(0, H - 6, W, 6, RED, null); rect(0, H - 72, W, 66, NAVY, null);
+      txt("Alongside ALS", M, H - 40, 20, F.serif, "1 1 1"); txt("My ALS plan", M, H - 58, 10.5, F.body, "0.84 0.88 0.95");
+      const r = "Saved " + today; txt(r, W - M - wid(r, 9.5), H - 44, 9.5, F.body, "0.84 0.88 0.95");
+      y = H - 72 - 22;
+    };
+    const newPage = () => { if (ops.length) pages.push(ops); ops = []; header(false); };
+    const need = (h) => { if (y - h < M + 24) newPage(); };
+    header(true);
+    const items = Object.values(plan.saved);
+    const n = (k) => items.filter(v => v.kind === k).length;
+    const intro = `${n("grant")} grant${n("grant") === 1 ? "" : "s"}, ${n("service")} service${n("service") === 1 ? "" : "s"} and ${n("trial")} stud${n("trial") === 1 ? "y" : "ies"} you are tracking, with your progress and notes. Kept on your device; share this file with your clinic or family as you like. Confirm details with each program before applying.`;
+    wrap(intro, 10, false, CW).forEach(l => { txt(l, M, y - 10, 10, F.body, MUTED); y -= 14; });
+    y -= 8;
+    items.forEach(v => {
+      const s = src(v); const name = s ? (s.name || s.title) : v.id, sub = s ? (v.kind !== "trial" ? s.org : s.id + (s.phase ? " · " + s.phase : "")) : "No longer listed";
       const url = v.kind === "trial" ? "https://clinicaltrials.gov/study/" + v.id : (s && s.url) || "";
-      blocks.push(["h2", `${KLABEL[v.kind]}: ${nm}`], ["p", sub], ["p", "Progress: " + (PSTAT.find(p => p[0] === v.status) || [0, v.status])[1]]);
-      if (s && v.kind !== "trial" && s.amount) blocks.push(["p", "Amount: " + s.amount]);
-      if (s && v.kind !== "trial" && s.contact) blocks.push(["p", "Contact: " + s.contact]);
-      if (url) blocks.push(["p", "Link: " + url]);
-      if (v.note) blocks.push(["p", "My notes: " + v.note]);
-      blocks.push(["gap", ""]); });
-    const W = 612, H = 792, M = 54, LW = W - 2 * M;
-    const width = (t, size) => t.length * size * 0.5;   // Helvetica average glyph width
-    const wrap = (t, size) => { const out = []; t.split(/\r?\n/).forEach(para => { let line = ""; para.split(/\s+/).forEach(w => { const cand = line ? line + " " + w : w; if (width(cand, size) > LW && line) { out.push(line); line = w; } else line = cand; }); out.push(line); }); return out; };
-    const enc = (t) => t.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\u2013/g, "-").replace(/\u2014/g, "--").replace(/\u2026/g, "...").replace(/[^\x20-\x7e\xa0-\xff]/g, "?").replace(/\\/g, "\\\\").replace(/\(/g, "\\(").replace(/\)/g, "\\)");
-    const pages = []; let ops = [], y = H - M;
-    const newPage = () => { if (ops.length) pages.push(ops); ops = []; y = H - M; };
-    const put = (t, size, bold) => { if (y - size < M) newPage(); ops.push(`BT /${bold ? "F2" : "F1"} ${size} Tf ${M} ${(y - size).toFixed(1)} Td (${enc(t)}) Tj ET`); y -= size * 1.35; };
-    blocks.forEach(([k, t]) => { if (k === "gap") { y -= 8; return; } const size = k === "h1" ? 20 : k === "h2" ? 13 : 10.5; if (k !== "p" && y - size * 3 < M) newPage(); wrap(t, size).forEach(l => put(l, size, k !== "p")); if (k === "h1") y -= 6; });
+      const prog = (PSTAT.find(p => p[0] === v.status) || [0, v.status])[1];
+      const st = v.kind !== "trial" && s ? grantStatus(s) : (s && v.kind === "trial" ? { label: ({ yes: "Recruiting", soon: "Not yet recruiting", invite: "By invitation", no: "Not recruiting" })[s.enrolling] || "" } : null);
+      const rows = [];
+      if (s && v.kind !== "trial" && s.amount) rows.push(["Amount", s.amount]);
+      if (s && v.kind !== "trial" && s.window) rows.push(["When to apply", s.window]);
+      if (s && v.kind === "trial" && s.sponsor) rows.push(["Sponsor", s.sponsor]);
+      if (s && v.kind !== "trial" && s.contact) rows.push(["Contact", s.contact]);
+      if (url) rows.push(["Link", url]);
+      const titleLines = wrap(name, 14, true, CW - 2 * PAD), rowLines = rows.map(([k, t]) => [k, wrap(t, 9.5, false, CW - 2 * PAD - 78)]);
+      const noteLines = v.note ? wrap(v.note, 9.5, false, CW - 2 * PAD - 16) : [];
+      const h = PAD + 11 + titleLines.length * 17 + 24 + rowLines.reduce((a, [, ls]) => a + ls.length * 12.5 + 3, 0) + (noteLines.length ? noteLines.length * 12.5 + 22 : 0) + PAD;
+      need(Math.min(h, H - 2 * M - 80));
+      const top = y; rect(M, top - h, CW, h, "1 1 1", LINE); rect(M, top - h, 3, h, ACC, null);
+      let yy = top - PAD - 8;
+      txt((KLABEL[v.kind] + " · " + sub).toUpperCase(), M + PAD, yy, 7.5, F.bold, MUTED); yy -= 16;
+      titleLines.forEach(l => { txt(l, M + PAD, yy, 14, F.serif, NAVY); yy -= 17; });
+      yy -= 2; let px = M + PAD;
+      px += pill("Progress: " + prog, px, yy, NAVY, "1 1 1");
+      if (st && st.label) px += pill(st.label, px, yy, ACCSOFT, "0.45 0.27 0.02");
+      yy -= 22;
+      rowLines.forEach(([k, ls]) => { txt(k, M + PAD, yy, 9, F.bold, MUTED); ls.forEach(l => { txt(l, M + PAD + 78, yy, 9.5, F.body, INK); yy -= 12.5; }); yy -= 3; });
+      if (noteLines.length) { const nh = noteLines.length * 12.5 + 16; rect(M + PAD, yy - nh + 10, CW - 2 * PAD, nh, TINT, null); txt("MY NOTES", M + PAD + 8, yy - 2, 7.5, F.bold, MUTED); yy -= 13; noteLines.forEach(l => { txt(l, M + PAD + 8, yy, 9.5, F.body, INK); yy -= 12.5; }); }
+      y = top - h - 12;
+    });
+    if (!items.length) txt("Nothing saved yet.", M, y - 10, 11, F.body, MUTED);
     pages.push(ops);
-    const objs = []; const add = (s) => { objs.push(s); return objs.length; };
-    const font1 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"), font2 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>");
+    pages.forEach((pg, i) => { ops = pg; rect(M, M - 6, CW, 0.8, LINE, null); txt("alongside-als.org", M, M - 20, 8.5, F.body, MUTED); const r = `Page ${i + 1} of ${pages.length}`; txt(r, W - M - wid(r, 8.5), M - 20, 8.5, F.body, MUTED); });
+    const objs = []; const add = (o) => { objs.push(o); return objs.length; };
+    const f1 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"), f2 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>"), f3 = add("<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>");
     const pagesId = objs.length + pages.length * 2 + 1, pageIds = [];
-    pages.forEach(pg => { const stream = pg.join("\n"); const c = add(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`); pageIds.push(add(`<< /Type /Page /Parent ${pagesId} 0 R /MediaBox [0 0 ${W} ${H}] /Contents ${c} 0 R /Resources << /Font << /F1 ${font1} 0 R /F2 ${font2} 0 R >> >> >>`)); });
+    pages.forEach(pg => { const stream = pg.join("\n"); const c = add(`<< /Length ${stream.length} >>\nstream\n${stream}\nendstream`); pageIds.push(add(`<< /Type /Page /Parent ${pagesId} 0 R /MediaBox [0 0 ${W} ${H}] /Contents ${c} 0 R /Resources << /Font << /F1 ${f1} 0 R /F2 ${f2} 0 R /F3 ${f3} 0 R >> >> >>`)); });
     add(`<< /Type /Pages /Kids [${pageIds.map(i => i + " 0 R").join(" ")}] /Count ${pageIds.length} >>`);
     const cat = add(`<< /Type /Catalog /Pages ${pagesId} 0 R >>`);
     let out = "%PDF-1.4\n%\xe2\xe3\xcf\xd3\n"; const offs = [];
@@ -490,7 +536,8 @@ function myPlan(){
     list(); freshness();
     $$("[data-ptab]").forEach(b => b.addEventListener("click", () => { tab = b.dataset.ptab; $$("[data-ptab]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); list(); }));
     $("#copyPlan").addEventListener("click", async () => { try { await navigator.clipboard.writeText(text()); toast("Copied. Paste it into an email or note."); } catch { toast("Copy isn't available here"); } });
-    $("#dlPlan").addEventListener("click", () => { const blob = planPdf(); const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-plan.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); toast("Saving my-als-plan.pdf"); });
+    window.AA = Object.assign(window.AA || {}, { planPdf });
+    $("#dlPlan").addEventListener("click", () => { const blob = planPdf(); if (MOBILE_UA) { sharePdf(blob, "my-als-plan.pdf"); return; } const u = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = u; a.download = "my-als-plan.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 5000); toast("Saving my-als-plan.pdf"); });
     $("#clearPlan").addEventListener("click", () => { if ($("#clearPlan").dataset.armed){ plan.saved = {}; persist(); list(); toast("Saved list cleared"); $("#clearPlan").textContent = "Clear saved list"; delete $("#clearPlan").dataset.armed; } else { $("#clearPlan").dataset.armed = "1"; $("#clearPlan").textContent = "Click again to confirm"; } });
   });
 }

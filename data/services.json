@@ -58,10 +58,10 @@
     "ALS diagnosis records",
     "VA Form 21-526EZ"
    ],
-   "howToApply": "File on VA.gov or work with an accredited Veterans Service Officer (free).",
-   "url": "https://www.va.gov/disability/eligibility/special-claims/als/",
+   "howToApply": "Start at the VA ALS System of Care page (va.gov/health/als.asp), which links to how to file a claim, presumptive conditions, housing grants and caregiver support; a VSO can file the claim with you for free.",
+   "url": "https://www.va.gov/health/als.asp",
    "contact": "1-800-827-1000",
-   "lastVerified": "2026-10-11",
+   "lastVerified": "2026-10-24",
    "kind": "service",
    "sources": [
     "https://www.va.gov/health/als.asp"
@@ -1402,37 +1402,6 @@
    "note": "Confirm availability",
    "experience": true,
    "verifyNote": "Hall of Fame honors people with ALS; inductees/families get guidance and support groups, access to Diamond Dreams and LEGEND Scholarship (no details or amounts). Apply via forms page. 2026 golf outing"
-  },
-  {
-   "id": "hope-jg-foundation",
-   "kind": "service",
-   "name": "Hope-JG Foundation",
-   "org": "Hope-JG Foundation",
-   "categories": [
-    "Caregiving & education"
-   ],
-   "scope": "National",
-   "regions": [],
-   "forWhat": "A foundation lead retained from the 2025 grant list.",
-   "amount": "Amount unverified; a current individual grant program has not been confirmed",
-   "status": "check",
-   "window": "Needs verification: I AM ALS lists this organization, but a current grant program, eligibility, and application process were not verified. The link is to that third-party directory entry.",
-   "deadline": null,
-   "eligibility": [
-    "Coverage unconfirmed"
-   ],
-   "youllNeed": [
-    "Contact the organization for the current application and requirements"
-   ],
-   "howToApply": "Start from the official program page.",
-   "url": "https://www.iamals.org/support_groups/the-hope-jg-foundation/",
-   "contact": "See program page",
-   "sources": [
-    "https://www.iamals.org/support_groups/the-hope-jg-foundation/"
-   ],
-   "lastVerified": "2026-10-10",
-   "note": "Needs verification",
-   "verifyNote": "Unread 2026-10-24: Fetch blocked twice (robots_disallowed) on iamals.org directory entry; could not verify. Still a third-party listing with no confirmed program."
   },
   {
    "id": "les-turner-als-money-guide",

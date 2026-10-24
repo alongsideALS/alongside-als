@@ -1,0 +1,63 @@
+# Weekly data refresh for alongside-als.org.
+# 1. Pulls every listed clinical study from ClinicalTrials.gov, drops ended ones, adds clear new ALS studies.
+# 2. Rebuilds the site (directory pages, 500+ detail pages, sitemap, service worker) from _src/.
+# 3. Commits the result to main, which Cloudflare Pages deploys automatically.
+# 4. Checks every grant and service link and opens an issue when something looks broken or closed.
+# Run it by hand any time: Actions tab -> "Refresh data" -> Run workflow.
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"     # Mondays 09:17 UTC (5:17 am Eastern)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh clinical studies from ClinicalTrials.gov
+        run: python3 _src/refresh_trials.py
+
+      - name: Rebuild the site
+        run: |
+          python3 _src/build_map.py
+          python3 _src/build.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "alongside-als refresh"
+          git config user.email "alsalongside@gmail.com"
+          git add -A
+          git reset -q -- _src/link-report.json _src/link-report.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Weekly refresh $(date -u +%Y-%m-%d): clinical studies and rebuilt pages"
+            git push
+          fi
+
+      - name: Check grant and service links
+        id: links
+        continue-on-error: true
+        run: python3 _src/check_links.py
+
+      - name: Open an issue when links need a look
+        if: steps.links.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Link check $(date -u +%Y-%m-%d): some listings need a look"
+          gh issue create --title "$title" --body-file _src/link-report.md --label "link-check" || \
+          gh issue create --title "$title" --body-file _src/link-report.md

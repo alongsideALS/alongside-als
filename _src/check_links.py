@@ -47,9 +47,16 @@ def main():
             row["why"] = f"HTTP {code}" if code else f"could not connect ({body[:80]})"; report["problems"].append(row); continue
         if host(final) != host(url):
             row["why"] = f"now redirects to {host(final)}"; report["problems"].append(row); continue
-        m = CLOSED_RE.search(text)
-        if m and g.get("status") in ("open", "rolling", "window"):
-            row["why"] = f'page says "{text[max(0, m.start() - 40):m.end() + 40].strip()}"'; report["problems"].append(row); continue
+        if g.get("status") in ("open", "rolling", "window"):
+            # a "closed" sentence only counts when the listing's own name is mentioned nearby (pages often
+            # describe several programs, and another program's closure is not this one's)
+            words = [w for w in re.findall(r"[A-Za-z]{5,}", g["name"]) if w.lower() not in ("grant", "grants", "program", "programs", "foundation", "assistance", "family", "scholarship")]
+            hit = None
+            for m in CLOSED_RE.finditer(text):
+                near = text[max(0, m.start() - 400):m.end() + 400]
+                if not words or any(re.search(re.escape(w), near, re.I) for w in words): hit = m; break
+            if hit:
+                row["why"] = f'page says "{text[max(0, hit.start() - 40):hit.end() + 40].strip()}"'; report["problems"].append(row); continue
         report["ok"] += 1
     json.dump(report, open(SRC / "link-report.json", "w"), ensure_ascii=False, indent=1)
     # Markdown for the issue

@@ -17,3 +17,6 @@
   Cache-Control: no-cache
 /manifest.webmanifest
   Cache-Control: public, max-age=3600
+/_src/*
+  X-Robots-Tag: noindex
+  Cache-Control: no-store

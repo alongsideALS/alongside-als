@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /my-plan
 Disallow: /api/
+Disallow: /_src/
 
 Sitemap: https://alongside-als.org/sitemap.xml

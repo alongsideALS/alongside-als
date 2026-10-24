@@ -1,0 +1,4 @@
+</main>
+{{FOOTER}}<script src="/site.js?v={{JS_V}}"></script>
+</body>
+</html>

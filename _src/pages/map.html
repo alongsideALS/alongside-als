@@ -1,0 +1,72 @@
+<!-- title: Help near you: ALS clinics, study sites and local programs by state | desc: A map of ALS clinics, clinical-study sites and local grants and services across the United States. Choose your state or enter a ZIP code to see what is within driving distance. | page: map -->
+<div class="wrap page">
+  <div class="page-head">
+    <span class="eyebrow">Near you</span>
+    <h1>Help near you, on a map</h1>
+    <p class="intro">Multidisciplinary ALS clinics, study sites that are looking for participants, and the grants and services that only serve certain states. Choose a state on the map, or enter your ZIP code to see what is within driving distance.</p>
+    <p class="muted small">United States only for now. Clinics come from the ALS Association's certified-center list, the MDA ALS Care Center network, the VA and the NEALS research consortium; study sites come from the same ClinicalTrials.gov snapshot as the <a href="/trials">Trials</a> page. Many clinics also offer telehealth visits — ask when you call.</p>
+  </div>
+
+  <section class="map-tools" aria-label="Find places near you">
+    <form class="zip-form" id="zipForm" novalidate>
+      <label class="sel zip"><span>Your ZIP code</span><input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="e.g. 27514"></label>
+      <label class="sel radius"><span>Within</span><select id="radius" name="radius"><option value="50">50 miles</option><option value="100" selected>100 miles</option><option value="200">200 miles</option></select></label>
+      <button class="btn btn-primary" type="submit">Find near me</button>
+    </form>
+    <span class="or" aria-hidden="true">or</span>
+    <label class="sel state"><span>Choose a state</span><select id="mapState"><option value="">All states</option></select></label>
+  </section>
+
+  <div class="map-layout">
+    <div class="map-panel">
+      <div class="map-head">
+        <div class="chips map-layers" role="group" aria-label="Shade the map by">
+          <span class="applied-lab">Shade by</span>
+          <button type="button" class="chip" data-layer="clinics" aria-pressed="true">Clinics</button>
+          <button type="button" class="chip" data-layer="sites" aria-pressed="false">Study sites</button>
+          <button type="button" class="chip" data-layer="programs" aria-pressed="false">Local programs</button>
+        </div>
+        <button class="btn btn-line btn-sm map-back" id="mapBack" type="button" hidden>← All states</button>
+      </div>
+      <div class="map-wrap" id="mapWrap">
+        <svg id="usmap" class="mode-us" viewBox="0 0 975 610" role="img" aria-labelledby="mapTitle mapDesc" focusable="false">
+          <title id="mapTitle">Map of the United States</title>
+          <desc id="mapDesc">States are shaded by how many ALS clinics, study sites or local programs they have. Everything on the map is also listed as text beside it and in the directory below.</desc>
+          <rect class="water" x="-6000" y="-6000" width="13000" height="13000"/>
+          <g id="context" aria-hidden="true"><path class="ctx-land" d="{{MAP_CONTEXT}}"/></g>
+          <g id="insets" aria-hidden="true"><rect class="inset" x="2" y="459" width="208" height="149" rx="5"/><rect class="inset" x="213" y="520" width="126" height="88" rx="5"/></g>
+          <g id="states">{{MAP_STATES}}</g>
+          <g id="lakes" aria-hidden="true"><path class="lake" d="{{MAP_LAKES}}"/></g>
+          <g id="counties" aria-hidden="true"></g>
+          <g id="stateLabels" aria-hidden="true"></g>
+          <g id="refCities" aria-hidden="true"></g>
+          <g id="zipRing" aria-hidden="true"></g>
+          <g id="pins" aria-hidden="true"></g>
+          <g id="cityLabels" aria-hidden="true"></g>
+          <g id="scaleBar" aria-hidden="true"></g>
+        </svg>
+        <div class="map-tip" id="mapTip" role="tooltip" hidden></div>
+      </div>
+      <div class="map-foot">
+        <div class="map-legend" id="legend" aria-hidden="true"></div>
+        <div class="small-states"><span class="applied-lab">Small states:</span><span id="smallStates"></span></div>
+      </div>
+    </div>
+    <aside class="map-side" id="mapSide" aria-label="Places and programs for the current selection">
+      <div class="skel" style="height:120px"></div>
+    </aside>
+  </div>
+
+  <p class="muted small map-note" id="mapNote">Pins are placed by ZIP code or city, not exact street address. Study sites show studies that are recruiting, opening soon or enrolling by invitation.</p>
+
+  <div class="help-box" role="complementary" aria-label="Talk to a person">
+    <div><b>Not sure which clinic to call?</b> Your local ALS Association chapter can tell you which clinic is closest and help with the first appointment: <a href="tel:18007824747">800-782-4747</a>. Veterans can ask any VA medical center for its ALS coordinator. Several clinics also see people by video.</div>
+  </div>
+
+  <section class="section" id="directory">
+    <div class="sec-head"><span class="eyebrow">Directory</span><h2>Every ALS clinic we know about, by state</h2><p class="muted">Multidisciplinary clinics bring neurology, breathing, nutrition, speech, therapy and social-work support into one visit. A clinic can be on more than one list.</p></div>
+    <div class="dir">{{MAP_DIRECTORY}}</div>
+    <p class="cite" style="margin-top:14px">Sources: ALS Association certified centers and clinics list; MDA Care Center list (ALS-designated centers only); va.gov facility pages and the ALS Association's listings of VA clinics; NEALS member-site directory. Compiled October 19, 2026. Call before you travel: hours, referral requirements and insurance rules differ. See something missing or out of date? <a href="/about#corrections">Tell us</a>.</p>
+  </section>
+</div>
+<script src="/map.js?v={{MAP_V}}" defer></script>

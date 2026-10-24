@@ -1,0 +1,22 @@
+<!-- title: My plan | desc: The grants, services and studies you saved, with progress and notes. Stored in your browser only. | page: plan -->
+<div class="wrap page">
+  <div class="page-head">
+    <span class="eyebrow">My plan</span>
+    <h1>Everything you're tracking</h1>
+    <p class="intro">Saved in this browser on this device, never sent anywhere. Update the progress as you go and keep notes on who you spoke with. Use "Save as PDF" or "Copy as text" to share it with your clinic or family.</p>
+  </div>
+  <div class="stats" id="planStats" style="margin-bottom:24px"><div class="skel" style="height:80px"></div><div class="skel" style="height:80px"></div><div class="skel" style="height:80px"></div></div>
+  <div class="tabs" role="group" aria-label="Show">
+    <button class="chip" type="button" data-ptab="all" aria-pressed="true">Everything</button>
+    <button class="chip" type="button" data-ptab="grant" aria-pressed="false">Grants</button>
+    <button class="chip" type="button" data-ptab="service" aria-pressed="false">Services</button>
+    <button class="chip" type="button" data-ptab="trial" aria-pressed="false">Studies</button>
+    <span style="flex:1"></span>
+    <button class="btn btn-line btn-sm" type="button" id="copyPlan">Copy as text</button>
+    <button class="btn btn-line btn-sm" type="button" data-print>Print</button>
+    <button class="btn btn-line btn-sm" type="button" id="dlPlan">Save as PDF</button>
+    <button class="btn btn-line btn-sm" type="button" id="clearPlan">Clear saved list</button>
+  </div>
+  <div id="plist"></div>
+  <div class="note" style="margin-top:24px"><div>Saved items live only in this browser. Clearing your browser data removes them, and they won't appear on another device. Save it as a PDF or copy it as text to keep a copy. <a href="/about#privacy">Privacy</a></div></div>
+</div>

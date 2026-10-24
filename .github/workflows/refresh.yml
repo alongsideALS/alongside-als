@@ -58,6 +58,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          title="Link check $(date -u +%Y-%m-%d): some listings need a look"
-          gh issue create --title "$title" --body-file _src/link-report.md --label "link-check" || \
-          gh issue create --title "$title" --body-file _src/link-report.md
+          # one running issue: add this week's report as a comment if an open "Link check" issue exists
+          existing=$(gh issue list --state open --search "Link check in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file _src/link-report.md
+          else
+            gh issue create --title "Link check: listings that need a look" --body-file _src/link-report.md
+          fi

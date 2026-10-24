@@ -1,0 +1,2236 @@
+{
+ "generated": "2026-10-24",
+ "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
+ "candidates": [
+  {
+   "id": "NCT00585572",
+   "title": "Wisconsin Brain Donor Program",
+   "status": "ENROLLING_BY_INVITATION",
+   "conditions": [
+    "Alzheimer's Disease",
+    "Mild Cognitive Impairment"
+   ],
+   "start": "2007-03",
+   "sponsor": "University of Wisconsin, Madison",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT01793168",
+   "title": "Rare Disease Patient Registry & Natural History Study - Coordination of Rare Diseases at Sanford",
+   "status": "RECRUITING",
+   "conditions": [
+    "Rare Disorders",
+    "Undiagnosed Disorders",
+    "Disorders of Unknown Prevalence",
+    "Cornelia De Lange Syndrome",
+    "Prenatal Benign Hypophosphatasia",
+    "Perinatal Lethal Hypophosphatasia",
+    "Odontohypophosphatasia",
+    "Adult Hypophosphatasia",
+    "Childhood-onset Hypophosphatasia",
+    "Infantile Hypophosphatasia",
+    "Hypophosphatasia",
+    "Kabuki Syndrome",
+    "Bohring-Opitz Syndrome",
+    "Narcolepsy Without Cataplexy",
+    "Narcolepsy-cataplexy",
+    "Hypersomnolence Disorder",
+    "Idiopathic Hypersomnia Without Long Sleep Time",
+    "Idiopathic Hypersomnia With Long Sleep Time",
+    "Idiopathic Hypersomnia",
+    "Kleine-Levin Syndrome",
+    "Kawasaki Disease",
+    "Leiomyosarcoma",
+    "Leiomyosarcoma of the Corpus Uteri",
+    "Leiomyosarcoma of the Cervix Uteri",
+    "Leiomyosarcoma of Small Intestine",
+    "Acquired Myasthenia Gravis",
+    "Addison Disease",
+    "Hyperacusis (Hyperacousis)",
+    "Juvenile Myasthenia Gravis",
+    "Transient Neonatal Myasthenia Gravis",
+    "Williams Syndrome",
+    "Lyme Disease",
+    "Myasthenia Gravis",
+    "Marinesco Sjogren Syndrome(Marinesco-Sjogren Syndrome)",
+    "Isolated Klippel-Feil Syndrome",
+    "Frasier Syndrome",
+    "Denys-Drash Syndrome",
+    "Beckwith-Wiedemann Syndrome",
+    "Emanuel Syndrome",
+    "Isolated Aniridia",
+    "Axenfeld-Rieger Syndrome",
+    "Aniridia-intellectual Disability Syndrome",
+    "Aniridia - Renal Agenesis - Psychomotor Retardation",
+    "Aniridia - Ptosis - Intellectual Disability - Familial Obesity",
+    "Aniridia - Cerebellar Ataxia - Intellectual Disability",
+    "Aniridia - Absent Patella",
+    "Aniridia",
+    "Peters Anomaly - Cataract",
+    "Peters Anomaly",
+    "Potocki-Shaffer Syndrome",
+    "Silver-Russell Syndrome Due to Maternal Uniparental Disomy of Chromosome 11",
+    "Silver-Russell Syndrome Due to Imprinting Defect of 11p15",
+    "Silver-Russell Syndrome Due to 11p15 Microduplication",
+    "Syndromic Aniridia",
+    "WAGR Syndrome",
+    "Wolf-Hirschhorn Syndrome",
+    "4p16.3 Microduplication Syndrome",
+    "4p Deletion Syndrome, Non-Wolf-Hirschhorn Syndrome",
+    "Autosomal Recessive Stickler Syndrome",
+    "Stickler Syndrome Type 2",
+    "Stickler Syndrome Type 1",
+    "Stickler Syndrome",
+    "Mucolipidosis Type 4",
+    "X-linked Spinocerebellar Ataxia Type 4",
+    "X-linked Spinocerebellar Ataxia Type 3",
+    "X-linked Intellectual Disability - Ataxia - Apraxia",
+    "X-linked Progressive Cerebellar Ataxia",
+    "X-linked Non Progressive Cerebellar Ataxia",
+    "X-linked Cerebellar Ataxia",
+    "Vitamin B12 Deficiency Ataxia",
+    "Toxic Exposure Ataxia",
+    "Unclassified Autosomal Dominant Spinocerebellar Ataxia",
+    "Thyroid Antibody Ataxia",
+    "Sporadic Adult-onset Ataxia of Unknown Etiology",
+    "Spinocerebellar Ataxia With Oculomotor Anomaly",
+    "Spinocerebellar Ataxia With Epilepsy",
+    "Spinocerebellar Ataxia With Axonal Neuropathy Type 2",
+    "Spinocerebellar Ataxia Type 8",
+    "Spinocerebellar Ataxia Type 7",
+    "Spinocerebellar Ataxia Type 6",
+    "Spinocerebellar Ataxia Type 5",
+    "Spinocerebellar Ataxia Type 4",
+    "Spinocerebellar Ataxia Type 37",
+    "Spinocerebellar Ataxia Type 36",
+    "Spinocerebellar Ataxia Type 35",
+    "Spinocerebellar Ataxia Type 34",
+    "Spinocerebellar Ataxia Type 32",
+    "Spinocerebellar Ataxia Type 31",
+    "Spinocerebellar Ataxia Type 30",
+    "Spinocerebellar Ataxia Type 3",
+    "Spinocerebellar Ataxia Type 29",
+    "Spinocerebellar Ataxia Type 28",
+    "Spinocerebellar Ataxia Type 27",
+    "Spinocerebellar Ataxia Type 26",
+    "Spinocerebellar Ataxia Type 25",
+    "Spinocerebellar Ataxia Type 23",
+    "Spinocerebellar Ataxia Type 22",
+    "Spinocerebellar Ataxia Type 21",
+    "Spinocerebellar Ataxia Type 20",
+    "Spinocerebellar Ataxia Type 2",
+    "Spinocerebellar Ataxia Type 19/22",
+    "Spinocerebellar Ataxia Type 18",
+    "Spinocerebellar Ataxia Type 17",
+    "Spinocerebellar Ataxia Type 16",
+    "Spinocerebellar Ataxia Type 15/16",
+    "Spinocerebellar Ataxia Type 14",
+    "Spinocerebellar Ataxia Type 13",
+    "Spinocerebellar Ataxia Type 12",
+    "Spinocerebellar Ataxia Type 11",
+    "Spinocerebellar Ataxia Type 10",
+    "Spinocerebellar Ataxia Type 1 With Axonal Neuropathy",
+    "Spinocerebellar Ataxia Type 1",
+    "Spinocerebellar Ataxia - Unknown",
+    "Spinocerebellar Ataxia - Dysmorphism",
+    "Non Progressive Epilepsy and/or Ataxia With Myoclonus as a Major Feature",
+    "Spasticity-ataxia-gait Anomalies Syndrome",
+    "Spastic Ataxia With Congenital Miosis",
+    "Spastic Ataxia - Corneal Dystrophy",
+    "Spastic Ataxia",
+    "Rare Hereditary Ataxia",
+    "Rare Ataxia",
+    "Recessive Mitochondrial Ataxia Syndrome",
+    "Progressive Epilepsy and/or Ataxia With Myoclonus as a Major Feature",
+    "Posterior Column Ataxia - Retinitis Pigmentosa",
+    "Post-Stroke Ataxia",
+    "Post-Head Injury Ataxia",
+    "Post Vaccination Ataxia",
+    "Polyneuropathy - Hearing Loss - Ataxia - Retinitis Pigmentosa - Cataract",
+    "Muscular Atrophy - Ataxia - Retinitis Pigmentosa - Diabetes Mellitus",
+    "Non-hereditary Degenerative Ataxia",
+    "Paroxysmal Dystonic Choreathetosis With Episodic Ataxia and Spasticity",
+    "Olivopontocerebellar Atrophy - Deafness",
+    "NARP Syndrome",
+    "Myoclonus - Cerebellar Ataxia - Deafness",
+    "Multiple System Atrophy, Parkinsonian Type",
+    "Multiple System Atrophy, Cerebellar Type",
+    "Multiple System Atrophy",
+    "Maternally-inherited Leigh Syndrome",
+    "Machado-Joseph Disease Type 3",
+    "Machado-Joseph Disease Type 2",
+    "Machado-Joseph Disease Type 1",
+    "Leigh Syndrome",
+    "Late-onset Ataxia With Dementia",
+    "Infection or Post Infection Ataxia",
+    "GAD Ataxia",
+    "Hereditary Episodic Ataxia",
+    "Gliadin/Gluten Ataxia",
+    "Friedreich Ataxia",
+    "Fragile X-associated Tremor/Ataxia Syndrome",
+    "Familial Paroxysmal Ataxia",
+    "Exposure to Medications Ataxia",
+    "Episodic Ataxia With Slurred Speech",
+    "Episodic Ataxia Unknown Type",
+    "Episodic Ataxia Type 7",
+    "Episodic Ataxia Type 6",
+    "Episodic Ataxia Type 5",
+    "Episodic Ataxia Type 4",
+    "Episodic Ataxia Type 3",
+    "Episodic Ataxia Type 1",
+    "Epilepsy and/or Ataxia With Myoclonus as Major Feature",
+    "Early-onset Spastic Ataxia-neuropathy Syndrome",
+    "Early-onset Progressive Neurodegeneration - Blindness - Ataxia - Spasticity",
+    "Early-onset Cerebellar Ataxia With Retained Tendon Reflexes",
+    "Early-onset Ataxia With Dementia",
+    "Childhood-onset Autosomal Recessive Slowly Progressive Spinocerebellar Ataxia",
+    "Dilated Cardiomyopathy With Ataxia",
+    "Cataract - Ataxia - Deafness",
+    "Cerebellar Ataxia, Cayman Type",
+    "Cerebellar Ataxia With Peripheral Neuropathy",
+    "Cerebellar Ataxia - Hypogonadism",
+    "Cerebellar Ataxia - Ectodermal Dysplasia",
+    "Cerebellar Ataxia - Areflexia - Pes Cavus - Optic Atrophy - Sensorineural Hearing Loss",
+    "Brain Tumor Ataxia",
+    "Brachydactyly - Nystagmus - Cerebellar Ataxia",
+    "Benign Paroxysmal Tonic Upgaze of Childhood With Ataxia",
+    "Autosomal Recessive Syndromic Cerebellar Ataxia",
+    "Autosomal Recessive Spastic Ataxia With Leukoencephalopathy",
+    "Autosomal Recessive Spastic Ataxia of Charlevoix-Saguenay",
+    "Autosomal Recessive Spastic Ataxia - Optic Atrophy - Dysarthria",
+    "Autosomal Recessive Spastic Ataxia",
+    "Autosomal Recessive Metabolic Cerebellar Ataxia",
+    "Autosomal Dominant Spinocerebellar Ataxia Due to Repeat Expansions That do Not Encode Polyglutamine",
+    "Autosomal Recessive Ataxia, Beauce Type",
+    "Autosomal Recessive Ataxia Due to Ubiquinone Deficiency",
+    "Autosomal Recessive Ataxia Due to PEX10 Deficiency",
+    "Autosomal Recessive Degenerative and Progressive Cerebellar Ataxia",
+    "Autosomal Recessive Congenital Cerebellar Ataxia Due to MGLUR1 Deficiency",
+    "Autosomal Recessive Congenital Cerebellar Ataxia Due to GRID2 Deficiency",
+    "Autosomal Recessive Congenital Cerebellar Ataxia",
+    "Autosomal Recessive Cerebellar Ataxia-pyramidal Signs-nystagmus-oculomotor Apraxia Syndrome",
+    "Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to WWOX Deficiency",
+    "Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to TUD Deficiency",
+    "Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to KIAA0226 Deficiency",
+    "Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome",
+    "Autosomal Recessive Cerebellar Ataxia With Late-onset Spasticity",
+    "Autosomal Recessive Cerebellar Ataxia Due to STUB1 Deficiency",
+    "Autosomal Recessive Cerebellar Ataxia Due to a DNA Repair Defect",
+    "Autosomal Recessive Cerebellar Ataxia - Saccadic Intrusion",
+    "Autosomal Recessive Cerebellar Ataxia - Psychomotor Retardation",
+    "Autosomal Recessive Cerebellar Ataxia - Blindness - Deafness",
+    "Autosomal Recessive Cerebellar Ataxia",
+    "Autosomal Dominant Spinocerebellar Ataxia Due to a Polyglutamine Anomaly",
+    "Autosomal Dominant Spinocerebellar Ataxia Due to a Point Mutation",
+    "Autosomal Dominant Spinocerebellar Ataxia Due to a Channelopathy",
+    "Autosomal Dominant Spastic Ataxia Type 1",
+    "Autosomal Dominant Spastic Ataxia",
+    "Autosomal Dominant Optic Atrophy",
+    "Ataxia-telangiectasia Variant",
+    "Ataxia-telangiectasia",
+    "Autosomal Dominant Cerebellar Ataxia, Deafness and Narcolepsy",
+    "Autosomal Dominant Cerebellar Ataxia Type 4",
+    "Autosomal Dominant Cerebellar Ataxia Type 3",
+    "Autosomal Dominant Cerebellar Ataxia Type 2",
+    "Autosomal Dominant Cerebellar Ataxia Type 1",
+    "Autosomal Dominant Cerebellar Ataxia",
+    "Ataxia-telangiectasia-like Disorder",
+    "Ataxia With Vitamin E Deficiency",
+    "Ataxia With Dementia",
+    "Ataxia - Oculomotor Apraxia Type 1",
+    "Ataxia - Other",
+    "Ataxia - Genetic Diagnosis - Unknown",
+    "Acquired Ataxia",
+    "Adult-onset Autosomal Recessive Cerebellar Ataxia",
+    "Alcohol Related Ataxia",
+    "Multiple Endocrine Neoplasia",
+    "Multiple Endocrine Neoplasia Type II",
+    "Multiple Endocrine Neoplasia Type 1",
+    "Multiple Endocrine Neoplasia Type 2",
+    "Multiple Endocrine Neoplasia, Type IV",
+    "Multiple Endocrine Neoplasia, Type 3",
+    "Multiple Endocrine Neoplasia (MEN) Syndrome",
+    "Multiple Endocrine Neoplasia Type 2B",
+    "Multiple Endocrine Neoplasia Type 2A",
+    "Atypical Hemolytic Uremic Syndrome",
+    "Atypical HUS",
+    "Wiedemann-Steiner Syndrome",
+    "Breast Implant-Associated Anaplastic Large Cell Lymphoma",
+    "Autoimmune/Inflammatory Syndrome Induced by Adjuvants (ASIA)",
+    "Hemophagocytic Lymphohistiocytosis",
+    "Behcet&#39;s Disease",
+    "Alagille Syndrome",
+    "Inclusion Body Myopathy With Early-onset Paget Disease and Frontotemporal Dementia (IBMPFD)",
+    "Lowe Syndrome",
+    "Pitt Hopkins Syndrome",
+    "1p36 Deletion Syndrome",
+    "Jansen Type Metaphyseal Chondrodysplasia",
+    "Cockayne Syndrome",
+    "Chronic Recurrent Multifocal Osteomyelitis",
+    "CRMO",
+    "Malan Syndrome",
+    "Hereditary Sensory and Autonomic Neuropathy Type Ie",
+    "VCP Disease",
+    "Hypnic Jerking",
+    "Sleep Myoclonus",
+    "Mollaret Meningitis",
+    "Recurrent Viral Meningitis",
+    "CRB1",
+    "Leber Congenital Amaurosis",
+    "Retinitis Pigmentosa",
+    "Rare Retinal Disorder",
+    "KCNMA1-Channelopathy",
+    "Primary Biliary Cirrhosis",
+    "ZMYND11",
+    "Transient Global Amnesia",
+    "Glycogen Storage Disease",
+    "Alstrom Syndrome",
+    "White Sutton Syndrome",
+    "DNM1",
+    "EIEE31",
+    "Myhre Syndrome",
+    "Recurrent Respiratory Papillomatosis",
+    "Laryngeal Papillomatosis",
+    "Tracheal Papillomatosis",
+    "Refsum Disease",
+    "Nicolaides Baraitser Syndrome",
+    "Leukodystrophy",
+    "Tango2",
+    "Cauda Equina Syndrome",
+    "Rare Gastrointestinal Disorders",
+    "Achalasia-Addisonian Syndrome",
+    "Achalasia Cardia",
+    "Achalasia Icrocephaly Syndrome",
+    "Anal Fistula",
+    "Congenital Sucrase-Isomaltase Deficiency",
+    "Eosinophilic Gastroenteritis",
+    "Idiopathic Gastroparesis",
+    "Hirschsprung Disease",
+    "Rare Inflammatory Bowel Disease",
+    "Intestinal Pseudo-Obstruction",
+    "Scleroderma",
+    "Short Bowel Syndrome",
+    "Sacral Agenesis",
+    "Sacral Agenesis Syndrome",
+    "Caudal Regression",
+    "Scheuermann Disease",
+    "SMC1A Truncated Mutations (Causing Loss of Gene Function)",
+    "Cystinosis",
+    "Juvenile Nephropathic Cystinosis",
+    "Nephropathic Cystinosis",
+    "Kennedy Disease",
+    "Spinal Bulbar Muscular Atrophy",
+    "Warburg Micro Syndrome",
+    "Mucolipidoses",
+    "Mitochondrial Diseases",
+    "Mitochondrial Aminoacyl-tRNA Synthetases",
+    "Mt-aaRS Disorders",
+    "Hypertrophic Olivary Degeneration",
+    "Non-Ketotic Hyperglycinemia",
+    "Fish Odor Syndrome",
+    "Halitosis",
+    "Isolated Congenital Asplenia",
+    "Lambert Eaton (LEMS)",
+    "Biliary Atresia",
+    "STAG1 Gene Mutation",
+    "Coffin Lowry Syndrome",
+    "Borjeson-Forssman-Lehman Syndrome",
+    "Blau Syndrome",
+    "Arginase 1 Deficiency",
+    "HSPB8 Myopathy",
+    "Beta-Mannosidosis",
+    "TBX4 Syndrome",
+    "DHDDS Gene Mutations",
+    "MAND-MBD5-Associated Neurodevelopmental Disorder",
+    "Constitutional Mismatch Repair Deficiency (CMMRD)",
+    "SPATA5 Disorder",
+    "SPATA5L1 Related Disorder",
+    "Acrodysostosis",
+    "Multi-systematic Smooth Muscle Dysfunction Syndrome",
+    "CRELD1 (Cysteine Rich With EGF Like Domains 1)",
+    "GNB1 Syndrome",
+    "Pyruvate Dehydrogenase Complex Deficiency Disease",
+    "Beta Mannosidosis",
+    "Kbg Syndrome",
+    "Labrune Syndrome",
+    "Metachromatic Leukodystrophy (MLD)",
+    "Moyamoya Disease",
+    "OPHN1 Syndrome",
+    "Oculopharyngeal Muscular Dystrophy (OPMD)",
+    "TUBB3 Mutation",
+    "WOREE (WWOX-related Epileptic Encephalopathy",
+    "SCAR12",
+    "Skraban-Deardorff Syndrome",
+    "Hereditary Myopathy With Early Respiratory Failure"
+   ],
+   "start": "2010-07",
+   "sponsor": "Sanford Health",
+   "countries": [
+    "Australia",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT03217578",
+   "title": "Neonatal Spinal Muscular Atrophy (SMA) Screening",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2017-09-01",
+   "sponsor": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
+   "countries": [
+    "Taiwan"
+   ]
+  },
+  {
+   "id": "NCT03421977",
+   "title": "Long-Term Follow-up Study for Patients From AVXS-101-CL-101",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy 1"
+   ],
+   "start": "2017-09-21",
+   "sponsor": "Novartis Gene Therapies",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT03655223",
+   "title": "Early Check: Expanded Screening in Newborns",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "Fragile X Syndrome",
+    "Fragile X - Premutation",
+    "Duchenne Muscular Dystrophy",
+    "Hyperinsulinemic Hypoglycemia, Familial 1",
+    "Diabetes Mellitus",
+    "Adrenoleukodystrophy, Neonatal",
+    "Medium-chain Acyl-CoA Dehydrogenase Deficiency",
+    "Very Long Chain Acyl Coa Dehydrogenase Deficiency",
+    "Beta-ketothiolase Deficiency",
+    "Severe Combined Immunodeficiency Due to Adenosine Deaminase Deficiency",
+    "Primary Hyperoxaluria Type 1",
+    "Congenital Bile Acid Synthesis Defect Type 2",
+    "Pyridoxine-Dependent Epilepsy",
+    "Hereditary Fructose Intolerance",
+    "Hypophosphatasia",
+    "Hyperargininemia",
+    "Mucopolysaccharidosis Type 6",
+    "Argininosuccinic Aciduria",
+    "Citrullinemia, Type I",
+    "Wilson Disease",
+    "Maple Syrup Urine Disease, Type 1A",
+    "Maple Syrup Urine Disease, Type 1B",
+    "Biotinidase Deficiency",
+    "Neonatal Severe Primary Hyperparathyroidism",
+    "Intrinsic Factor Deficiency",
+    "Usher Syndrome Type 1D/F Digenic (Diagnosis)",
+    "Cystic Fibrosis",
+    "Stickler Syndrome Type 2",
+    "Stickler Syndrome Type 1",
+    "Alport Syndrome, Autosomal Recessive",
+    "Alport Syndrome, X-Linked",
+    "Carbamoyl Phosphate Synthetase I Deficiency Disease",
+    "Carnitine Palmitoyl Transferase 1A Deficiency",
+    "Carnitine Palmitoyltransferase II Deficiency",
+    "Cystinosis",
+    "Chronic Granulomatous Disease",
+    "Cerebrotendinous Xanthomatoses",
+    "Maple Syrup Urine Disease, Type 2",
+    "Severe Combined Immunodeficiency Due to DCLRE1C Deficiency",
+    "Thyroid Dyshormonogenesis 6",
+    "Thyroid Dyshormonogenesis 5",
+    "Supravalvar Aortic Stenosis",
+    "Factor X Deficiency",
+    "Hemophilia A",
+    "Hemophilia B",
+    "Tyrosinemia, Type I",
+    "Fructose 1,6 Bisphosphatase Deficiency",
+    "Glycogen Storage Disease Type I",
+    "G6PD Deficiency",
+    "Glycogen Storage Disease II",
+    "Galactokinase Deficiency",
+    "Mucopolysaccharidosis Type IV A",
+    "Galactosemias",
+    "Guanidinoacetate Methyltransferase Deficiency",
+    "Agat Deficiency",
+    "Glutaryl-CoA Dehydrogenase Deficiency",
+    "Gtp Cyclohydrolase I Deficiency",
+    "Hyperinsulinism-Hyperammonemia Syndrome",
+    "Primary Hyperoxaluria Type 2",
+    "3-Hydroxyacyl-CoA Dehydrogenase Deficiency",
+    "Long-chain 3-hydroxyacyl-CoA Dehydrogenase Deficiency",
+    "Mitochondrial Trifunctional Protein Deficiency",
+    "Sickle Cell Disease",
+    "Beta-Thalassemia",
+    "Holocarboxylase Synthetase Deficiency",
+    "3-Hydroxy-3-Methylglutaric Aciduria",
+    "Primary Hyperoxaluria Type 3",
+    "Hermansky-Pudlak Syndrome 1",
+    "Hermansky-Pudlak Syndrome 4",
+    "Apparent Mineralocorticoid Excess",
+    "HSDB",
+    "CBAS1",
+    "Mucopolysaccharidosis Type 2",
+    "Mucopolysaccharidosis Type 1",
+    "Severe Combined Immunodeficiency, X Linked",
+    "Severe Combined Immunodeficiency Due to IL-7Ralpha Deficiency",
+    "Diabetes Mellitus, Permanent Neonatal",
+    "Isovaleric Acidemia",
+    "Severe Combined Immunodeficiency T-Cell Negative B-Cell Positive Due to Janus Kinase-3 Deficiency (Disorder)",
+    "Jervell and Lange-Nielsen Syndrome 2",
+    "Hyperinsulinemic Hypoglycemia, Familial, 2",
+    "Diabetes Mellitus, Permanent Neonatal, With Neurologic Features",
+    "Jervell and Lange-Nielsen Syndrome 1",
+    "Lysosomal Acid Lipase Deficiency",
+    "CblF",
+    "3-Methylcrotonyl CoA Carboxylase 1 Deficiency",
+    "3-Methylcrotonyl CoA Carboxylase 2 Deficiency",
+    "Waardenburg Syndrome Type 2A",
+    "Methylmalonic Aciduria cblA Type",
+    "Methylmalonic Aciduria cblB Type",
+    "Methylmalonic Aciduria and Homocystinuria Type cblC",
+    "MAHCD",
+    "Methylmalonic Aciduria Due to Methylmalonyl-CoA Mutase Deficiency",
+    "Congenital Disorder of Glycosylation Type 1B",
+    "Mthfr Deficiency",
+    "Methylcobalamin Deficiency Type Cbl G (Disorder)",
+    "Methylcobalamin Deficiency Type cblE",
+    "Usher Syndrome, Type 1B",
+    "N-acetylglutamate Synthase Deficiency",
+    "Ornithine Transcarbamylase Deficiency",
+    "Phenylketonurias",
+    "Waardenburg Syndrome Type 1",
+    "Congenital Hypothyroidism",
+    "Propionic Acidemia",
+    "Usher Syndrome, Type 1F",
+    "Pancreatic Agenesis 1",
+    "Hereditary Hypophosphatemic Rickets",
+    "Glycogen Storage Disease IXB",
+    "Glycogen Storage Disease IXC",
+    "MOWS",
+    "Epilepsy, Early-Onset, Vitamin B6-Dependent",
+    "Pyridoxal Phosphate-Responsive Seizures",
+    "Pituitary Hormone Deficiency, Combined, 1",
+    "Ptsd",
+    "Dihydropteridine Reductase Deficiency",
+    "Severe Combined Immunodeficiency Due to RAG1 Deficiency",
+    "Severe Combined Immunodeficiency Due to RAG2 Deficiency",
+    "Retinoblastoma",
+    "Multiple Endocrine Neoplasia Type 2B",
+    "Pseudohypoaldosteronism, Type I",
+    "Liddle Syndrome",
+    "Biotin-Responsive Basal Ganglia Disease",
+    "SCD",
+    "DIAR1",
+    "GSD1C",
+    "Acrodermatitis Enteropathica",
+    "Thyroid Dyshormonogenesis 1",
+    "Riboflavin Transporter Deficiency",
+    "Waardenburg Syndrome, Type 2E",
+    "SRD",
+    "Congenital Lipoid Adrenal Hyperplasia Due to STAR Deficiency",
+    "Barth Syndrome",
+    "Adrenocorticotropic Hormone Deficiency",
+    "Transcobalamin II Deficiency",
+    "Thyroid Dyshormonogenesis 3",
+    "Segawa Syndrome, Autosomal Recessive",
+    "Autosomal Recessive Nonsyndromic Hearing Loss",
+    "Thyroid Dyshormonogenesis 2A",
+    "Congenital Isolated Thyroid Stimulating Hormone Deficiency",
+    "Hypothyroidism Due to TSH Receptor Mutations",
+    "Usher Syndrome Type 1C",
+    "Usher Syndrome Type 1G (Diagnosis)",
+    "Von Willebrand Disease, Type 3",
+    "Combined Immunodeficiency Due to ZAP70 Deficiency",
+    "Adenine Phosphoribosyltransferase Deficiency",
+    "Metachromatic Leukodystrophy",
+    "Canavan Disease",
+    "Menkes Disease",
+    "Carbonic Anhydrase VA Deficiency",
+    "Developmental and Epileptic Encephalopathy 2",
+    "17 Alpha-Hydroxylase Deficiency",
+    "Smith-Lemli-Opitz Syndrome",
+    "Krabbe Disease",
+    "Glutathione Synthetase Deficiency",
+    "Mucopolysaccharidosis Type 7",
+    "Rett Syndrome",
+    "Molybdenum Cofactor Deficiency, Type A",
+    "Niemann-Pick Disease, Type C1",
+    "Niemann-Pick Disease Type C2",
+    "Ornithine Aminotransferase Deficiency",
+    "3-Phosphoglycerate Dehydrogenase Deficiency",
+    "Leber Congenital Amaurosis 2",
+    "Dravet Syndrome",
+    "Mucopolysaccharidosis Type 3 A",
+    "Ornithine Translocase Deficiency",
+    "Carnitine-acylcarnitine Translocase Deficiency",
+    "Glucose Transporter Type 1 Deficiency Syndrome",
+    "Creatine Transporter Deficiency",
+    "Niemann-Pick Disease Type A",
+    "Pitt Hopkins Syndrome",
+    "Tuberous Sclerosis 1",
+    "Tuberous Sclerosis 2",
+    "Ataxia With Isolated Vitamin E Deficiency",
+    "Angelman Syndrome",
+    "Prader-Willi Syndrome",
+    "Homocystinuria",
+    "Permanent Neonatal Diabetes Mellitus",
+    "Transient Neonatal Diabetes Mellitus",
+    "Factor VII Deficiency",
+    "Glycogen Storage Disease Type IXA1",
+    "Glycogen Storage Disease, Type IXA2",
+    "Glycogen Storage Disease IC",
+    "Glycogen Storage Disease Type IB",
+    "Central Hypoventilation Syndrome With or Without Hirschsprung Disease"
+   ],
+   "start": "2018-10-15",
+   "sponsor": "RTI International",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT03709784",
+   "title": "Spinraza in Adult Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "Spinal Muscular Atrophy Type II",
+    "Spinal Muscular Atrophy Type 3"
+   ],
+   "start": "2018-08-16",
+   "sponsor": "Washington University School of Medicine",
+   "countries": [
+    "Canada",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT03779334",
+   "title": "A Study of Risdiplam in Infants With Genetically Diagnosed and Presymptomatic Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2019-08-07",
+   "sponsor": "Hoffmann-La Roche",
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Poland",
+    "Russia",
+    "Taiwan",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04010604",
+   "title": "A Registered Cohort Study on SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2019-07-01",
+   "sponsor": "Wan-Jin Chen",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT04042025",
+   "title": "Long-term Follow-up Study of Patients Receiving Onasemnogene Abeparvovec-xioi",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy Type I",
+    "Spinal Muscular Atrophy Type II",
+    "Spinal Muscular Atrophy Type III",
+    "SMA"
+   ],
+   "start": "2020-02-10",
+   "sponsor": "Novartis Gene Therapies",
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Canada",
+    "France",
+    "Italy",
+    "Japan",
+    "Taiwan",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04090528",
+   "title": "pTVG-HP DNA Vaccine With or Without pTVG-AR DNA Vaccine and Pembrolizumab in Patients With Castration-Resistant, Metastatic Prostate Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Castration-resistant Prostate Cancer",
+    "Metastatic Cancer",
+    "Prostate Cancer"
+   ],
+   "start": "2019-10-21",
+   "sponsor": "University of Wisconsin, Madison",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04159987",
+   "title": "Monitoring to the Evolution of Motor Function in SMA Type II Adults Patients Treated With SPINRAZA®",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2020-02-25",
+   "sponsor": "Centre Hospitalier Universitaire de Nice",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT04174157",
+   "title": "Registry of Patients With a Diagnosis of Spinal Muscular Atrophy (SMA)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2018-09-25",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": [
+    "Greece",
+    "Ireland",
+    "Israel",
+    "Japan",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "South Korea",
+    "Taiwan",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04177134",
+   "title": "French Register of Patients With Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2020-01-31",
+   "sponsor": "Assistance Publique - Hôpitaux de Paris",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT04292574",
+   "title": "UK SMA Patient Registry",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "SMA"
+   ],
+   "start": "2008-07-13",
+   "sponsor": "Newcastle University",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT04317794",
+   "title": "Observational, Postmarketing Surveillance Study of Spinraza Injection (Nusinersen Sodium)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2019-07-02",
+   "sponsor": "Biogen",
+   "countries": [
+    "South Korea"
+   ]
+  },
+  {
+   "id": "NCT04516499",
+   "title": "Neurofilament Surveillance Project (NSP)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Frontotemporal Dementia",
+    "Frontotemporal Lobar Degeneration",
+    "FTD-GRN",
+    "FTD",
+    "FTLD"
+   ],
+   "start": "2020-09-02",
+   "sponsor": "The Bluefield Project to Cure Frontotemporal Dementia",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04708431",
+   "title": "Androgen Receptor, Implications for Health and Wellbeing: Natural History Study of Individuals With Androgen Insensitivity",
+   "status": "RECRUITING",
+   "conditions": [
+    "Androgen Insensitivity Syndrome",
+    "Metabolic Parameters in AIS, CAIS, PAIS and MAIS",
+    "Tumor Formation in AIS, CAIS, PAIS and MAIS",
+    "Sexual Function AIS, CAIS, PAIS and MAIS"
+   ],
+   "start": "2021-04-29",
+   "sponsor": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04747431",
+   "title": "A Study of PBFT02 in Participants With FTD and Mutations in the Granulin Precursor (GRN) or C9ORF72 Genes",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Frontotemporal Dementia",
+    "FTD",
+    "FTD-GRN",
+    "Dementia Frontotemporal",
+    "C9orf72"
+   ],
+   "start": "2021-09-14",
+   "sponsor": "Passage Bio, Inc.",
+   "countries": [
+    "Australia",
+    "Brazil",
+    "Canada",
+    "Portugal",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT04833348",
+   "title": "Quantification of Motor Function in Infants With Spinal Muscular Atrophy Treated With Innovative Therapies",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2021-03-20",
+   "sponsor": "Assistance Publique - Hôpitaux de Paris",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT05042921",
+   "title": "Pediatric Spinal Muscular Atrophy (SMA) China Registry",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2021-11-18",
+   "sponsor": "Biogen",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT05067790",
+   "title": "A Study to Learn About the Effect of Higher Doses of Nusinersen (BIIB058) Given as Injections to Participants With Spinal Muscular Atrophy (SMA) Who Were Previously Treated With Risdiplam (ASCEND)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2022-01-21",
+   "sponsor": "Biogen",
+   "countries": [
+    "Germany",
+    "Hungary",
+    "Italy",
+    "Japan",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05115110",
+   "title": "A Study to Investigate the Safety and Efficacy of RO7204239 in Combination With Risdiplam (RO7034067) in Participants With Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2022-06-02",
+   "sponsor": "Hoffmann-La Roche",
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Canada",
+    "Croatia",
+    "Italy",
+    "Japan",
+    "Netherlands",
+    "Poland",
+    "Portugal",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05117827",
+   "title": "Pediatric Powered Wheelchair Standing Devices: An Exploratory Study",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Cerebral Palsy",
+    "Spinal Muscular Atrophy",
+    "Spinal Cord Injuries",
+    "Spina Bifida",
+    "Development Delay",
+    "Genetic Disease"
+   ],
+   "start": "2021-11-12",
+   "sponsor": "Grand Valley State University",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05335876",
+   "title": "Long-term Follow-up of Patients With Spinal Muscular Atrophy Treated With OAV101 in Clinical Trials",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2022-12-19",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "Denmark",
+    "France",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Netherlands",
+    "Saudi Arabia",
+    "Singapore",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "United Kingdom",
+    "United States",
+    "Vietnam"
+   ]
+  },
+  {
+   "id": "NCT05337553",
+   "title": "A Study to Evaluate the Efficacy and Safety of Taldefgrobep Alfa in Participants With Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "Neuromuscular Diseases",
+    "SMA"
+   ],
+   "start": "2022-07-06",
+   "sponsor": "Biohaven Pharmaceuticals, Inc.",
+   "countries": [
+    "Belgium",
+    "Czechia",
+    "Germany",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05575011",
+   "title": "A Study to Learn About the Safety of BIIB115 Injections and How BIIB115 is Processed in the Bodies of Healthy Adult Male Volunteers and of Pediatric Participants With Spinal Muscular Atrophy Who Previously Took Onasemnogene Abeparvovec",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Healthy Volunteer",
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2022-10-10",
+   "sponsor": "Biogen",
+   "countries": [
+    "Belgium",
+    "Canada",
+    "France",
+    "Germany",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "South Korea",
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT05618379",
+   "title": "Adult Spinal Muscular Atrophy (SMA) China Registry",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2023-01-06",
+   "sponsor": "Biogen",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT05626855",
+   "title": "Long-Term Safety & Efficacy of Apitegromab in Patients With SMA Who Completed Previous Trials of Apitegromab",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "Spinal Muscular Atrophy Type 3",
+    "Spinal Muscular Atrophy Type 2",
+    "SMA",
+    "Neuromuscular Diseases",
+    "Muscular Atrophy",
+    "Atrophy",
+    "Muscular Atrophy, Spinal",
+    "Neuromuscular Manifestations",
+    "Anti-myostatin"
+   ],
+   "start": "2023-04-17",
+   "sponsor": "Scholar Rock, Inc.",
+   "countries": [
+    "Belgium",
+    "France",
+    "Germany",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05747261",
+   "title": "Study of the Safety and Efficacy of an Adeno-Associated Viral Vector Carrying the SMN Gene After a Single Intravenous Administration of Escalating Doses in Children With Spinal Muscular Atrophy (BLUEBELL)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2023-02-02",
+   "sponsor": "Biocad",
+   "countries": [
+    "Belarus",
+    "Russia"
+   ]
+  },
+  {
+   "id": "NCT05755451",
+   "title": "Natural History of SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2018-06-21",
+   "sponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT05768048",
+   "title": "Long Term Trajectories of SMA Patients Receiving or Not Disease-modifying Treatments",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2022-11-28",
+   "sponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT05789758",
+   "title": "A Study to Learn How Nusinersen (Spinraza) Affects Participants With Spinal Muscular Atrophy (SMA) Who Took it Before or During Pregnancy And About The Health of Their Babies",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2023-12-15",
+   "sponsor": "Biogen",
+   "countries": [
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05824169",
+   "title": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 1 Patients",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2023-02-25",
+   "sponsor": "GeneCradle Inc",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT05861986",
+   "title": "A Study Evaluating the Effectiveness and Safety of Risdiplam Administered as an Early Intervention in Pediatric Participants With Spinal Muscular Atrophy After Gene Therapy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2024-05-30",
+   "sponsor": "Hoffmann-La Roche",
+   "countries": [
+    "Germany",
+    "Poland",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05861999",
+   "title": "A Study Evaluating the Effectiveness and Safety of Risdiplam Administered in Pediatric Patients With Spinal Muscular Atrophy Who Experienced a Plateau or Decline in Function After Gene Therapy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2024-08-14",
+   "sponsor": "Hoffmann-La Roche",
+   "countries": [
+    "Germany",
+    "Israel",
+    "Poland",
+    "Qatar",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05866419",
+   "title": "Study of an Intrathecal Port and Catheter System for Subjects With Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "Spine Deformity",
+    "Scoliosis"
+   ],
+   "start": "2023-11-27",
+   "sponsor": "Alcyone Therapeutics, Inc",
+   "countries": [
+    "Germany",
+    "Poland",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT05901987",
+   "title": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 2 Patients",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "SMA II"
+   ],
+   "start": "2023-08-01",
+   "sponsor": "GeneCradle Inc",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06152302",
+   "title": "Test of Aquatic Mobility of SMA Infants",
+   "status": "RECRUITING",
+   "conditions": [
+    "Infantile Spinal Muscular Atrophy"
+   ],
+   "start": "2025-06-26",
+   "sponsor": "Assistance Publique - Hôpitaux de Paris",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT06169046",
+   "title": "A Placebo-controlled Study of Clenbuterol in Spinal and Bulbar Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal and Bulbar Muscular Atrophy"
+   ],
+   "start": "2024-04-13",
+   "sponsor": "Gianni Soraru",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT06191354",
+   "title": "A Clinical Study Evaluating the Safety and Efficacy of SKG0201 Injection in Patients With Spinal Muscular Atrophy Type 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy 1"
+   ],
+   "start": "2023-06-25",
+   "sponsor": "Kun Sun",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06288230",
+   "title": "An Open Label Study of Gene Therapy Product (Vesemnogene Lantuparvovec) in Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2024-10-20",
+   "sponsor": "Lantu Biopharma",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06321965",
+   "title": "Characterization of New Phenotypes of Patients With Spinal Muscular Atrophy Treated With SMN Restoring Therapy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2024-07-24",
+   "sponsor": "Hospices Civils de Lyon",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT06365788",
+   "title": "Bicalutamide and Abemaciclib in Inoperable or Metastatic Androgen Receptor-positive Triple-negative Breast Cancer",
+   "status": "RECRUITING",
+   "conditions": [
+    "Triple Negative Breast Neoplasms"
+   ],
+   "start": "2024-04-08",
+   "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+   "countries": [
+    "Belgium"
+   ]
+  },
+  {
+   "id": "NCT06396325",
+   "title": "A Registry Based Randomized-Controlled Trial of an Upper Limb Exergaming Intervention for Children and Adolescents With Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2024-11-01",
+   "sponsor": "Maryam Oskoui, MD, MSc, FRCPC, FAAN",
+   "countries": [
+    "Canada"
+   ]
+  },
+  {
+   "id": "NCT06421831",
+   "title": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 3 Patients",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy Type 3"
+   ],
+   "start": "2024-05-10",
+   "sponsor": "GeneCradle Inc",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06532474",
+   "title": "Exploring the Physiologic, Pharmacodynamic, and Clinical Responses of Skeletal Muscle in Patients With Spinal Muscular Atrophy Treated With SMN-Directed Therapies",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2025-10-29",
+   "sponsor": "St. Jude Children's Research Hospital",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT06543823",
+   "title": "SUPRATHEL 250 as a Treatment for Oropharyngeal Wounds",
+   "status": "RECRUITING",
+   "conditions": [
+    "Tonsillitis",
+    "Tonsillectomy",
+    "Tonsillitis Recurrent"
+   ],
+   "start": "2025-04-30",
+   "sponsor": "Alaa Emara",
+   "countries": [
+    "Germany"
+   ]
+  },
+  {
+   "id": "NCT06555419",
+   "title": "A Study to Find Out How Nusinersen is Processed in the Body When Given Through the ThecaFlex DRx™ System in Adult and Pediatric Participants With Spinal Muscular Atrophy (PIERRE-PK)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2025-01-16",
+   "sponsor": "Biogen",
+   "countries": [
+    "France",
+    "Germany",
+    "Italy",
+    "Poland",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT06562283",
+   "title": "Evaluation of the Reproducibility of a Fatigability Test Fitted to Patients With Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Amyotrophy",
+    "Infantile Spinal Muscular Atrophy",
+    "Juvenile Spinal Muscular Atrophy"
+   ],
+   "start": "2024-12-06",
+   "sponsor": "Centre Hospitalier Universitaire de Saint Etienne",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT06588803",
+   "title": "A Long-term Follow-up Study Evaluating Intravenous Injection of EXG001-307 in Patients With Type 1 SMA",
+   "status": "ENROLLING_BY_INVITATION",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2025-03",
+   "sponsor": "Guangzhou Jiayin Biotech Ltd",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06666816",
+   "title": "Observational Study to Observe Variations of Gait Parameters in Patients With Neuromuscular Diseases",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Dystrophies",
+    "Myopathies",
+    "Spinal Muscular Atrophy (SMA)",
+    "Charcot Marie Tooth Disease"
+   ],
+   "start": "2017-10-27",
+   "sponsor": "IRCCS Eugenio Medea",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT06688877",
+   "title": "The Study is About the inﬂuence of the Combination of Music and Noise Cancelling as a Non-pharmacological Aid in Reducing Anxiety and Discomfort During Wisdom Tooth Removal. The Level of Fear is Measured by a Questionnaire Which the Patients Answer Twice and a Measurement of the Heartbeat",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Fear Anxiety",
+    "Wisdom Tooth Removal",
+    "Heart Rate"
+   ],
+   "start": "2024-11-18",
+   "sponsor": "Sigmund Freud PrivatUniversitat",
+   "countries": [
+    "Austria"
+   ]
+  },
+  {
+   "id": "NCT06756633",
+   "title": "Respiratory Functions, Thoracoabdominal Movements and Exercise Capacity in Neuromuscular Diseases",
+   "status": "RECRUITING",
+   "conditions": [
+    "Neuromuscular Diseases in Children",
+    "Respiratory Function Impaired",
+    "Respiratory Insufficiency",
+    "Duchenne Muscular Dystrophy",
+    "Spinal Muscular Atrophy",
+    "Plethysmography"
+   ],
+   "start": "2024-04-01",
+   "sponsor": "Lokman Hekim University",
+   "countries": [
+    "Turkey (Türkiye)"
+   ]
+  },
+  {
+   "id": "NCT06764485",
+   "title": "A Study to Compare the Efficacy and Safety of BMS-986365 Versus the Investigator's Choice of Therapy in Participants With Metastatic Castration-resistant Prostate Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Metastatic Castration-resistant Prostate Cancer"
+   ],
+   "start": "2025-03-13",
+   "sponsor": "Celgene",
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Czechia",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Mexico",
+    "Poland",
+    "Puerto Rico",
+    "Romania",
+    "Slovakia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT06765070",
+   "title": "Efficacy and Usability of the EXPLORER Exoskeleton in Children With Neurodevelopmental Disorders in Natural Environments",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Neuromuscular Disorders",
+    "Neurodevelopmental Disorders"
+   ],
+   "start": "2025-03-01",
+   "sponsor": "MarsiBionics",
+   "countries": [
+    "Spain"
+   ]
+  },
+  {
+   "id": "NCT06772402",
+   "title": "GCB-001 in Treatment of Patients With Type II (SMA) Spinal Muscular Atrophy",
+   "status": "ENROLLING_BY_INVITATION",
+   "conditions": [
+    "Spinal Muscular Atrophy Type 2"
+   ],
+   "start": "2025-01-15",
+   "sponsor": "Genecombio Ltd.",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06824961",
+   "title": "Does Increasing the Compression Pause From 3 to 5 Seconds in Mechanical Compression Devices Increase Ventilation Success Rate and Return of Spontaneous Circulation?",
+   "status": "RECRUITING",
+   "conditions": [
+    "Cardiac Arrest (CA)"
+   ],
+   "start": "2026-01-15",
+   "sponsor": "Amsterdam UMC, location VUmc",
+   "countries": [
+    "Netherlands"
+   ]
+  },
+  {
+   "id": "NCT06839469",
+   "title": "Establishing Walking-related Digital Biomarkers in Rare Childhood Onset Progressive Neuromuscular Disorders",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy Type 3",
+    "Duchenne Muscular Dystrophy (DMD)"
+   ],
+   "start": "2024-05-01",
+   "sponsor": "Columbia University",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT06862596",
+   "title": "Clinical Trial of Mexiletine Hydrochloride for Spinal and Bulbar Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal and Bulbar Muscular Atrophy"
+   ],
+   "start": "2025-02-28",
+   "sponsor": "Masahisa Katsuno",
+   "countries": [
+    "Japan"
+   ]
+  },
+  {
+   "id": "NCT06888661",
+   "title": "Clinical Trial to Assess the Safety and Efficacy of EXG001-307 in Patients With Spinal Muscular Atrophy",
+   "status": "ENROLLING_BY_INVITATION",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-03-10",
+   "sponsor": "Guangzhou Jiayin Biotech Ltd",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06955897",
+   "title": "Characterizing Perceived Physical Fatigability in Nusinersen-treated SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2025-04-24",
+   "sponsor": "Columbia University",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT06971094",
+   "title": "Safety and Efficacy Evaluation of GC101 Gene Therapy Via Intrathecal (IT) Injectionin the Treatment of Patients With Type 2 Spinal Muscular Atrophy (SMA) - Phase III",
+   "status": "RECRUITING",
+   "conditions": [
+    "SMA - Spinal Muscular Atrophy"
+   ],
+   "start": "2025-05-27",
+   "sponsor": "GeneCradle Inc",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT06977269",
+   "title": "Safety and Tolerability of Low Motoneuron Stimulation Via Transcranial Magnetic Stimulation in Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-05-19",
+   "sponsor": "Charitable Foundation Children with Spinal Muscular Atrophy",
+   "countries": [
+    "Ukraine"
+   ]
+  },
+  {
+   "id": "NCT06978985",
+   "title": "Adult SMA Research and Clinical Hub",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2022-07-29",
+   "sponsor": "Newcastle-upon-Tyne Hospitals NHS Trust",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07047144",
+   "title": "A Study to Evaluate How Apitegromab Works in Subjects Who Are Less Than 2 Years Old and Have Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy",
+    "SMA",
+    "Spinal Muscular Atrophy Type 2",
+    "Spinal Muscular Atrophy Type 3",
+    "Neuromuscular Manifestations",
+    "Anti-myostatin"
+   ],
+   "start": "2025-09-15",
+   "sponsor": "Scholar Rock, Inc.",
+   "countries": [
+    "Belgium",
+    "France",
+    "Italy",
+    "Netherlands",
+    "Spain",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07070999",
+   "title": "Study of Safety, Tolerability and Efficacy of GB221 in Infants With Spinal Muscular Atrophy Type 1",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy Type I"
+   ],
+   "start": "2026-01-06",
+   "sponsor": "Gemma Biotherapeutics",
+   "countries": [
+    "Brazil"
+   ]
+  },
+  {
+   "id": "NCT07072676",
+   "title": "The Use of Assistive Gait Devices Can Reduce the Risk of Falls in Patients With Neuromuscular Diseases Following a Training Period.",
+   "status": "ENROLLING_BY_INVITATION",
+   "conditions": [
+    "Inclusion Body Myositis",
+    "Myotonic Dystrophy 1",
+    "Myotonic Dystrophy 2",
+    "Facio-Scapulo-Humeral Dystrophy",
+    "Limb Girdle Muscular Dystrophies",
+    "Pompe Disease (Infantile-Onset)",
+    "Myasthaenia Gravis",
+    "Lambert Eaton (LEMS)",
+    "Spinal Muscular Atrophy (SMA)",
+    "Guillain Barré Syndrome",
+    "Chronic Inflammatory Demyelinating Polyneuropathy",
+    "Friedreich Ataxia",
+    "Hereditary Motor and Sensory Neuropathies"
+   ],
+   "start": "2025-09-01",
+   "sponsor": "LMU Klinikum",
+   "countries": [
+    "Germany"
+   ]
+  },
+  {
+   "id": "NCT07085832",
+   "title": "Assessment of Cardiopumonary Resuscitation (CPR) Competency Post ALS Course",
+   "status": "RECRUITING",
+   "conditions": [
+    "Chestcompressionadequacy"
+   ],
+   "start": "2025-06-01",
+   "sponsor": "National Hepatology & Tropical Medicine Research Institute",
+   "countries": [
+    "Egypt"
+   ]
+  },
+  {
+   "id": "NCT07154394",
+   "title": "Cardiac Amyloid Deposits and Heart Dysfunction in Alzheimer's Disease",
+   "status": "RECRUITING",
+   "conditions": [
+    "Dementia, Alzheimer Type",
+    "Mild Cognitive Impairment",
+    "Cardiac Amyloidosis"
+   ],
+   "start": "2022-08-15",
+   "sponsor": "University Hospital, Essen",
+   "countries": [
+    "Germany"
+   ]
+  },
+  {
+   "id": "NCT07159360",
+   "title": "Safety, Usability, and Effectiveness of a Gait Exoskeleton for Children and Adolescents With Neurodevelopmental Disorders.",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Neuromuscular Disorders",
+    "Neurodevelopmental Disorders"
+   ],
+   "start": "2025-09-15",
+   "sponsor": "MarsiBionics",
+   "countries": [
+    "Mexico",
+    "Spain"
+   ]
+  },
+  {
+   "id": "NCT07190300",
+   "title": "TulmiSTAR-02: A Phase I/II Open-label Study of Tulmimetostat in Combination With Darolutamide vs. Darolutamide, and Tulmimetostat With Abiraterone in Patients With Metastatic Hormone-sensitive Prostate Cancer (mHSPC)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Metastatic Hormone-Sensitive Prostate Cancer (mHSPC)"
+   ],
+   "start": "2026-01-13",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": [
+    "Australia",
+    "Brazil",
+    "Canada",
+    "China",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Hungary",
+    "Italy",
+    "South Korea",
+    "Spain",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07208903",
+   "title": "Psychological Evaluation of the Parental Experience of Newborn Screening for Infantile Spinal Muscular Atrophy in the Grand Est and Nouvelle-Aquitaine Regions",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)",
+    "Spinal Muscular Atrophy Type I"
+   ],
+   "start": "2025-10-20",
+   "sponsor": "University Hospital, Strasbourg, France",
+   "countries": []
+  },
+  {
+   "id": "NCT07221669",
+   "title": "A Study to Learn About Salanersen's (BIIB115) Effects on Movement and Its Safety When Given Before Symptoms Appear in Babies With Genetically Diagnosed Spinal Muscular Atrophy (SMA)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2026-04-28",
+   "sponsor": "Biogen",
+   "countries": [
+    "Australia",
+    "Brazil",
+    "Chile",
+    "China",
+    "India",
+    "Japan",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07223320",
+   "title": "HABIT-ILE + FST in Children With SMA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "SMA - Spinal Muscular Atrophy"
+   ],
+   "start": "2025-10-01",
+   "sponsor": "Teachers College, Columbia University",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07223489",
+   "title": "Diagnostic Journey, Patient Experience, and Disparities in the Treatment of Spinal Muscular Atrophy (SMA) in the MedStar Health System",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-10-10",
+   "sponsor": "Medstar Health Research Institute",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07231549",
+   "title": "CuidAME: Longitudinal Data Collection From Patients With Spinal Muscular Atrophy in Spain",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2020-05-05",
+   "sponsor": "Fundació Sant Joan de Déu",
+   "countries": [
+    "Spain"
+   ]
+  },
+  {
+   "id": "NCT07239531",
+   "title": "Combined Interval Training and Scenario Simulation for ALS Training of Medical Students",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Advanced Life Support Operational Skills and Theoretical Knowledge Learning and Memorization"
+   ],
+   "start": "2026-09-01",
+   "sponsor": "General Hospital of Ningxia Medical University",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT07286565",
+   "title": "Active NBS Study: Decentralised Monitoring Motor Development in Children With Duchenne Muscular Dystrophy or Spinal Muscular Atrophy Identified by Newborn Screening",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)",
+    "Duchenne Muscular Dystrophy (DMD)"
+   ],
+   "start": "2025-12-01",
+   "sponsor": "Centre Hospitalier Universitaire de Liege",
+   "countries": [
+    "Belgium"
+   ]
+  },
+  {
+   "id": "NCT07287982",
+   "title": "A Study to Assess the Safety, Tolerability, Efficacy, Pharmacokinetics, and Immunogenicity of Intravenous Administration of ARGX-119 in Pediatric Participants Aged 5 to Less Than 18 Years With Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-12-19",
+   "sponsor": "argenx",
+   "countries": [
+    "Australia",
+    "Canada",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07321977",
+   "title": "Assessment of a Portable Digital Device for Quantified Analysis of Markerless Walking in Volunteers With Neuromuscular Diseases or Asymptomatic Volunteers",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)",
+    "Charcot-Marie-Tooth",
+    "Muscular Dystrophy",
+    "Myotonic Dystrophy"
+   ],
+   "start": "2026-03-03",
+   "sponsor": "Institut de Myologie, France",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT07332702",
+   "title": "Long Read Analysis in Spinal Muscular Atrophy - LOREASI",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-05-15",
+   "sponsor": "University Hospital, Rouen",
+   "countries": [
+    "France"
+   ]
+  },
+  {
+   "id": "NCT07336446",
+   "title": "A Trial to Learn How Safe AZD9750 is and How Well it Works in People With Metastatic Prostate Cancer When Given With or Without Other Anticancer Drugs",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Prostate Cancer"
+   ],
+   "start": "2026-01-27",
+   "sponsor": "AstraZeneca",
+   "countries": [
+    "Australia",
+    "Japan",
+    "United Kingdom",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07336602",
+   "title": "Neuroproprioceptive Equine-Assisted Physiotherapy for Spinal Muscular Atrophy",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-04-15",
+   "sponsor": "Charles University, Czech Republic",
+   "countries": [
+    "Czechia"
+   ]
+  },
+  {
+   "id": "NCT07356063",
+   "title": "Self-Efficacy Enhancement Among Online Support Group of Primary Caregivers of Children With Neuro Muscular Dystrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Duchenne Muscular Dystrophy (DMD)",
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-08-15",
+   "sponsor": "Aga Khan University",
+   "countries": [
+    "Pakistan"
+   ]
+  },
+  {
+   "id": "NCT07358741",
+   "title": "Standard Two-Day Advanced Life Support (ALS) Versus One Day Recertification Course",
+   "status": "RECRUITING",
+   "conditions": [
+    "Skill Performance",
+    "Knowledge"
+   ],
+   "start": "2025-12-12",
+   "sponsor": "National Hepatology & Tropical Medicine Research Institute",
+   "countries": [
+    "Egypt"
+   ]
+  },
+  {
+   "id": "NCT07400198",
+   "title": "Gait and Bone Health in SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy Type 3",
+    "Ambulatory Spinal Muscular Atrophy"
+   ],
+   "start": "2026-03-05",
+   "sponsor": "Jacqueline Montes",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07443449",
+   "title": "International SBMA Project (KDA)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "SBMA",
+    "Spinal and Bulbar Muscular Atrophy (SBMA)"
+   ],
+   "start": "2024-07-29",
+   "sponsor": "Fondazione I.R.C.C.S. Istituto Neurologico Carlo Besta",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT07444450",
+   "title": "A Study to Learn About the Safety and Effects of Salanersen (BIIB115) When Given to Babies With Spinal Muscular Atrophy (SMA) Who Were Previously Treated With Onasemnogene Abeparvovec",
+   "status": "RECRUITING",
+   "conditions": [
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2026-10-31",
+   "sponsor": "Biogen",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07444476",
+   "title": "A Study to Learn About Salanersen's (BIIB115) Effects on Movement and Its Safety in Participants Aged 15 to 60 Years With Spinal Muscular Atrophy (SMA) Who Are Either New to SMA Treatment or Were Previously Treated With Risdiplam",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-09-08",
+   "sponsor": "Biogen",
+   "countries": [
+    "China",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07448610",
+   "title": "ASsessing The REAl-world Safety & Effectiveness of Spinal Muscular Atrophy Participants Treated With Intrathecal Onasemnogene Abeparvovec-brve (OAV101B) (ITVISMA®): A U.S. Pragmatic Multicenter Study (STREAM)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-08-27",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07488338",
+   "title": "HABIT-ILE + FST in Children With SMA: Preliminary Effectiveness",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-03-15",
+   "sponsor": "Teachers College, Columbia University",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07504965",
+   "title": "Dementia-friendly Apothecaries as a Resource for Mental Heath in the Elderly",
+   "status": "RECRUITING",
+   "conditions": [
+    "Mild Cognitive Impairment",
+    "Mild Dementia"
+   ],
+   "start": "2025-07-01",
+   "sponsor": "Ludwig-Maximilians - University of Munich",
+   "countries": [
+    "Germany"
+   ]
+  },
+  {
+   "id": "NCT07530926",
+   "title": "Adrenal& Bone Complications in Paediatric Patients Living With Spinal Muscular Atrophy (SMA)",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "SMA - Spinal Muscular Atrophy"
+   ],
+   "start": "2026-05-01",
+   "sponsor": "Sheffield Children's NHS Foundation Trust",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07531719",
+   "title": "A Study of Risdiplam in Participants With Type I and Type II Spinal Muscle Atrophy (SMA)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscle Atrophy"
+   ],
+   "start": "2026-07-22",
+   "sponsor": "Hoffmann-La Roche",
+   "countries": [
+    "Egypt"
+   ]
+  },
+  {
+   "id": "NCT07543003",
+   "title": "An International Federated Model for Wearable-derived Remote Longitudinal Motor Monitoring in Young Children With Spinal Muscular Atrophy Compared With Healthy Controls: Active-NBS Study (UK)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-05-01",
+   "sponsor": "University of Oxford",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07554924",
+   "title": "A Phase I/II Clinical Study to Evaluate SKG0201 Injection in Subjects With Spinal Muscular Atrophy Type I",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy 1"
+   ],
+   "start": "2026-07-15",
+   "sponsor": "Lanyue Biotech (Hangzhou) Co., Ltd.",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT07557771",
+   "title": "Wideband Tympanometry as a Non-behavioral Test of the Speech-weighted Middle Ear Transfer Function.",
+   "status": "RECRUITING",
+   "conditions": [
+    "Conductive Hearing Loss"
+   ],
+   "start": "2025-07-04",
+   "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+   "countries": [
+    "Belgium"
+   ]
+  },
+  {
+   "id": "NCT07578454",
+   "title": "VRehab-SMA Phase 1.2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-05-27",
+   "sponsor": "University of Oxford",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07596277",
+   "title": "Exploring Lived Experiences of Families of Children With Spinal Muscular Atrophy(SMA) Type 1 Regarding Feeding and Communication",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy 1"
+   ],
+   "start": "2026-06-19",
+   "sponsor": "Guy's and St Thomas' NHS Foundation Trust",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07596446",
+   "title": "FEMART-1 Pilot Study",
+   "status": "RECRUITING",
+   "conditions": [
+    "Sudden Cardiac Arrest",
+    "Out-of-hospital Cardiac Arrest (OHCA)",
+    "Cardiogenic Shock Acute"
+   ],
+   "start": "2026-05-11",
+   "sponsor": "Emergency Medical Service, Prague",
+   "countries": [
+    "Czechia"
+   ]
+  },
+  {
+   "id": "NCT07617779",
+   "title": "A Study of the Safety and Preliminary Efficacy of NKG001 in Pediatric Patients With Type 1 or Type 2 Spinal Muscular Atrophy",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2024-04-21",
+   "sponsor": "Nikegen Pharmaceutical (Hangzhou) Company Limited",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT07650019",
+   "title": "EDA-Based Adaptive Support in VR ALS Training",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Adaptive Support Condition",
+    "Standard Training Condition"
+   ],
+   "start": "2026-07",
+   "sponsor": "Acibadem University",
+   "countries": []
+  },
+  {
+   "id": "NCT07720518",
+   "title": "Spinal Muscular Atrophy and School Transitions",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-08-10",
+   "sponsor": "Robert Jones and Agnes Hunt Orthopaedic and District NHS Trust",
+   "countries": [
+    "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07723248",
+   "title": "A Study to Learn About the Investigational Drug Rinzimetostat (ORIC-944) in Patients With mCRPC Who Were Previously Treated With Abiraterone Acetate (Himalayas-1)",
+   "status": "RECRUITING",
+   "conditions": [
+    "Metastatic Castration Resistant Prostate Cancer"
+   ],
+   "start": "2026-08-03",
+   "sponsor": "ORIC Pharmaceuticals",
+   "countries": [
+    "Puerto Rico",
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07737756",
+   "title": "A Real-World Medical Chart Review of Spinal Muscular Atrophy Patients Treated With Onasemnogene Abeparvovec in Saudi Arabia",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-11-01",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": []
+  },
+  {
+   "id": "NCT07767890",
+   "title": "A Study of the Safety and Effectiveness of Onasemnogene Abeparvovec (Zolgensma) Intrathecal Injection in Spinal Muscular Atrophy Patients",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-10-07",
+   "sponsor": "Novartis Pharmaceuticals",
+   "countries": [
+    "Japan"
+   ]
+  },
+  {
+   "id": "NCT07805278",
+   "title": "A Registry of Cases of Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy"
+   ],
+   "start": "2026-11",
+   "sponsor": "St. Jude Children's Research Hospital",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07822711",
+   "title": "Effects of Different Stiffness Settings During Robotic Isokinetic Training in Children With SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-10-22",
+   "sponsor": "Peking University Third Hospital",
+   "countries": [
+    "China"
+   ]
+  },
+  {
+   "id": "NCT07838779",
+   "title": "An OLIP Study (Open Label Individual Patient) of Nusinersen in a Participant With Spinal Muscular Atrophy Who Previously Participated in an Investigational Study With Nusinersen",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "SMA - Spinal Muscular Atrophy"
+   ],
+   "start": "2026-09-17",
+   "sponsor": "London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's",
+   "countries": [
+    "Canada"
+   ]
+  },
+  {
+   "id": "NCT07846696",
+   "title": "An Open Label Individual Patient (OLIP)-02 Study of Nusinersen (BIIB058)",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "SMA - Spinal Muscular Atrophy"
+   ],
+   "start": "2026-09-17",
+   "sponsor": "London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's",
+   "countries": [
+    "Canada"
+   ]
+  },
+  {
+   "id": "NCT07883655",
+   "title": "Advanced Multi-omics and -System Approaches to Identify Novel Biomarkers for SMA",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2025-02-05",
+   "sponsor": "Istituto Giannina Gaslini",
+   "countries": [
+    "Italy"
+   ]
+  },
+  {
+   "id": "NCT07888868",
+   "title": "Service Evaluation for Newborn Screening for Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2026-08-01",
+   "sponsor": "University of Oxford",
+   "countries": [
+    "United Kingdom"
+   ]
+  }
+ ]
+}

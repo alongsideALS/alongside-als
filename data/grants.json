@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-26",
  "items": [
   {
    "id": "hoffman-fap",
@@ -834,7 +834,7 @@
    "forWhat": "Help toward an accredited college degree or vocational certificate for students whose ability to pay is severely limited by their family's ALS costs.",
    "amount": "Up to $2,500 per semester or $5,000 per year",
    "status": "window",
-   "window": "Applications open in early spring each year.",
+   "window": "Applications open in early spring each year. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "Student whose family's finances are strained by ALS"
@@ -847,7 +847,7 @@
    "contact": "als.org",
    "lastVerified": "2026-10-24",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; no open/closed language or dates; 'Click here to apply' present; $2,500/semester or $5,000/yr; administered by Scholarship America; US citizen at US school. Unchanged."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "mary-jane-sanders",
@@ -999,7 +999,7 @@
    "forWhat": "Care Assist grants for respite, medical expenses, home and vehicle modifications and van purchases. Daily Living grants for assistive technology. Transportation grants for rides to an ALS Certified Center or affiliated clinic.",
    "amount": "Varies (see Grant Guidelines)",
    "status": "window",
-   "window": "Quarterly windows open on the 1st and close on the 22nd (Feb, May, Aug, Nov). The next window is November 1-22, 2026. Approved funds must be spent within 6 months. Transportation grants are available any time.",
+   "window": "Quarterly windows open on the 1st and close on the 22nd (Feb, May, Aug, Nov). The next window is November 1-22, 2026. Approved funds must be spent within 6 months. Transportation grants are available any time. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": "2026-11-22",
    "eligibility": [
     "Diagnosed with ALS and living in Florida",
@@ -1014,7 +1014,7 @@
    "contact": "Your Florida Regional Program Manager",
    "lastVerified": "2026-10-24",
    "kind": "grant",
-   "verifyNote": "Unchanged: Q4 window Nov 1-22; funds spent within 6 months; application link only via Regional Program Manager; transportation grants as needed; no pause note.",
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog.",
    "sources": [
     "https://www.als.org/florida/local-care-services/financial-assistance-program"
    ]
@@ -1190,7 +1190,7 @@
    "forWhat": "Expenses that insurance usually doesn't cover, for families living with ALS or PLS.",
    "amount": "Up to $2,500 per year",
    "status": "rolling",
-   "window": "No deadlines are posted.",
+   "window": "No deadlines are posted. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "Living with ALS or PLS in Indiana"
@@ -1203,7 +1203,7 @@
    "contact": "ALS Association care services",
    "lastVerified": "2026-10-24",
    "kind": "grant",
-   "verifyNote": "Unchanged: up to $2,500 annually for Hoosiers with ALS/PLS, expenses insurance doesn't cover; no dates, status or contact details."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "alsa-wpa-grant",
@@ -1230,7 +1230,7 @@
     "Conversation with the care team"
    ],
    "howToApply": "Call the care team.",
-   "url": "https://als.org/support/programs/grant-program",
+   "url": "https://www.als.org/support/programs/grant-program-pennsylvania",
    "contact": "412-821-3254",
    "lastVerified": "2026-10-24",
    "kind": "grant",
@@ -1293,7 +1293,7 @@
     "Agency or caregiver choice (a payroll service is provided for individual caregivers)"
    ],
    "howToApply": "Check the program page or call to ask when it reopens.",
-   "url": "https://www.als.org/support/programs/senator-tomassoni-caregiver-support-program",
+   "url": "https://www.als.org/support/programs/senator-tomassoni-caregiver-support-program-minnesota",
    "contact": "888-672-0484",
    "lastVerified": "2026-10-24",
    "kind": "grant",
@@ -1801,7 +1801,7 @@
    "forWhat": "Grants to help families with the costs of caregiving and care needs: respite care, communication devices, home modifications, medical care and related expenses. Created in memory of Jane Calmes.",
    "amount": "Varies; not published",
    "status": "rolling",
-   "window": "Applications processed as received; awards granted annually until funds run out. Contact your local care services team.",
+   "window": "Applications processed as received; awards granted annually until funds run out. Contact your local care services team. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "Families of people living with ALS connected to an ALS Association care services team"
@@ -1816,7 +1816,7 @@
     "https://als.org/angel-fund"
    ],
    "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: 'accepted and processed as they are received', awards until funds no longer available; apply via local care services team; no amounts or dates."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "hope-loves-company-hope-grants",
@@ -2053,7 +2053,7 @@
    "forWhat": "Funding and/or materials for a modular wheelchair ramp from the Association's ramp partner (AmRamp St. Louis). Ramp pieces are later donated to the Ramp Re-Use Program.",
    "amount": "60% of ramp cost from AmRamp St. Louis, up to $4,800",
    "status": "check",
-   "window": "No published deadline or application link; call 866-211-6009 to ask about availability. Serves the St. Louis area (Missouri and Illinois).",
+   "window": "No published deadline or application link; call 866-211-6009 to ask about availability. Serves the St. Louis area (Missouri and Illinois). Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "Person living with ALS in Illinois (program text references the St. Louis area; confirm coverage by calling)"
@@ -2068,7 +2068,7 @@
     "https://www.als.org/support/programs/modular-ramp-program-illinois"
    ],
    "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: St. Louis area, AmRamp St. Louis, 60% up to $4,800, family pays remainder; no application link or phone in page text."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "alsa-maurer-heinsen",
@@ -3870,6 +3870,413 @@
    ],
    "lastVerified": "2026-10-24",
    "verifyNote": "Page fetched directly Oct 24, 2026 (no longer blocked): $500 grants, one per quarter per calendar year, apply by the 15th; definitive ALS diagnosis in service area; no paused note."
+  },
+  {
+   "id": "chive-charities-individual-grant",
+   "kind": "grant",
+   "name": "Individual Grant Program (rare diagnoses, veterans, first responders)",
+   "org": "Chive Charities",
+   "categories": [
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Pays vendors directly for medically necessary or quality-of-life items not fully covered by insurance, such as mobility equipment, medical supplies, oxygen concentrators, therapy equipment and service dogs. ALS qualifies as a rare diagnosis (verified against the NORD/GARD databases).",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Applications accepted on a rolling basis through the online portal; one application per person",
+   "deadline": null,
+   "eligibility": [
+    "US residents only",
+    "Rare medical diagnosis (verified via NORD/GARD), or underserved veteran, military family or first responder",
+    "Letter from a medical professional confirming diagnosis and need",
+    "May be ineligible if household income is over $100,000 or more than $30,000 has already been fundraised",
+    "Does not fund past-due bills, rent, mortgage, car payments or funeral costs"
+   ],
+   "youllNeed": [],
+   "howToApply": "Create an account at recipients.chivecharities.org/register and submit income documents, photo ID, an itemized list of requested items with quotes, photos and diagnosis documentation.",
+   "url": "https://chivecharities.org/recipient",
+   "contact": "See program page",
+   "sources": [
+    "https://chivecharities.org/recipient"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page says it helps 'individuals with rare medical diagnoses' in the United States with items that 'improve quality of life or are medically necessary and not fully covered by insuran"
+  },
+  {
+   "id": "sandra-west-als-scholarship",
+   "kind": "grant",
+   "name": "Sandra West ALS Foundation Scholarship",
+   "org": "Sandra West ALS Foundation",
+   "categories": [
+    "Education & scholarships"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Annual scholarship for children of a parent with ALS whose family faces financial hardship, for undergraduate or graduate study.",
+   "amount": "$5,000 each to 2 winners ($10,000 total)",
+   "status": "closed",
+   "window": "Annual; 2026 cycle closed Oct 23, 2026 (winners announced Nov 23, 2026). Watch Bold.org for the next cycle.",
+   "deadline": "2026-10-23",
+   "eligibility": [
+    "Child of a parent with ALS",
+    "Family facing financial hardship",
+    "Current or prospective undergraduate or graduate student",
+    "Previous applicants may reapply"
+   ],
+   "youllNeed": [],
+   "howToApply": "Create a free Bold.org profile and submit a 400-600 word essay on how ALS has affected your education, how the award would help, and your involvement with ALS groups.",
+   "url": "https://bold.org/scholarships/sandra-west-als-foundation-scholarship/",
+   "contact": "See program page",
+   "sources": [
+    "https://bold.org/scholarships/sandra-west-als-foundation-scholarship/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Bold.org page: for 'children of a parent with ALS whose family faces financial hardship'; $10,000 split between 2 winners; deadline October 23, 2026, currently 'In Review'."
+  },
+  {
+   "id": "bridge-to-mobility-vehicle-grant",
+   "kind": "grant",
+   "name": "Wheelchair Accessible Vehicle 'last dollar' grant",
+   "org": "Bridge to Mobility",
+   "categories": [
+    "Equipment & technology",
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Grants of up to $5,000 to close a financing gap when buying a wheelchair accessible vehicle. Applications are submitted by an NMEDA mobility dealer after a needs analysis shows a funding gap.",
+   "amount": "Up to $5,000",
+   "status": "window",
+   "window": "Board reviews and awards grants quarterly",
+   "deadline": null,
+   "eligibility": [
+    "People with disabilities unable to afford a wheelchair accessible vehicle",
+    "Must work with a National Mobility Equipment Dealers Association (NMEDA) dealer, who submits the application"
+   ],
+   "youllNeed": [],
+   "howToApply": "Visit an NMEDA dealer for a needs analysis; if there is a funding gap the dealer submits the grant application and the board reviews it quarterly.",
+   "url": "https://bridgetomobility.org/",
+   "contact": "216-623-2326",
+   "sources": [
+    "https://bridgetomobility.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Site describes itself as a national nonprofit providing 'last dollar' grants of up to $5,000 toward wheelchair accessible vehicles, applied for through an NMEDA dealer and awarded qu"
+  },
+  {
+   "id": "joseph-groh-foundation-assistance",
+   "kind": "grant",
+   "name": "Assistance for trades-connected families with life-altering disabilities",
+   "org": "Joseph Groh Foundation",
+   "categories": [
+    "Equipment & technology",
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Provides durable medical equipment and accessibility construction (ramps, widened doorways, bathroom remodels) to people with life-altering disabilities who have a family connection to the construction trades (plumbing, HVAC, electrical, roofing, etc.). No cash is given; awards are paid for materials and services.",
+   "amount": "Varies; $1.7 million granted to 171 families to date",
+   "status": "check",
+   "window": "Rolling; board votes on each request based on need and available funds",
+   "deadline": null,
+   "eligibility": [
+    "Applicant or family member connected to the construction/contracting trades",
+    "Permanent, life-altering disability (not limited to a specific diagnosis)",
+    "Has served families in about 39-40 states"
+   ],
+   "youllNeed": [],
+   "howToApply": "Fill out the online application at josephgrohfoundation.org/application-for-assistance; the foundation responds to every request.",
+   "url": "https://josephgrohfoundation.org/assistance-application",
+   "contact": "214-998-9749",
+   "sources": [
+    "https://josephgrohfoundation.org/assistance-application"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Application page says it funds 'materials, such as durable medical equipment' and 'services, such as building ramps, widening doorways, or remodeling bathrooms for wheelchair access'"
+  },
+  {
+   "id": "fisher-house-lodging-hero-miles",
+   "kind": "grant",
+   "name": "Fisher Houses, Hotels for Heroes and Hero Miles",
+   "org": "Fisher House Foundation",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free lodging for families of veterans and service members receiving care at VA and military medical centers (including VA ALS clinics), with hotel rooms through Hotels for Heroes when a house is full and donated airline tickets through Hero Miles for families of service members in treatment.",
+   "amount": "No room fee at VA and military Fisher Houses",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Families of veterans or active-duty service members receiving treatment at a VA or military medical center with a Fisher House",
+    "Eligibility set by each medical center; veterans of all eras may qualify depending on the house",
+    "Hero Miles: service members on leave or family visiting a service member in treatment"
+   ],
+   "youllNeed": [],
+   "howToApply": "Contact the manager of the Fisher House at the medical center where care is being received (list under 'Current Houses' on fisherhouse.org); Hotels for Heroes and Hero Miles requests go through the Fisher House manager or hospital case worker.",
+   "url": "https://fisherhouse.org/",
+   "contact": "888-294-8560",
+   "sources": [
+    "https://fisherhouse.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Site states families at VA Fisher Houses pay no room fee, Hotels for Heroes provides rooms when a house is full, and Hero Miles provides round-trip airline tickets for families visit"
+  },
+  {
+   "id": "independence-fund-trackchairs",
+   "kind": "grant",
+   "name": "Mobility Program (all-terrain track chairs for veterans)",
+   "org": "The Independence Fund",
+   "categories": [
+    "Equipment & technology",
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Gifts all-terrain trackchairs at no charge to veterans who have lost mobility due to a service-related injury or illness, so they can get outdoors. ALS is presumptively service-connected for veterans, so veterans with ALS may qualify; confirm with the fund.",
+   "amount": "Trackchair provided free",
+   "status": "open",
+   "window": "Qualifying veterans are placed on a waitlist; chairs awarded in order received and by level of need",
+   "deadline": null,
+   "eligibility": [
+    "US veteran of any era",
+    "Loss of mobility due to a service-related injury or illness"
+   ],
+   "youllNeed": [],
+   "howToApply": "Submit the online application linked from the Mobility Program page (formstack.io/9D576) and you are placed on the waitlist.",
+   "url": "https://independencefund.org/pages/mobility-program",
+   "contact": "888-851-7996",
+   "sources": [
+    "https://independencefund.org/pages/mobility-program"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Program page says trackchairs are given to 'Veterans of all eras who have experienced a loss of mobility due to a service-related injury or illness', 2,723 gifted nationwide, with an"
+  },
+  {
+   "id": "semper-fi-americas-fund",
+   "kind": "grant",
+   "name": "Service Member & Family Support (financial assistance, equipment, home and vehicle modifications)",
+   "org": "Semper Fi & America's Fund",
+   "categories": [
+    "Medical costs",
+    "Equipment & technology",
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Direct financial assistance, specialized equipment, adaptive home and vehicle modifications, and bedside and basic-needs support for critically wounded, ill and injured service members and veterans of all branches and their families. Veterans with ALS (a presumptively service-connected illness) should call to confirm eligibility.",
+   "amount": "Varies",
+   "status": "check",
+   "window": "Ongoing; call to confirm eligibility.",
+   "deadline": null,
+   "eligibility": [
+    "Critically wounded, ill or injured service members and veterans from any branch of the US Armed Forces, and their families",
+    "Vietnam veterans with service-connected injuries or illnesses are served through the LCpl Parsons Welcome Home Fund"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call 760-725-3680 or use the contact form at thefund.org/contact-us/ to be connected with a case manager.",
+   "url": "https://thefund.org/",
+   "contact": "760-725-3680",
+   "sources": [
+    "https://thefund.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Site says the Fund supports 'critically wounded, ill, and injured service members, veterans, and military families' with 'direct financial assistance', 'specialized equipment, and ad"
+  },
+  {
+   "id": "als-united-orange-county-transportation",
+   "kind": "grant",
+   "name": "Transportation Program ($75 ride vouchers)",
+   "org": "ALS United Orange County",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA"
+   ],
+   "forWhat": "$75 transportation vouchers each way for people with ALS traveling to and from medical appointments within Orange County, California; non-medical or out-of-area rides are referred to Family First Transport at the patient's cost.",
+   "amount": "$75 per trip each way",
+   "status": "rolling",
+   "window": "Requests need at least 5 business days",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in Orange County, CA (service area includes Norco and Corona)",
+    "Ride is to or from a medical appointment within Orange County"
+   ],
+   "youllNeed": [],
+   "howToApply": "Request a voucher through ALS United Orange County at least 5 business days before the appointment (call/text 714-285-1088 or info@alsuoc.org).",
+   "url": "https://alsuoc.org/transportation-program/",
+   "contact": "714-285-1088 / info@alsuoc.org",
+   "sources": [
+    "https://alsuoc.org/transportation-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Care services page: '$75 transportation vouchers each way to ALS patients to and from medical appointments'; 'Rides within Orange County only.'"
+  },
+  {
+   "id": "friends-of-man-mobility-assistance",
+   "kind": "grant",
+   "name": "Mobility and Accessibility Assistance",
+   "org": "Friends of Man",
+   "categories": [
+    "Equipment & technology",
+    "Home modification"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Pays for mobility equipment, vehicle modifications, wheelchair ramps, home accessibility changes, medical equipment, speech-generating devices and other assistive technology when no other resource is available. A professional (social worker, nurse, clinic staff, clergy) must apply on your behalf.",
+   "amount": "Varies; pays vendor directly for the item",
+   "status": "rolling",
+   "window": "Applications accepted year-round from referring professionals",
+   "deadline": null,
+   "eligibility": [
+    "Any age; household income at or below 300% of the Federal Poverty Guidelines",
+    "Must be referred by a professional (caseworker, healthcare professional, social worker, patient advocate, clergy); individuals cannot apply directly",
+    "Vendor estimate and medical documentation required"
+   ],
+   "youllNeed": [],
+   "howToApply": "Ask your ALS clinic social worker or another professional to submit the application with a vendor quote, photo ID and medical documentation via friendsofman.org.",
+   "url": "https://www.friendsofman.org/",
+   "contact": "See program page",
+   "sources": [
+    "https://www.friendsofman.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Homepage says applications come from 'referring professionals... who apply on behalf of their patients or clients' and shows funded items including stair lifts, speech-generating dev"
+  },
+  {
+   "id": "180-medical-caregiver-scholarship",
+   "kind": "grant",
+   "name": "Ron Howell Caregiver College Scholarship",
+   "org": "180 Medical",
+   "categories": [
+    "Education & scholarships",
+    "Respite & caregiving"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A $1,000 college scholarship for students who are the primary unpaid caregiver for a family member with a chronic condition that requires in-home care, such as a parent or spouse with ALS.",
+   "amount": "$1,000 (one award per year)",
+   "status": "window",
+   "window": "Applications accepted January 1 to June 1 each year; recipient announced in August",
+   "deadline": "2027-06-01",
+   "eligibility": [
+    "Primary, unpaid caregiver for a family member with a chronic condition needing ongoing in-home care",
+    "US legal resident starting a full-time 2-year, 4-year or graduate program in the fall",
+    "Not a paid caregiver and not currently in medical or nursing school"
+   ],
+   "youllNeed": [],
+   "howToApply": "Apply online at 180medical.com/caregiver-scholarship/ during the January 1 to June 1 window.",
+   "url": "https://www.180medical.com/caregiver-scholarship/",
+   "contact": "CaregiverScholarship@180medical.com",
+   "sources": [
+    "https://www.180medical.com/caregiver-scholarship/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: 'We are not accepting applications at this time; please wait until the next application period' (January 1 to June 1); eligible if you are 'the primary, unpaid caregiver for a "
+  },
+  {
+   "id": "blossom-law-caregiver-scholarship",
+   "kind": "grant",
+   "name": "Blossom Law Caregiver Scholarship",
+   "org": "Blossom Law",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A $1,000 scholarship for college or graduate students who have served as a caregiver for a family member, or whose parent has been the primary caregiver for a loved one.",
+   "amount": "$1,000",
+   "status": "open",
+   "window": "Applications open for Spring 2027",
+   "deadline": "2027-02-08",
+   "eligibility": [
+    "Has served as a family caregiver, or has a parent who has been the primary caregiver for a loved one",
+    "At least 18, US citizen or permanent resident",
+    "Enrolled undergraduate or graduate student at an accredited college with 3.0 GPA or higher"
+   ],
+   "youllNeed": [],
+   "howToApply": "Submit a 500-1,000 word essay, proof of enrollment and GPA documentation through the application form on blossomlaw.com/scholarship.",
+   "url": "https://www.blossomlaw.com/scholarship",
+   "contact": "scholarships@blossomlaw.com",
+   "sources": [
+    "https://www.blossomlaw.com/scholarship"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page heading reads 'Applications Open for Spring 2027'; deadline February 8, 2027; for students who 'have served as caregivers themselves' or whose parent 'has been the primary careg"
+  },
+  {
+   "id": "diane-dawson-memorial-scholarship",
+   "kind": "grant",
+   "name": "Diane Dawson Memorial Scholarship",
+   "org": "Sacramento Region Community Foundation",
+   "categories": [
+    "Education & scholarships",
+    "Family & children"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA",
+    "CO"
+   ],
+   "forWhat": "A $1,000-$3,000 scholarship for graduating high school seniors in the Sacramento region or the Denver area whose parent or guardian has a terminal illness, or who lost a parent to a terminal disease during high school.",
+   "amount": "$1,000-$3,000 (renewable up to one year by reapplying)",
+   "status": "window",
+   "window": "Annual cycle; most recent deadline was March 13, 2026, next expected to open around December 2026",
+   "deadline": null,
+   "eligibility": [
+    "Graduating senior at a high school in El Dorado, Placer, Sacramento or Yolo counties (CA) or the Denver area (CO)",
+    "Parent or legal guardian has terminal cancer or another terminal illness, or applicant lost a parent to a terminal disease during high school",
+    "Cumulative GPA 2.5 or higher and demonstrated financial need",
+    "Physician letter or death certificate required"
+   ],
+   "youllNeed": [],
+   "howToApply": "Create an account at sacregcf.academicworks.com and submit the supplemental questions, two recommendation letters and a one-page essay.",
+   "url": "https://sacregcf.academicworks.com/opportunities/1913",
+   "contact": "info@sacregcf.org",
+   "sources": [
+    "https://sacregcf.academicworks.com/opportunities/1913"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Opportunity page: eligible if 'parent or legal guardian has terminal cancer or another terminal illness, or applicant lost a parent to a terminal disease during high school'; award $"
+  },
+  {
+   "id": "redrover-relief-pet-care-grants",
+   "kind": "grant",
+   "name": "RedRover Relief Urgent Care Grants (pet veterinary emergencies)",
+   "org": "RedRover",
+   "categories": [
+    "Quality of life"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Small grants toward urgent, life-saving veterinary treatment for the pet of a low-income owner, so a person with ALS does not have to give up a companion animal over one emergency vet bill.",
+   "amount": "Typically $250-$300; cannot be used when the gap to start treatment is $500 or more",
+   "status": "window",
+   "window": "Applications open each Monday 9am PT and close Friday 4pm PT (weekly cycle)",
+   "deadline": null,
+   "eligibility": [
+    "Owner and pet live in the United States",
+    "Household income $60,000 or less",
+    "Vet has given a diagnosis, treatment plan and cost estimate with a good expected outcome",
+    "One Urgent Care grant per household; no routine or ongoing care"
+   ],
+   "youllNeed": [],
+   "howToApply": "Answer the pre-application questions on redrover.org/relief/urgent-care-grants/; eligible applicants receive a link to the full application.",
+   "url": "https://redrover.org/relief/urgent-care-grants/",
+   "contact": "916-429-2457; info@redrover.org",
+   "sources": [
+    "https://redrover.org/relief/urgent-care-grants/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: typical grant $250-300; eligibility includes 'Household income is no more than $60,000 per year' and 'You and the animal both live in the United States'; 'applications close ea"
   }
  ]
 }

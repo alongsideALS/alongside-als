@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-26",
  "items": [
   {
    "id": "ssdi-als",
@@ -315,7 +315,7 @@
    "forWhat": "Lends temporary, reusable steel ramps for home access, with financial and consulting help.",
    "amount": "Ramp loan",
    "status": "check",
-   "window": "Needs confirmation: the Maryland ramp-loan page no longer loads, and the ALS Association's Independence & Mobility page now says modular ramps are offered only in grant-funded counties (installation and removal paid by the family).",
+   "window": "Needs confirmation: the Maryland ramp-loan page no longer loads, and the ALS Association's Independence & Mobility page now says modular ramps are offered only in grant-funded counties (installation and removal paid by the family). Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "Living with ALS in a participating area"
@@ -329,7 +329,7 @@
    "contact": "Local care services",
    "lastVerified": "2026-10-15",
    "kind": "service",
-   "verifyNote": "Unread 2026-10-24: URL could not be read while sibling als.org pages loaded fine; may be retired. Ramp info now under Independence & Mobility Program."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "als-georgia-equipment",
@@ -949,7 +949,7 @@
    "forWhat": "Loans of Amazon Alexa-compatible smart home devices through the Equipment Lending Program so people with ALS can call contacts, control lights and outlets, stream media, manage lists and calendars, and control the TV by voice.",
    "amount": "Free (loaned); limited supply",
    "status": "check",
-   "window": "Ongoing, subject to device availability.",
+   "window": "Ongoing, subject to device availability. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "People with ALS served by the ALS Association in Wisconsin"
@@ -964,7 +964,7 @@
     "https://www.als.org/support/programs/smart-home-program-8"
    ],
    "lastVerified": "2026-10-15",
-   "verifyNote": "Unread 2026-10-24: Fetch failed twice (client_error); als.org program page could not be read. Program status unknown; confirm with ALS Association Wisconsin."
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "als-united-ri-equipment-loan-program",
@@ -1738,8 +1738,8 @@
    ],
    "forWhat": "Scheduled breaks for the live-in family caregiver of a person with ALS in North or South Dakota. Choose coordinated respite (The ALS Association arranges a paid aide from a partner home care agency) or self-directed respite (the Association reimburses you for a caregiver you hire, who can't be the person's spouse/partner, parent or child). The program FAQ describes weekly respite in 3-4 hour blocks, up to 18 hours a month, not for emergencies and not a replacement for regular care; respite can continue during hospice.",
    "amount": "Free; up to 18 hours of respite a month (per the program FAQ)",
-   "status": "rolling",
-   "window": "Apply any time, close to when you are ready to start; allow up to two weeks for care services staff to contact you after you apply.",
+   "status": "check",
+   "window": "Apply any time, close to when you are ready to start; allow up to two weeks for care services staff to contact you after you apply. Note: the ALS Association's page for this program was not loading on Oct 26, 2026, and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
    "deadline": null,
    "eligibility": [
     "The person with ALS lives in North Dakota or South Dakota",
@@ -1757,7 +1757,7 @@
     "https://www.als.org/sites/default/files/2024-03/10.23_Jack%20Norton%20Caregiver%20Respite%20Program%20FAQs.pdf"
    ],
    "lastVerified": "2026-10-24",
-   "verifyNote": "Active: ND/SD residence, live-in primary caregiver; coordinated (agency aide) or self-directed (reimbursement, not spouse/parent/child); staff contact within 2 weeks; 888-672-0484, respitemn@als.org. "
+   "verifyNote": "Page 403 on 2026-10-26; not in als.org program catalog."
   },
   {
    "id": "touched-by-als-generator-loan",
@@ -1792,6 +1792,704 @@
    ],
    "lastVerified": "2026-10-24",
    "verifyNote": "Generator Loan Program listed: Ryobi generators for ventilator/electricity-dependent PALS, need verified, immediate safety risks prioritized, delivered promptly and retrieved; (864) 214-6745; form at "
+  },
+  {
+   "id": "inheritance-of-hope-legacy-retreats",
+   "kind": "service",
+   "name": "Legacy Retreats for families facing a parent's terminal illness",
+   "org": "Inheritance of Hope",
+   "categories": [
+    "Family & kids"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free multi-day family retreats (lodging, meals and activities covered once you check in) for young families in which a parent has ALS or another terminal diagnosis. Families with children 18 and under attend together; a Navigator can discuss help offsetting travel costs if travel is a barrier.",
+   "amount": "Retreat costs covered by donors; families pay their own travel",
+   "status": "rolling",
+   "window": "Apply any time; eligible families are notified as retreats fill, first-come first-served. Upcoming retreats listed: Nashville Nov 6-8, Orlando Feb 12-14, DFW Apr 29-May 2, Minneapolis Jun 11-13",
+   "deadline": null,
+   "eligibility": [
+    "Parent with ALS, late-stage/metastatic cancer or another terminal diagnosis",
+    "One caregiver/spouse plus children ages 18 and under (unmarried young adults to 21 living at home may attend with a qualifying sibling)"
+   ],
+   "youllNeed": [],
+   "howToApply": "Submit the online application, which includes a short video of your family sharing your story; the team emails you about eligibility and a Navigator helps you register.",
+   "url": "https://inheritanceofhope.org/find-support/retreats/",
+   "contact": "914-213-8435",
+   "sources": [
+    "https://inheritanceofhope.org/find-support/retreats/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Retreats page states the diagnosed parent must have 'late-stage or metastatic cancer, ALS, or another terminal diagnosis', that donors cover the retreat cost, and that 'once you chec"
+  },
+  {
+   "id": "pva-veterans-als-claims-help",
+   "kind": "service",
+   "name": "Veterans with ALS: free VA benefits claims help and National Service Officers",
+   "org": "Paralyzed Veterans of America",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "PVA's National Service Officers file and track VA claims for veterans with ALS at no charge, including disability compensation, Aid and Attendance, the Specially Adapted Housing grant, the automobile grant and durable medical equipment. PVA has represented over 17,000 veterans with ALS since 2008.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "US veterans with an ALS diagnosis (ALS is presumptively service-connected with 90+ consecutive days of active duty and an other-than-dishonorable discharge)",
+    "Services free regardless of PVA membership"
+   ],
+   "youllNeed": [],
+   "howToApply": "Find a National Service Officer at pva.org/find-support/national-service-office/ or call the benefits helpline.",
+   "url": "https://pva.org/information-veterans-als/",
+   "contact": "1-866-734-0857 (benefits helpline); 1-800-424-8200 (national HQ)",
+   "sources": [
+    "https://pva.org/information-veterans-als/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page says PVA helps veterans with ALS apply for VA benefits, its service officers 'are trained to spot ALS claims', services are free 'from the time of disability through end of life"
+  },
+  {
+   "id": "help-hope-live-fundraising",
+   "kind": "service",
+   "name": "Verified, tax-deductible medical fundraising for ALS costs",
+   "org": "Help Hope Live",
+   "categories": [
+    "Insurance help",
+    "Equipment & loans",
+    "Home access"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A nonprofit that runs community fundraising campaigns for people with ALS, verifies medical need, makes donations tax-deductible, and holds and pays out funds so they do not count as personal income or assets for means-tested benefits. Funds can cover premiums, copays, medications, travel, home modifications, accessible vehicles, wheelchairs, home health care and assistive technology.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "People with ALS (or other serious conditions) with verified medical need",
+    "Must be willing to fundraise with one-on-one help from a Client Services Coordinator"
+   ],
+   "youllNeed": [],
+   "howToApply": "Complete the short campaign request at helphopelive.org/start-a-campaign/; if community fundraising is a fit you are paired with a coordinator.",
+   "url": "https://helphopelive.org/financial-support-for-als",
+   "contact": "800-642-8399",
+   "sources": [
+    "https://helphopelive.org/financial-support-for-als"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: ALS page says HHL verifies medical need, enables tax-deductible donations, manages funds so they don't count as income or assets for state-based benefits, and lists ALS costs such as"
+  },
+  {
+   "id": "ship-medicare-counseling",
+   "kind": "service",
+   "name": "State Health Insurance Assistance Program (SHIP): free Medicare counseling",
+   "org": "State Health Insurance Assistance Program (SHIP)",
+   "categories": [
+    "Insurance help",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free, unbiased one-on-one Medicare counseling in every state for people with Medicare and their families, including help comparing plans, understanding coverage of equipment and drugs, appeals and enrollment. Relevant because people with ALS get Medicare as soon as SSDI starts.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Available year-round; especially useful during Medicare Open Enrollment (Oct 15-Dec 7)",
+   "deadline": null,
+   "eligibility": [
+    "Anyone with Medicare, or helping someone with Medicare, in any US state or territory"
+   ],
+   "youllNeed": [],
+   "howToApply": "Use the 'Find Your SHIP' locator on shiphelp.org or call the national line to be connected to your local program.",
+   "url": "https://www.shiphelp.org/",
+   "contact": "877-839-2675",
+   "sources": [
+    "https://www.shiphelp.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: shiphelp.org says SHIPs provide 'local, one-on-one Medicare counseling' that is confidential, unbiased and 'at no cost to you', with a locator and the 877-839-2675 line."
+  },
+  {
+   "id": "dav-claims-help-and-rides",
+   "kind": "service",
+   "name": "Free VA claims help and rides to VA medical appointments",
+   "org": "DAV (Disabled American Veterans)",
+   "categories": [
+    "Government benefits",
+    "Travel"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "DAV benefits advocates file and follow VA claims for disability, health care and other benefits at no cost, and DAV's volunteer transportation network gives free rides to VA and other medical appointments. Local chapters can also connect veterans with emergency grants.",
+   "amount": "Free",
+   "status": "open",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "US veterans and their families; no DAV membership required for claims help or rides"
+   ],
+   "youllNeed": [],
+   "howToApply": "Find the nearest DAV national service office with the ZIP code locator on dav.org or call 1-877-426-2838; ask the local VA medical center about DAV transportation.",
+   "url": "https://www.dav.org/veterans/",
+   "contact": "1-877-426-2838",
+   "sources": [
+    "https://www.dav.org/veterans/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page says DAV 'offers free services for veterans' including help filing VA claims and 'free rides to ill and injured veterans for VA and other medical appointments', over 230,000 rid"
+  },
+  {
+   "id": "als-northwest-medical-equipment-program",
+   "kind": "service",
+   "name": "Medical Equipment Program (equipment loans)",
+   "org": "ALS Northwest",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "OR",
+    "WA"
+   ],
+   "forWhat": "Free loans of new or gently used durable medical equipment and communication devices (power and manual wheelchairs, Hoyer and sit-to-stand lifts, shower commode chairs, portable ramps, eye-gaze AAC devices, mounts, tablets, switches) for as long as needed. Run with Numotion and Norco for people with ALS in Oregon and the six counties of SW Washington.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing; subject to inventory",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in Oregon or SW Washington service area",
+    "Priority for uninsured, unable to purchase, or waiting on equipment delivery"
+   ],
+   "youllNeed": [],
+   "howToApply": "Contact the regional Care Services Coordinator (Portland Metro 503-238-5559 x124; Willamette Valley 541-990-1246; Central/Eastern OR 503-479-5878; Southern OR 541-292-8775; communication devices 503-765-7635).",
+   "url": "https://alsnorthwest.org/navigating-als/als-care-services/medical-equipment-program/",
+   "contact": "503-238-5559",
+   "sources": [
+    "https://alsnorthwest.org/navigating-als/als-care-services/medical-equipment-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page says equipment is loaned 'at no cost' for 'persons living with ALS living in the service area' and lists wheelchairs, lifts, ramps and AAC devices."
+  },
+  {
+   "id": "als-united-gny-lopatin-transportation",
+   "kind": "service",
+   "name": "Harold and Ruth Lopatin Transportation Program",
+   "org": "ALS United Greater New York",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NY",
+    "NJ"
+   ],
+   "forWhat": "Free ambulette or car-service rides to and from ALS Center or clinic appointments for people with ALS in New York City, the Lower Hudson Valley, Long Island and central/northern New Jersey who cannot arrange other transportation. Limited to 4 ALS Center visits per year; mileage caps may apply.",
+   "amount": "Up to 4 round trips per year",
+   "status": "rolling",
+   "window": "Ongoing; limited funding",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in NYC, Lower Hudson Valley, Long Island, or central/northern NJ",
+    "Trip is to an ALS Center or clinic",
+    "No other transportation option (family, paratransit, Medicaid transport)"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call or email Christine Dunn at (212) 720-3044 to arrange a ride.",
+   "url": "https://als-ny.org/navigating-als/transportation-program/",
+   "contact": "(212) 720-3044",
+   "sources": [
+    "https://als-ny.org/navigating-als/transportation-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: 'Transportation will be provided free of charge' for ALS Center/clinic visits, 'due to limited funding, we must limit rides' to 4 ALS Center visits per year."
+  },
+  {
+   "id": "als-united-gny-equipment-loan",
+   "kind": "service",
+   "name": "Equipment Loan Program",
+   "org": "ALS United Greater New York",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NY",
+    "NJ"
+   ],
+   "forWhat": "Free short-term and extended loans of durable medical equipment and assistive technology (tilt/recline power wheelchairs, manual and transport chairs, power patient lifts and slings, tub benches, eye-tracking communication devices and mounts, iPads with communication apps) as a bridge while insurance is pending or for items insurance will not cover.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing; subject to inventory",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in NYC, Westchester, Rockland, Orange, Ulster, Dutchess, Putnam, Long Island, or central/northern NJ",
+    "Has applied for insurance coverage or has none for the item"
+   ],
+   "youllNeed": [],
+   "howToApply": "Email the Equipment Loan Coordinator (link on page) or call (212) 720-3058; most items need a clinician to help choose the right equipment.",
+   "url": "https://als-ny.org/navigating-als/equipment-loan-program/",
+   "contact": "(212) 720-3058",
+   "sources": [
+    "https://als-ny.org/navigating-als/equipment-loan-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: 'All items are provided to those with ALS free of charge' and lists coverage area of NYC boroughs, Hudson Valley counties, Long Island, and Central and Northern New Jersey."
+  },
+  {
+   "id": "als-united-mid-atlantic-shimer-dme-loan",
+   "kind": "service",
+   "name": "Marjorie Shimer Durable Medical Equipment Loan Program",
+   "org": "ALS United Mid-Atlantic",
+   "categories": [
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA",
+    "NJ",
+    "DE"
+   ],
+   "forWhat": "Free loans of power, manual and transport wheelchairs, shower chairs, transfer devices, over-bed tables and Hoyer lifts for people with ALS in Pennsylvania, central/southern New Jersey and Delaware who lack DME coverage, face high deductibles, or are waiting on equipment.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing; subject to inventory",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in ALS United Mid-Atlantic service area (PA, central/southern NJ, DE)",
+    "No DME coverage, high out-of-pocket costs, or awaiting equipment"
+   ],
+   "youllNeed": [],
+   "howToApply": "Contact the regional coordinator listed on the page (Larissa Gibbons for SE PA/NJ/DE; Mary Beth Tomczak for NE/North Central PA; Shannon Scaletti, 215-664-4137 x48, for South Central PA).",
+   "url": "https://alsmidatlantic.org/navigating-als/our-care-services/equipment-loan-program/",
+   "contact": "215-664-4137",
+   "sources": [
+    "https://alsmidatlantic.org/navigating-als/our-care-services/equipment-loan-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page says equipment is provided 'at no charge' to patients with an ALS diagnosis in the served area and lists wheelchairs, shower chairs, transfer devices and Hoyer lifts."
+  },
+  {
+   "id": "als-united-mid-atlantic-kilpatric-van",
+   "kind": "service",
+   "name": "Mike Kilpatric ALS Van Transportation Program",
+   "org": "ALS United Mid-Atlantic",
+   "categories": [
+    "Travel"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "PA",
+    "NJ"
+   ],
+   "forWhat": "Accessible van rides to clinic and medical appointments for registered people with ALS living within 60 miles of the Montgomery County, PA office (southeastern PA and adjoining South Jersey); also guidance on accessible van purchases, paratransit and rideshare options.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing, limited basis; clinic trips get priority",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Registered with ALS United Mid-Atlantic",
+    "Lives within 60-mile radius of Montgomery County, PA office",
+    "Caregiver must ride along"
+   ],
+   "youllNeed": [],
+   "howToApply": "Complete and sign the Transportation Program Registration form on the page, then schedule rides through the organization.",
+   "url": "https://alsmidatlantic.org/navigating-als/our-care-services/transportation-program/",
+   "contact": "Contact form at alsmidatlantic.org/contact",
+   "sources": [
+    "https://alsmidatlantic.org/navigating-als/our-care-services/transportation-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: rides offered 'on a limited basis' for clinic and medical appointments; 'Complete and sign the Transportation Program Registration form before using the service'; 60-mile radiu"
+  },
+  {
+   "id": "als-united-orange-county-equipment-loan",
+   "kind": "service",
+   "name": "Equipment Loan Program",
+   "org": "ALS United Orange County",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "CA"
+   ],
+   "forWhat": "Free loans of mostly donated durable medical equipment (manual and power wheelchairs including tilt/recline, Hoyer and sit-to-stand lifts, hospital beds, shower/commode chairs, ramps as available) for people living with ALS in Orange County, California; a separate Augmentative Communication Loan Program lends speech devices to those awaiting insurance approval.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing; first-come, first-served, inventory varies",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in Orange County, CA"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call or text 714-285-1088 or email info@alsuoc.org to check current inventory and request equipment.",
+   "url": "https://alsuoc.org/navigating-als/equipment-loan-program/",
+   "contact": "714-285-1088 / info@alsuoc.org",
+   "sources": [
+    "https://alsuoc.org/navigating-als/equipment-loan-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: equipment is 'loaned at no cost to people living with ALS in Orange County, CA' and 'There is no charge to borrow equipment through this program.'"
+  },
+  {
+   "id": "als-united-nc-equipment-loan",
+   "kind": "service",
+   "name": "Equipment Loan Program",
+   "org": "ALS United North Carolina",
+   "categories": [
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NC"
+   ],
+   "forWhat": "Loans of seven types of durable medical equipment (power, manual, transport and travel power wheelchairs, rolling shower wheelchairs, rollators, electric Hoyer lifts) from four loan closets run with Stalls Medical and Adaptive Vans, with free delivery and pickup, for North Carolina residents with ALS who are uninsured, cannot order their own chair, or are awaiting a custom chair.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing; subject to inventory",
+   "deadline": null,
+   "eligibility": [
+    "North Carolina resident",
+    "Verified ALS diagnosis",
+    "Equipment must stay in NC except for car/van travel"
+   ],
+   "youllNeed": [],
+   "howToApply": "Contact Diana Van Valen by email (on page) or at 919-390-0122.",
+   "url": "https://alsnc.org/navigating-als/equipment-loan-program/",
+   "contact": "919-390-0122",
+   "sources": [
+    "https://alsnc.org/navigating-als/equipment-loan-program/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page: program is 'only available to North Carolina residents who have a verification of ALS Diagnosis'; delivery and pickup are free; lists the seven equipment types."
+  },
+  {
+   "id": "als-network-hawaii-equipment-loans",
+   "kind": "service",
+   "name": "Hawaii Care Services: equipment and communication device loans",
+   "org": "ALS Network",
+   "categories": [
+    "Equipment & loans",
+    "Communication"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "HI"
+   ],
+   "forWhat": "Professional care management plus loans of durable medical equipment and augmentative communication devices for people with ALS in Hawaii, with monthly connection groups and emergency/disaster assistance.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing",
+   "deadline": null,
+   "eligibility": [
+    "ALS diagnosis",
+    "Lives in Hawaii"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call Hawaii equipment lending coordinator Mac Negre at 808-394-7642 or register with ALS Network care services.",
+   "url": "https://alsnetwork.org/serving-hawaiis-als-community/",
+   "contact": "808-394-7642",
+   "sources": [
+    "https://alsnetwork.org/serving-hawaiis-als-community/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Page lists Hawaii services including 'loans of durable medical equipment and augmentative communication devices,' coordinated by Mac Negre at 808-394-7642."
+  },
+  {
+   "id": "triage-health-legal-financial-navigation",
+   "kind": "service",
+   "name": "Legal & Financial Navigation Program (Triage Health)",
+   "org": "Triage Health (Triage Cancer)",
+   "categories": [
+    "Insurance help",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free one-on-one phone sessions with an attorney about health insurance, disability insurance, employment rights, medical bills and estate-planning documents. Originally for cancer, the Triage Health program now serves anyone with a chronic or serious medical condition.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Request a call any time; phone intake Mon-Thu 9am-4pm Central",
+   "deadline": null,
+   "eligibility": [
+    "Person with a chronic or serious medical condition, or their caregiver",
+    "Lives in the United States",
+    "Provides guidance and education, not legal representation or document drafting"
+   ],
+   "youllNeed": [],
+   "howToApply": "Answer three screening questions and complete the intake form at triagecancer.org/gethelp, or call 424-258-4628 option 5.",
+   "url": "https://triagecancer.org/gethelp",
+   "contact": "424-258-4628; TriageHealth@TriageCancer.org",
+   "sources": [
+    "https://triagecancer.org/gethelp"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Program info sheet: Triage Health extends the program to 'anyone navigating a chronic or serious medical condition'; offers free one-on-one guidance on 'health insurance, disability "
+  },
+  {
+   "id": "dollar-for-hospital-charity-care",
+   "kind": "service",
+   "name": "Hospital charity care help",
+   "org": "Dollar For",
+   "categories": [
+    "Insurance help"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Free help finding and applying for hospital financial assistance (charity care), which nonprofit hospitals must offer and which can reduce or erase hospital bills based on income.",
+   "amount": "Bill reduction or forgiveness depends on hospital policy; on average a family of four earning under $100,000 qualifies",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Hospital bills from a US hospital with a financial-assistance policy",
+    "Income-based; many hospitals forgive bills for households under 200-400% of poverty"
+   ],
+   "youllNeed": [],
+   "howToApply": "Enter your hospital and income in the patient-support tool at dollarfor.org to check eligibility and get help submitting the application.",
+   "url": "https://dollarfor.org/",
+   "contact": "See program page",
+   "sources": [
+    "https://dollarfor.org/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Homepage: helps patients get hospital charity care 'for free'; 'On average, a family of 4 earning less than $100,000 a year will qualify.'"
+  },
+  {
+   "id": "liheap-energy-assistance",
+   "kind": "service",
+   "name": "LIHEAP home energy assistance (find your local office via NEAR)",
+   "org": "LIHEAP (U.S. Dept. of Health & Human Services)",
+   "categories": [
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Federally funded help paying heating and cooling bills, crisis assistance to prevent shut-off, and weatherization for low-income households. Important when ALS equipment (ventilators, power wheelchairs, hospital beds) drives up electric bills; many states give priority to households with a disabled member.",
+   "amount": "Varies by state; typically a few hundred dollars per season plus crisis help",
+   "status": "window",
+   "window": "Most states open heating-season applications in October or November; crisis help year-round in some states",
+   "deadline": null,
+   "eligibility": [
+    "Household income under the state limit (usually 150% of poverty or 60% of state median income)",
+    "Automatic eligibility in many states if receiving SSI, SNAP or TANF",
+    "Apply in the state where you live"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call the National Energy Assistance Referral line or email energyassistance@ncat.org with your city, county and state to be connected to the LIHEAP office that takes applications for your area.",
+   "url": "https://liheapch.ncat.org/node/1516",
+   "contact": "1-866-674-6327; energyassistance@ncat.org",
+   "sources": [
+    "https://liheapch.ncat.org/node/1516"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: NEAR page: free referral service that 'connects you with the LIHEAP office that serves your area'; acf.hhs.gov describes LIHEAP as 'a federally-funded program that helps low-income h"
+  },
+  {
+   "id": "texas-ramp-project",
+   "kind": "service",
+   "name": "Free wheelchair ramps (Texas Ramp Project)",
+   "org": "Texas Ramp Project",
+   "categories": [
+    "Home access"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "TX"
+   ],
+   "forWhat": "Volunteers build free wooden wheelchair ramps for Texans with mobility disabilities who cannot afford one. Hospice patients and people who cannot leave home safely get priority.",
+   "amount": "Free ramp built by volunteers",
+   "status": "rolling",
+   "window": "Typical wait 3-6 months or longer in most regions; about 30 days in the Amarillo area",
+   "deadline": null,
+   "eligibility": [
+    "Texas resident in a county the project serves (see Where We Build)",
+    "Documented mobility disability and financial hardship",
+    "Referral must come from a healthcare professional, social services agency, EMS/fire/police liaison; individuals cannot self-refer"
+   ],
+   "youllNeed": [],
+   "howToApply": "Ask your ALS clinic social worker, nurse or hospice to submit the online ramp referral form at texasramps.org/request-a-ramp/.",
+   "url": "https://www.texasramps.org/request-a-ramp/",
+   "contact": "214-558-0339; referral@texasramps.org",
+   "sources": [
+    "https://www.texasramps.org/request-a-ramp/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Request page: referrals accepted 'only from qualified organizations and healthcare professionals'; eligibility requires verified mobility need and 'demonstrated hardship that prevent"
+  },
+  {
+   "id": "legal-hospice-of-texas",
+   "kind": "service",
+   "name": "Free legal help for people with a terminal diagnosis",
+   "org": "Legal Hospice of Texas",
+   "categories": [
+    "Government benefits",
+    "Insurance help"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "TX"
+   ],
+   "forWhat": "Free legal counsel and representation for low-income Texans with a terminal illness: wills, powers of attorney, living wills and guardianship declarations, plus help with insurance claims, Social Security appeals, employment issues and eviction defense. Home or bedside appointments available for people too ill to travel.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Low-income individual with a terminal illness (or HIV)",
+    "Dallas-based; serves North Texas (call to confirm your county)"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call 214-521-6622 or use the contact form at legalhospice.org to request an intake.",
+   "url": "https://www.legalhospice.org/services",
+   "contact": "214-521-6622",
+   "sources": [
+    "https://www.legalhospice.org/services"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Services page lists estate planning ('wills, powers of attorney, living wills, and guardianship declarations'), insurance, public benefits including Social Security appeals, and hous"
+  },
+  {
+   "id": "gods-love-we-deliver-meals",
+   "kind": "service",
+   "name": "Free medically tailored home-delivered meals",
+   "org": "God's Love We Deliver",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "NY",
+    "NJ"
+   ],
+   "forWhat": "Free home-delivered, medically tailored meals and nutrition counseling for people living with a severe or chronic illness who have difficulty shopping and cooking. ALS qualifies as a serious condition; meals can also cover a caregiver and children in the home.",
+   "amount": "Free meals delivered weekly",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Lives in New York City or Hudson County, NJ",
+    "Severe or chronic illness (any serious diagnosis)",
+    "Difficulty grocery shopping and cooking",
+    "Medical provider signs the referral form"
+   ],
+   "youllNeed": [],
+   "howToApply": "Have your doctor or nurse complete the online Referral & Medical form and submit the client forms at glwd.org, or fax the packet to 212-294-8198.",
+   "url": "https://www.glwd.org/get-meals/for-you-or-your-loved-ones/eligibility-forms-client-form/",
+   "contact": "212-294-8102; clientservices@glwd.org",
+   "sources": [
+    "https://www.glwd.org/get-meals/for-you-or-your-loved-ones/eligibility-forms-client-form/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Eligibility page: must 'live with a severe and/or chronic illness... or another serious condition', live in NYC or Hudson County NJ, and have 'difficulty grocery shopping and cooking"
+  },
+  {
+   "id": "community-servings-meals",
+   "kind": "service",
+   "name": "Free medically tailored home-delivered meals",
+   "org": "Community Servings",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA",
+    "RI"
+   ],
+   "forWhat": "Free scratch-made, medically tailored meals delivered to the home plus dietitian support for people living with a critical or chronic illness and food insecurity, across Massachusetts and Rhode Island.",
+   "amount": "Free meals (about two-thirds of daily nutrition)",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Resident of Massachusetts or Rhode Island",
+    "Critical or chronic illness that makes it hard to maintain a healthy diet (ALS and many other diagnoses)",
+    "Food insecurity",
+    "Provider completes a Medical Certification Form; self-referral accepted with that form"
+   ],
+   "youllNeed": [],
+   "howToApply": "Complete the application and Medical Certification Form with your provider at servings.org/meal-delivery/application-process/, then take the intake call from a dietitian.",
+   "url": "https://www.servings.org/meal-delivery/",
+   "contact": "617-522-7777",
+   "sources": [
+    "https://www.servings.org/meal-delivery/"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26: Meal delivery page: serves residents of Massachusetts and Rhode Island living with 'critical or chronic illnesses and food insecurity'; clients receive meals 'at no cost to them'; se"
+  },
+  {
+   "id": "alsa-alabama-communication-support",
+   "kind": "service",
+   "name": "Communication Support Program (Alabama)",
+   "org": "The ALS Association (Alabama)",
+   "categories": [
+    "Communication",
+    "Equipment & loans"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "AL"
+   ],
+   "forWhat": "Connects people with ALS in Alabama to speech-language pathologists for help choosing and using speech-generating devices, eye-gaze systems and voice or message banking, with hands-on training and equipment loans through AT Alabama.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Living with ALS in Alabama"
+   ],
+   "youllNeed": [],
+   "howToApply": "Email infoAL@als.org to be connected with the program.",
+   "url": "https://www.als.org/support/programs/communication-support-program-alabama",
+   "contact": "infoAL@als.org",
+   "sources": [
+    "https://www.als.org/support/programs/communication-support-program-alabama"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26 from the ALS Association program catalog; page read in Chrome."
+  },
+  {
+   "id": "alsa-texas-youth-and-children-program",
+   "kind": "service",
+   "name": "Youth and Children Program (Texas)",
+   "org": "The ALS Association (Texas)",
+   "categories": [
+    "Family & kids",
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "TX"
+   ],
+   "forWhat": "Workshops, therapy groups and age-appropriate resources that help children and teens cope with a parent's or grandparent's ALS, and help parents support their kids' emotional well-being. A companion Caregiver Program offers workshops and support groups for family caregivers.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Families in Texas affected by ALS"
+   ],
+   "youllNeed": [],
+   "howToApply": "Call 877-714-0088 or email infoTX@als.org and ask for the Youth and Children Program (or the Caregiver Program).",
+   "url": "https://www.als.org/support/programs/youth-and-children-program-texas",
+   "contact": "877-714-0088 · infoTX@als.org",
+   "sources": [
+    "https://www.als.org/support/programs/youth-and-children-program-texas",
+    "https://www.als.org/support/programs/caregiver-program-texas"
+   ],
+   "lastVerified": "2026-10-26",
+   "verifyNote": "Added 2026-10-26 from the ALS Association program catalog; page read in Chrome."
   }
  ]
 }

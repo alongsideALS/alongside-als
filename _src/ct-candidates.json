@@ -747,7 +747,7 @@
   },
   {
    "id": "NCT04317794",
-   "title": "Observational, Postmarketing Surveillance Study of Spinraza Injection (Nusinersen Sodium)",
+   "title": "A Study of the Safety of Nusinersen (Spinraza®) and Its Effects on Motor Function in Koreans Living With SMA Treated During Their Usual Medical Care",
    "status": "ACTIVE_NOT_RECRUITING",
    "conditions": [
     "Muscular Atrophy, Spinal"
@@ -2230,6 +2230,19 @@
    "sponsor": "University of Oxford",
    "countries": [
     "United Kingdom"
+   ]
+  },
+  {
+   "id": "NCT07894185",
+   "title": "SMAdult - Monitoring of Movement on Spinal Muscular Atrophy",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Amyotrophy"
+   ],
+   "start": "2026-07-17",
+   "sponsor": "Centre Hospitalier Universitaire de Liege",
+   "countries": [
+    "Belgium"
    ]
   }
  ]

@@ -279,9 +279,10 @@ details.more[open] > summary::before{transform:rotate(45deg)}
 .check input:checked{background:var(--good);border-color:var(--good)}
 .check input:checked::after{content:"";width:7px;height:13px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px);animation:pop .3s cubic-bezier(.3,1.6,.5,1)}
 @keyframes pop{from{transform:rotate(45deg) scale(0)}}
+.check .ct{display:block;min-width:0}
 .check b{display:block}
-.check span{color:var(--muted);font-size:.93rem}
-.check input:checked + div b{text-decoration:line-through;text-decoration-color:var(--good);text-decoration-thickness:2px;color:var(--muted)}
+.check .ct span{color:var(--muted);font-size:.93rem}
+.check input:checked + .ct b{text-decoration:line-through;text-decoration-color:var(--good);text-decoration-thickness:2px;color:var(--muted)}
 
 /* My plan */
 .plan{display:grid;gap:12px}
@@ -547,3 +548,10 @@ button.linkish:hover{color:var(--navy)}
 .logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:5px;background:#fff}
 .detail .logo,.page-head .logo{width:56px;height:56px;flex-basis:56px;border-radius:12px;font-size:1.3rem}
 .head-row{display:flex;gap:14px;align-items:center}
+
+.faq details{border-top:1px solid var(--line);padding:10px 0}
+.faq details:last-of-type{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font-weight:700;color:var(--ink-2);min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.faq summary::after{content:"+";font-size:1.3rem;color:var(--accent);flex:0 0 auto}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{margin:6px 0 4px}

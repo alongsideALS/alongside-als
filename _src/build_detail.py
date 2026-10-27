@@ -13,6 +13,17 @@ def fmt_date(d):
     try: return datetime.date.fromisoformat(d).strftime("%B %-d, %Y")
     except Exception: return d or ""
 
+def clip(text, n=160, sentence=True):
+    """Cut text to about n characters at a sentence end if there is one, otherwise at a word boundary."""
+    text = " ".join(text.split())
+    if len(text) <= n: return text
+    cut = text[:n]
+    for mark in ((". ", "; ") if sentence else ()):
+        i = cut.rfind(mark)
+        if i > n * 0.55: return cut[:i + 1].strip()
+    i = cut.rfind(" ")
+    return (cut[:i] if i > n * 0.6 else cut).rstrip(",;:") + "…"
+
 def status_pill(g, today):
     st = g.get("status"); dl = g.get("deadline")
     if dl:
@@ -86,7 +97,7 @@ def program_page(g, kind, site, today, by_state):
     </article>
     <aside class="detail-side" aria-label="Related">
       <div class="side-box"><h2>More for {esc(STATE_NAMES.get(regions[0], regions[0])) if regions else "you"}</h2>
-        {"<ul class='plain-list'>" + "".join(f'<li><a href="/{"grant" if o["kind"] == "grant" else "service"}/{esc(o["id"])}">{esc(o["name"])}</a> <span class="muted small">{esc(o["org"])}</span></li>' for o in related) + "</ul>" if related else "<p class='small muted'>Nationwide programs apply in every state.</p>"}
+        {'<ul class="plain-list">' + "".join(f'<li><a href="/{"grant" if o["kind"] == "grant" else "service"}/{esc(o["id"])}">{esc(o["name"])}</a> <span class="muted small">{esc(o["org"])}</span></li>' for o in related) + "</ul>" if related else '<p class="small muted">Nationwide programs apply in every state.</p>'}
         <p class="small">{"".join(f'<a href="/state/{st.lower()}">All ALS help in {esc(STATE_NAMES.get(st, st))}</a> · ' for st in regions[:3])}<a href="/{plural}">Browse all {plural}</a></p>
       </div>
       <div class="help-box"><div><b>Before applying:</b> "up to" amounts are maximums, not promised payments. Ask the program what documents they want first; <a href="/get-ready">Get ready</a> lists the usual ones.</div></div>
@@ -97,8 +108,10 @@ def program_page(g, kind, site, today, by_state):
     ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": g["name"], "url": f"{site}/{kind}/{g['id']}", "description": g.get("forWhat", ""),
            "dateModified": g.get("lastVerified"), "isPartOf": {"@type": "WebSite", "name": "Alongside ALS", "url": site + "/"},
            "about": {"@type": "Organization", "name": g.get("org", ""), "url": g.get("url")}}, breadcrumb_ld(site, parts)]
-    title = f'{g["name"]} ({g.get("org", "")})'
-    desc = (g.get("forWhat", "")[:150] + (" " + g["amount"] if g.get("amount") and len(g.get("forWhat", "")) < 110 else "")).strip()
+    title = f'{g["name"]} ({g.get("org", "")})' if len(g["name"]) + len(g.get("org", "")) < 56 else g["name"]
+    where_s = ", ".join(STATE_NAMES.get(r, r) for r in (g.get("regions") or [])[:3])
+    lead = ("ALS grant" if kind == "grant" else "ALS service") + (f" in {where_s}" if where_s and g.get("scope") != "National" else " (nationwide)") + (f": {g['amount']}. " if g.get("amount") and len(g["amount"]) < 45 and g["amount"].lower() != "free" else ". ")
+    desc = clip(lead + g.get("forWhat", ""), 160)
     return title, desc, body, ld
 
 def study_page(t, site, today):
@@ -141,8 +154,13 @@ def study_page(t, site, today):
     ld = [{"@context": "https://schema.org", "@type": "MedicalStudy", "name": t.get("title") or name, "url": f"{site}/study/{t['id']}", "identifier": t["id"],
            "status": t.get("status", ""), "sponsor": {"@type": "Organization", "name": t.get("sponsor", "")}, "healthCondition": {"@type": "MedicalCondition", "name": "Amyotrophic lateral sclerosis"},
            "sameAs": f"https://clinicaltrials.gov/study/{t['id']}"}, breadcrumb_ld(site, parts)]
-    desc = f'{ENROLL.get(t.get("enrolling"), "")}. {t.get("sponsor", "")}, {t.get("phase", "")}. ' + (plain.get("purpose", "") or t.get("title", ""))
-    return f'{name} ALS study ({t["id"]})', desc[:300], body, ld
+    ivs = [i for i in (t.get("interventions") or []) if not i.lower().startswith("not applicable")][:2]
+    sts = [STATE_NAMES.get(x, x) for x in sorted(by)[:3]] + ([f"{len(by) - 3} more state" + ("s" if len(by) - 3 > 1 else "")] if len(by) > 3 else [])
+    ph = t.get("phase", "")
+    kind_words = f"{ph} for ALS" if ph.lower().endswith("study") or ph.lower() in ("observational", "expanded access") else f"{ph} ALS study"
+    desc = clip(f'{ENROLL.get(t.get("enrolling"), t.get("status", ""))} {kind_words}' + (f' of {", ".join(ivs)}' if ivs else "") + f' by {t.get("sponsor", "")}' + (f'; US sites in {", ".join(sts)}' if sts else (f'; sites in {", ".join(others[:3])}' if others else "")) + ". " + t.get("title", ""), 160, sentence=False)
+    if len(desc) < 120: desc = clip(desc + " " + plain.get("purpose", ""), 160)
+    return f'{name} ALS study ({t["id"]})', desc, body, ld
 
 def state_page(st, grants, services, m, site):
     name = STATE_NAMES[st]
@@ -165,13 +183,13 @@ def state_page(st, grants, services, m, site):
     <p><a class="btn btn-primary btn-sm" href="/map?state={st}">Open the {esc(name)} map</a> <a class="btn btn-line btn-sm" href="/grants?state={st}">Grants, {esc(name)} first</a> <a class="btn btn-line btn-sm" href="/trials?state={st}">Studies with {st} sites</a></p>
   </div>
   <section class="section"><div class="sec-head"><h2>Grants and services just for {esc(name)}</h2></div>
-    {"<ul class='static-list'>" + "".join(prog_li(o, "grant") for o in lg) + "".join(prog_li(o, "service") for o in lsv) + "</ul>" if lg or lsv else f"<p>Nothing is listed only for {esc(name)} yet, but every nationwide program applies: see <a href='/grants'>Grants</a> and <a href='/services'>Services</a>. Know of a local program? <a href='/about#corrections'>Tell us</a>.</p>"}
+    {'<ul class="static-list">' + "".join(prog_li(o, "grant") for o in lg) + "".join(prog_li(o, "service") for o in lsv) + "</ul>" if lg or lsv else f'<p>Nothing is listed only for {esc(name)} yet, but every nationwide program applies: see <a href="/grants">Grants</a> and <a href="/services">Services</a>. Know of a local program? <a href="/about#corrections">Tell us</a>.</p>'}
   </section>
   <section class="section"><div class="sec-head"><h2>ALS clinics in {esc(name)}</h2></div>
-    {"<ul class='static-list dir-list'>" + "".join(f'<li><b>{esc(c["name"])}</b>' + (f'<span class="org">{esc(c["inst"])}</span>' if c.get("inst") else "") + f'<p>{esc(", ".join(x for x in [c.get("addr"), c["city"], c["state"] + (" " + c["zip"] if c.get("zip") else "")] if x))}</p><p class="small">{esc(" · ".join(NET.get(n, n) for n in c.get("nets", [])))}</p>' + ("<p>" + " · ".join([f'<a href="tel:{esc("".join(ch for ch in c["phone"].split(",")[0] if ch.isdigit() or ch == "+"))}">{esc(c["phone"])}</a>' if c.get("phone") else "", f'<a href="{esc(c["url"])}" target="_blank" rel="noopener">Website</a>' if c.get("url") else ""]).strip(" ·") + "</p>") + "</li>" for c in clinics) + "</ul>" if clinics else f"<p>No multidisciplinary ALS clinic is listed in {esc(name)}. Try the <a href='/map'>map</a> with a 200-mile search from your ZIP code, and ask your ALS Association chapter about telehealth.</p>"}
+    {'<ul class="static-list dir-list">' + "".join(f'<li><b>{esc(c["name"])}</b>' + (f'<span class="org">{esc(c["inst"])}</span>' if c.get("inst") else "") + f'<p>{esc(", ".join(x for x in [c.get("addr"), c["city"], c["state"] + (" " + c["zip"] if c.get("zip") else "")] if x))}</p><p class="small">{esc(" · ".join(NET.get(n, n) for n in c.get("nets", [])))}</p>' + ("<p>" + " · ".join([f'<a href="tel:{esc("".join(ch for ch in c["phone"].split(",")[0] if ch.isdigit() or ch == "+"))}">{esc(c["phone"])}</a>' if c.get("phone") else "", f'<a href="{esc(c["url"])}" target="_blank" rel="noopener">Website</a>' if c.get("url") else ""]).strip(" ·") + "</p>") + "</li>" for c in clinics) + "</ul>" if clinics else f'<p>No multidisciplinary ALS clinic is listed in {esc(name)}. Try the <a href="/map">map</a> with a 200-mile search from your ZIP code, and ask your ALS Association chapter about telehealth.</p>'}
   </section>
   <section class="section"><div class="sec-head"><h2>Clinical studies with sites in {esc(name)}</h2></div>
-    {"<ul class='static-list'>" + "".join(f'<li><a href="/study/{esc(s["id"])}"><b>{esc(s["name"])}</b></a> <span class="muted">· {esc(ENROLL.get(s.get("enrolling"), ""))} · {esc(s.get("phase") or s.get("type") or "")}</span><p class="small">{esc("; ".join(sorted({c["city"] for c in sites if any(x["id"] == s["id"] for x in c["studies"])})))}</p></li>' for s in sorted(studies.values(), key=lambda s: s["name"])) + "</ul>" if studies else f"<p>No recruiting study lists a site in {esc(name)} right now. Some studies run from home: see <a href='/trials'>Trials</a>.</p>"}
+    {'<ul class="static-list">' + "".join(f'<li><a href="/study/{esc(s["id"])}"><b>{esc(s["name"])}</b></a> <span class="muted">· {esc(ENROLL.get(s.get("enrolling"), ""))} · {esc(s.get("phase") or s.get("type") or "")}</span><p class="small">{esc("; ".join(sorted({c["city"] for c in sites if any(x["id"] == s["id"] for x in c["studies"])})))}</p></li>' for s in sorted(studies.values(), key=lambda s: s["name"])) + "</ul>" if studies else f'<p>No recruiting study lists a site in {esc(name)} right now. Some studies run from home: see <a href="/trials">Trials</a>.</p>'}
   </section>
   <p class="small muted">Clinic lists compiled {esc(fmt_date(m.get("updated")))}; grants and studies as of the dates on each listing. <a href="/about#corrections">Report a change</a>.</p>
 </div>

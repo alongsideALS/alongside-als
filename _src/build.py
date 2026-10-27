@@ -277,7 +277,7 @@ for f in sorted((SRC/'pages').glob('*.html')):
     body = s[m.end():]
     url = page_url(f.name)
     full = t if "Alongside ALS" in t else f"{t} · Alongside ALS"
-    robots = "noindex, follow" if f.name in ("my-plan.html", "404.html", "offline.html") else "index, follow"
+    robots = "noindex, follow" if f.name in ("my-plan.html", "404.html", "offline.html") else "index, follow, max-image-preview:large, max-snippet:-1"
     jsonld = []
     if f.name == "index.html":
         jsonld = [ORG, WEBSITE]
@@ -293,6 +293,10 @@ for f in sorted((SRC/'pages').glob('*.html')):
         static, items = trial_list()
         body = body.replace('<div id="explorer"></div>', f'<div id="explorer">\n{static}\n</div>', 1)
         jsonld = [item_list_ld("Active ALS clinical studies", url, items, lambda t: f"https://clinicaltrials.gov/study/{t['id']}")]
+    elif f.name == "understanding-als.html":
+        qa = re.findall(r'<details><summary>(.*?)</summary><p>(.*?)</p></details>', body, re.S)
+        jsonld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": html.unescape(re.sub(r"<[^>]+>", "", q)), "acceptedAnswer": {"@type": "Answer", "text": html.unescape(re.sub(r"<[^>]+>", "", a))}} for q, a in qa]}]
     elif f.name == "map.html":
         svg, directory, mapld = map_assets()
         ctx = json.load(open(SRC/'tools/context.json'))
@@ -314,7 +318,7 @@ def _wrap_detail(name, t, d, body, jsonld, nav_key):
     url = SITE + "/" + name
     full = f"{t} · Alongside ALS"
     out = (head.replace('{{FULLTITLE}}', esc(full)).replace('{{TITLE}}', esc(t)).replace('{{DESC}}', esc(d))
-           .replace('{{URL}}', url).replace('{{ROBOTS}}', "index, follow").replace('{{JSONLD}}', ld(jsonld)).replace('{{PAGE}}', "detail")
+           .replace('{{URL}}', url).replace('{{ROBOTS}}', "index, follow, max-image-preview:large, max-snippet:-1").replace('{{JSONLD}}', ld(jsonld)).replace('{{PAGE}}', "detail")
            .replace('{{CSS_V}}', CSS_V).replace('{{HEADER}}', header(nav_key))
            + body + foot.replace('{{FOOTER}}', FOOTER).replace('{{JS_V}}', JS_V))
     pathlib.Path(name + ".html").write_text(out)
@@ -323,13 +327,29 @@ detail_urls = build_detail.build(SITE, _wrap_detail)
 print('built', len(detail_urls), 'detail pages')
 
 # ---------- sitemap ----------
+# lastmod only moves when a page's content changes (asset hashes and the snapshot line are ignored), so Google can trust it.
+LM = SRC / 'lastmod.json'
+lastmod = json.loads(LM.read_text()) if LM.exists() else {}
+def page_sig(u):
+    name = u[len(SITE) + 1:] or 'index'
+    try: txt = pathlib.Path(name + '.html').read_text()
+    except FileNotFoundError: return None
+    txt = re.sub(r'\?v=[0-9a-f]{8}', '', txt)
+    txt = re.sub(r'snapshot taken [^.<]*', '', txt)
+    return hashlib.sha256(txt.encode()).hexdigest()[:16]
+def lm(u):
+    sig = page_sig(u)
+    prev = lastmod.get(u)
+    if sig and (not prev or prev[0] != sig): lastmod[u] = [sig, TODAY]
+    return lastmod.get(u, [None, TODAY])[1]
 pri = {SITE + "/": "1.0", SITE + "/grants": "0.9", SITE + "/trials": "0.9", SITE + "/services": "0.9", SITE + "/map": "0.9", SITE + "/app": "0.5"}
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u in urls:
-    sm.append(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>{pri.get(u, "0.7")}</priority></url>')
+    sm.append(f'  <url><loc>{u}</loc><lastmod>{lm(u)}</lastmod><changefreq>weekly</changefreq><priority>{pri.get(u, "0.7")}</priority></url>')
 for u in detail_urls:
-    sm.append(f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod><changefreq>weekly</changefreq><priority>{"0.6" if "/state/" in u else "0.5"}</priority></url>')
+    sm.append(f'  <url><loc>{u}</loc><lastmod>{lm(u)}</lastmod><changefreq>weekly</changefreq><priority>{"0.6" if "/state/" in u else "0.5"}</priority></url>')
 sm.append('</urlset>')
 open('sitemap.xml', 'w').write("\n".join(sm) + "\n")
+LM.write_text(json.dumps({u: v for u, v in lastmod.items() if u in set(urls) | set(detail_urls)}, separators=(',', ':')))
 print('built sitemap.xml with', len(urls) + len(detail_urls), 'urls; css', CSS_V, 'js', JS_V)
 build_sw([u.replace(SITE, "") or "/" for u in urls])

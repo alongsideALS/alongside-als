@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-29",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -363,12 +363,22 @@
     "WOREE (WWOX-related Epileptic Encephalopathy",
     "SCAR12",
     "Skraban-Deardorff Syndrome",
-    "Hereditary Myopathy With Early Respiratory Failure"
+    "Hereditary Myopathy With Early Respiratory Failure",
+    "Parry Romberg Syndrome",
+    "Lesch-Nyhan Disease",
+    "GNB1 Gene Mutation",
+    "Pierpont Syndrome",
+    "TBL1XR1 Gene Variant",
+    "Activated PI3K Delta Syndrome (APDS)",
+    "Adult Onset Leukoencephalopathy With Axonal Spheroids and Pigmented Glia (ALSP)",
+    "Brain Abnormalities, Neurodegeneration, and Dysosteosclerosis",
+    "CSF1R Related Disease (CSF1R-RD)",
+    "Hereditary Diffuse Leukoencephalopathy With Axonal Spheroids and Pigmented Glia",
+    "Nasu-Hakola Disease"
    ],
    "start": "2010-07",
    "sponsor": "Sanford Health",
    "countries": [
-    "Australia",
     "United States"
    ]
   },
@@ -788,27 +798,6 @@
    "start": "2021-04-29",
    "sponsor": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
    "countries": [
-    "United States"
-   ]
-  },
-  {
-   "id": "NCT04747431",
-   "title": "A Study of PBFT02 in Participants With FTD and Mutations in the Granulin Precursor (GRN) or C9ORF72 Genes",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "conditions": [
-    "Frontotemporal Dementia",
-    "FTD",
-    "FTD-GRN",
-    "Dementia Frontotemporal",
-    "C9orf72"
-   ],
-   "start": "2021-09-14",
-   "sponsor": "Passage Bio, Inc.",
-   "countries": [
-    "Australia",
-    "Brazil",
-    "Canada",
-    "Portugal",
     "United States"
    ]
   },
@@ -2243,6 +2232,19 @@
    "sponsor": "Centre Hospitalier Universitaire de Liege",
    "countries": [
     "Belgium"
+   ]
+  },
+  {
+   "id": "NCT07903376",
+   "title": "SPX-01 Gene Therapy in Pediatric Patients With Spinal Muscular Atrophy Type 1 (RISE)",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Spinal Muscular Atrophy (SMA)"
+   ],
+   "start": "2027-01-01",
+   "sponsor": "Exir Gene Pharmed",
+   "countries": [
+    "Iran"
    ]
   }
  ]

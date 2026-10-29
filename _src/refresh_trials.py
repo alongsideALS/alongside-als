@@ -104,6 +104,13 @@ def main():
     cmd = [sys.executable, str(SRC / "update_trials.py"), str(tmp)]
     if auto: cmd += ["--include"] + auto
     subprocess.run(cmd, check=True); tmp.unlink()
+    # short display names for auto-added studies (hand-written; keeps the long registry title out of cards and page titles)
+    names_path = SRC / "trial-names.json"
+    if names_path.exists():
+        names = json.load(open(names_path)); d = json.load(open("data/trials.json")); n = 0
+        for rec in d["items"]:
+            if rec["id"] in names and rec.get("name") != names[rec["id"]]: rec["name"] = names[rec["id"]]; n += 1
+        if n: json.dump(d, open("data/trials.json", "w"), ensure_ascii=False); print(" ", n, "display names applied")
 
     cands = [active[n] for n in review]
     json.dump({"generated": TODAY, "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",

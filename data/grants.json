@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-29",
  "items": [
   {
    "id": "hoffman-fap",
@@ -28,9 +28,9 @@
    "howToApply": "Complete the online application on the ALS Association site (a printable version is available).",
    "url": "https://www.als.org/hugh-and-herbert-hoffman-als-impact-fund/hoffman-als-financial-assistance-program",
    "contact": "alsa.tfaforms.net/forms/help/217",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; annual grants up to $1,000, need-based, for clinic-visit travel/hotel/lost wages/copays; no dates or closure notice. Unchanged."
+   "verifyNote": "als.org fetch returned title 'The Hoffman ALS Financial Assistance Program | The ALS Association'; up to $1,000/yr for clinic-visit costs; no dates or closure notice. Unchanged."
   },
   {
    "id": "healthwell-als",
@@ -62,12 +62,12 @@
    "howToApply": "Apply online through the HealthWell Patient Portal or call (800) 675-8416, Mon to Fri, 9 to 5 ET.",
    "url": "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/",
    "contact": "(800) 675-8416",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/"
    ],
-   "verifyNote": "Page live Oct 24, 2026; Status Open; max $15,000 (avg ~$2,500); copay + Part B premium; up to 500% FPL; no closure notice. Unchanged."
+   "verifyNote": "Status Open; max $15,000 (avg ~$2,500); copay + Part B premium; 500% FPL; page last modified Feb 2025; no closure notice. Unchanged."
   },
   {
    "id": "project-main-street",
@@ -97,12 +97,12 @@
    "howToApply": "Complete the 'Request Assistance' online form.",
    "url": "https://projectmainst.org/request-help/",
    "contact": "info@projectmainst.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://projectmainst.org/request-help/"
    ],
-   "verifyNote": "Page live Oct 24, 2026 (last modified May 2024); Request Assistance form present; must be followed by a healthcare provider; no dates/amounts/closure. Unchanged."
+   "verifyNote": "Request Assistance form (charityproud) present; must be followed by a healthcare provider; no dates/amounts/closure; last modified May 2024. Unchanged."
   },
   {
    "id": "racing-for-als",
@@ -131,12 +131,12 @@
    "howToApply": "Email Amy@RacingforALS.com with your name (and the patient's name if you are applying for someone else); questions to scott.lloyd@racingforals.com. Recipients may also get a free Giraffe Bottle hands-free drinking bottle. The Jungle Jim Cruiser van program ended in September 2025.",
    "url": "https://www.racingforals.com/patient-assistant-van-fund",
    "contact": "Amy@RacingforALS.com",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://www.racingforals.com/patient-assistant-van-fund"
    ],
-   "verifyNote": "Page live Oct 24, 2026; same dated notices (8-3-2026, 10.23.25, van program ended 9/2025); '10.5.26 Grants paid out' image still unreadable; one grant/yr; apply via Amy. Unchanged."
+   "verifyNote": "Same dated notices (8-3-2026 all 2025 apps done; 10.23.25 3-4 month wait; van program ended 9/2025); 'still encourage applications'. Unchanged."
   },
   {
    "id": "als-chapter-grants",
@@ -209,9 +209,9 @@
    "howToApply": "Talk with your Care Coordinator first, then submit all forms and receipts together.",
    "url": "https://als-ny.org/navigating-als/patient-grant-program/",
    "contact": "(212) 720-3059",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; Jul 15 / Jan 15 deadlines confirmed; one grant per family per year; subject to funds; (212) 720-3059. Unchanged."
+   "verifyNote": "Jul 15 / Jan 15 deadlines confirmed; one grant per family per year; subject to funds; (212) 720-3059; page last modified Apr 2024. Unchanged."
   },
   {
    "id": "als-united-rm",
@@ -248,9 +248,9 @@
    "howToApply": "Talk with your Care Coordinator, then contact Care Services.",
    "url": "https://alsrockymountain.org/grant-programs/",
    "contact": "careservices@alsrockymountain.org · 303-832-2322",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; Goldhirsh Family QoL Grant only; CO/UT/WY, registration required; subject to funds; careservices@alsrockymountain.org. Unchanged."
+   "verifyNote": "Goldhirsh Family QoL Grant; CO/UT/WY, registration required; reimbursement-based; careservices@alsrockymountain.org / 303-832-2322. Unchanged."
   },
   {
    "id": "als-northwest-fap",
@@ -283,9 +283,9 @@
    "howToApply": "Submit a new application each period. Approval takes about 2 weeks, then you send reimbursement forms.",
    "url": "https://alsnorthwest.org/navigating-als/als-care-services/als-financial-assistance-program/",
    "contact": "careservices@alsnorthwest.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; 'currently accepting applications for the August 1, 2026 - January 31, 2027 funding period'; deadline Jan 1, 2027; $500/period, $1,000/FY. Unchanged."
+   "verifyNote": "'currently accepting applications for the August 1, 2026 - January 31, 2027 funding period'; deadline Jan 1, 2027; $500/period, $1,000/FY. Unchanged."
   },
   {
    "id": "les-turner-grants",
@@ -318,12 +318,12 @@
    "howToApply": "Contact Support Services.",
    "url": "https://lesturnerals.org/support-services/grant-programs-equipment-loans/",
    "contact": "supportservices@lesturnerals.org · 847-679-3311",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://lesturnerals.org/support-services/grant-programs-equipment-loans/"
    ],
-   "verifyNote": "Page live Oct 24, 2026; four grants + equipment loans; Lois Insolia ALS Clinic care and Support Services contact required; no amounts/deadlines/closure. Unchanged."
+   "verifyNote": "Four grants + equipment loans; Lois Insolia ALS Clinic care and Support Services contact required; no amounts/deadlines/closure; last modified Aug 21, 2026. Unchanged."
   },
   {
    "id": "fanny-pack",
@@ -355,9 +355,9 @@
    "howToApply": "Use the 'Request support' form and the foundation will reach out.",
    "url": "https://www.fannypackfoundation.org/",
    "contact": "info@fannypackfoundation.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Homepage + request-support page live Oct 24, 2026; 'Applications open November 1, 2026'; 'Join the 2027 waitlist'; SC/NC/VA; doctor's note required. Flip to open on Nov 1."
+   "verifyNote": "Homepage live; SC/NC/VA; grant categories unchanged; homepage text today has no open/opening-date language (Nov 1 note lives on request-support page, not re-fetched). Flip to open Nov 1."
   },
   {
    "id": "brigance-brigade",
@@ -389,12 +389,12 @@
    "howToApply": "Contact the foundation through its website.",
    "url": "https://brigancebrigade.org/programs/pals/",
    "contact": "brigancebrigade.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://brigancebrigade.org/programs/pals/"
    ],
-   "verifyNote": "Page live Oct 24, 2026; Cycle 2 Sept 1-Nov 30, 2026; max $5,000/yr; ALS or PLS; Maryland priority; social worker signs; online + PDF application; no closure notice. Unchanged."
+   "verifyNote": "Cycle 2 Sept 1-Nov 30, 2026; max $5,000/yr; ALS or PLS; Maryland priority; social worker signs; no closure notice; last modified Sept 30, 2026. Unchanged."
   },
   {
    "id": "ccals",
@@ -427,12 +427,12 @@
    "howToApply": "Contact CCALS directly.",
    "url": "https://ccals.org/",
    "contact": "ccals.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://ccals.org/programs/"
    ],
-   "verifyNote": "Homepage live Oct 24, 2026; no grant program described; equipment section linked; New England + national/international reach; (508) 444-6775, info@ccals.org. Unchanged."
+   "verifyNote": "Homepage live; no grant program described; Equipment section linked; Medicare/Medicaid assistance listed; (508) 444-6775, info@ccals.org. Unchanged."
   },
   {
    "id": "emory-travel",
@@ -461,9 +461,9 @@
    "howToApply": "Email the program form. Confirm the email address on the Emory page first.",
    "url": "https://med.emory.edu/departments/neurology/programs_centers/emory_als_center/patient_resources/travel_assistance_program.html",
    "contact": "Emory ALS Center",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; Goode Foundation covers night at Emory Conference Center Hotel; patients outside metro Atlanta; PDF form; email typo (goodestrong vs goodestong) persists. Unchanged."
+   "verifyNote": "Goode Foundation covers night at Emory Conference Center Hotel; patients outside metro Atlanta; form to goodestrong@gmail.com; 404-778-3444. Unchanged."
   },
   {
    "id": "va-sah",
@@ -491,9 +491,9 @@
    "howToApply": "Apply on VA.gov, by mail to a VA Regional Loan Center, or in person. An SAH agent is then assigned.",
    "url": "https://www.va.gov/housing-assistance/disability-housing-grants/",
    "contact": "1-877-827-3702 (VA housing)",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026 ('Last updated: November 18, 2025'); FY2026 maximums still shown; FY2027 figures not yet posted; no phone on page. Unchanged."
+   "verifyNote": "'Last updated: November 18, 2025'; FY2026 maximums still shown (SAH $126,526, SHA $25,350, TRA $50,961/$9,100); FY2027 figures not yet posted. Unchanged."
   },
   {
    "id": "matts-place",
@@ -518,12 +518,12 @@
    "howToApply": "Contact through the foundation website.",
    "url": "https://www.mattsplacefoundation.org/",
    "contact": "mattsplacefoundation.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://www.mattsplacefoundation.org/"
    ],
-   "verifyNote": "Homepage live Oct 24, 2026; Grant Applications link, no status/dates/amounts/eligibility; works in 'Washington, Idaho, and Montana Areas'; contact form only. Unchanged."
+   "verifyNote": "Homepage live; Grant Applications link (/grant-applications), no status/dates/amounts/eligibility; 'Washington, Idaho, and Montana Areas' + 'Let's Serve All 50 States'; contact form only. Unchanged."
   },
   {
    "id": "catfish-foundation",
@@ -549,12 +549,12 @@
    "howToApply": "Apply through the foundation website.",
    "url": "https://catfishfoundation.org/",
    "contact": "catfishfoundation.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://catfishfoundation.org/pals-caregvier-corner/application/"
    ],
-   "verifyNote": "Homepage live Oct 24, 2026; 'Apply for Assistance' -> /pals-caregvier-corner/application/; no dates/amounts/eligibility; Perquimans County NC; president died Feb 2026, new leadership June 2026."
+   "verifyNote": "Homepage live; 'Apply for Assistance' -> /pals-caregvier-corner/application/; no dates/amounts/eligibility; Perquimans County NC; new president June 2026. Unchanged."
   },
   {
    "id": "als-ride-for-life",
@@ -580,9 +580,9 @@
    "howToApply": "Each program has its own page on alsrideforlife.org with an online application during open windows (van rental any time). (631) 444-1292.",
    "url": "https://alsrideforlife.org/",
    "contact": "alsrideforlife.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Homepage live Oct 24, 2026; lists Plan for Life Grant, Van Rental, Caregiver Grant, Home Modification; no dates/amounts on homepage (details on sub-pages, not re-fetched); (631) 444-1292. Unchanged.",
+   "verifyNote": "Homepage live; lists Plan for Life Grant, Van Rental, Caregiver Grant, Home Modification, Emotional Support, Doula, Scholarship; no dates/amounts on homepage; (631) 444-1292. Unchanged.",
    "sources": [
     "https://alsrideforlife.org/programs-assistance/plan-for-life-grant/",
     "https://alsrideforlife.org/wheelchair-accessible-van-rental-assistance-program/",
@@ -621,12 +621,12 @@
    "howToApply": "Apply at petefrates.com/apply when the next quarterly window opens; have a letter or document confirming the ALS diagnosis ready to upload.",
    "url": "https://petefrates.com/apply/",
    "contact": "617-383-3458 · support@petefrates.com",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://petefrates.com/apply/"
    ],
-   "verifyNote": "Page live Oct 24, 2026; 'we have reached our capacity for application submissions for the current quarter'; 'Applications will reopen on the first day of the following quarter'; no form. Unchanged."
+   "verifyNote": "'we have reached our capacity for application submissions for the current quarter'; 'Applications will reopen on the first day of the following quarter'; no form. Unchanged."
   },
   {
    "id": "axeals",
@@ -658,12 +658,12 @@
    "howToApply": "Submit the online application on the axeALS 'Our Impact' page during the window. Questions: info@axeals.org.",
    "url": "https://axeals.org/our-impact/",
    "contact": "info@axeals.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://axeals.org/our-impact/"
    ],
-   "verifyNote": "Page live Oct 24, 2026; still shows stale 'open from May 1- May 31, 2026' text (page updated May 6, 2026); no 2027 dates; prior recipients ineligible; Google Form link; info@axeals.org. Unchanged."
+   "verifyNote": "Page still shows stale 'open from May 1- May 31, 2026' window; no 2027 dates; prior recipients ineligible; Google Form link; info@axeals.org. Unchanged."
   },
   {
    "id": "lll-qol",
@@ -693,12 +693,12 @@
    "howToApply": "Register on the Live Like Lou ALS Families page to get notified when the next cycle opens.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://www.livelikelou.org/news/2026qualityoflifegrants"
    ],
-   "verifyNote": "Page live Oct 24, 2026; 'REGISTER TO BE NOTIFIED ABOUT THE NEXT APPLICATION CYCLE'; up to $2,500 per family; no dates. Unchanged."
+   "verifyNote": "'REGISTER TO BE NOTIFIED ABOUT THE NEXT APPLICATION CYCLE'; up to $2,500 per family; no dates. Unchanged."
   },
   {
    "id": "lll-holiday",
@@ -724,9 +724,9 @@
    "howToApply": "Register on the Live Like Lou ALS Families page.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; 'The 2025 Holiday Respite Grant application is closed'; 'Register below to learn when applications open'; no 2026 dates. Unchanged."
+   "verifyNote": "'The 2025 Holiday Respite Grant application is closed'; 'Register below to learn when applications open'; no 2026 announcement. Unchanged."
   },
   {
    "id": "iron-horse",
@@ -756,9 +756,9 @@
    "howToApply": "Watch for the next cycle on Live Like Lou's site. The 2026 interest form was hosted on Reviewr.",
    "url": "https://www.livelikelou.org/news/iron-horse-scholarships-application-open-for-2026",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; 2026 cycle page unchanged (due Jan 26, 2026; finalists mid-Feb; April announcement); Onward Awards $444-$2,130; no 2027 info. Unchanged."
+   "verifyNote": "2026 cycle page unchanged (due Jan 26, 2026; finalists mid-Feb; April announcement); Onward Awards $444-$2,130; no 2027 info. Unchanged."
   },
   {
    "id": "segalman-scholarship",
@@ -787,9 +787,9 @@
    "howToApply": "Apply through Scholarship America (scholarshipamerica.org/scholarship/segalman) when the cycle opens; recipients are notified in mid-August.",
    "url": "https://scholarshipamerica.org/scholarship/segalman/",
    "contact": "Scholarship America",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; 'Applications Currently Closed'; 'upcoming cycle is tentative'; up to one $5,000 award, renewable up to 3 years; notified mid-August. Unchanged."
+   "verifyNote": "'Applications Currently Closed'; 'upcoming cycle is tentative'; $5,000, at most one new award, renewable up to 3 yrs; notified mid-August. Unchanged."
   },
   {
    "id": "merfeld-scholarship",
@@ -817,9 +817,9 @@
    "howToApply": "Create an account on the VCCF scholarship portal (vccf.academicworks.com) and submit the general application by January 29, 2027.",
    "url": "https://vccf.academicworks.com/opportunities/118",
    "contact": "vccf.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Page live Oct 24, 2026; Merfeld Family Foundation $2,500; deadline 01/29/2027; automatch via general application; parent/guardian with ALS, ALS clinic letter; Iowa/SoCal preference. Unchanged."
+   "verifyNote": "Merfeld Family Foundation $2,500; deadline 01/29/2027; automatch via general application; ALS clinic letter; Iowa/SoCal preference; 2.75 GPA. Unchanged."
   },
   {
    "id": "jane-calmes",
@@ -876,9 +876,9 @@
    "howToApply": "Apply on Bold.org when the next round is posted. The application asks for a 400 to 600 word essay and a photo of you with your parent.",
    "url": "https://bold.org/scholarships/mary-jane-sanders-memorial-scholarship/",
    "contact": "Bold.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Bold.org page live Oct 24, 2026; $1,000, 1 winner; deadline Jun 30, 2026; 'Awarded' label and Aug 2026 winner shown; 3.0 GPA; no 2027 dates. Unchanged."
+   "verifyNote": "Bold.org page live; $1,000, 1 winner; deadline Jun 30, 2026; 'Awarded', Aug 2026 winner shown; 3.0 GPA; no 2027 dates. Unchanged."
   },
   {
    "id": "dream-foundation",
@@ -910,9 +910,9 @@
    "howToApply": "Mail the original signed application to Dream Foundation (faxes only for emergencies).",
    "url": "https://www.dreamfoundation.org/",
    "contact": "888-437-3267 · info@dreamfoundation.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Homepage live Oct 24, 2026; 'Apply for a Dream' button; no paused/closed notice; 888-437-3267, info@dreamfoundation.org (FAQ details not re-fetched). Unchanged."
+   "verifyNote": "Homepage live; 'Apply for a Dream' -> /how-to-apply; serving terminally-ill adults; no paused/closed notice; 888-437-3267. Unchanged."
   },
   {
    "id": "mda-dme",
@@ -941,12 +941,12 @@
    "howToApply": "Use the 'Apply Here' form on MDA's equipment assistance page, or call the MDA Resource Center.",
    "url": "https://www.mda.org/care/resource-list/equipment-assistance",
    "contact": "1-833-275-6321 · ResourceCenter@mdausa.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
    "sources": [
     "https://www.mda.org/care/resource-list/equipment-assistance"
    ],
-   "verifyNote": "Page live Oct 24, 2026; MDA-covered neuromuscular diagnosis, US citizen/LPR, free MDA membership; apply at mdausa.tfaforms.net/389870; 1-833-275-6321; no paused/closed notice. Unchanged."
+   "verifyNote": "Page live; MDA-covered neuromuscular diagnosis, US citizen/LPR, free MDA membership; apply at mdausa.tfaforms.net/389870; 1-833-275-6321; no paused notice; last modified Jul 2025. Unchanged."
   },
   {
    "id": "als-recovery-fund",
@@ -977,9 +977,9 @@
    "howToApply": "Mail the request form to ALS Recovery Fund – Patient Care Fund, c/o Kessenich Family MDA ALS Center, 1120 NW 14th St, Suite 1311, Miami, FL 33136.",
    "url": "https://www.alsrecovery.org/patient-services/",
    "contact": "Ginna Gonzalez · 305-243-7400 · GGonzal4@med.miami.edu",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: annual grants up to $10,000, Miami-Dade/Broward/Monroe/Palm Beach, no closed language; page/forms still dated 2019; Ginna Gonzalez 305-243-7400."
+   "verifyNote": "Annual grants up to $10,000; Miami-Dade/Broward/Monroe/Palm Beach; AAC, DME stipends, respite; no closed language; page/forms dated 2019; Ginna Gonzalez 305-243-7400. Unchanged."
   },
   {
    "id": "alsa-florida-grants",
@@ -1031,10 +1031,10 @@
     "FL"
    ],
    "forWhat": "Pays a substitute caregiver (an agency or someone you choose who isn't family) so the full-time family caregiver can take a break.",
-   "amount": "$2,000, used within 6 months",
-   "status": "closed",
-   "window": "Applications are currently closed. One application per family per year.",
-   "deadline": null,
+   "amount": "$2,000",
+   "status": "window",
+   "window": "Applications are open now and close at 5:00 pm ET on November 13, 2026. Families with long-term care insurance are not eligible for this round.",
+   "deadline": "2026-11-13",
    "eligibility": [
     "Florida resident registered with the ALS Association",
     "Full-time caregiver living with the person with ALS",
@@ -1048,9 +1048,9 @@
    "howToApply": "Contact the Florida care team about the next opening.",
    "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
    "contact": "Jackie Kouri-Mathews · 813-497-4502",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: 'Applications are currently closed', no reopen date; $2,000 grant; exclusions same; Jackie Kouri-Mathews 813-497-4502."
+   "verifyNote": "als.org fetch title 'Respite Care for ALS Caregivers | The ALS Association'; 'Applications are currently open and will close at 5:00 pm ET on November 13'; $2,000; Jackie Kouri-Mathews 813-497-4502."
   },
   {
    "id": "murray-scholarship",
@@ -1082,9 +1082,9 @@
    "howToApply": "Contact the Florida care team for the application, then submit by mail or email.",
    "url": "https://www.als.org/support/programs/rick-and-sherry-murray-medical-futures-scholarship",
    "contact": "Jackie Kouri-Mathews · 813-497-4502",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: 'The application period has closed'; no next-cycle dates or amount; eligibility and materials same; 813-497-4502."
+   "verifyNote": "Title 'The Rick and Sherry Murray Medical Futures Scholarship | The ALS Association'; 'The application period has closed'; 2026 recipients linked; no amount; 813-497-4502."
   },
   {
    "id": "alsa-alabama-respite",
@@ -1112,9 +1112,9 @@
    "howToApply": "Contact the ALS Association care services team for Alabama.",
    "url": "https://www.als.org/support/programs/respite-program-alabama",
    "contact": "ALS Association care services",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: up to 80 hours respite per fiscal year via respite agency, Alabama residents; no dates or closed language; email obfuscated."
+   "verifyNote": "Title 'Respite Program | The ALS Association'; first line 'provides respite care grants for ALS caregivers'; up to 80 hrs/fiscal yr via agency; Alabama only; no dates."
   },
   {
    "id": "alsa-il-respite",
@@ -1142,9 +1142,9 @@
    "howToApply": "Call the program for instructions.",
    "url": "https://www.als.org/support/programs/respite-program-illinois",
    "contact": "314-876-7008",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: $1,000-$3,000, twice a year, Southern Illinois; same exclusions; no dates or pause note; 314-876-7008."
+   "verifyNote": "Title 'Respite Program | The ALS Association'; $1,000-$3,000 twice a year; Southern Illinois; same exclusions; 314-876-7008; no closed note."
   },
   {
    "id": "alsa-mo-respite",
@@ -1171,9 +1171,9 @@
    "howToApply": "Contact the ALS Association Missouri care team.",
    "url": "https://www.als.org/support/programs/respite-program-missouri",
    "contact": "ALS Association care team (Missouri)",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: $1,000-$3,000 twice a year, Missouri residents; exclusions same as IL (still omitted from our listing); 314-876-7008 / 913-374-1275."
+   "verifyNote": "Title 'Respite Program | The ALS Association'; $1,000-$3,000 twice a year; Missouri residents; same exclusions; 314-876-7008 / 913-374-1275."
   },
   {
    "id": "alsa-indiana-clevenger",
@@ -1232,9 +1232,9 @@
    "howToApply": "Call the care team.",
    "url": "https://www.als.org/support/programs/grant-program-pennsylvania",
    "contact": "412-821-3254",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: 31 western/central PA counties; 'subject to the availability of funds'; no dates or amounts; 412-821-3254; AT Grants banner is a separate program."
+   "verifyNote": "Title 'Grant Program | The ALS Association'; 31 western/central PA counties; 'subject to the availability of funds'; 412-821-3254; AT Grants 2026 banner is separate."
   },
   {
    "id": "alsa-ma-foundation-for-life",
@@ -1263,9 +1263,9 @@
    "howToApply": "Contact your regional representative (Middlesex, North Shore, South Shore, or Worcester and Western MA).",
    "url": "https://www.als.org/support/programs/foundation-life-grant",
    "contact": "781-255-8884",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: funds paid directly to vendors for wheelchairs, stair lifts, bathroom mods, speech/eye-gaze devices; four regional coordinators; 781-255-8884."
+   "verifyNote": "Title 'Foundation for Life Grant | The ALS Association'; first line 'In 2001, Frank Carlson...'; vendor-paid for wheelchairs, lifts, bath mods, speech/eye-gaze; 781-255-8884."
   },
   {
    "id": "alsa-mn-tomassoni",
@@ -1295,9 +1295,9 @@
    "howToApply": "Check the program page or call to ask when it reopens.",
    "url": "https://www.als.org/support/programs/senator-tomassoni-caregiver-support-program-minnesota",
    "contact": "888-672-0484",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: 'Grant Application is currently closed', no reopen date; one application per family per year; two-week response; 888-672-0484."
+   "verifyNote": "Title 'Senator Tomassoni Caregiver Support Program | The ALS Association'; first line '...Grant Application is currently closed.'; one app/family/yr; 888-672-0484."
   },
   {
    "id": "alsa-tn-bronczek",
@@ -1326,9 +1326,9 @@
    "howToApply": "Call the Tennessee care team.",
    "url": "https://www.als.org/support/programs/bronczek-blessings-angel-fund",
    "contact": "615-331-5556",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: quality-of-life grants for home mods, respite, groceries, lawn care; no timing, amount or eligibility; 615-331-5556."
+   "verifyNote": "No <title> returned; first line 'Bronczek Blessings Angel Fund directly supports individuals living with ALS'; QoL grants for home mods, respite, groceries, lawn care; no contact after 'contact:'."
   },
   {
    "id": "als-georgia-kostiuk",
@@ -1359,9 +1359,9 @@
    "howToApply": "Request an application by email or phone, or use the online link when a cycle is open.",
    "url": "https://alsgeorgia.org/navigating-als/chapter-grant-program/",
    "contact": "404-636-9909 · careservices@alsgeorgia.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: two cycles/year, up to $1,000 per cycle and $2,000/year, must be registered; no current cycle status or dates; careservices@alsgeorgia.org, 404-636-9909."
+   "verifyNote": "Live; cycles open twice a year, no current cycle dates; up to $1,000/cycle, $2,000/yr; must be registered; careservices@alsgeorgia.org, 404-636-9909."
   },
   {
    "id": "als-network-kids",
@@ -1389,9 +1389,9 @@
    "howToApply": "Contact your care manager.",
    "url": "https://alsnetwork.org/navigating-als/support-for-families/",
    "contact": "866-750-2572 · info@alsnetwork.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: Care for Kids small grants since 2007 for children/grandchildren of someone with ALS; apply via care manager; 866-750-2572."
+   "verifyNote": "Live 'Support for Families | ALS Network'; Care for Kids since 2007, tutoring/lessons/camps/supplies; apply via care manager; no amounts or dates."
   },
   {
    "id": "als-network-youth",
@@ -1421,9 +1421,9 @@
    "howToApply": "Contact your care manager.",
    "url": "https://alsnetwork.org/navigating-als/support-for-families/",
    "contact": "866-750-2572 · info@alsnetwork.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "grant",
-   "verifyNote": "Unchanged: two-year L.L. Foundation for Youth grant, California ages 13-26, respite and equipment; no dates, amount or closed note."
+   "verifyNote": "Live; L.L. Foundation for Youth two-year grant, CA ages 13-26, respite and medical equipment; no dates, amounts or closed note; 866-750-2572."
   },
   {
    "id": "als-united-nc-care-grant",
@@ -1463,8 +1463,8 @@
     "https://www.alsnc.org/who-we-are/our-care-services/chapter-grant-program/",
     "https://alsnc.org/who-we-are/our-care-services/chapter-grant-program/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: accepting requests; up to $500 per period, up to 3 submissions, online form only, ALS or PLS, NC residence; stale metadata still shows $750; checks up to 8 weeks."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live, form active; up to $500/period (meta still says $750), 3 submissions/period, online only, ALS or PLS, NC residence; checks up to 8 weeks; Claudia Beirne 919-390-0125."
   },
   {
    "id": "als-united-ohio-qol-reimbursement-grant",
@@ -1505,8 +1505,8 @@
     "https://alsohio.org/patient-grants",
     "https://alsohio.org/navigating-als/our-care-services/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: up to $1,200/patient/year, order received until budget reached; ALS or PLS, registered; Lexi Bridges (614) 273-2572 x107; Lisa Stevens x106 for mailed packet."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Apr 7, 2026); up to $1,200/patient/yr, order received until budget met; ALS or PLS, registered; Lexi Bridges (614) 273-2572 x107; no closed note."
   },
   {
    "id": "als-united-ri-respite-stipend",
@@ -1539,8 +1539,8 @@
    "sources": [
     "https://alsunitedri.org/financial-programs/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: annual respite stipend via partner home health providers; RI residency + physician diagnosis letter; no amount, dates or status; support@alsunitedri.org, 401-732-1609."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Financial Programs page; annual respite stipend via partner home health providers; RI resident + physician diagnosis letter; no amount, dates or status; 401-732-1609."
   },
   {
    "id": "als-united-ri-home-modification-stipend",
@@ -1573,8 +1573,8 @@
    "sources": [
     "https://alsunitedri.org/financial-programs/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: one-time stipend for ramps/bathroom modifications with partner-vendor pricing; no amount, dates or status; support@alsunitedri.org, 401-732-1609."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live; one-time home modification stipend (ramps, bathroom) with partner-vendor pricing; RI resident + diagnosis letter; no amount, dates or status; 401-732-1609."
   },
   {
    "id": "als-united-ct-reimbursement-grants",
@@ -1608,8 +1608,8 @@
     "https://alsunitedct.org/who-we-are/our-impact/",
     "https://alsunitedct.org/wp-content/uploads/2026/07/2026-ALSUCT-Annual-Report-WEB.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: website still names only 'Reimbursement Grants' with no cap, window or eligibility; Care Assist/Specialty Equipment names appear only in the annual report; (203) 874-5050."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Apr 27, 2026); still lists only 'Reimbursement Grants' with no amounts, window or eligibility; Care Assist name not on page; (203) 874-5050."
   },
   {
    "id": "als-united-mid-atlantic-abrams-in-home-care-grant",
@@ -1645,8 +1645,8 @@
    "sources": [
     "https://alsmidatlantic.org/care-services/our-care-services/home-care/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: registered, in PA/NJ/DE service area, lacks resources for adequate personal care; no amounts or dates; 215-643-5434 option 3."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jun 12, 2026); registered, PA/NJ/DE, lacks resources for adequate personal care; no amounts, dates or closed note; 215-643-5434 opt 3."
   },
   {
    "id": "als-united-mid-atlantic-accessibility-program",
@@ -1684,8 +1684,8 @@
    "sources": [
     "https://alsmidatlantic.org/care-services/our-care-services/ramping-stair-guides/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: loaner modular ramps and/or rental stair glide, vendor-paid, case-by-case cost share, no pre-existing projects, equipment stays org property; Alisa Brownlee 215-631-1877."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jul 8, 2026); loaner modular ramps / rental stair glide, vendor-paid, case-by-case cost share, no pre-existing projects, equipment stays org property; Alisa Brownlee 215-631-1877."
   },
   {
    "id": "als-arizona-respite-care-program",
@@ -1716,8 +1716,8 @@
    "sources": [
     "https://alsaz.org/navigating-als/our-care-services/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: one-line Care Grant (equipment, caregiving, transportation); link still points to placeholder /no-title/; no respite program named; Melissa Poure 602-422-9578, Brielle Hester 480-229-2019."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live; one-line Care Grant (equipment, caregiving, transportation, other ALS costs); link still /no-title/ placeholder; no respite program; Melissa Poure 602-422-9578, Brielle Hester 480-229-2019."
   },
   {
    "id": "als-united-illinois-respite-care-program",
@@ -1748,8 +1748,8 @@
    "sources": [
     "https://alsunitedillinois.org/navigating-als/respite-care-program/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: intermittent third-party caregiver relief; no amounts, hours, dates or eligibility; 'Call 312.932.0000 to learn more!'."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jan 22, 2024); intermittent third-party caregiver relief; no amounts, hours, dates or eligibility; (312) 932-0000; no closed note."
   },
   {
    "id": "als-nevada-porrello-project",
@@ -1782,8 +1782,8 @@
    "sources": [
     "https://alsofnevada.org/care-services/the-porrello-project/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged page (modified Jan 2025); guidelines and application PDFs (uploads/2025/01) still linked; page itself gives no amounts or status; 702-777-0500."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jan 28, 2025); guidelines and application PDFs still linked; page gives no amounts, status or eligibility; 702-777-0500."
   },
   {
    "id": "als-assoc-community-of-angels-fund",
@@ -1852,8 +1852,8 @@
    "sources": [
     "https://www.hopelovescompany.org/hopegrants"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Still 'HOPE GRANTS (CURRENTLY CLOSED)'; closed until more funding; families with children under 18; summer.owen@ email; visible phone (650) 394-2424 vs tel link 609."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live; 'Grants are currently closed until more funding is made available'; $6,000 example request; families with children under 18; summer.owen@ email; (650) 394-2424 shown."
   },
   {
    "id": "nord-als-travel-lodging-assistance",
@@ -1882,8 +1882,8 @@
    "sources": [
     "https://rarediseases.org/patient-assistance-programs/financial-assistance/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "ALS Travel & Lodging Assistance still 'Accepting Applications'; phone 203-794-6992, fax 203-702-4215; online enrollment; no amounts or deadlines."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live; ALS Travel & Lodging Assistance 'Accepting Applications'; 203-794-6992, fax 203-702-4215; Apply Online link; no amounts or deadlines on page."
   },
   {
    "id": "va-automobile-allowance-adaptive-equipment",
@@ -1918,8 +1918,8 @@
     "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
     "https://www.va.gov/disability/compensation-rates/special-benefit-allowance-rates/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page last updated May 19, 2026; ALS still a qualifying condition; Forms 21-4502 / 10-1394; approval before buying; no change notices."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live, last updated May 19, 2026; ALS still a qualifying condition; Forms 21-4502 / 10-1394; amount on separate rates page; no change notices."
   },
   {
    "id": "va-hisa-grant",
@@ -1954,8 +1954,8 @@
    "sources": [
     "https://www.prosthetics.va.gov/psas/HISA2.asp"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; last updated Feb 12, 2025; $6,800/$2,000 tiers, Form 10-0103, notarized owner statement for renters; no closure notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live, last updated Feb 12, 2025; $6,800/$2,000 lifetime tiers; Form 10-0103; notarized owner statement for renters; no closure notice."
   },
   {
    "id": "modest-needs-self-sufficiency-grant",
@@ -1985,8 +1985,8 @@
    "sources": [
     "https://www.modestneeds.org"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Site live; still describes small emergency grants for low-income workers; no open/closed notice; latest visible activity timestamps still July 2024."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Site live; still describes small emergency grants for low-income workers; no open/closed notice; latest visible activity still Jul 24-26, 2024 (possibly stale site)."
   },
   {
    "id": "automaker-mobility-rebates",
@@ -2031,8 +2031,8 @@
     "https://www.audiusa.com/myaudi/service/mobility-subsidy",
     "https://www.bmwusa.com/special-offers/mobility-program.html"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page modified Jun 22, 2026; 14 brand programs listed with same amounts; no ended-program notices."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live, modified Jun 22, 2026; 14 brand programs with same amounts (Stellantis, GM, Toyota, Audi $1,500, BMW/MINI $2,500, Ford, Honda, Hyundai, Lexus, Mazda, Nissan, Subaru, VW); no ended-program notes."
   },
   {
    "id": "alsa-modular-ramp-program",
@@ -2112,7 +2112,7 @@
     "https://www.als.org/support/programs/maurer-heinsen-home-access-program-north-dakota",
     "https://www.als.org/support/programs/maurer-heinsen-home-access-program-wisconsin"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "verifyNote": "Unchanged; apply form linked; ALS/PLS/PMA, no other covering resources, home assessment, approved vendor, consent form; 612-672-0484; no closure notice."
   },
   {
@@ -2145,9 +2145,9 @@
    "sources": [
     "https://www.mbbloves.com/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Waitlist",
-   "verifyNote": "Unchanged: waitlist and 4-6 week delay; MBB-Grant-Request-Form-2024.pdf; mbbfoundation@gmail.com; site now also shows phone (774) 275-0240 and P.O. Box 160, Holden, MA."
+   "verifyNote": "Live Oct 29: waitlist, 4-6 weeks minimum; MBB-Grant-Request-Form-2024.pdf; mbbfoundation@gmail.com, (774) 275-0240, P.O. Box 160 Holden MA. Unchanged."
   },
   {
    "id": "the-susie-foundation-flex-grants",
@@ -2189,9 +2189,9 @@
    "sources": [
     "https://www.thesusiefoundation.org/flexgrant"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Applications advertised",
-   "verifyNote": "Unchanged; New England residents with definitive ALS diagnosis; priority first-time/severe hardship; contact Ryan.Matthews@TheSusieFoundation.org, 203-490-6694; no closure notice."
+   "verifyNote": "Live Oct 29 (©2026): New England residents with definitive ALS diagnosis; Formstack application; Ryan.Matthews@TheSusieFoundation.org, 203-490-6694. Unchanged."
   },
   {
    "id": "jeff-coombs-fund-family-grants",
@@ -2254,9 +2254,9 @@
    "sources": [
     "https://paintforacure.org/apply-for-help/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Assistance form available",
-   "verifyNote": "Unchanged; embedded Google Form present; families with children under 15; request types rent/mortgage, accessible vehicle, home automation, voice banking, equipment."
+   "verifyNote": "Live Oct 29: form present; children under 15; request types rent/mortgage, accessible vehicle, home automation, voice banking, equipment; Tempe AZ address. Unchanged."
   },
   {
    "id": "cocktails-caregivers",
@@ -2289,9 +2289,9 @@
    "sources": [
     "https://cocktailsandcaregivers.org/our-tribe"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Childcare applications advertised",
-   "verifyNote": "Unchanged (© 2018-2026); application linked; U.S. citizens in continental U.S.; one-time, taxable, limited number; no pause notice."
+   "verifyNote": "Live Oct 29 (© 2018-2026): application present; U.S. citizens in continental U.S.; one-time, taxable, limited; contacts kristina@/ashley@cocktailsandcaregivers.org. Unchanged."
   },
   {
    "id": "als-ride-for-life-fred-bargetzi-caregiver-grant",
@@ -2322,9 +2322,9 @@
    "sources": [
     "https://alsrideforlife.org/programs-assistance/care-for-life-grant/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Open through October 15, 2026",
-   "verifyNote": "Unchanged: application closed, reopens Dec 15-Jan 15; quarterly windows and drawings (May 1, Aug 1, Nov 1, Feb 1); nationwide; confirmed ALS diagnosis; one grant per applicant."
+   "verifyNote": "Live Oct 29: 'The application is closed at this time'; reopens Dec 15-Jan 15; windows quarterly, drawings May 1/Aug 1/Nov 1/Feb 1; nationwide; marilyn@alsrideforlife.org. Unchanged."
   },
   {
    "id": "hark-als",
@@ -2354,9 +2354,9 @@
     "https://hark-als.org/contact-us/",
     "https://hark-als.org/what-we-do/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Contact to confirm intake",
-   "verifyNote": "Unchanged (© 2025); Donna York donna@hark-als.org 908-642-4321; Deb Fabricatore (FL) deb@hark-als.org 908-420-4751; only general 'provides assistance' statement."
+   "verifyNote": "Live Oct 29 (© 2025): Donna York donna@hark-als.org 908-642-4321; Deb Fabricatore deb@hark-als.org 908-420-4751; only general 'provides assistance' statement. Unchanged."
   },
   {
    "id": "bryon-riesch-paralysis-foundation",
@@ -2387,9 +2387,9 @@
    "sources": [
     "https://brpf.org/charitable-grant-application/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Application available; confirm ALS eligibility",
-   "verifyNote": "Unchanged (modified Jun 18, 2026); spinal cord injury or related disorder; U.S. residents, Wisconsin priority; no vehicles, no partial funding; 2022 application PDF."
+   "verifyNote": "Live Oct 29 (modified Jun 18, 2026): spinal cord injury or related disorder, ALS not named; U.S. residents, WI priority; no vehicles; BRPF_CharitableGrantApplication_2022.pdf. Unchanged."
   },
   {
    "id": "rockin4als-never-walk-alone-quality-of-life-grant",
@@ -2424,9 +2424,9 @@
    "sources": [
     "https://www.rockin4als.org/qol.php"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Applications advertised",
-   "verifyNote": "Unchanged (© 2026); $1,000 award; Wisconsin residents with confirmed ALS diagnosis; honor-system need; NeverWalkAlone-QOLGrant@Rockin4ALS.org; 414.704.0209; no funds-exhausted notice."
+   "verifyNote": "Live Oct 29 (© 2026): $1,000 unrestricted; Wisconsin residents, confirmed ALS, honor-system need; NeverWalkAlone-QOLGrant@Rockin4ALS.org; 414.704.0209; no funds-exhausted notice. Unchanged."
   },
   {
    "id": "colorado-fmd-individual-assistance-grant",
@@ -2464,8 +2464,8 @@
     "https://form.jotform.com/241546195445057",
     "https://www.coloradofmd.org/wp-content/uploads/2025/12/CFMD-grant-brochure-2021.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; $1,000 max payable to a single vendor; U.S. residents; ALS listed; only selected applicants notified; info@coloradofmd.org."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: $1,000 max payable to a vendor; U.S. residents with neuromuscular disorder, ALS listed; no loans or reimbursements; info@coloradofmd.org. Unchanged."
   },
   {
    "id": "team-gleason-adventures",
@@ -2502,8 +2502,8 @@
     "https://teamgleason.org/need-assistance/",
     "https://teamgleason.org/need-assistance-adventure/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; people with ALS residing in the U.S.; vendors paid directly, no reimbursements; approval at Team Gleason's discretion; no pause notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: people with ALS living in the U.S.; vendors paid directly, no reimbursements; approval at Team Gleason's sole discretion; no pause notice. Unchanged."
   },
   {
    "id": "als-in-the-heartland-respite-grant",
@@ -2542,8 +2542,8 @@
     "https://alsintheheartland.org/",
     "https://alsintheheartland.org/what-we-do/register.html"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged: 'currently at full capacity, and new applicants will be placed on a waitlist'; reimbursement up to unstated monthly amount; Griffin Bokamper 402-592-2374 x203."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'currently at full capacity, and new applicants will be placed on a waitlist'; Griffin Bokamper griffin@alsintheheartland.org 402.592.2374 x203. Unchanged."
   },
   {
    "id": "als-of-michigan-in-home-care",
@@ -2574,8 +2574,8 @@
     "https://alsofmichigan.org/respite-care/",
     "https://alsofmichigan.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; up to $500/month of care; caregivers living with pALS or pALS without caregiver; (800) 882-5764, info@alsofmi.org; no closure notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (modified May 5, 2026): up to $500/month of care; caregivers living with pALS or pALS without caregiver; (800) 882-5764, info@alsofmi.org. Unchanged."
   },
   {
    "id": "als-of-michigan-worford-transportation-program",
@@ -2608,8 +2608,8 @@
     "https://alsofmichigan.org/wp-content/uploads/2026/03/Transportation-Program.pdf",
     "https://alsofmichigan.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; pALS reimbursed $300 each year for independent transportation companies; can't drive or need wheelchair-accessible transport; (800) 882-5764."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (page last modified Oct 10, 2023): pALS reimbursed $300/year for independent transportation companies; can't drive or need wheelchair transport; (800) 882-5764. Unchanged."
   },
   {
    "id": "als-of-michigan-albert-burstein-wish-fund",
@@ -2642,8 +2642,8 @@
     "https://alsofmichigan.org/wp-content/uploads/2026/01/2026-Al-Burstein-Wish-Fund-Application.pdf",
     "https://alsofmichigan.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Homepage still links 2026-Al-Burstein-Wish-Fund-Application.pdf; amount and deadlines not on homepage itself (PDF not re-read); no notices; other programs unchanged."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Homepage live Oct 29: still links 2026-Al-Burstein-Wish-Fund-Application.pdf via 'apply here'; no amount/deadlines on homepage; no paused notices; (800) 882-5764. Unchanged."
   },
   {
    "id": "als-of-utica-wish-grant",
@@ -2682,8 +2682,8 @@
     "https://alsutica.org/als-of-utica-registration/",
     "https://alsutica.org/contact-us/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; published Nov 2020, modified Jan 2021; registered patients in Oneida or Herkimer County debilitated by ALS; online and PDF request form; no cap or status."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (published Nov 2020, modified Jan 2021): registered patients in Oneida/Herkimer County debilitated by ALS; request form present; no cap or status. Unchanged."
   },
   {
    "id": "als-of-utica-estate-planning-grant",
@@ -2718,8 +2718,8 @@
     "https://alsutica.org/contact-us/",
     "https://alsutica.org/als-of-utica-registration/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; registered patients in Oneida & Herkimer Counties; three partner firms listed with phones; no funding-status statement; no general ALS of Utica phone on page."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Estate Planning Grant listed; three partner firms (Ward Arcuri, Hilton, Estate Planning Law Center); Oneida & Herkimer; contact by email; no closure note. Unchanged."
   },
   {
    "id": "hearts-for-als-ny-request-for-funds",
@@ -2759,8 +2759,8 @@
     "https://www.heartsforalsny.org/about-us",
     "https://www.heartsforalsny.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; Patient Request Form and Patient Registration Form (web and PDF) present; P.O. Box 10593, Rochester, NY 14610; no amounts, criteria or closure notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (© 2024): Patient Request Form (web + hearts-request-for-funds.pdf) and Registration Form present; P.O. Box 10593 Rochester NY; no amounts/criteria/closure. Unchanged."
   },
   {
    "id": "robert-luongo-als-fund-patient-assistance",
@@ -2841,8 +2841,8 @@
     "https://www.tanner-foundation.org/wp-content/uploads/2022/03/3.2.22Patient-Assistance-Fund-Policy-and-Procedure.pdf",
     "https://www.tanner-foundation.org/wp-content/uploads/2022/03/PATIENT-ASSISTANCE-REQUEST-FORM.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Services page modified Sep 4, 2026; still links March 2022 policy and request form; 334.312.3328, melissaenfinger@tannerfoundation.org; 2026 Symposium referenced; no closure notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (modified Sep 4, 2026): still links March 2022 Policy & Procedure and Request Form; MS/ALS/Parkinson's; 334.312.3328, melissaenfinger@tannerfoundation.org; no closure. Unchanged."
   },
   {
    "id": "wvmda-patient-grant-program",
@@ -2885,8 +2885,8 @@
     "https://www.wvmda.org/grant-program",
     "https://www.wvmda.org/documents/Grant-request-form.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Unchanged; ALS listed; WV, eastern KY, southern OH; travel, copays, PT, mobility equipment, ramps; info@wvmda.org; no closure notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: ALS listed; WV, eastern KY, southern OH; travel, copays, PT, mobility equipment, ramps; request form linked; info@wvmda.org; no closure note. Unchanged."
   },
   {
    "id": "als-in-the-heartland-brad-meyer-scholarship",
@@ -2920,8 +2920,8 @@
     "https://alsintheheartland.org/what-we-do/brad-meyer-memorial-scholarship.html",
     "https://alsintheheartland.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: congratulates 2026-27 recipients; applications closed, reopen spring 2027; NE/IA families served; no amount or deadline."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 2026-2027 applications closed, reopen spring 2027; immediate family of pALS in NE/IA families served; 402.592.2374 / 866.789.5512. Unchanged."
   },
   {
    "id": "als-in-the-heartland-childrens-fund",
@@ -2952,8 +2952,8 @@
    "sources": [
     "https://alsintheheartland.org/what-we-do/childrens-funds.html"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: children 18 and younger of a person with ALS, families currently served in NE/IA; contact Sydney Nordeen or Tammy Stalzer; no amounts."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: children 18 and younger, immediate family of pALS, families served in NE/IA; Sydney Nordeen x204, Tammy Stalzer x201; no amounts. Unchanged."
   },
   {
    "id": "als-in-the-heartland-patient-financial-request",
@@ -2989,8 +2989,8 @@
     "https://alsintheheartland.org/",
     "https://alsintheheartland.org/what-we-do/register.html"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026 (footer 2026): up to $500 on one occasion based on eligibility and available funding; check Equipment Loan Program first; no paused note."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (© 2026): up to $500 on one occasion; check Equipment Loan Program first; Sydney Nordeen / Tammy Stalzer 402-592-2374; no pause notice. Unchanged."
   },
   {
    "id": "joseph-kiley-foundation-memorial-grant",
@@ -3024,8 +3024,8 @@
    "sources": [
     "https://www.josephkiley.org/joseph-kiley-memorial-grant"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: reimbursement with receipts for Healey Center trial travel; reviewed every 4 weeks; apply by email to hello@josephkiley.org; no cap or paused note."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: reimburses Healey Center (MGH) trial travel with receipts; pALS applicant; reviewed every 4 weeks; email hello@josephkiley.org; requirements 'subject to change'. Unchanged."
   },
   {
    "id": "influentials-foundation-living-with-care-support-grant",
@@ -3066,8 +3066,8 @@
     "https://www.theinfluentials.org/grant-application/",
     "https://www.theinfluentials.org/wordpress/wp-content/uploads/2025/04/InfluentiALS_Grant_Application_Terms_FORM_April2025.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: $250-$10,000; deadlines April 15 and October 15; mailed applications; funds used within 12 months; application PDF still dated April 2025."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: $250-$10,000; deadlines April 15 and October 15; proof of diagnosis/residency/need; funds used within 12 months; PDF still April 2025; info@theinfluentiALS.org. Unchanged."
   },
   {
    "id": "als-network-direct-assistance-grants",
@@ -3107,8 +3107,8 @@
     "https://myimpact.alsnetwork.org/your-impact/",
     "https://myimpact.alsnetwork.org/wp-content/uploads/sites/182/2026/02/CareServices_Infographic-ALSN2025.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: 'Quality of Life Grants for Respite Care' - small grants for families in service area; no amounts or form; direct assistance not mentioned on this page."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Quality of Life Grants for Respite Care' - small grants for families in service area (CA/HI); no amounts/form; direct assistance not mentioned; careservices@alsnetwork.org. Unchanged."
   },
   {
    "id": "alsso-spokane-financial-assistance",
@@ -3144,8 +3144,8 @@
     "https://alsso.org/about-us-1",
     "https://alsso.org/faq"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026 (footer 2024): funds adaptive equipment, mobility vans, home mods, bidets, caregiving for E. WA/N. ID/W. MT; next meeting Nov 4; group appears active."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (footer 2024): funds adaptive equipment, mobility vans, home mods, bidets, caregiving for E. WA/N. ID/W. MT; next meeting Nov 4; (509) 467-8761. Unchanged."
   },
   {
    "id": "coopstrong-als-assistance",
@@ -3214,8 +3214,8 @@
     "https://jimboswish.org/about",
     "https://jimboswish.org/contact"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: 'Comprehensive Onboarding & Grant Application Form' heading but embedded form still unreadable; Wasilla AK address, (818) 307-2398; no amounts or criteria."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: heading 'Comprehensive Onboarding & Grant Application Form' but embedded form still unreadable; 1500 E Bogard Rd Wasilla AK; (818) 307-2398; no amounts/criteria. Unchanged."
   },
   {
    "id": "touched-by-als-family-assistance",
@@ -3254,8 +3254,8 @@
     "https://touchedbyals.org/get-help/",
     "https://touchedbyals.org/assistance-application"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026 (modified Sep 1, 2026): four programs unchanged; $5,000 in-home care grants; Upstate SC; no paused/closed note."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (modified Sep 1, 2026): four programs unchanged; $5,000 in-home care grants; Upstate SC; (864) 214-6745, TouchedByALS@gmail.com; no paused/closed note. Unchanged."
   },
   {
    "id": "a-giving-spirit-foundation-assistance",
@@ -3293,8 +3293,8 @@
     "https://www.agivingspiritfoundation.org/",
     "https://www.agivingspiritfoundation.org/one-grant"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: four conditions unchanged (Charlotte MSA, debilitating disease, dependent children at home, financial need); 'GET AN APPLICATION' Google Form; no amounts."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: same four criteria (Charlotte MSA, debilitating disease, dependent children, medical-related financial need); no amounts, dates or closed notes."
   },
   {
    "id": "nord-caregiver-respite-program",
@@ -3330,8 +3330,8 @@
     "https://rarediseases.org/patient-assistance-program/",
     "https://rarediseases.org/living-with-a-rare-disease/caregiver-resources/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: 'Caregiver Aid (Respite Program)'; first-come first-served; eligibility unchanged; no cap or status label; fetched content references an '-old' URL variant, so confirm by phone"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Caregiver Respite' / 'Help Getting Caregiver Aid'; Apply Now link, 203.616.4328; eligibility unchanged; no cap or paused note; content last modified May 2025."
   },
   {
    "id": "nord-rare-disease-educational-support",
@@ -3363,8 +3363,8 @@
     "https://rarediseases.org/patient-assistance-programs/rare-disease-educational-support/",
     "https://rarediseases.org/patient-assistance-programs/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: registration reimbursed, limited travel/lodging; events with own scholarships excluded; US citizen/6-month PR; phones 860-556-2208, 203-635-7486."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Educational Support tab still present; registration reimbursed, limited travel/lodging; events with own scholarships excluded; rdeducate@ email and phones unchanged."
   },
   {
    "id": "leith-lab-possibilities-grant",
@@ -3400,8 +3400,8 @@
     "https://www.theleithlab.com/possibilities-grant",
     "https://docs.google.com/document/d/1z9J6K2F6zJZfWiKP8fky_SAq43_WLdTB_1FsNS6dyBg/edit?usp=sharing"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: still shows July 2026 update with Oct 15, 2026 due date and 2027 cycles opening Mar 15 and Sep 15; no 2027 closing dates; amount only in FAQ."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: still the July 2026 update (due Oct 15, 2026; 2027 cycles open Mar 15/Sep 15, no closing dates); no amount on main page; no post-deadline update yet."
   },
   {
    "id": "als-new-mexico-quality-of-life-grant",
@@ -3445,8 +3445,8 @@
     "https://form.jotform.com/241194879717067",
     "https://newmexicoals.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: Zia ALwayS Cares QoL grant up to $2,500; Pitre Home Modification up to $5,000 lifetime; AT&T Technology Grant laptop + $1,500; no funds-exhausted note."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Zia ALwayS Cares up to $2,500, Pitre Home Modification up to $5,000 one-time, AT&T Technology Grant laptop + $1,500; all forms linked; no funds-exhausted note."
   },
   {
    "id": "als-ride-for-life-end-of-life-doula",
@@ -3482,8 +3482,8 @@
     "https://alsrideforlife.org/programs-assistance/",
     "https://alsrideforlife.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: up to 15 sessions, open to 'all ALS patients and families', online form accepts any US state; 'a limited number of grants are available'."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: up to 15 sessions by phone/text/Zoom/in person; 'all ALS patients and families'; form active; 'A limited number of grants are available'."
   },
   {
    "id": "als-ride-for-life-college-scholarship",
@@ -3519,8 +3519,8 @@
     "https://alsrideforlife.org/programs-assistance/college-scholarship-program/",
     "https://alsrideforlife.org/programs-assistance/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: 'Applications no longer accepted'; opens Feb 1, due Mar 1; NY resident graduating senior with verifiable ALS family connection; amount not stated."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Applications no longer accepted'; Feb 1-Mar 1 window; NY resident graduating senior with verifiable ALS family link; paid to college ~Aug 1; no amount."
   },
   {
    "id": "maine-community-foundation-mayo-als-scholarship",
@@ -3555,8 +3555,8 @@
     "https://www.mainecf.org/find-a-scholarship/available-scholarships/for-adult-learners/",
     "https://www.mainecf.org/find-a-scholarship/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Listing live Oct 24, 2026: Joseph W. Mayo ALS Scholarship, deadline May 1, contact Rebecca Wyke, download application; eligibility unchanged; amount not stated."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Joseph W. Mayo ALS Scholarship listed under Other Adult Learner Scholarships; deadline May 1; contact Rebecca Wyke; eligibility unchanged; no amount."
   },
   {
    "id": "alexa-r-good-als-foundation-assistance",
@@ -3592,8 +3592,8 @@
     "https://alexargoodals.com/about-alexargood-foundation/",
     "https://alexargoodals.com/contact-us/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Site live Oct 24, 2026 (footer 2026): aid for NC/SC residents with ALS (equipment, caregivers, direct family assistance); PO Box Rock Hill SC; referral wording not surfaced in this fetch but no contra"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (footer 2026): equipment, caregivers, direct family aid for NC/SC residents with ALS; PO Box Rock Hill SC; referral rule not on homepage; no paused note."
   },
   {
    "id": "love-for-als-caregiving-assistance",
@@ -3668,8 +3668,8 @@
     "https://busbyals.org/how-we-help",
     "https://content.app-sources.com/s/011447897340943451/uploads/Images/BusbyFoundation-MasterApplication2024-5902723.pdf"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: same program list (Federal Gap, Accessibility, Home Health, Transportation, Equipment, Making Memories, Education for Children); Central Texas only; valentine@busbyals.org."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: same programs (Federal Gap, Accessibility, Home Health, Transportation, Equipment, Making Memories, Education for Children); Central Texas only; no amounts; no paused note."
   },
   {
    "id": "harry-gregg-foundation-grants",
@@ -3713,8 +3713,8 @@
     "https://harrygreggfoundation.org/apply/",
     "https://harrygreggfoundation.org/contact/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Grant Info page live Oct 24, 2026: deadlines Nov 23, 2026 and Mar 22, 2027, 'Deadline dates are firm'; cap and NH residency are on the FAQ page, not this one."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: deadlines Jul 28 2026, Nov 23 2026, Mar 22 2027; 'Deadline dates are firm'; caps/residency/income on FAQ page not this one; no paused note."
   },
   {
    "id": "aftd-comstock-grants",
@@ -3753,8 +3753,8 @@
     "https://www.theaftd.org/comstock-respite-application",
     "https://www.theaftd.org/living-with-ftd/resources/comstock-grants/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: Respite up to $500/family/year, QoL $500 once per fiscal year; travel grants limited to Education Conference from Jul 1, 2026 (guidelines being updated); $330K+ in FY2026."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Respite up to $500/family/yr and QoL $500/fiscal yr open; Travel Grant applications currently unavailable while guidelines updated (conference-only from Jul 1, 2026; May 13-14, 2027 Ralei"
   },
   {
    "id": "fact-relief-foundation-grants",
@@ -3797,8 +3797,8 @@
     "https://quietheroparty.com/",
     "https://www.factrelief.org/how-to-get-help/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Programs page live Oct 24, 2026 (footer still 2020): Quiet Hero Party ALS grants, Brian Parker EQOL (paralysis), Project Hope; no amounts, criteria or apply instructions on this page."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29 (footer 2020): Quiet Hero Party ALS grants, Brian Parker EQOL (paralysis), Project Hope, Accident & Injury Fund; no amounts, criteria or apply link on this page."
   },
   {
    "id": "als-ride-for-life-emotional-support-grant",
@@ -3831,8 +3831,8 @@
    "sources": [
     "https://alsrideforlife.org/programs-assistance/emotional-support-services-grant/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page live Oct 24, 2026: up to 15 sessions with licensed clinical social worker by phone, Zoom or in person; online form open; 'A limited number of grants are available'."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: up to 15 sessions for pALS and family/significant others by phone, Zoom or in person; form active; 'A limited number of grants are available'."
   },
   {
    "id": "als-united-orange-county-respite-care-grant",
@@ -3868,8 +3868,8 @@
    "sources": [
     "https://alsuoc.org/respite-care/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page fetched directly Oct 24, 2026 (no longer blocked): $500 grants, one per quarter per calendar year, apply by the 15th; definitive ALS diagnosis in service area; no paused note."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: $500 grants, one per quarter per calendar year, apply by the 15th, use within one year; definitive ALS diagnosis in service area; form active; no paused note."
   },
   {
    "id": "chive-charities-individual-grant",
@@ -3901,8 +3901,8 @@
    "sources": [
     "https://chivecharities.org/recipient"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page says it helps 'individuals with rare medical diagnoses' in the United States with items that 'improve quality of life or are medically necessary and not fully covered by insuran"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Apply for a Chive Charities Grant'; US only; rare diagnosis (NORD/GARD), veterans, first responders; $100K income / $30K fundraised limits; exclusions unchanged; no paused note."
   },
   {
    "id": "sandra-west-als-scholarship",
@@ -3932,8 +3932,8 @@
    "sources": [
     "https://bold.org/scholarships/sandra-west-als-foundation-scholarship/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Bold.org page: for 'children of a parent with ALS whose family faces financial hardship'; $10,000 split between 2 winners; deadline October 23, 2026, currently 'In Review'."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: status 'In Review'; deadline Oct 23, 2026; winners announced Nov 23, 2026; $10,000 split 2 ways; eligibility unchanged."
   },
   {
    "id": "bridge-to-mobility-vehicle-grant",
@@ -3962,8 +3962,8 @@
    "sources": [
     "https://bridgetomobility.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Site describes itself as a national nonprofit providing 'last dollar' grants of up to $5,000 toward wheelchair accessible vehicles, applied for through an NMEDA dealer and awarded qu"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'last dollar' grants up to $5,000 for wheelchair accessible vehicles, submitted by NMEDA dealer after Needs Analysis, awarded quarterly; 233 grants approved; no paused note."
   },
   {
    "id": "joseph-groh-foundation-assistance",
@@ -3993,8 +3993,8 @@
    "sources": [
     "https://josephgrohfoundation.org/assistance-application"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Application page says it funds 'materials, such as durable medical equipment' and 'services, such as building ramps, widening doorways, or remodeling bathrooms for wheelchair access'"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Apply for Assistance'; funds DME and ramps/doorways/bathroom remodels, no cash; trades connection + life-altering disability; Map of Hope shows 40 states; no paused note."
   },
   {
    "id": "fisher-house-lodging-hero-miles",
@@ -4023,8 +4023,8 @@
    "sources": [
     "https://fisherhouse.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Site states families at VA Fisher Houses pay no room fee, Hotels for Heroes provides rooms when a house is full, and Hero Miles provides round-trip airline tickets for families visit"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: VA Fisher Houses charge no room fee (Foundation pays military house fees); Hotels for Heroes and Hero Miles listed with eligibility by medical center; no paused note."
   },
   {
    "id": "independence-fund-trackchairs",
@@ -4053,8 +4053,8 @@
    "sources": [
     "https://independencefund.org/pages/mobility-program"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Program page says trackchairs are given to 'Veterans of all eras who have experienced a loss of mobility due to a service-related injury or illness', 2,723 gifted nationwide, with an"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Trackchairs for Veterans' / Mobility Program; veterans of all eras with service-related mobility loss; waitlist; 2,723 chairs gifted; no paused note."
   },
   {
    "id": "semper-fi-americas-fund",
@@ -4084,8 +4084,8 @@
    "sources": [
     "https://thefund.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Site says the Fund supports 'critically wounded, ill, and injured service members, veterans, and military families' with 'direct financial assistance', 'specialized equipment, and ad"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: Service Member & Family Support (direct financial aid, equipment, home/vehicle mods), LCpl Parsons Welcome Home Fund for Vietnam vets; 760-725-3680; no paused note."
   },
   {
    "id": "als-united-orange-county-transportation",
@@ -4116,8 +4116,8 @@
    "sources": [
     "https://alsuoc.org/transportation-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Care services page: '$75 transportation vouchers each way to ALS patients to and from medical appointments'; 'Rides within Orange County only.'"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: '$75 transportation vouchers each way to ALS patients to and from medical appointments'; rides within Orange County only; 5 business days' notice; no paused note."
   },
   {
    "id": "friends-of-man-mobility-assistance",
@@ -4147,8 +4147,8 @@
    "sources": [
     "https://www.friendsofman.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Homepage says applications come from 'referring professionals... who apply on behalf of their patients or clients' and shows funded items including stair lifts, speech-generating dev"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: applications come from referring professionals on behalf of clients; funds mobility equipment, ramps, stair lifts, speech devices, home accessibility; income limit not on homepage; no pau"
   },
   {
    "id": "180-medical-caregiver-scholarship",
@@ -4178,8 +4178,8 @@
    "sources": [
     "https://www.180medical.com/caregiver-scholarship/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: 'We are not accepting applications at this time; please wait until the next application period' (January 1 to June 1); eligible if you are 'the primary, unpaid caregiver for a "
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'We are not accepting applications at this time; please wait until the next application period'; Jan 1-Jun 1 window, announced August; $1,000; eligibility unchanged."
   },
   {
    "id": "blossom-law-caregiver-scholarship",
@@ -4209,8 +4209,8 @@
    "sources": [
     "https://www.blossomlaw.com/scholarship"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page heading reads 'Applications Open for Spring 2027'; deadline February 8, 2027; for students who 'have served as caregivers themselves' or whose parent 'has been the primary careg"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: 'Applications Open for Spring 2027'; deadline Feb 8, 2027; $1,000, offered twice a year; 18+, US citizen/PR, enrolled with 3.0 GPA, caregiver connection."
   },
   {
    "id": "diane-dawson-memorial-scholarship",
@@ -4244,8 +4244,8 @@
    "sources": [
     "https://sacregcf.academicworks.com/opportunities/1913"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Opportunity page: eligible if 'parent or legal guardian has terminal cancer or another terminal illness, or applicant lost a parent to a terminal disease during high school'; award $"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: still shows 03/13/2026 deadline; $1,000-$3,000; Sacramento-region/Denver graduating seniors with parent terminally ill or lost to terminal disease; GPA 2.5; new cycle not posted yet."
   },
   {
    "id": "redrover-relief-pet-care-grants",
@@ -4275,8 +4275,8 @@
    "sources": [
     "https://redrover.org/relief/urgent-care-grants/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: typical grant $250-300; eligibility includes 'Household income is no more than $60,000 per year' and 'You and the animal both live in the United States'; 'applications close ea"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live Oct 29: weekly Mon 9am-Fri 4pm PT window; typical grant $250-300; household income $60,000 max; US only; one grant per household; 'no guarantee' of funding; not paused."
   }
  ]
 }

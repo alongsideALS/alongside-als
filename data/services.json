@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-29",
  "items": [
   {
    "id": "ssdi-als",
@@ -28,12 +28,12 @@
    "howToApply": "Apply online at ssa.gov/disability or call 1-800-772-1213. Say 'ALS' so the claim is flagged as a Compassionate Allowance.",
    "url": "https://www.ssa.gov/disability",
    "contact": "1-800-772-1213",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
    "sources": [
     "https://www.ssa.gov/benefits/disability/qualify.html"
    ],
-   "verifyNote": "SSA disability landing page live (modified 2025-12-18). Describes SSDI generally; ALS/Compassionate Allowance and phone not on this page but no contradiction."
+   "verifyNote": "'Disability | SSA' live (modified 2025-12-18). Describes SSDI generally; no ALS/phone on page; no pause notice."
   },
   {
    "id": "va-als-benefits",
@@ -61,12 +61,12 @@
    "howToApply": "Start at the VA ALS System of Care page (va.gov/health/als.asp), which links to how to file a claim, presumptive conditions, housing grants and caregiver support; a VSO can file the claim with you for free.",
    "url": "https://www.va.gov/health/als.asp",
    "contact": "1-800-827-1000",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
    "sources": [
     "https://www.va.gov/health/als.asp"
    ],
-   "verifyNote": "Unread 2026-10-24: Fetch failed twice (client_error from va.gov). Could not read page; record unverified. Likely bot-blocking rather than a dead page."
+   "verifyNote": "Now readable: 'VA ALS System of Care' (updated 2026-08-14). ALS presumptive 100% for >90 days service + honorable discharge; ask local VA for ALS Coordinator."
   },
   {
    "id": "needymeds",
@@ -92,9 +92,9 @@
    "howToApply": "Search by drug or diagnosis on NeedyMeds.",
    "url": "https://www.needymeds.org/",
    "contact": "needymeds.org",
-   "lastVerified": "2026-10-11",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Unread 2026-10-24: Page returned only metadata (JS-rendered), no readable content on homepage or /pap. Could not verify; no evidence of discontinuation."
+   "verifyNote": "Homepage and /pap return only metadata (JS-rendered); content unreadable by fetch. No evidence of discontinuation; unchanged from Oct 24."
   },
   {
    "id": "bridging-voice",
@@ -120,9 +120,9 @@
    "howToApply": "Request services on the Bridging Voice website.",
    "url": "https://bridgingvoice.org/",
    "contact": "718-313-0030 · info@bridgingvoice.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Lists voice banking and Tech Evaluation & Access for pALS; services described as free; NY State initiative noted. No pause notice."
+   "verifyNote": "'Home - Bridging Voice' live. Voice banking and Tech Evaluation & Access listed; 718-313-0030, info@bridgingvoice.org; no pause notice."
   },
   {
    "id": "team-gleason",
@@ -151,13 +151,13 @@
    "howToApply": "Use the online application on Team Gleason's 'Need Assistance?' page and choose the service you need.",
    "url": "https://teamgleason.org/need-assistance/",
    "contact": "teamgleason.org/contact-us",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
    "sources": [
     "https://teamgleason.org/need-assistance/",
     "https://teamgleason.org/pals-resource/adventures/"
    ],
-   "verifyNote": "Live (modified 2026-02-06). Technology & Equipment, Care Services and Adventure still listed; read FAQs then apply via form. No deadlines or pause notice."
+   "verifyNote": "'Need Assistance?' page live; invites applying after reading FAQs; Technology & Equipment, Care Services, Adventure in nav. No deadline or pause notice."
   },
   {
    "id": "hope-loves-company",
@@ -182,9 +182,9 @@
    "howToApply": "Visit Hope Loves Company for current programs.",
    "url": "https://www.hopelovescompany.org/",
    "contact": "650-394-2424 · summer.owen@hopelovescompany.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Lists Camp HLC, Beyond the Bunk, Parent Meet Ups, Young Adult Peer Support Circle, HLC From Anywhere. No scholarship mention or dates on homepage."
+   "verifyNote": "Live. Camp HLC, Beyond the Bunk, Parent Meet Ups, Young Adult Peer Support Circle, HLC From Anywhere; no scholarship or dates on homepage; 650-394-2424."
   },
   {
    "id": "medicare-als",
@@ -211,9 +211,9 @@
    "howToApply": "Enrollment follows SSDI. Ask your clinic social worker or the ALS Association Insurance & Benefits Resource Line for plan help.",
    "url": "https://www.medicare.gov/",
    "contact": "1-800-633-4227",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Medicare.gov live; Open Enrollment banner through Dec 7 for 2027 plans. No ALS-specific text on homepage; no contradiction."
+   "verifyNote": "'Welcome to Medicare' live; Open Enrollment through Dec 7 for 2027 plans; $90 one-time Part B rebate Oct 2026. No ALS text; no contradiction."
   },
   {
    "id": "alsa-benefits-line",
@@ -238,9 +238,9 @@
    "howToApply": "Start from the program page on als.org.",
    "url": "https://www.als.org/support/programs/als-insurance-and-benefits-resource-line",
    "contact": "1-844-244-1306 (ALS Insurance & Benefits Resource Line, run with Patient Advocate Foundation)",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Free case management with Patient Advocate Foundation for people with ALS, family and caregivers. No pause notice."
+   "verifyNote": "Fetched title 'ALS Insurance and Benefits Resource Line | The ALS Association'; first line 'Choosing insurance is a big decision...'. Free, with PAF, 1-844-244-1306. No pause."
   },
   {
    "id": "alsa-independence-mobility",
@@ -266,9 +266,9 @@
    "howToApply": "Ask your local ALS Association care services team.",
    "url": "https://www.als.org/support/programs/independence-mobility-program",
    "contact": "Local care services",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Free equipment inventory via local Care Services; communication device loaner form via SLP. Requests not guaranteed."
+   "verifyNote": "Fetched title 'Independence & Mobility Program | The ALS Association'; first line 'Our Independence & Mobility Program is designed to provide education...'. Free, not guaranteed; ramps grant-county on"
   },
   {
    "id": "alsa-virtual-home",
@@ -293,9 +293,9 @@
    "howToApply": "Ask your local care services team for a referral.",
    "url": "https://www.als.org/support/programs/virtual-home-assessment-program",
    "contact": "Local care services",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Free video home assessment with written report; referral via local Care Services; contact within 10 business days, visit 1-2 weeks later."
+   "verifyNote": "Fetched title 'Virtual Home Assessment Program | The ALS Association'; first line 'Our Virtual Home Assessment Program (VHA) connects families...'. Free, referral via Care Services, 10 business days."
   },
   {
    "id": "alsa-ramp-loans",
@@ -357,14 +357,14 @@
    "howToApply": "Call or email Care Services.",
    "url": "https://alsgeorgia.org/navigating-als/our-care-services/",
    "contact": "404-636-9909 or 888-636-9940 · info@alsgeorgia.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
    "sources": [
     "https://alsgeorgia.org/in-home-respite-care/",
     "https://alsgeorgia.org/wp-content/uploads/2026/02/2026-Resource-Guide.pdf"
    ],
    "note": "Transportation is a separate program (Paul B. Williams ALS Transportation Program) listed on its own.",
-   "verifyNote": "Live. Both Ricky P. Sweat equipment loan and Sally Panfel in-home care programs listed; 404-636-9909, info@alsgeorgia.org. Hour limits on subpages."
+   "verifyNote": "'Our Care Services | ALS United of Georgia' live (modified 2025-08-20). Ricky P. Sweat loans and Sally Panfel in-home care listed, free; 404-636-9909, info@alsgeorgia.org."
   },
   {
    "id": "alsa-caregiver-course",
@@ -389,9 +389,9 @@
    "howToApply": "Sign up from the program page.",
    "url": "https://www.als.org/support/programs/caregiver-education-certification-course",
    "contact": "als.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Free self-paced course via Schoox academy with certificate of completion. No restrictions or pause notice."
+   "verifyNote": "Fetched title 'Caregiver Education Certification Course | The ALS Association'; first line 'The ALS Caregiver Education Course addresses the physical and emotional impacts...'. Free, self-paced on Sch"
   },
   {
    "id": "lll-connect-serve",
@@ -416,9 +416,9 @@
    "howToApply": "Register to receive support, and you'll be matched with a nearby volunteer.",
    "url": "https://livelikelou.org/als-families",
    "contact": "Info@livelikelou.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Connect & Serve volunteer matching for registered North American ALS families; one-time/short-term home projects. No waitlist notice."
+   "verifyNote": "'ALS Families' page live. Connect & Serve matches registered families with volunteers for one-time/short-term projects; no pause notice; Info@livelikelou.org."
   },
   {
    "id": "lll-goose",
@@ -444,9 +444,9 @@
    "howToApply": "Register, or if already registered email support@livelikelou.org.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "kind": "service",
-   "verifyNote": "Live. Talk to Me, Goose! free for registered NA families on iOS/Android; request access via support@livelikelou.org stating platform and ElevenLabs option."
+   "verifyNote": "Live. Talk to Me, Goose! free for registered North American ALS families, iOS/Android; email request stating platform and ElevenLabs option. No pause notice."
   },
   {
    "id": "radicava-journeymate-support",
@@ -480,8 +480,8 @@
     "https://www.radicava.com/patient/financial-support-options/",
     "https://www.drugs.com/price-guide/radicava"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. $0 copay program (commercial, 18+, annual re-enroll), PAP at up to 5x FPL for uninsured, VA no-cost option. 1-844-772-4548 M-F 8-8 ET."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live. $0 copay (commercial, 18+, annual re-enroll), PAP up to 5x FPL, VA no-cost; 1-844-772-4548 M-F 8-8 ET. Online copay portal down; use phone/fax/mail."
   },
   {
    "id": "qalsody-biogen-support-services",
@@ -515,8 +515,8 @@
    "sources": [
     "https://www.qalsody.com/en-us/home/support-and-resources.html"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live (content dated 01/24). Drug and administration copay programs, government insurance may be ineligible, MA/MN/RI excluded. 1-877-725-7639 M-F 8:30-8 ET."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (content 01/24). Drug and administration copay programs, government insurance may be ineligible, MA/MN/RI excluded; 1-877-725-7639 M-F 8:30-8 ET. No pause."
   },
   {
    "id": "nuedexta-copay-and-otsuka-pap",
@@ -548,8 +548,8 @@
    "sources": [
     "https://www.drugs.com/price-guide/nuedexta"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live (Feb 2026). Savings card $0/90-day or $20/30-day for privately insured; 1-855-468-3339. OPAF details not on this page."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live. Savings card $0/90-day or $20/30-day, $1,335 per use, $2,670/yr for privately insured; 1-855-468-3339. OPAF not on this page. No expiry or discontinuation notice."
   },
   {
    "id": "assistance-fund-als-program",
@@ -584,8 +584,8 @@
     "https://www.radicava.com/patient/financial-support-options/",
     "https://enroll.tafcares.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Site live, 855-845-3663 M-F 9-5:30 ET. ALS fund status not shown on patients or waitlist pages; check Disease Program Hub at enroll.tafcares.org. Waitlists reset each January."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "'TAF - Patients' live; 855-845-3663 M-F 9-5:30 ET. ALS status not shown on patients or waitlist pages; check Disease Program Hub. Waitlists close late Dec, reopen Jan."
   },
   {
    "id": "mercy-medical-angels-travel",
@@ -617,8 +617,8 @@
    "sources": [
     "https://mercymedical.org"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Free volunteer flights (Mid-Atlantic), commercial airfare, ground transport and gas cards nationwide. Eligibility on separate guidelines page."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "'Free Transportation to Medical Appointments' live. Volunteer flights Mid-Atlantic; airfare, ground, gas cards nationwide; request at travel.mercymedical.org/request. No pause."
   },
   {
    "id": "air-charity-network-flights",
@@ -650,8 +650,8 @@
     "https://aircharitynetwork.org",
     "https://www.angelflight.com"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Free volunteer-pilot flights for financially distressed patients incl. clinical trial participants and repetitive treatment. No pause notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live. Free volunteer-pilot flights in all 50 states for financially distressed patients incl. clinical trial participants; 877-621-7177, info@MercyMail.org. No pause."
   },
   {
    "id": "healthcare-hospitality-network-lodging",
@@ -680,8 +680,8 @@
    "sources": [
     "https://www.hhnetwork.org"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Locate-a-house directory; most member houses little or no cost, each sets own policies. No change notices."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live. Locate-a-house directory; most houses little or no cost regardless of income; each sets own policies; info@hhnetwork.org. No notices."
   },
   {
    "id": "state-at-act-programs",
@@ -711,8 +711,8 @@
    "sources": [
     "https://www.at3center.net/state-at-programs"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Directory of every state/territory AT program with device loan, demo, reuse and financial loan contacts. Some contacts vacant; no funding-cut notice."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "'AT Act Programs' directory live with loan/demo/reuse/financial-loan contacts per state; some contacts vacant (AL, IA, MD); no funding-cut notice."
   },
   {
    "id": "rebuilding-together-home-repairs",
@@ -741,8 +741,8 @@
    "sources": [
     "https://rebuildingtogether.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Homepage gives no eligibility or cost; Find Your Local Affiliate page routes to local programs. No waitlist or pause notice on homepage."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "'Rebuilding Together' homepage live; no eligibility, cost or waitlist info; Find Help routes to Find Your Local Affiliate page. No pause notice."
   },
   {
    "id": "national-family-caregiver-support-program",
@@ -774,8 +774,8 @@
    "sources": [
     "https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live (modified 2026-03-18). NFCSP eligibility and services match; Eldercare Locator phone not on page (eldercare.acl.gov linked)."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "ACL NFCSP page live (modified 2026-03-18). Eligibility and five service types match; Eldercare Locator linked, no phone on page. No change notice."
   },
   {
    "id": "arch-respite-locator-lifespan-respite",
@@ -804,8 +804,8 @@
    "sources": [
     "https://archrespite.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. Find a Respite Provider locator, state Lifespan Respite contacts and voucher program pages; 703-256-2084. New ACL Lifespan Respite NOFO June 2026."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "ARCH homepage live. Find a Respite Provider locator, state Lifespan Respite contacts and voucher pages; 703.256.2084. FY27 level funding news; new NOFO June 2026."
   },
   {
    "id": "well-spouse-association",
@@ -834,8 +834,8 @@
    "sources": [
     "https://wellspouse.org"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live. $39/yr membership, 25+ monthly peer groups, respite events, 2026 national conference; (732) 577-8899, info@wellspouse.org."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live: $39/yr membership, 25+ monthly peer groups, 24/7 online support, respite events, 2026 National Conference; (732) 577-8899, info@wellspouse.org. No pause notice."
   },
   {
    "id": "wish-of-a-lifetime-aarp",
@@ -864,8 +864,8 @@
    "sources": [
     "https://wishofalifetime.org"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live (2026 content). Still granting wishes to older adults; Submit a Wish page linked; age criteria not on homepage. 303-954-9144, info@wishofalifetime.org."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Aug 5, 2026). Still granting wishes to older adults; Submit a Wish page linked; no age minimum or cost on homepage; 303-954-9144. No pause notice."
   },
   {
    "id": "va-aid-and-attendance",
@@ -897,8 +897,8 @@
    "sources": [
     "https://www.va.gov/pension/aid-attendance-housebound/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Live (updated 2026-05-08). Requires VA pension; A&A criteria (daily help, bedridden, nursing home, 5/200 eyesight) match; cannot combine with Housebound."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (updated May 8, 2026). Requires VA pension; A&A criteria (daily help, bedridden, nursing home, 5/200 eyesight) unchanged; cannot combine with Housebound. Apply online/mail/in person."
   },
   {
    "id": "va-pcafc-family-caregivers",
@@ -930,8 +930,8 @@
    "sources": [
     "https://www.caregiver.va.gov/support/support_benefits.asp"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page updated Oct 9, 2026: stipend, CHAMPVA, counseling, travel, 30+ days respite; 70%+ rating, 6 months care; 855-260-3274. Legacy transition period extended to Sep 30, 2028."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (updated Oct 9, 2026). Stipend, CHAMPVA, counseling, travel, 30+ days respite; 70%+ rating, 6 months care; 855-260-3274; legacy transition through Sep 30, 2028. Paper checks discontinued (direct "
   },
   {
    "id": "als-assoc-smart-home-program-wisconsin",
@@ -998,8 +998,8 @@
    "sources": [
     "https://alsunitedri.org/equipment-loans/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Still offered at no cost: Hoyer lifts, wheelchairs, beds/air mattresses (by availability), rollators, AAC, Obi. Registered clients eligible; PT/OT/SLP eval encouraged. support@alsunitedri.org."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live: no-cost loans of Hoyer lifts, wheelchairs, hospital beds/air mattresses (by availability), rollators, AAC, Obi; registered clients eligible regardless of insurance; PT/OT/SLP eval encouraged; su"
   },
   {
    "id": "als-united-mid-atlantic-mackler-assistive-technology",
@@ -1034,8 +1034,8 @@
    "sources": [
     "https://alsmidatlantic.org/care-services/our-care-services/scott-a-mackler-md-phd-assistive-technology-program/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page updated Jun 4, 2026: assessments, insurance help, loaners for uninsured/hospice, virtual home/smart-home assessments, stair glide/ramp assistance. Alisa Brownlee 215-485-3441 (call/text)."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jun 4, 2026). Assessments, insurance help, loaners for uninsured/hospice, virtual home/smart-home assessments, stair glide/ramp assistance; Alisa Brownlee 215-485-3441, alisa@alsmidatla"
   },
   {
    "id": "als-nevada-team-curtis-transportation",
@@ -1068,8 +1068,8 @@
    "sources": [
     "https://alsofnevada.org/care-services/team-curtis-4-a-cure-transportation-program/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Program page active (last modified Feb 2024): medical and non-medical trips within Nevada, 2 weeks notice, ALS diagnosis; 702-790-1578 / 702-777-0500. Cost not stated."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (last modified Feb 2024). Medical and non-medical trips within Nevada, 2 weeks notice, ALS diagnosis; 702-790-1578 / 702-777-0500; cost not stated. No pause notice."
   },
   {
    "id": "joe-martin-als-foundation-home-care",
@@ -1103,8 +1103,8 @@
     "https://www.joemartinalsfoundation.org",
     "https://joemartinalsfoundation.org/what-we-do/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Free weekly home care visits 'limited to logistics and staff availability', ALS questions, Home Life for PALS videos; Joe's Camp via menu. Register online; 704-332-1929. Service area still unpublished"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live: free weekly home care visits 'limited to logistics and staff availability', ALS questions, Home Life for PALS videos, Joe's Camp links; register online; 704-332-1929. Service area still unpublis"
   },
   {
    "id": "als-united-ct-equipment-and-transportation",
@@ -1135,8 +1135,8 @@
    "sources": [
     "https://alsunitedct.org/living-with-als/our-care-services/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page modified Apr 27, 2026: loaner DME (power wheelchairs, Hoyer lifts) and CTS short rides plus van rentals listed under services free of charge for CT residents with ALS; (203) 874-5050."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Apr 27, 2026). Equipment Loan Program (power wheelchairs, Hoyer lifts) and Transportation Program (CTS short rides, van rentals) listed under free services; (203) 874-5050. No notices."
   },
   {
    "id": "do-it-for-the-love",
@@ -1166,10 +1166,10 @@
    "sources": [
     "https://www.doitforthelove.org/process"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Waitlist for new requests",
    "experience": true,
-   "verifyNote": "Join-waitlist process active; physician diagnosis form required; urgent flag available but expedited handling not guaranteed. No pause notice. Geography and cost not stated."
+   "verifyNote": "Live: applications reopened for waitlist entries through July 3, 2026; new waitlist open for next round; physician diagnosis form required; urgent flag, no guaranteed expediting; wishes expire 12 mont"
   },
   {
    "id": "easterseals-massachusetts",
@@ -1200,9 +1200,9 @@
    "sources": [
     "https://massachusetts.easterseals.com/get-support/areas-of-support/alternative-finance-program"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Loans and device access",
-   "verifyNote": "Massachusetts Alternative Finance Program active, funded via MassAbility; mini loans $100-$4,000 at 0% confirmed; MA residents with disabilities and family members may apply. No pause notice."
+   "verifyNote": "Live (updated Apr 2026). Mini loans $100-$4,000 at 0%, low-interest larger loans, free device loans under $500; funded via MassAbility; people with disabilities and family; (508) 757-2756. No email sh"
   },
   {
    "id": "team-hilliard-foundation",
@@ -1231,9 +1231,9 @@
    "sources": [
     "https://teamhilliardfoundation.org/about"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Individual grant unconfirmed",
-   "verifyNote": "Site live but only metadata readable (JS page): mission is funding ALS awareness, research, treatments and family support. No grant program, eligibility or contact visible."
+   "verifyNote": "Site live but only metadata readable (JS page): 'Honoring Jim Hilliard by funding ALS awareness, research, treatments, and support for families.' No program, eligibility or contact visible."
   },
   {
    "id": "als-hope-foundation",
@@ -1264,9 +1264,9 @@
    "sources": [
     "https://www.alshf.org/about-the-foundation"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Care and support",
-   "verifyNote": "Foundation funds Temple's ALS Center of Hope and research; offers support groups, AT program and guides for Greater Philadelphia area. No grants to individuals."
+   "verifyNote": "Live (2026 content, Oct 2026 events). Funds Temple's ALS Center of Hope and research; Resources menu lists Virtual Support Groups, ALS LEAP, Assistive Technology, Home guide, VAAC. No grants to indivi"
   },
   {
    "id": "mac-angels-foundation",
@@ -1301,9 +1301,9 @@
    "sources": [
     "https://www.macangels.org/how-we-help"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Grants described; contact for intake",
-   "verifyNote": "Grants for treatment-related/ongoing expenses in listed CT/NJ/NY counties, transport to clinic, DME, RN/LCSW home visits, caregiver group, bereavement; request form on site. Amounts not published."
+   "verifyNote": "Live: grants for treatment-related/ongoing expenses (NYC, Westchester/Hudson Valley, Long Island, Fairfield County CT, Northern and Central NJ), clinic rides, DME, home visits, caregiver group, bereav"
   },
   {
    "id": "susan-mast-als-foundation",
@@ -1334,9 +1334,9 @@
    "sources": [
     "https://susanmastals.org/services-support/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Regional support",
-   "verifyNote": "Page (last modified Dec 2023) lists Respite House/Respite Care, Meals, Brian's Locker, MyTurn Project Fund, Home Visits, Support Groups, Caregiver Resources; no descriptions, cost, eligibility or serv"
+   "verifyNote": "Live (modified Dec 19, 2023). Lists Respite House, Meals, Brian's Locker, MyTurn Project Fund, Home Visits, Support Groups, Respite Care, Caregiver Resources; no descriptions, cost, eligibility or are"
   },
   {
    "id": "als-in-wonderland-foundation",
@@ -1367,9 +1367,9 @@
    "sources": [
     "https://www.alsinwonderland.com/helpful-resources"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Confirm local eligibility",
-   "verifyNote": "Resources page live; menu lists Monthly Support Group, Equipment Studio, Medicare for PALS, New PALS Registration. No equipment request details, prescription rules or service area on this page."
+   "verifyNote": "Live: menu lists Monthly Support Group, Equipment Studio, Medicare for PALS, New PALS Registration; no request details, prescription rules or service area; Little Rock AR; 501-492-6955, Lara@teamupwor"
   },
   {
    "id": "the-phaals-foundation",
@@ -1398,10 +1398,10 @@
    "sources": [
     "https://www.phaals.org/hall-of-fame/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Confirm availability",
    "experience": true,
-   "verifyNote": "Hall of Fame honors people with ALS; inductees/families get guidance and support groups, access to Diamond Dreams and LEGEND Scholarship (no details or amounts). Apply via forms page. 2026 golf outing"
+   "verifyNote": "Live: Hall of Fame honors people with ALS; inductees/families get guidance, support groups, Diamond Dreams and LEGEND Scholarship access (no details or amounts); apply via forms page; 419-235-1908; 20"
   },
   {
    "id": "les-turner-als-money-guide",
@@ -1430,9 +1430,9 @@
    "sources": [
     "https://lesturnerals.org/als-money-guide/"
    ],
-   "lastVerified": "2026-10-24",
+   "lastVerified": "2026-10-29",
    "note": "Additional resource",
-   "verifyNote": "ALS & Money guide live (last reviewed Mar 6, 2026), free PDF download, no access requirements; covers expenses, SSDI/benefits, legal planning, financial stress, support team."
+   "verifyNote": "Live (reviewed Mar 6, 2026; modified Aug 21, 2026). Free PDF in English and Spanish, no access requirements; covers expenses, SSDI/benefits, legal planning, financial stress, support team; info@lestur"
   },
   {
    "id": "adaptive-impact-skydiving-paragliding",
@@ -1503,8 +1503,8 @@
     "https://als-ny.org/who-we-are/contact-us/",
     "https://als-ny.org/who-we-are/what-we-do/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page active (modified Sep 2026): LCSW psychotherapy and supplemental mental health grants; no amounts, deadlines or eligibility; (212) 619-1400; 'contact your caregiver coordinator'."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Sep 23, 2026). LCSW psychotherapy and Patient and Family Grants for Mental Health; no amounts, deadlines or formal eligibility; 'contact your caregiver coordinator'; (212) 619-1400. No "
   },
   {
    "id": "als-georgia-transportation",
@@ -1544,8 +1544,8 @@
     "https://alsgeorgia.org/navigating-als/chapter-grant-program/",
     "https://secure.alsgeorgia.org/site/DocServer/2025_Team_Captain_Kit.pdf?docID=361"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Page modified Apr 14, 2026: rides, van rentals, pre-approved van adaptations, $1,000 van voucher; 2 weeks notice; 404.636.9909 / toll-free 888.636.9940, info@alsgeorgia.org. No pause."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Apr 14, 2026). Rides, van rentals, pre-approved van modifications, $1,000 van grant by need/impact; 2 weeks notice; 404-636-9909 / 888-636-9940, info@alsgeorgia.org. No pause."
   },
   {
    "id": "usda-rd-section-504-home-repair",
@@ -1581,8 +1581,8 @@
    "sources": [
     "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Confirmed: loans to $40,000 at 1% for 20 yrs, grants to $10,000 lifetime for age 62+, combined $50,000, grant repaid if sold within 3 years, applications year-round via local RD office. No pause notic"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live, application window 'Open': loans to $40,000 at 1% for 20 yrs, grants to $10,000 lifetime for 62+, combined $50,000, grant repaid if sold within 3 years; year-round via local RD office. No shutdo"
   },
   {
    "id": "als-of-nevada-respite-program",
@@ -1617,8 +1617,8 @@
     "https://alsofnevada.org/care-services/support-for-families/",
     "https://alsofnevada.org/who-we-are/what-we-do/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Non-Medical Respite, Medical Equipment, home visits, transport listed as free statewide; no respite hours/caps. Contacts: 702-777-0500; Susie Twasta susie@ 702-790-1578; Brian Hubert brian@alsofnevada"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live (modified Jun 17, 2026). Non-Medical Respite, grants help, equipment loans, home visits, Team Curtis transport listed free, statewide; no respite limits. 702-777-0500; Susie Twasta susie@ 702-790"
   },
   {
    "id": "joan-dancy-and-pals-patient-services",
@@ -1644,15 +1644,15 @@
    "youllNeed": [],
    "howToApply": "Call 732-450-2677 or email info@joandancyandpals.org. For a nurse visit contact Pat Schaeffer, RN, 732-239-4724; for the social worker or support groups contact Irene Stanton, LCSW, 609-433-6333, Irene@JoanDancyandPals.org.",
    "url": "https://www.joandancyandpals.org/services",
-   "contact": "732-450-2677 · info@joandancyandpals.org",
+   "contact": "Social worker Kathy Valentino 609-433-6333 · nurse Pat Schaeffer (see page)",
    "sources": [
     "https://www.joandancyandpals.org/services",
     "https://joandancyandpals.org/",
     "https://www.joandancyandpals.org/general-5",
     "https://sinderellasball.org/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Nurse Pat Schaeffer and LCSW Irene Stanton home visits, equipment list unchanged, Zoom groups 1st/3rd Tuesday; 732-450-2677, info@joandancyandpals.org; direct lines 732-239-4724, 609-433-6333."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live: nurse Pat Schaeffer and social worker Kathy Valentino home visits; equipment list unchanged; Zoom groups 1st (patients) and 3rd (caregivers) Tuesday 6:30-8 pm; 609-433-6333. Financial assistance"
   },
   {
    "id": "als-ride-for-life-mobility-matters-van-loan",
@@ -1686,8 +1686,8 @@
     "https://alsrideforlife.org/programs-assistance/mobility-program/",
     "https://alsrideforlife.org/wheelchair-accessible-van-rental-assistance-program/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Van loan still for PALS on Long Island NY and neighboring areas, confirmed diagnosis, availability varies; power wheelchairs 'Currently unavailable'; 631-444-1292, rfldirector@aol.com. No pause."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Live: temporary van loans only for PALS on Long Island NY and neighboring areas; confirmed diagnosis (physician info); availability varies; power wheelchairs 'Currently unavailable'; rfldirector@aol.c"
   },
   {
    "id": "edw-pharma-tiglutik-copay-support",
@@ -1720,8 +1720,8 @@
     "https://tiglutik.com/how-does-anovo-help-with-the-tiglutik-prescription-process/",
     "https://tiglutik.com/"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Eligible commercially insured patients 18+ pay $0 per fill, max savings limit (no amount), Medicare/Medicaid/TRICARE excluded, Anovo only, USA incl. PR; 844-763-1198. Page still branded ITF Pharma; no"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Page 'What Does TIGLUTIK Cost?' (c2026): $0 per fill, max savings limit, commercial only, Medicare/Medicaid/TRICARE excluded, Anovo only, USA/PR; footer now EDW Pharma (formerly ITF). Meta tag still s"
   },
   {
    "id": "als-association-jack-norton-caregiver-respite",
@@ -1790,8 +1790,8 @@
     "https://touchedbyals.org/programs/",
     "https://touchedbyals.org/assistance-application"
    ],
-   "lastVerified": "2026-10-24",
-   "verifyNote": "Generator Loan Program listed: Ryobi generators for ventilator/electricity-dependent PALS, need verified, immediate safety risks prioritized, delivered promptly and retrieved; (864) 214-6745; form at "
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Life-Sustaining Generator Loan Program still listed: Ryobi generators for ventilator/equipment-dependent PALS, need verified, safety risks prioritized, retrieved after; (864) 214-6745, TouchedByALS@gm"
   },
   {
    "id": "inheritance-of-hope-legacy-retreats",
@@ -1819,8 +1819,8 @@
    "sources": [
     "https://inheritanceofhope.org/find-support/retreats/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Retreats page states the diagnosed parent must have 'late-stage or metastatic cancer, ALS, or another terminal diagnosis', that donors cover the retreat cost, and that 'once you chec"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Legacy Retreats active, first-come first-served; ALS listed; kids 18 and under (to 21 w/ sibling); donors cover retreat, family pays travel; Nashville Nov 6-8, Orlando Feb 12-14, DFW Apr 29-May 2, Min"
   },
   {
    "id": "pva-veterans-als-claims-help",
@@ -1848,8 +1848,8 @@
    "sources": [
     "https://pva.org/information-veterans-als/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page says PVA helps veterans with ALS apply for VA benefits, its service officers 'are trained to spot ALS claims', services are free 'from the time of disability through end of life"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Page (modified 2026-09-16) says services free 'from time of disability to end of life'; NSOs trained for ALS claims; 90+ days active duty presumptive; 1-800-424-8200 HQ, 1-866-734-0857 benefits helpli"
   },
   {
    "id": "help-hope-live-fundraising",
@@ -1879,8 +1879,8 @@
    "sources": [
     "https://helphopelive.org/financial-support-for-als"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: ALS page says HHL verifies medical need, enables tax-deductible donations, manages funds so they don't count as income or assets for state-based benefits, and lists ALS costs such as"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "ALS page (modified 2026-09-21) still: verifies medical need, tax-deductible donations, funds not personal income/assets, protects state benefits; 800-642-8399. No pause notice."
   },
   {
    "id": "ship-medicare-counseling",
@@ -1908,8 +1908,8 @@
    "sources": [
     "https://www.shiphelp.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: shiphelp.org says SHIPs provide 'local, one-on-one Medicare counseling' that is confidential, unbiased and 'at no cost to you', with a locator and the 877-839-2675 line."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "shiphelp.org: local one-on-one Medicare counseling 'at no cost to you', Find Your SHIP locator, promoting Open Enrollment; 877-839-2675 is SHIP TA Center line. ACL-funded; no pause notice."
   },
   {
    "id": "dav-claims-help-and-rides",
@@ -1937,8 +1937,8 @@
    "sources": [
     "https://www.dav.org/veterans/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page says DAV 'offers free services for veterans' including help filing VA claims and 'free rides to ill and injured veterans for VA and other medical appointments', over 230,000 rid"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "DAV page (2026): free services incl. VA benefits claim help and free medical transportation fleet for ill/injured veterans; 1-877-426-2838 listed. No membership requirement stated; no pause notice."
   },
   {
    "id": "als-northwest-medical-equipment-program",
@@ -1971,8 +1971,8 @@
    "sources": [
     "https://alsnorthwest.org/navigating-als/als-care-services/medical-equipment-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page says equipment is loaned 'at no cost' for 'persons living with ALS living in the service area' and lists wheelchairs, lifts, ramps and AAC devices."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Loans at no charge for as long as needed, subject to availability; regional coordinators (SW WA/Portland: Gabriel O'Brien 503-238-5559 x124; communication equip 503-765-7635). No pause notice."
   },
   {
    "id": "als-united-gny-lopatin-transportation",
@@ -2005,8 +2005,8 @@
    "sources": [
     "https://als-ny.org/navigating-als/transportation-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: 'Transportation will be provided free of charge' for ALS Center/clinic visits, 'due to limited funding, we must limit rides' to 4 ALS Center visits per year."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Lopatin program active: free ambulette/car service to ALS Center/clinic, 4 ALS Center visits/yr due to limited funding, mileage caps may apply; Christine Dunn (212) 720-3044. Page last modified Nov 20"
   },
   {
    "id": "als-united-gny-equipment-loan",
@@ -2039,8 +2039,8 @@
    "sources": [
     "https://als-ny.org/navigating-als/equipment-loan-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: 'All items are provided to those with ALS free of charge' and lists coverage area of NYC boroughs, Hudson Valley counties, Long Island, and Central and Northern New Jersey."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Equipment loans 'at no cost to the recipient or family'; NYC, Westchester, Rockland, Orange, Ulster, Dutchess, Putnam, LI, central/northern NJ; availability depends on donations; (212) 720-3058 for la"
   },
   {
    "id": "als-united-mid-atlantic-shimer-dme-loan",
@@ -2073,8 +2073,8 @@
    "sources": [
     "https://alsmidatlantic.org/navigating-als/our-care-services/equipment-loan-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page says equipment is provided 'at no charge' to patients with an ALS diagnosis in the served area and lists wheelchairs, shower chairs, transfer devices and Hoyer lifts."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Shimer DME loans 'at no charge' for those w/o DME coverage, high deductibles or no other way to pay; SE PA, central/southern NJ, DE (Larissa Gibbons coordinator); 215-664-4137 x48 listed under South C"
   },
   {
    "id": "als-united-mid-atlantic-kilpatric-van",
@@ -2107,8 +2107,8 @@
    "sources": [
     "https://alsmidatlantic.org/navigating-als/our-care-services/transportation-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: rides offered 'on a limited basis' for clinic and medical appointments; 'Complete and sign the Transportation Program Registration form before using the service'; 60-mile radiu"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Van service 'available on a limited basis' for clinic/medical appts; registration form, 60-mile radius of Montgomery County PA office, caregiver must ride, no minors, no hospital admit/discharge trips"
   },
   {
    "id": "als-united-orange-county-equipment-loan",
@@ -2139,8 +2139,8 @@
    "sources": [
     "https://alsuoc.org/navigating-als/equipment-loan-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: equipment is 'loaned at no cost to people living with ALS in Orange County, CA' and 'There is no charge to borrow equipment through this program.'"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Equipment 'loaned at no cost to people living with ALS in Orange County, CA'; first-come first-served, stock varies weekly; call/text 714-285-1088 or info@alsuoc.org. Augmentative Communication on sep"
   },
   {
    "id": "als-united-nc-equipment-loan",
@@ -2171,8 +2171,8 @@
    "sources": [
     "https://alsnc.org/navigating-als/equipment-loan-program/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page: program is 'only available to North Carolina residents who have a verification of ALS Diagnosis'; delivery and pickup are free; lists the seven equipment types."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Loaner program only for NC residents with verified ALS diagnosis; seven equipment types, four closets w/ Stalls Medical & Adaptive Vans; free delivery/pickup; equipment stays in NC; Diana Van Valen 91"
   },
   {
    "id": "als-network-hawaii-equipment-loans",
@@ -2203,8 +2203,8 @@
    "sources": [
     "https://alsnetwork.org/serving-hawaiis-als-community/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Page lists Hawaii services including 'loans of durable medical equipment and augmentative communication devices,' coordinated by Mac Negre at 808-394-7642."
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Hawaii page lists care management, monthly connection groups (Nov 2026-Apr 2027 calendar), DME and AAC device loans, emergency/disaster assistance; Mac Negre, Equipment Lending Coordinator, 808-394-76"
   },
   {
    "id": "triage-health-legal-financial-navigation",
@@ -2234,8 +2234,8 @@
    "sources": [
     "https://triagecancer.org/gethelp"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Program info sheet: Triage Health extends the program to 'anyone navigating a chronic or serious medical condition'; offers free one-on-one guidance on 'health insurance, disability "
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Get Help page: free one-on-one help from navigators (no legal representation), Mon-Thu four-day week, 424-258-4628, info@triagecancer.org. Page is cancer-framed and does not mention Triage Health/non-"
   },
   {
    "id": "dollar-for-hospital-charity-care",
@@ -2263,8 +2263,8 @@
    "sources": [
     "https://dollarfor.org/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Homepage: helps patients get hospital charity care 'for free'; 'On average, a family of 4 earning less than $100,000 a year will qualify.'"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Homepage: 'We can help you apply — for free' for hospital charity care; 'on average, a family of 4 earning less than $100,000 a year will qualify'; nonprofit hospitals legally required to offer. No pa"
   },
   {
    "id": "liheap-energy-assistance",
@@ -2293,8 +2293,8 @@
    "sources": [
     "https://liheapch.ncat.org/node/1516"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: NEAR page: free referral service that 'connects you with the LIHEAP office that serves your area'; acf.hhs.gov describes LIHEAP as 'a federally-funded program that helps low-income h"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "NEAR page: free referral service to local LIHEAP office; 1-866-674-6327 or energyassistance@ncat.org with city/county/state. No shutdown/funding notice on page; links OCS Disaster Flexibilities Hub."
   },
   {
    "id": "texas-ramp-project",
@@ -2325,8 +2325,8 @@
    "sources": [
     "https://www.texasramps.org/request-a-ramp/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Request page: referrals accepted 'only from qualified organizations and healthcare professionals'; eligibility requires verified mobility need and 'demonstrated hardship that prevent"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Referrals only from qualified orgs/healthcare professionals/EMS-fire-police; verified mobility need + financial hardship; wait 3-6 months or longer, Amarillo ~30 days; referral@texasramps.org, (214) 5"
   },
   {
    "id": "legal-hospice-of-texas",
@@ -2357,8 +2357,8 @@
    "sources": [
     "https://www.legalhospice.org/services"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Services page lists estate planning ('wills, powers of attorney, living wills, and guardianship declarations'), insurance, public benefits including Social Security appeals, and hous"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Services page lists estate planning (wills, POA, living wills, guardianship), insurance, employment, public benefits/SS appeals, housing/eviction for HIV or terminal diagnosis; Dallas 75219; (214) 521"
   },
   {
    "id": "gods-love-we-deliver-meals",
@@ -2391,8 +2391,8 @@
    "sources": [
     "https://www.glwd.org/get-meals/for-you-or-your-loved-ones/eligibility-forms-client-form/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Eligibility page: must 'live with a severe and/or chronic illness... or another serious condition', live in NYC or Hudson County NJ, and have 'difficulty grocery shopping and cooking"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Eligibility unchanged: severe and/or chronic illness, lives in NYC or Hudson County NJ, difficulty shopping/cooking, provider-signed referral form; 212-294-8102, clientservices@glwd.org. No waitlist n"
   },
   {
    "id": "community-servings-meals",
@@ -2425,8 +2425,8 @@
    "sources": [
     "https://www.servings.org/meal-delivery/"
    ],
-   "lastVerified": "2026-10-26",
-   "verifyNote": "Added 2026-10-26: Meal delivery page: serves residents of Massachusetts and Rhode Island living with 'critical or chronic illnesses and food insecurity'; clients receive meals 'at no cost to them'; se"
+   "lastVerified": "2026-10-29",
+   "verifyNote": "Weekly medically tailored meals 'at no cost to them' for MA and RI residents with critical/chronic illness and food insecurity; provider completes Medical Certification Form (self-referral OK); 617-52"
   },
   {
    "id": "alsa-alabama-communication-support",

@@ -60,6 +60,11 @@ def refresh(rec, p):
         rec["sites"] = len(locs)
     cs = contacts(p)
     if cs: rec["contacts"] = cs
+    # registry description and size, shown on the study's own page (public-domain registry text)
+    bs = (p.get("descriptionModule", {}).get("briefSummary") or "").strip()
+    if bs: rec["summary"] = bs
+    n = (p.get("designModule", {}).get("enrollmentInfo") or {}).get("count")
+    if isinstance(n, int) and n > 0: rec["enrollment"] = n
     rec["registryDate"] = TODAY
     return rec
 

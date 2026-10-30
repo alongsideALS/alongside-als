@@ -303,6 +303,10 @@ for f in sorted((SRC/'pages').glob('*.html')):
         body = (body.replace('{{MAP_STATES}}', svg).replace('{{MAP_DIRECTORY}}', directory).replace('{{MAP_V}}', MAP_V)
                 .replace('{{MAP_CONTEXT}}', ctx['d']).replace('{{MAP_LAKES}}', ctx['lakes']))
         jsonld = [mapld]
+    if 'id="faq"' in body and f.name != "understanding-als.html":
+        qa = re.findall(r'<details><summary>(.*?)</summary><p>(.*?)</p></details>', body.split('id="faq"', 1)[1].split('</section>', 1)[0], re.S)
+        if qa: jsonld = list(jsonld or []) + [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": html.unescape(re.sub(r"<[^>]+>", "", q)), "acceptedAnswer": {"@type": "Answer", "text": html.unescape(re.sub(r"<[^>]+>", "", a))}} for q, a in qa]}]
     out = (head.replace('{{FULLTITLE}}', esc(full)).replace('{{TITLE}}', esc(t)).replace('{{DESC}}', esc(d))
            .replace('{{URL}}', url).replace('{{ROBOTS}}', robots).replace('{{JSONLD}}', ld(jsonld)).replace('{{PAGE}}', p)
            .replace('{{CSS_V}}', CSS_V).replace('{{HEADER}}', header(p))
@@ -317,6 +321,10 @@ import build_detail
 def _wrap_detail(name, t, d, body, jsonld, nav_key):
     url = SITE + "/" + name
     full = f"{t} · Alongside ALS"
+    if 'id="faq"' in body and f.name != "understanding-als.html":
+        qa = re.findall(r'<details><summary>(.*?)</summary><p>(.*?)</p></details>', body.split('id="faq"', 1)[1].split('</section>', 1)[0], re.S)
+        if qa: jsonld = list(jsonld or []) + [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": html.unescape(re.sub(r"<[^>]+>", "", q)), "acceptedAnswer": {"@type": "Answer", "text": html.unescape(re.sub(r"<[^>]+>", "", a))}} for q, a in qa]}]
     out = (head.replace('{{FULLTITLE}}', esc(full)).replace('{{TITLE}}', esc(t)).replace('{{DESC}}', esc(d))
            .replace('{{URL}}', url).replace('{{ROBOTS}}', "index, follow, max-image-preview:large, max-snippet:-1").replace('{{JSONLD}}', ld(jsonld)).replace('{{PAGE}}', "detail")
            .replace('{{CSS_V}}', CSS_V).replace('{{HEADER}}', header(nav_key))

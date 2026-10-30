@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "items": [
   {
    "id": "ssdi-als",
@@ -2490,6 +2490,140 @@
    ],
    "lastVerified": "2026-10-26",
    "verifyNote": "Added 2026-10-26 from the ALS Association program catalog; page read in Chrome."
+  },
+  {
+   "id": "medicaid-hcbs-waivers",
+   "kind": "service",
+   "name": "Medicaid home and community-based services (HCBS) waivers",
+   "org": "Your state Medicaid agency",
+   "categories": [
+    "Government benefits",
+    "Caregiving & education",
+    "Home access"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "Every state runs Medicaid waiver programs (often called HCBS, disability or personal-care waivers) that pay for help at home that regular insurance does not: personal care attendants, respite for family caregivers, home modifications and equipment, adult day programs and, in many states, pay for a family member who provides care. Some waivers count only the disabled person's income, so a working spouse does not always rule you out.",
+   "amount": "Varies by state; services are paid directly rather than as cash",
+   "status": "rolling",
+   "window": "Apply any time. Several states keep waitlists for some waivers, so apply early; ALS usually qualifies on medical need. Programs and names differ in every state.",
+   "deadline": null,
+   "eligibility": [
+    "Meets the state's disability or nursing-home level-of-care test (ALS normally does)",
+    "Meets the waiver's income and asset limits, which are often higher than regular Medicaid and sometimes count only the person with ALS",
+    "Lives at home or wants to return home"
+   ],
+   "youllNeed": [
+    "Diagnosis letter and recent clinic notes",
+    "Income and asset information",
+    "Social Security or SSDI award letter if you have one"
+   ],
+   "howToApply": "Call your state Medicaid agency or Area Agency on Aging and ask which home and community-based waivers an adult with ALS can apply for; your ALS clinic social worker can tell you which one families in your state use. In Massachusetts, see MassHealth CommonHealth and the PCA program.",
+   "url": "https://www.medicaid.gov/medicaid/home-community-based-services/index.html",
+   "contact": "Your state Medicaid office (find it through medicaid.gov) or the Eldercare Locator, 1-800-677-1116",
+   "sources": [
+    "https://www.medicaid.gov/medicaid/home-community-based-services/index.html"
+   ],
+   "lastVerified": "2026-10-30",
+   "verifyNote": "Added 2026-10-30 on the suggestion of a CCALS care liaison; medicaid.gov overview read; state details must be checked locally."
+  },
+  {
+   "id": "masshealth-commonhealth",
+   "kind": "service",
+   "name": "MassHealth CommonHealth",
+   "org": "MassHealth (Massachusetts Medicaid)",
+   "categories": [
+    "Government benefits",
+    "Insurance help"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA"
+   ],
+   "forWhat": "Massachusetts health coverage for adults with disabilities whose income is too high for regular MassHealth. It works alongside private insurance or Medicare, paying copays, coinsurance and deductibles they leave behind, can help with private premiums, and opens the door to MassHealth-funded home care such as the personal care attendant (PCA) program. Monthly premium based on household finances; the one-time deductible for people under 65 has been eliminated.",
+   "amount": "Comprehensive coverage; premium varies with income",
+   "status": "rolling",
+   "window": "Apply any time. Under 65, you must be found disabled (Social Security's decision counts) and either work at least 40 hours a month or qualify as non-working under MassHealth's rules; ask MassHealth which path fits.",
+   "deadline": null,
+   "eligibility": [
+    "Massachusetts resident with a disability (SSA, Mass. Commission for the Blind or MassHealth disability determination)",
+    "Household income above the regular MassHealth limit (133% of the federal poverty level under 65)",
+    "People 65+ have separate work-history rules"
+   ],
+   "youllNeed": [
+    "ACA-3 application (under 65) or SACA-2 (65+) with 'CommonHealth' written at the top",
+    "MassHealth Disability Supplement if you are not already found disabled",
+    "Proof of income, assets and citizenship or immigration status"
+   ],
+   "howToApply": "Apply online with an MA Login account, by mail with the printed application, or by calling MassHealth Customer Service at 800-841-2900 (TTY 711); existing members ask to add the Disability Supplement.",
+   "url": "https://www.mass.gov/info-details/masshealth-commonhealth",
+   "contact": "800-841-2900 (TTY 711)",
+   "sources": [
+    "https://www.mass.gov/info-details/masshealth-commonhealth"
+   ],
+   "lastVerified": "2026-10-30",
+   "verifyNote": "Added 2026-10-30; mass.gov page read (eligibility, premiums, application routes)."
+  },
+  {
+   "id": "global-neuro-ycare",
+   "kind": "service",
+   "name": "Global Neuro YCare: support for young caregivers",
+   "org": "Global Neuro YCare",
+   "categories": [
+    "Family & kids",
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A Milwaukee-based nonprofit for children, teens and young adults who end up helping care for a parent or relative with ALS or another neurological disease. Offers the YCare skill-building program for young caregivers, age-appropriate books and materials about the conditions, resources for teachers and clinicians, and the LUKi & The Lights animated films that explain ALS to children (screenings can be hosted locally).",
+   "amount": "Free materials and films; donation-funded",
+   "status": "rolling",
+   "window": "Ongoing; materials are online and translated into several languages.",
+   "deadline": null,
+   "eligibility": [
+    "Children and young people helping care for someone with a neurological condition, and the adults who support them"
+   ],
+   "youllNeed": [],
+   "howToApply": "Use the contact form at globalneuroycare.org to ask about the YCare program or to host a LUKi screening; books and films are on the site.",
+   "url": "https://globalneuroycare.org",
+   "contact": "Contact form on globalneuroycare.org",
+   "sources": [
+    "https://globalneuroycare.org"
+   ],
+   "lastVerified": "2026-10-30",
+   "verifyNote": "Added 2026-10-30 on a CCALS liaison's recommendation; homepage read."
+  },
+  {
+   "id": "mgh-pact-parenting",
+   "kind": "service",
+   "name": "PACT: Parenting At a Challenging Time (MGH)",
+   "org": "Massachusetts General Hospital, Marjorie E. Korff PACT Program",
+   "categories": [
+    "Family & kids",
+    "Caregiving & education"
+   ],
+   "scope": "Regional",
+   "regions": [
+    "MA"
+   ],
+   "forWhat": "Guidance for parents facing a serious illness on how to talk with their children, keep family routines and build children's resilience through every phase of the illness. Written for cancer but its 'For Other Illnesses' guides and consultation model are used by families living with ALS; MGH patients can get free parenting consultations with PACT clinicians.",
+   "amount": "Free online resources; free consultations for MGH patients",
+   "status": "rolling",
+   "window": "Ongoing.",
+   "deadline": null,
+   "eligibility": [
+    "Any parent can use the online guides",
+    "Consultations: parents receiving care at Massachusetts General Hospital (ask your clinic to refer you)"
+   ],
+   "youllNeed": [],
+   "howToApply": "Read the parent guides at mghpact.org; MGH patients or their clinicians call 617-724-7272 or email mghpact@partners.org to request a consultation.",
+   "url": "https://www.mghpact.org",
+   "contact": "617-724-7272 · mghpact@partners.org",
+   "sources": [
+    "https://www.mghpact.org"
+   ],
+   "lastVerified": "2026-10-30",
+   "verifyNote": "Added 2026-10-30; site read (cancer-focused with other-illness guides; free MGH consultations)."
   }
  ]
 }

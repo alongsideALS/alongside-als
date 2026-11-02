@@ -1,6 +1,6 @@
 """Build data/map.json (clinics + study sites + local programs by state) and data/zips/<d>.json.
 
-Inputs:  _src/tools/clinic-sources/{alsa,mda,va,neals}.json  (clinic lists gathered 2026-10-19)
+Inputs:  _src/tools/clinic-sources/{alsa,mda,va,neals,alsu}.json  (clinic lists gathered 2026-10-19; ALS United added 2026-11-02)
          _src/tools/zips.json                                (ZIP -> lat/lng/city/state, from the `zipcodes` npm package)
          data/trials.json, data/grants.json, data/services.json
 Run:     python3 build_map.py   (then python3 build.py)
@@ -55,7 +55,7 @@ ALIASES = [
     (r"university of pittsburgh|\bupmc\b", "upmc"), (r"university of rochester", "urochester"), (r"texas neurology", "texasneurology"),
     (r"ut ?southwestern|university of texas southwestern", "utsw"), (r"vanderbilt", "vanderbilt"), (r"west virginia university|\bwvu\b", "wvu"),
     (r"\bcamc\b|vandalia", "camc"), (r"university of massachusetts|umass", "umass"), (r"university of arkansas|\buams\b", "uams"),
-    (r"mayo", "mayo-<city>"), (r"johns hopkins", "jhu"), (r"university of maryland", "umd"), (r"beth israel deaconess|\bbidmc\b", "bidmc"),
+    (r"mayo", "mayo-<city>"), (r"stony brook", "stonybrook"), (r"geisinger", "geisinger-<city>"), (r"banner.university|university of arizona", "uarizona"), (r"swedish", "swedish-<city>"), (r"navicent", "navicent"), (r"johns hopkins", "jhu"), (r"university of maryland", "umd"), (r"beth israel deaconess|\bbidmc\b", "bidmc"),
     (r"lahey|lhmc", "lahey"), (r"corewell|spectrum health", "corewell"), (r"henry ford|hoenselaar", "henryford"), (r"university of michigan|michigan medicine", "umich"),
     (r"trinity health|mercy health saint mary", "trinity-gr"), (r"bronson", "bronson"), (r"cox ?health|cox medical", "cox"), (r"university of missouri", "mizzou"),
     (r"university of nebraska", "unmc"), (r"dartmouth", "dartmouth"), (r"jersey shore|hackensack meridian", "jsumc"),
@@ -111,14 +111,14 @@ def same_place(a, b):
 
 def merge_clinics():
     recs = []
-    for net in ('alsa', 'mda', 'va', 'neals'):
+    for net in ('alsa', 'mda', 'va', 'neals', 'alsu'):
         for it in load(net): recs.append(dict(it))
     groups = []
     for r in recs:
         for g in groups:
             if any(same_place(r, m) for m in g): g.append(r); break
         else: groups.append([r])
-    PRIORITY = {'alsa-coe': 0, 'alsa-rtc': 1, 'mda': 2, 'va': 3, 'neals': 4}
+    PRIORITY = {'alsa-coe': 0, 'alsa-rtc': 1, 'mda': 2, 'va': 3, 'neals': 4, 'alsu': 5}
     clinics = []
     for g in groups:
         g.sort(key=lambda r: PRIORITY[r['network']])
@@ -195,7 +195,7 @@ def build():
         counts[s] = {"clinics": len(cl), "siteCities": len(st), "studies": len({x['id'] for c in st for x in c['studies']}), "programs": len(programs.get(s, []))}
     data = {"updated": TODAY, "sources": {
                 "alsa": "https://www.als.org/local-support/certified-centers-clinics", "mda": "https://www.mda.org/care/care-center-list",
-                "va": "https://www.va.gov/health/als.asp", "neals": "https://neals.org/about/neals-member-sites/", "trials": "ClinicalTrials.gov snapshot " + json.load(open('data/trials.json'))['registrySnapshot']},
+                "va": "https://www.va.gov/health/als.asp", "neals": "https://neals.org/about/neals-member-sites/", "alsu": "https://www.alsunited.org/our-members", "trials": "ClinicalTrials.gov snapshot " + json.load(open('data/trials.json'))['registrySnapshot']},
             "clinics": clinics, "sites": sites, "programs": programs, "counts": counts}
     pathlib.Path('data').mkdir(exist_ok=True)
     json.dump(data, open('data/map.json', 'w'), separators=(',', ':'), ensure_ascii=False)

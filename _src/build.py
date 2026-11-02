@@ -182,7 +182,7 @@ def build_summary():
 
 # ---------- map page: state outlines (Albers USA, us-atlas 10m simplified) + clinic directory ----------
 NET_LABEL = {"alsa-coe": "ALS Association Center of Excellence", "alsa-rtc": "ALS Association Recognized Center",
-             "mda": "MDA ALS Care Center", "va": "VA ALS clinic", "neals": "NEALS research site"}
+             "mda": "MDA ALS Care Center", "va": "VA ALS clinic", "neals": "NEALS research site", "alsu": "ALS United partner clinic"}
 def map_assets():
     import sys; sys.path.insert(0, 'tools')
     from states import build_paths, STATES, label_point
@@ -208,7 +208,7 @@ def map_assets():
             items.append(f'<li><b>{esc(c["name"])}</b>{inst}<p>{esc(where)}</p><p class="small">{esc(nets)}</p>{"<p>" + " · ".join(links) + "</p>" if links else ""}</li>')
         out.append(f'<details class="dir-state" id="dir-{code}"><summary><span>{esc(names.get(code, code))}</span><span class="muted small">{len(items)} clinic{"s" if len(items) != 1 else ""}</span></summary><ul class="static-list dir-list">{"".join(items)}</ul></details>')
     mapld = {"@context": "https://schema.org", "@type": "Dataset", "name": "ALS clinics, study sites and local programs in the United States", "url": SITE + "/map",
-             "description": f"{len(m['clinics'])} multidisciplinary ALS clinics (ALS Association certified and recognized centers, MDA ALS Care Centers, VA ALS clinics, NEALS research sites), recruiting clinical-study sites and state-specific grants and services, with locations.",
+             "description": f"{len(m['clinics'])} multidisciplinary ALS clinics (ALS Association certified and recognized centers, MDA ALS Care Centers, VA ALS clinics, NEALS research sites, ALS United partner clinics), recruiting clinical-study sites and state-specific grants and services, with locations.",
              "dateModified": m['updated'], "creator": {"@type": "Organization", "name": "Alongside ALS", "url": SITE},
              "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": True,
              "distribution": {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": SITE + "/data/map.json"}}

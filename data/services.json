@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-02",
  "items": [
   {
    "id": "ssdi-als",
@@ -2519,13 +2519,13 @@
     "Social Security or SSDI award letter if you have one"
    ],
    "howToApply": "Call your state Medicaid agency or Area Agency on Aging and ask which home and community-based waivers an adult with ALS can apply for; your ALS clinic social worker can tell you which one families in your state use. In Massachusetts, see MassHealth CommonHealth and the PCA program.",
-   "url": "https://www.medicaid.gov/medicaid/home-community-based-services/index.html",
+   "url": "https://www.medicaid.gov/medicaid/home-community-based-services",
    "contact": "Your state Medicaid office (find it through medicaid.gov) or the Eldercare Locator, 1-800-677-1116",
    "sources": [
-    "https://www.medicaid.gov/medicaid/home-community-based-services/index.html"
+    "https://www.medicaid.gov/medicaid/home-community-based-services"
    ],
-   "lastVerified": "2026-10-30",
-   "verifyNote": "Added 2026-10-30 on the suggestion of a CCALS care liaison; medicaid.gov overview read; state details must be checked locally."
+   "lastVerified": "2026-11-02",
+   "verifyNote": "Added 2026-10-30 on the suggestion of a CCALS care liaison. Nov 2, 2026: medicaid.gov moved the HCBS overview (old /index.html URL now 404); link updated to the new page, which loads. State details must be checked locally."
   },
   {
    "id": "masshealth-commonhealth",

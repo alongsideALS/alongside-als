@@ -452,6 +452,7 @@ button.linkish:hover{color:var(--navy)}
 .pill.mda{background:var(--good-soft);color:var(--good)}
 .pill.va{background:#e8e4f5;color:#4b3a8a}
 .pill.neals{background:var(--accent-soft);color:var(--accent-ink)}
+.pill.alsu{background:#fde8e4;color:#9a3b22}
 .study-head{display:flex;flex-wrap:wrap;gap:6px}
 .study b{font-size:1rem}
 .city-d{border:1.5px solid var(--line);border-radius:var(--r);background:var(--surface);margin:8px 0;scroll-margin-top:12px}

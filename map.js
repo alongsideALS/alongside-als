@@ -23,7 +23,8 @@ const NET = {
   "alsa-rtc": ["ALS Association Recognized Center", "Recognized Treatment Center (ALS Association)"],
   "mda": ["MDA ALS Care Center", "MDA ALS Care Center (Muscular Dystrophy Association)"],
   "va": ["VA ALS clinic", "Department of Veterans Affairs ALS clinic (for veterans)"],
-  "neals": ["NEALS research site", "Member of the Northeast ALS Consortium (runs clinical research)"]
+  "neals": ["NEALS research site", "Member of the Northeast ALS Consortium (runs clinical research)"],
+  "alsu": ["ALS United partner clinic", "Clinic partner of a local ALS United member organization"]
 };
 const ENROLL = { yes: ["Recruiting", "s-good"], soon: ["Not yet recruiting", "s-info"], invite: ["By invitation", "s-warn"] };
 const LAYER_LABEL = { clinics: "ALS clinics", sites: "cities with study sites", programs: "local grants & services" };

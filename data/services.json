@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "items": [
   {
    "id": "ssdi-als",
@@ -2624,6 +2624,100 @@
    ],
    "lastVerified": "2026-10-30",
    "verifyNote": "Added 2026-10-30; site read (cancer-focused with other-illness guides; free MGH consultations)."
+  },
+  {
+   "id": "medicare-care-compare-home-health",
+   "kind": "service",
+   "name": "Medicare Care Compare: home health agencies near you",
+   "org": "Medicare (CMS)",
+   "categories": [
+    "Caregiving & education",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "The official directory of Medicare-certified home health agencies, searchable by ZIP code, with quality ratings and the services each agency offers (skilled nursing, physical, occupational and speech therapy, home health aides). Medicare pays for part-time skilled care at home when a doctor orders it; it does not pay for round-the-clock or custodial care.",
+   "amount": "Free directory; Medicare covers eligible home health visits in full",
+   "status": "rolling",
+   "window": "Use any time.",
+   "deadline": null,
+   "eligibility": [
+    "Anyone can search",
+    "Medicare home health benefit: homebound, needs part-time skilled care, ordered by a doctor"
+   ],
+   "youllNeed": [
+    "Your ZIP code",
+    "A doctor's order for home health if you want Medicare to pay"
+   ],
+   "howToApply": "Search by ZIP code and choose 'Home health services'. Ask your ALS clinic nurse or social worker which agencies know ALS; they can send the referral.",
+   "url": "https://www.medicare.gov/care-compare/?providerType=HomeHealth",
+   "contact": "1-800-MEDICARE (1-800-633-4227)",
+   "sources": [
+    "https://www.medicare.gov/care-compare/?providerType=HomeHealth"
+   ],
+   "lastVerified": "2026-11-05",
+   "verifyNote": "Added 2026-11-05 to answer 'how do I find in-home care near me'. Care Compare loads with the Home health provider type; Medicare home health coverage rules unchanged."
+  },
+  {
+   "id": "eldercare-locator-area-agency-on-aging",
+   "kind": "service",
+   "name": "Eldercare Locator: find in-home help, respite and your Area Agency on Aging",
+   "org": "Administration for Community Living (U.S. HHS)",
+   "categories": [
+    "Caregiving & education",
+    "Government benefits"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A free national hotline and search tool that connects you with your local Area Agency on Aging and Aging and Disability Resource Center, which know the in-home care agencies, personal-care programs, respite, meals and transportation available in your county. Despite the name, it serves adults with disabilities of any age, and it is the entry point for most state caregiver programs.",
+   "amount": "Free referral service",
+   "status": "rolling",
+   "window": "Hotline Monday to Friday, 9 am to 8 pm ET; online search any time.",
+   "deadline": null,
+   "eligibility": [
+    "Anyone caring for an adult with a disability or an older adult"
+   ],
+   "youllNeed": [
+    "Your ZIP code or city"
+   ],
+   "howToApply": "Call or text 1-800-677-1116, chat online, or enter your ZIP code at eldercare.acl.gov and ask for in-home care and caregiver support options for an adult with ALS.",
+   "url": "https://eldercare.acl.gov/",
+   "contact": "1-800-677-1116 (call or text)",
+   "sources": [
+    "https://eldercare.acl.gov/"
+   ],
+   "lastVerified": "2026-11-05",
+   "verifyNote": "Added 2026-11-05. eldercare.acl.gov live: 'Find help in your community by entering a location', 1-800-677-1116 call or text, online chat."
+  },
+  {
+   "id": "family-caregiver-alliance-services-by-state",
+   "kind": "service",
+   "name": "Family Caregiver Alliance: caregiver services by state",
+   "org": "Family Caregiver Alliance",
+   "categories": [
+    "Caregiving & education"
+   ],
+   "scope": "National",
+   "regions": [],
+   "forWhat": "A state-by-state directory of public, nonprofit and private programs for family caregivers: respite, in-home care, caregiver training, support groups, legal and financial help. FCA also publishes an ALS caregiving guide and runs free online caregiver groups.",
+   "amount": "Free",
+   "status": "rolling",
+   "window": "Use any time.",
+   "deadline": null,
+   "eligibility": [
+    "Family caregivers anywhere in the U.S."
+   ],
+   "youllNeed": [
+    "Your state"
+   ],
+   "howToApply": "Pick your state in the Services by State tool and filter by the kind of help you need; call 800-445-8106 if you prefer to talk it through.",
+   "url": "https://www.caregiver.org/connecting-caregivers/services-by-state/",
+   "contact": "800-445-8106",
+   "sources": [
+    "https://www.caregiver.org/connecting-caregivers/services-by-state/"
+   ],
+   "lastVerified": "2026-11-05",
+   "verifyNote": "Added 2026-11-05. Services by State page live ('helps family caregivers locate public, nonprofit, and private programs and services nearest their loved one')."
   }
  ]
 }

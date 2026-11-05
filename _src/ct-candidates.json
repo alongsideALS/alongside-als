@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-05",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -841,30 +841,6 @@
     "Hungary",
     "Italy",
     "Japan",
-    "United States"
-   ]
-  },
-  {
-   "id": "NCT05115110",
-   "title": "A Study to Investigate the Safety and Efficacy of RO7204239 in Combination With Risdiplam (RO7034067) in Participants With Spinal Muscular Atrophy",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "conditions": [
-    "Spinal Muscular Atrophy (SMA)"
-   ],
-   "start": "2022-06-02",
-   "sponsor": "Hoffmann-La Roche",
-   "countries": [
-    "Australia",
-    "Belgium",
-    "Canada",
-    "Croatia",
-    "Italy",
-    "Japan",
-    "Netherlands",
-    "Poland",
-    "Portugal",
-    "Spain",
-    "United Kingdom",
     "United States"
    ]
   },
@@ -2245,6 +2221,21 @@
    "sponsor": "Exir Gene Pharmed",
    "countries": [
     "Iran"
+   ]
+  },
+  {
+   "id": "NCT07918768",
+   "title": "Restoring Speech With an Intracortical Neuroprosthesis for Post-Stroke Agrammatic Aphasia (BG-Aphasia-02)",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Aphasia",
+    "ALS",
+    "Stroke"
+   ],
+   "start": "2026-10-31",
+   "sponsor": "Leigh R. Hochberg, MD, PhD.",
+   "countries": [
+    "United States"
    ]
   }
  ]

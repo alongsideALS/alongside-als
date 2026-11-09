@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-09",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -1051,7 +1051,7 @@
   {
    "id": "NCT05861986",
    "title": "A Study Evaluating the Effectiveness and Safety of Risdiplam Administered as an Early Intervention in Pediatric Participants With Spinal Muscular Atrophy After Gene Therapy",
-   "status": "RECRUITING",
+   "status": "ACTIVE_NOT_RECRUITING",
    "conditions": [
     "Muscular Atrophy, Spinal"
    ],

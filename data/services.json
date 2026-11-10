@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "items": [
   {
    "id": "ssdi-als",
@@ -584,8 +584,8 @@
     "https://www.radicava.com/patient/financial-support-options/",
     "https://enroll.tafcares.org/"
    ],
-   "lastVerified": "2026-10-29",
-   "verifyNote": "'TAF - Patients' live; 855-845-3663 M-F 9-5:30 ET. ALS status not shown on patients or waitlist pages; check Disease Program Hub. Waitlists close late Dec, reopen Jan."
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Nov 10, 2026: TAF covered-diseases list shows Amyotrophic Lateral Sclerosis (ALS) as WAITLIST. Unchanged."
   },
   {
    "id": "mercy-medical-angels-travel",
@@ -1806,7 +1806,7 @@
    "forWhat": "Free multi-day family retreats (lodging, meals and activities covered once you check in) for young families in which a parent has ALS or another terminal diagnosis. Families with children 18 and under attend together; a Navigator can discuss help offsetting travel costs if travel is a barrier.",
    "amount": "Retreat costs covered by donors; families pay their own travel",
    "status": "rolling",
-   "window": "Apply any time; eligible families are notified as retreats fill, first-come first-served. Upcoming retreats listed: Nashville Nov 6-8, Orlando Feb 12-14, DFW Apr 29-May 2, Minneapolis Jun 11-13",
+   "window": "Apply any time; eligible families are notified as retreats fill, first-come first-served. Upcoming retreats listed: Orlando Feb 12-14, DFW Apr 29-May 2, Minneapolis Jun 11-13 (2027).",
    "deadline": null,
    "eligibility": [
     "Parent with ALS, late-stage/metastatic cancer or another terminal diagnosis",
@@ -1819,8 +1819,8 @@
    "sources": [
     "https://inheritanceofhope.org/find-support/retreats/"
    ],
-   "lastVerified": "2026-10-29",
-   "verifyNote": "Legacy Retreats active, first-come first-served; ALS listed; kids 18 and under (to 21 w/ sibling); donors cover retreat, family pays travel; Nashville Nov 6-8, Orlando Feb 12-14, DFW Apr 29-May 2, Min"
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Nov 10, 2026: upcoming Legacy Retreats listed are Feb 12-14 Orlando, Apr 29-May 2 DFW, Jun 11-13 Minneapolis (Nashville Nov 6-8 has passed)."
   },
   {
    "id": "pva-veterans-als-claims-help",

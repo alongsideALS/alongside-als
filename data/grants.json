@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-10",
  "items": [
   {
    "id": "hoffman-fap",
@@ -62,12 +62,12 @@
    "howToApply": "Apply online through the HealthWell Patient Portal or call (800) 675-8416, Mon to Fri, 9 to 5 ET.",
    "url": "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/",
    "contact": "(800) 675-8416",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
    "sources": [
     "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/"
    ],
-   "verifyNote": "Status Open; max $15,000 (avg ~$2,500); copay + Part B premium; 500% FPL; page last modified Feb 2025; no closure notice. Unchanged."
+   "verifyNote": "Nov 10, 2026: HealthWell ALS fund status Open; maximum award $15,000; prescription copay or Medicare Part B premium."
   },
   {
    "id": "project-main-street",
@@ -344,7 +344,7 @@
    "forWhat": "Essential caregiving, medical equipment, ADA home renovations, and memory-making trips.",
    "amount": "Varies",
    "status": "closed",
-   "window": "Applications open once a year for a giving season. The 2026-27 season was due to open November 1, 2026; as of November 2 the Request Support page still shows the waitlist form, so join the waitlist to be emailed when applications go live. Serves SC, NC and VA.",
+   "window": "Applications open once a year for a giving season. The 2026-27 season was due to open November 1, 2026, but as of November 10 the Request Support page still shows only the waitlist form; join the waitlist to be emailed when applications go live. Serves SC, NC and VA.",
    "deadline": null,
    "eligibility": [
     "Families facing ALS in South Carolina, North Carolina or Virginia"
@@ -355,9 +355,9 @@
    "howToApply": "Use the 'Request support' form and the foundation will reach out.",
    "url": "https://www.fannypackfoundation.org/",
    "contact": "info@fannypackfoundation.org",
-   "lastVerified": "2026-11-02",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
-   "verifyNote": "Request-support page Nov 2, 2026: still \"Applications open November 1, 2026\" with waitlist form only; no application link yet."
+   "verifyNote": "Request-support page Nov 10, 2026: still \"Applications open November 1, 2026\" with waitlist form only; no application link yet."
   },
   {
    "id": "brigance-brigade",
@@ -389,12 +389,12 @@
    "howToApply": "Contact the foundation through its website.",
    "url": "https://brigancebrigade.org/programs/pals/",
    "contact": "brigancebrigade.org",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
    "sources": [
     "https://brigancebrigade.org/programs/pals/"
    ],
-   "verifyNote": "Cycle 2 Sept 1-Nov 30, 2026; max $5,000/yr; ALS or PLS; Maryland priority; social worker signs; no closure notice; last modified Sept 30, 2026. Unchanged."
+   "verifyNote": "Nov 10, 2026: 2026 cycles Mar 1-May 31 and Sept 1-Nov 30; first-time applicants reviewed in order received while funding lasts. Unchanged."
   },
   {
    "id": "ccals",
@@ -580,9 +580,9 @@
    "howToApply": "Each program has its own page on alsrideforlife.org with an online application during open windows (van rental any time). (631) 444-1292.",
    "url": "https://alsrideforlife.org/",
    "contact": "alsrideforlife.org",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
-   "verifyNote": "Homepage live; lists Plan for Life Grant, Van Rental, Caregiver Grant, Home Modification, Emotional Support, Doula, Scholarship; no dates/amounts on homepage; (631) 444-1292. Unchanged.",
+   "verifyNote": "Nov 10, 2026: Plan for Life rounds Jan 15-Feb 15, Apr 15-May 15, Jul 15-Aug 15, Nov 15-Dec 15; drawings Mar 1, Jun 1, Sep 1, Jan 1. Unchanged.",
    "sources": [
     "https://alsrideforlife.org/programs-assistance/plan-for-life-grant/",
     "https://alsrideforlife.org/wheelchair-accessible-van-rental-assistance-program/",
@@ -621,12 +621,12 @@
    "howToApply": "Apply at petefrates.com/apply when the next quarterly window opens; have a letter or document confirming the ALS diagnosis ready to upload.",
    "url": "https://petefrates.com/apply/",
    "contact": "617-383-3458 · support@petefrates.com",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
    "sources": [
     "https://petefrates.com/apply/"
    ],
-   "verifyNote": "'we have reached our capacity for application submissions for the current quarter'; 'Applications will reopen on the first day of the following quarter'; no form. Unchanged."
+   "verifyNote": "Nov 10, 2026: \"Grant Application Submissions Closed for This Quarter\"; reopens the first day of the following quarter. Unchanged."
   },
   {
    "id": "axeals",
@@ -693,12 +693,12 @@
    "howToApply": "Register on the Live Like Lou ALS Families page to get notified when the next cycle opens.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
    "sources": [
     "https://www.livelikelou.org/news/2026qualityoflifegrants"
    ],
-   "verifyNote": "'REGISTER TO BE NOTIFIED ABOUT THE NEXT APPLICATION CYCLE'; up to $2,500 per family; no dates. Unchanged."
+   "verifyNote": "Nov 10, 2026: \"REGISTER TO BE NOTIFIED ABOUT THE NEXT APPLICATION CYCLE\"; up to $2,500 per family. Unchanged."
   },
   {
    "id": "lll-holiday",
@@ -724,9 +724,9 @@
    "howToApply": "Register on the Live Like Lou ALS Families page.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-10-29",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
-   "verifyNote": "'The 2025 Holiday Respite Grant application is closed'; 'Register below to learn when applications open'; no 2026 announcement. Unchanged."
+   "verifyNote": "Nov 10, 2026: page still says the 2025 Holiday Respite Grant application is closed; no 2026 round announced yet."
   },
   {
    "id": "iron-horse",
@@ -1048,9 +1048,9 @@
    "howToApply": "Contact the Florida care team about the next opening.",
    "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
    "contact": "Jackie Kouri-Mathews · 813-497-4502",
-   "lastVerified": "2026-11-02",
+   "lastVerified": "2026-11-10",
    "kind": "grant",
-   "verifyNote": "als.org page live Nov 2, 2026: \"Applications are currently open and will close at 5:00 pm ET on November 13\"; eligibility questions unchanged."
+   "verifyNote": "als.org page live Nov 10, 2026: \"Applications are currently open and will close at 5:00 pm ET on November 13\"."
   },
   {
    "id": "murray-scholarship",
@@ -1852,8 +1852,8 @@
    "sources": [
     "https://www.hopelovescompany.org/hopegrants"
    ],
-   "lastVerified": "2026-11-02",
-   "verifyNote": "Live Nov 2, 2026: \"HOPE GRANTS (CURRENTLY CLOSED)\"; \"Grants are currently closed until more funding is made available\". Unchanged."
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Live Nov 10, 2026: \"HOPE GRANTS (CURRENTLY CLOSED)\"; closed until more funding is made available. Unchanged."
   },
   {
    "id": "nord-als-travel-lodging-assistance",
@@ -2626,7 +2626,7 @@
    "forWhat": "A one-time $2,500 grant to fulfill a wish that would make life more meaningful for a person living with ALS in Michigan (the fund honors Albert Burstein, who died of ALS in 1986).",
    "amount": "$2,500, one time",
    "status": "window",
-   "window": "Applications are reviewed quarterly, with deadlines at the end of January, April, July and October (recipients are notified on the first of the following month). The October 31, 2026 round has closed; the next deadline should be January 30, 2027. As of November 2, 2026 the site still links the 2026 form, so ask ALS of Michigan whether a 2027 form is coming before you send one in.",
+   "window": "Applications are reviewed quarterly, with deadlines at the end of January, April, July and October (recipients are notified on the first of the following month). The 2027 application form is now posted on the ALS of Michigan home page; the next deadline should be January 30, 2027.",
    "deadline": "2027-01-30",
    "eligibility": [
     "Person living with ALS (pALS) in Michigan; ALS of Michigan serves Michigan families, though the form does not spell out a residency rule",
@@ -2642,8 +2642,8 @@
     "https://alsofmichigan.org/wp-content/uploads/2026/01/2026-Al-Burstein-Wish-Fund-Application.pdf",
     "https://alsofmichigan.org/"
    ],
-   "lastVerified": "2026-11-02",
-   "verifyNote": "Homepage checked Nov 2, 2026: still links 2026-Al-Burstein-Wish-Fund-Application.pdf; no 2027 form yet; Oct 31 round passed."
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Homepage Nov 10, 2026: \"apply here\" now links 2027-Al-Burstein-Wish-Fund-Application.pdf (uploaded November 2026)."
   },
   {
    "id": "als-of-utica-wish-grant",
@@ -3610,7 +3610,7 @@
    "forWhat": "Money toward respite or at-home caregiving for families affected by ALS in North Texas who cannot otherwise obtain those services. Amounts and rules are not published.",
    "amount": "Not published",
    "status": "closed",
-   "window": "Closed for now: the home page says 'Applications for assistance is currently closed' (still the case on November 2, 2026) with no reopening date. Check the site or send a message through its contact form.",
+   "window": "Closed for now: the home page says 'Applications for assistance is currently closed' (still the case on November 10, 2026) with no reopening date. Check the site or send a message through its contact form.",
    "deadline": null,
    "eligibility": [
     "Family affected by ALS in North Texas (no counties listed)",
@@ -3625,8 +3625,8 @@
     "https://www.loveforals.org/",
     "https://www.loveforals.org/contact"
    ],
-   "lastVerified": "2026-11-02",
-   "verifyNote": "Homepage live Nov 2, 2026: still \"Applications for assistance is currently closed\"; North Texas; contact form only."
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Homepage live Nov 10, 2026: still \"Applications for assistance is currently closed\"."
   },
   {
    "id": "busby-foundation-family-assistance",
@@ -3713,8 +3713,8 @@
     "https://harrygreggfoundation.org/apply/",
     "https://harrygreggfoundation.org/contact/"
    ],
-   "lastVerified": "2026-10-29",
-   "verifyNote": "Live Oct 29: deadlines Jul 28 2026, Nov 23 2026, Mar 22 2027; 'Deadline dates are firm'; caps/residency/income on FAQ page not this one; no paused note."
+   "lastVerified": "2026-11-10",
+   "verifyNote": "Nov 10, 2026: submission deadline Nov 23, 2026 for the Dec 8 meeting; next meeting Apr 13, 2027. Unchanged."
   },
   {
    "id": "aftd-comstock-grants",

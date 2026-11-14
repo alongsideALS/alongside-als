@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-14",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -1476,7 +1476,7 @@
   {
    "id": "NCT06971094",
    "title": "Safety and Efficacy Evaluation of GC101 Gene Therapy Via Intrathecal (IT) Injectionin the Treatment of Patients With Type 2 Spinal Muscular Atrophy (SMA) - Phase III",
-   "status": "RECRUITING",
+   "status": "ACTIVE_NOT_RECRUITING",
    "conditions": [
     "SMA - Spinal Muscular Atrophy"
    ],
@@ -1894,6 +1894,8 @@
    "sponsor": "Biogen",
    "countries": [
     "China",
+    "Japan",
+    "South Korea",
     "United States"
    ]
   },
@@ -2102,7 +2104,7 @@
    "conditions": [
     "Spinal Muscular Atrophy"
    ],
-   "start": "2026-11-01",
+   "start": "2026-11-30",
    "sponsor": "Novartis Pharmaceuticals",
    "countries": []
   },
@@ -2236,6 +2238,39 @@
    "sponsor": "Leigh R. Hochberg, MD, PhD.",
    "countries": [
     "United States"
+   ]
+  },
+  {
+   "id": "NCT07929792",
+   "title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+   "status": "RECRUITING",
+   "conditions": [
+    "Spinal Cord Injury",
+    "Amyotrophic Lateral Sclerosis",
+    "Chronic Ischemic Stroke",
+    "Tetraplegia/Tetraparesis"
+   ],
+   "start": "2026-11",
+   "sponsor": "Neuralink Corp",
+   "countries": [
+    "United States"
+   ]
+  },
+  {
+   "id": "NCT07934914",
+   "title": "Endovascular Brain-Computer Interface for Upper-Limb Paralysis",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Stroke",
+    "Hemiplegia",
+    "Spinal Cord Injury",
+    "Paraplegia and Tetraplegia",
+    "Amyotrophic Lateral Sclerosis & Other Neuromuscular Disorders"
+   ],
+   "start": "2026-11-02",
+   "sponsor": "Wei Wu",
+   "countries": [
+    "China"
    ]
   }
  ]

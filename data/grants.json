@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-14",
  "items": [
   {
    "id": "hoffman-fap",
@@ -343,21 +343,22 @@
    ],
    "forWhat": "Essential caregiving, medical equipment, ADA home renovations, and memory-making trips.",
    "amount": "Varies",
-   "status": "closed",
-   "window": "Applications open once a year for a giving season. The 2026-27 season was due to open November 1, 2026, but as of November 10 the Request Support page still shows only the waitlist form; join the waitlist to be emailed when applications go live. Serves SC, NC and VA.",
+   "status": "open",
+   "window": "The 2026-27 giving season is open (confirmed November 14, 2026). Applications are taken once a year for the season; no closing date is posted, so ask soon. Serves SC, NC and VA.",
    "deadline": null,
    "eligibility": [
     "Families facing ALS in South Carolina, North Carolina or Virginia"
    ],
    "youllNeed": [
-    "A short description of your situation and needs"
+    "Your name, email, phone and state for the request form",
+    "The application the foundation emails you, with a description of your situation and needs"
    ],
-   "howToApply": "Use the 'Request support' form and the foundation will reach out.",
-   "url": "https://www.fannypackfoundation.org/",
+   "howToApply": "Fill out the short 'Request an application' form on the Request Support page (name, email, phone, state). The foundation reviews each request and emails you an application.",
+   "url": "https://www.fannypackfoundation.org/request-support",
    "contact": "info@fannypackfoundation.org",
-   "lastVerified": "2026-11-10",
+   "lastVerified": "2026-11-14",
    "kind": "grant",
-   "verifyNote": "Request-support page Nov 10, 2026: still \"Applications open November 1, 2026\" with waitlist form only; no application link yet."
+   "verifyNote": "Request-support page Nov 14, 2026: \"The 2026-27 giving season is open\"; form \"To receive an application, fill out the following information\"; states SC, NC, VA."
   },
   {
    "id": "brigance-brigade",
@@ -568,7 +569,7 @@
    "forWhat": "A Long Island, New York organization with programs described as nationwide: a one-time Plan for Life legal grant of up to $1,500 (for wills, health care proxies and similar planning) and help paying for a wheelchair-accessible van rental. Its other programs are listed on their own: the Fred Bargetzi Caregiver Grant (respite), the Emotional Support Services Grant (counseling), the End-of-Life Doula Support Grant, a college scholarship for New York seniors, and the Mobility Matters van loan on Long Island. The home modification program is currently closed.",
    "amount": "Plan for Life legal grant up to $1,500; other programs vary",
    "status": "window",
-   "window": "Each program has its own rules. Plan for Life legal grant: quarterly windows Jan 15 to Feb 15, Apr 15 to May 15, Jul 15 to Aug 15 and Nov 15 to Dec 15, with a drawing about two weeks after each closes; closed now and reopens November 15, 2026. Van rental assistance: apply online any time, at least 7 days before the rental, subject to available funding. Caregiver grant: see its own listing (next round December 15, 2026 to January 15, 2027). Home modification: currently closed.",
+   "window": "Each program has its own rules. Plan for Life legal grant: quarterly windows Jan 15 to Feb 15, Apr 15 to May 15, Jul 15 to Aug 15 and Nov 15 to Dec 15, with a drawing about two weeks after each closes; the current window runs November 15 to December 15, 2026. Van rental assistance: apply online any time, at least 7 days before the rental, subject to available funding. Caregiver grant: see its own listing (next round December 15, 2026 to January 15, 2027). Home modification: currently closed.",
    "deadline": "2026-12-15",
    "eligibility": [
     "Confirmed ALS diagnosis",
@@ -580,9 +581,9 @@
    "howToApply": "Each program has its own page on alsrideforlife.org with an online application during open windows (van rental any time). (631) 444-1292.",
    "url": "https://alsrideforlife.org/",
    "contact": "alsrideforlife.org",
-   "lastVerified": "2026-11-10",
+   "lastVerified": "2026-11-14",
    "kind": "grant",
-   "verifyNote": "Nov 10, 2026: Plan for Life rounds Jan 15-Feb 15, Apr 15-May 15, Jul 15-Aug 15, Nov 15-Dec 15; drawings Mar 1, Jun 1, Sep 1, Jan 1. Unchanged.",
+   "verifyNote": "Nov 14, 2026: Plan for Life page says the application \"will reopen from November 15 through December 15\". Listing worded for the window that opens Nov 15.",
    "sources": [
     "https://alsrideforlife.org/programs-assistance/plan-for-life-grant/",
     "https://alsrideforlife.org/wheelchair-accessible-van-rental-assistance-program/",
@@ -724,9 +725,9 @@
    "howToApply": "Register on the Live Like Lou ALS Families page.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-11-10",
+   "lastVerified": "2026-11-14",
    "kind": "grant",
-   "verifyNote": "Nov 10, 2026: page still says the 2025 Holiday Respite Grant application is closed; no 2026 round announced yet."
+   "verifyNote": "Nov 14, 2026: page still says the 2025 Holiday Respite Grant application is closed; no 2026 round announced yet."
   },
   {
    "id": "iron-horse",
@@ -1033,8 +1034,8 @@
    "forWhat": "Pays a substitute caregiver (an agency or someone you choose who isn't family) so the full-time family caregiver can take a break.",
    "amount": "$2,000",
    "status": "window",
-   "window": "Applications are open now and close at 5:00 pm ET on November 13, 2026. Families with long-term care insurance are not eligible for this round.",
-   "deadline": "2026-11-13",
+   "window": "Applications are open now; the deadline has been extended and applications close at 5:00 pm ET on November 20, 2026. Families with long-term care insurance are not eligible for this round.",
+   "deadline": "2026-11-20",
    "eligibility": [
     "Florida resident registered with the ALS Association",
     "Full-time caregiver living with the person with ALS",
@@ -1048,9 +1049,9 @@
    "howToApply": "Contact the Florida care team about the next opening.",
    "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
    "contact": "Jackie Kouri-Mathews · 813-497-4502",
-   "lastVerified": "2026-11-10",
+   "lastVerified": "2026-11-14",
    "kind": "grant",
-   "verifyNote": "als.org page live Nov 10, 2026: \"Applications are currently open and will close at 5:00 pm ET on November 13\"."
+   "verifyNote": "als.org page live Nov 14, 2026: \"Applications are currently open and will close at 5:00 pm ET on November 20\" (was November 13)."
   },
   {
    "id": "murray-scholarship",

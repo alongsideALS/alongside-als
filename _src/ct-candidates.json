@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -1102,19 +1102,6 @@
    ]
   },
   {
-   "id": "NCT05901987",
-   "title": "Evaluation of Safety and Efficacy of Gene Therapy Drug in the Treatment of Spinal Muscular Atrophy (SMA) Type 2 Patients",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "conditions": [
-    "SMA II"
-   ],
-   "start": "2023-08-01",
-   "sponsor": "GeneCradle Inc",
-   "countries": [
-    "China"
-   ]
-  },
-  {
    "id": "NCT06152302",
    "title": "Test of Aquatic Mobility of SMA Infants",
    "status": "RECRUITING",
@@ -1381,20 +1368,6 @@
    ]
   },
   {
-   "id": "NCT06765070",
-   "title": "Efficacy and Usability of the EXPLORER Exoskeleton in Children With Neurodevelopmental Disorders in Natural Environments",
-   "status": "ACTIVE_NOT_RECRUITING",
-   "conditions": [
-    "Neuromuscular Disorders",
-    "Neurodevelopmental Disorders"
-   ],
-   "start": "2025-03-01",
-   "sponsor": "MarsiBionics",
-   "countries": [
-    "Spain"
-   ]
-  },
-  {
    "id": "NCT06772402",
    "title": "GCB-001 in Treatment of Patients With Type II (SMA) Spinal Muscular Atrophy",
    "status": "ENROLLING_BY_INVITATION",
@@ -1437,7 +1410,7 @@
   {
    "id": "NCT06862596",
    "title": "Clinical Trial of Mexiletine Hydrochloride for Spinal and Bulbar Muscular Atrophy",
-   "status": "RECRUITING",
+   "status": "ACTIVE_NOT_RECRUITING",
    "conditions": [
     "Spinal and Bulbar Muscular Atrophy"
    ],
@@ -2137,7 +2110,7 @@
   {
    "id": "NCT07822711",
    "title": "Effects of Different Stiffness Settings During Robotic Isokinetic Training in Children With SMA",
-   "status": "RECRUITING",
+   "status": "ACTIVE_NOT_RECRUITING",
    "conditions": [
     "Spinal Muscular Atrophy (SMA)"
    ],

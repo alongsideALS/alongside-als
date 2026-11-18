@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-18",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -1724,7 +1724,13 @@
    "sponsor": "argenx",
    "countries": [
     "Australia",
+    "Belgium",
     "Canada",
+    "Germany",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Spain",
     "United Kingdom",
     "United States"
    ]
@@ -1866,6 +1872,7 @@
    "start": "2026-09-08",
    "sponsor": "Biogen",
    "countries": [
+    "Brazil",
     "China",
     "Japan",
     "South Korea",

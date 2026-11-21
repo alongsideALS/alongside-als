@@ -9,4 +9,4 @@ An independent guide for people living with ALS and their families: grants, serv
 
 Hosted on Cloudflare Pages. Any commit to `main` goes live automatically.
 
-Data last refreshed: November 20, 2026 (122 grants, 84 services, 312 studies).
+Data last refreshed: November 21, 2026 (122 grants, 84 services, 312 studies).

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-23",
  "items": [
   {
    "id": "hoffman-fap",
@@ -62,12 +62,12 @@
    "howToApply": "Apply online through the HealthWell Patient Portal or call (800) 675-8416, Mon to Fri, 9 to 5 ET.",
    "url": "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/",
    "contact": "(800) 675-8416",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
    "sources": [
     "https://www.healthwellfoundation.org/fund/amyotrophic-lateral-sclerosis/"
    ],
-   "verifyNote": "Nov 17, 2026: HealthWell ALS fund status Open; maximum award $15,000."
+   "verifyNote": "Nov 23, 2026: HealthWell ALS fund status Open; maximum award $15,000."
   },
   {
    "id": "project-main-street",
@@ -356,9 +356,9 @@
    "howToApply": "Fill out the short 'Request an application' form on the Request Support page (name, email, phone, state). The foundation reviews each request and emails you an application.",
    "url": "https://www.fannypackfoundation.org/request-support",
    "contact": "info@fannypackfoundation.org",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
-   "verifyNote": "Request-support page Nov 17, 2026: \"The 2026-27 giving season is open\"; request-an-application form; SC, NC, VA."
+   "verifyNote": "Request-support page Nov 23, 2026: \"The 2026-27 giving season is open\"."
   },
   {
    "id": "brigance-brigade",
@@ -390,12 +390,12 @@
    "howToApply": "Contact the foundation through its website.",
    "url": "https://brigancebrigade.org/programs/pals/",
    "contact": "brigancebrigade.org",
-   "lastVerified": "2026-11-10",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
    "sources": [
     "https://brigancebrigade.org/programs/pals/"
    ],
-   "verifyNote": "Nov 10, 2026: 2026 cycles Mar 1-May 31 and Sept 1-Nov 30; first-time applicants reviewed in order received while funding lasts. Unchanged."
+   "verifyNote": "Nov 23, 2026: 2026 cycle 2 runs Sept 1 to Nov 30, 2026; 2027 cycles not posted yet."
   },
   {
    "id": "ccals",
@@ -581,9 +581,9 @@
    "howToApply": "Each program has its own page on alsrideforlife.org with an online application during open windows (van rental any time). (631) 444-1292.",
    "url": "https://alsrideforlife.org/",
    "contact": "alsrideforlife.org",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
-   "verifyNote": "Nov 17, 2026: Plan for Life application form is live on the program page (window Nov 15 to Dec 15); caregiver grant page says it reopens December 15 through January 15.",
+   "verifyNote": "Nov 23, 2026: Plan for Life application form live (window Nov 15 to Dec 15).",
    "sources": [
     "https://alsrideforlife.org/programs-assistance/plan-for-life-grant/",
     "https://alsrideforlife.org/wheelchair-accessible-van-rental-assistance-program/",
@@ -622,12 +622,12 @@
    "howToApply": "Apply at petefrates.com/apply when the next quarterly window opens; have a letter or document confirming the ALS diagnosis ready to upload.",
    "url": "https://petefrates.com/apply/",
    "contact": "617-383-3458 · support@petefrates.com",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
    "sources": [
     "https://petefrates.com/apply/"
    ],
-   "verifyNote": "Nov 17, 2026: \"Grant Application Submissions Closed for This Quarter\". Unchanged."
+   "verifyNote": "Nov 23, 2026: \"Grant Application Submissions Closed for This Quarter\". Unchanged."
   },
   {
    "id": "axeals",
@@ -725,9 +725,9 @@
    "howToApply": "Register on the Live Like Lou ALS Families page.",
    "url": "https://livelikelou.org/als-families",
    "contact": "support@livelikelou.org",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
-   "verifyNote": "Nov 17, 2026: page still says the 2025 Holiday Respite Grant application is closed; no 2026 round announced yet."
+   "verifyNote": "Nov 23, 2026: page still says the 2025 Holiday Respite Grant application is closed; no 2026 round announced yet."
   },
   {
    "id": "iron-horse",
@@ -1000,8 +1000,8 @@
    "forWhat": "Care Assist grants for respite, medical expenses, home and vehicle modifications and van purchases. Daily Living grants for assistive technology. Transportation grants for rides to an ALS Certified Center or affiliated clinic.",
    "amount": "Varies (see Grant Guidelines)",
    "status": "window",
-   "window": "Quarterly windows open on the 1st and close on the 22nd (Feb, May, Aug, Nov). The current window is November 1-22, 2026. Approved funds must be spent within 6 months. Transportation grants are available any time. Note: the ALS Association page for this program returned an error again on November 2, 2026 and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
-   "deadline": "2026-11-22",
+   "window": "Quarterly windows open on the 1st and close on the 22nd (Feb, May, Aug, Nov). The November 2026 window has closed; the next window should be February 1-22, 2027. Approved funds must be spent within 6 months. Transportation grants are available any time. Note: the ALS Association page for this program returned an error again on November 2, 2026 and the program no longer appears in the Association's online program catalog; confirm it is still offered with your local ALS Association care services team before counting on it.",
+   "deadline": null,
    "eligibility": [
     "Diagnosed with ALS and living in Florida",
     "Expenses must fit the Grant Guidelines. Approval isn't guaranteed"
@@ -1013,9 +1013,9 @@
    "howToApply": "Contact your ALS Association Florida Regional Program Manager first: the application links are not on the website and only come from the manager, who also confirms the expense is allowed. Payment goes to the vendor where possible, otherwise reimbursement with proof of payment; approved money must be spent within six months of the approval letter.",
    "url": "https://www.als.org/florida/local-care-services/financial-assistance-program",
    "contact": "Your Florida Regional Program Manager",
-   "lastVerified": "2026-11-02",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
-   "verifyNote": "als.org Florida financial-assistance page 403 in a real browser on Nov 2, 2026 (also Oct 26); window text updated to current Nov 1-22 window.",
+   "verifyNote": "Window text rolled forward Nov 23, 2026 after the Nov 1-22 window ended; als.org page for this program still not loading.",
    "sources": [
     "https://www.als.org/florida/local-care-services/financial-assistance-program"
    ]
@@ -1033,9 +1033,9 @@
    ],
    "forWhat": "Pays a substitute caregiver (an agency or someone you choose who isn't family) so the full-time family caregiver can take a break.",
    "amount": "$2,000",
-   "status": "window",
-   "window": "Applications are open now; the deadline has been extended and applications close at 5:00 pm ET on November 20, 2026. Families with long-term care insurance are not eligible for this round.",
-   "deadline": "2026-11-20",
+   "status": "closed",
+   "window": "Closed for now: the fall 2026 application period ended November 20, 2026, and the next round has not been announced. Call the Florida care team to ask when applications reopen.",
+   "deadline": null,
    "eligibility": [
     "Florida resident registered with the ALS Association",
     "Full-time caregiver living with the person with ALS",
@@ -1049,9 +1049,9 @@
    "howToApply": "Contact the Florida care team about the next opening.",
    "url": "https://www.als.org/support/programs/respite-care-als-caregivers-florida",
    "contact": "Jackie Kouri-Mathews · 813-497-4502",
-   "lastVerified": "2026-11-17",
+   "lastVerified": "2026-11-23",
    "kind": "grant",
-   "verifyNote": "als.org page live Nov 17, 2026: \"Applications are currently open and will close at 5:00 pm ET on November 20\"."
+   "verifyNote": "als.org page Nov 23, 2026: \"The Application Period is Currently Closed.\" Contact Jackie Kouri-Mathews 813-497-4502."
   },
   {
    "id": "murray-scholarship",
@@ -1853,8 +1853,8 @@
    "sources": [
     "https://www.hopelovescompany.org/hopegrants"
    ],
-   "lastVerified": "2026-11-17",
-   "verifyNote": "Nov 17, 2026: \"HOPE GRANTS (CURRENTLY CLOSED)\". Unchanged."
+   "lastVerified": "2026-11-23",
+   "verifyNote": "Nov 23, 2026: \"HOPE GRANTS (CURRENTLY CLOSED)\". Unchanged."
   },
   {
    "id": "nord-als-travel-lodging-assistance",
@@ -3611,7 +3611,7 @@
    "forWhat": "Money toward respite or at-home caregiving for families affected by ALS in North Texas who cannot otherwise obtain those services. Amounts and rules are not published.",
    "amount": "Not published",
    "status": "closed",
-   "window": "Closed for now: the home page says 'Applications for assistance is currently closed' (still the case on November 17, 2026) with no reopening date. Check the site or send a message through its contact form.",
+   "window": "Closed for now: the home page says 'Applications for assistance is currently closed' (still the case on November 23, 2026) with no reopening date. Check the site or send a message through its contact form.",
    "deadline": null,
    "eligibility": [
     "Family affected by ALS in North Texas (no counties listed)",
@@ -3626,8 +3626,8 @@
     "https://www.loveforals.org/",
     "https://www.loveforals.org/contact"
    ],
-   "lastVerified": "2026-11-17",
-   "verifyNote": "Homepage Nov 17, 2026: still \"Applications for assistance is currently closed\"."
+   "lastVerified": "2026-11-23",
+   "verifyNote": "Homepage Nov 23, 2026: still \"Applications for assistance is currently closed\"."
   },
   {
    "id": "busby-foundation-family-assistance",
@@ -3692,8 +3692,8 @@
    "forWhat": "Grants of up to $1,200 for New Hampshire residents with a long-term disability, for specialty equipment, services and supplies, modifications to living areas, work sites or vehicles, respite for the person or their caregivers, non-reimbursed medical or therapy treatments (up to $500), computers (up to $500) and adaptive software, vehicle repairs (up to $500), camps and recreation, and continuing education. Does not pay medical copays or deductibles, rent or mortgage, heating fuel, lift chairs, hearing aids, eyeglasses, dental care, or costs more than six months old; projects over $4,800 need other funding sources too. Not ALS-specific.",
    "amount": "Up to $1,200 (often less); $500 caps for medical or therapy costs and computers",
    "status": "open",
-   "window": "Apply online any time; trustees decide three times a year. Next deadline Nov 23, 2026 (Dec 8 meeting), then Mar 22, 2027 (Apr 13, 2027 meeting) and late July for the August meeting. One application per six-month period; lifetime limit of four grants (five if one is for recreation).",
-   "deadline": "2026-11-23",
+   "window": "Apply online any time; trustees decide three times a year. Applications received by November 23, 2026 go to the December 8 meeting. After that, the next deadline is March 22, 2027 (April 13, 2027 meeting), then late July for the August meeting. One application per six-month period; lifetime limit of four grants (five if one is for recreation).",
+   "deadline": "2027-03-22",
    "eligibility": [
     "New Hampshire resident with a long-term physical, developmental or emotional disability; not ALS-specific, but ALS meets the physical-disability definition (a lasting barrier to daily tasks such as walking and driving)",
     "Household income within the foundation's limits (examples: single adult $2,987/month; two adults, one working, no children $4,703; one adult and one child $4,990; two working adults and one child $5,530; ask the Grant Administrator for other households)",
@@ -3714,8 +3714,8 @@
     "https://harrygreggfoundation.org/apply/",
     "https://harrygreggfoundation.org/contact/"
    ],
-   "lastVerified": "2026-11-17",
-   "verifyNote": "Nov 17, 2026: submission deadline Nov 23, 2026 (Dec 8 meeting), then Mar 22, 2027 (Apr 13 meeting). Unchanged."
+   "lastVerified": "2026-11-23",
+   "verifyNote": "Nov 23, 2026: deadlines page lists Nov 23, 2026 (Dec 8 meeting) then Mar 22, 2027 (Apr 13, 2027 meeting). Listing rolled to the March deadline."
   },
   {
    "id": "aftd-comstock-grants",
@@ -3918,8 +3918,8 @@
    "forWhat": "Annual scholarship for children of a parent with ALS whose family faces financial hardship, for undergraduate or graduate study.",
    "amount": "$5,000 each to 2 winners ($10,000 total)",
    "status": "closed",
-   "window": "Annual; 2026 cycle closed Oct 23, 2026 (winners announced Nov 23, 2026). Watch Bold.org for the next cycle.",
-   "deadline": "2026-10-23",
+   "window": "Annual. The 2026 cycle closed October 23, 2026 and was awarded in November 2026. Watch Bold.org for the next cycle.",
+   "deadline": null,
    "eligibility": [
     "Child of a parent with ALS",
     "Family facing financial hardship",
@@ -3933,8 +3933,8 @@
    "sources": [
     "https://bold.org/scholarships/sandra-west-als-foundation-scholarship/"
    ],
-   "lastVerified": "2026-10-29",
-   "verifyNote": "Live Oct 29: status 'In Review'; deadline Oct 23, 2026; winners announced Nov 23, 2026; $10,000 split 2 ways; eligibility unchanged."
+   "lastVerified": "2026-11-23",
+   "verifyNote": "Bold.org Nov 23, 2026: marked AWARDED; application deadline was Oct 23, 2026, winners announced Nov 23, 2026. No next cycle posted."
   },
   {
    "id": "bridge-to-mobility-vehicle-grant",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26",
+ "generated": "2026-11-27",
  "note": "Active registry entries the weekly refresh did not add because the ALS link is unclear. Add an id to data/trials.json (python3 _src/update_trials.py ... --include NCT...) or to _src/ct-reviewed.json to stop it reappearing.",
  "candidates": [
   {
@@ -1687,19 +1687,6 @@
    ]
   },
   {
-   "id": "NCT07239531",
-   "title": "Combined Interval Training and Scenario Simulation for ALS Training of Medical Students",
-   "status": "NOT_YET_RECRUITING",
-   "conditions": [
-    "Advanced Life Support Operational Skills and Theoretical Knowledge Learning and Memorization"
-   ],
-   "start": "2026-09-01",
-   "sponsor": "General Hospital of Ningxia Medical University",
-   "countries": [
-    "China"
-   ]
-  },
-  {
    "id": "NCT07286565",
    "title": "Active NBS Study: Decentralised Monitoring Motor Development in Children With Duchenne Muscular Dystrophy or Spinal Muscular Atrophy Identified by Newborn Screening",
    "status": "RECRUITING",
@@ -2251,6 +2238,23 @@
    "sponsor": "Wei Wu",
    "countries": [
     "China"
+   ]
+  },
+  {
+   "id": "NCT07962708",
+   "title": "Multifidus Muscle Quality and Bone Quality as Predictors of Lumbar Facet Radiofrequency Neurotomy Success",
+   "status": "NOT_YET_RECRUITING",
+   "conditions": [
+    "Facet Joint Syndrome",
+    "Low Back Pain",
+    "Osteoarthritis, Spine",
+    "Zygapophyseal Joint Arthritis",
+    "Muscular Atrophy, Spinal"
+   ],
+   "start": "2026-11-25",
+   "sponsor": "Aydin Adnan Menderes University",
+   "countries": [
+    "Turkey (Türkiye)"
    ]
   }
  ]
